@@ -1,0 +1,396 @@
+{
+  "version": "3.4.0",
+  "cases": {
+    "api": {
+      "duration": 24.0,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "decoded_frames": 720,
+      "decode_ok": true,
+      "visual_review_times": [
+        0.0,
+        1.6,
+        3.2,
+        3.6,
+        4.5,
+        5.7,
+        7.9,
+        8.1,
+        8.4,
+        8.7,
+        9.0,
+        9.4,
+        10.2,
+        13.8,
+        14.1,
+        14.25,
+        14.4,
+        14.5,
+        14.7,
+        14.75,
+        15.0,
+        15.15,
+        16.2,
+        19.3,
+        19.6,
+        19.9,
+        20.2,
+        20.5,
+        22.0,
+        23.966
+      ],
+      "audio_measurement": {
+        "integrated_lufs": -18.01,
+        "true_peak_dbtp": -4.2,
+        "loudness_range_lu": 4.3,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "sha256": "ab5baf01cc9f99bfe70ced1eb490e2bd472a91b7450e62993356eec784e64d65",
+      "audio_codec": "aac"
+    },
+    "brand": {
+      "duration": 18.005,
+      "size": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "decoded_frames": 540,
+      "decode_ok": true,
+      "visual_review_times": [
+        0.0,
+        1.6,
+        2.4,
+        2.6,
+        2.8,
+        3.0,
+        3.2,
+        3.6,
+        4.4,
+        6.0,
+        6.2,
+        6.4,
+        6.7,
+        7.8,
+        9.45,
+        9.65,
+        10.2,
+        11.0,
+        12.25,
+        12.45,
+        12.65,
+        12.85,
+        13.05,
+        13.25,
+        13.45,
+        13.65,
+        13.8,
+        14.2,
+        15.6,
+        17.966
+      ],
+      "audio_measurement": {
+        "integrated_lufs": -16.44,
+        "true_peak_dbtp": -1.63,
+        "loudness_range_lu": 3.6,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "sha256": "d00bf6139a7cea1848d7a0d19d0cd2e6d36f790f12b0050a9f88a0386a9c4157",
+      "audio_codec": "aac"
+    },
+    "service": {
+      "duration": 26.005,
+      "size": [
+        1080,
+        1920
+      ],
+      "fps": "30/1",
+      "decoded_frames": 780,
+      "decode_ok": true,
+      "visual_review_times": [
+        0.0,
+        2.0,
+        3.2,
+        3.6,
+        4.0,
+        5.5,
+        6.8,
+        7.2,
+        8.1,
+        8.8,
+        9.8,
+        10.2,
+        10.6,
+        11.0,
+        12.0,
+        12.4,
+        14.8,
+        16.7,
+        17.0,
+        18.2,
+        19.5,
+        20.0,
+        20.5,
+        21.0,
+        22.5,
+        25.966
+      ],
+      "audio_measurement": {
+        "integrated_lufs": -18.24,
+        "true_peak_dbtp": -1.87,
+        "loudness_range_lu": 4.0,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "sha256": "6a940b4580f1c45ee8ff8bbe1a7593b45dccb900387668f3cf893fb22b78b777",
+      "audio_codec": "aac"
+    }
+  },
+  "visual_review": "86 sampled final MP4 frames inspected, including transitions and ends. Not complete realtime playback.",
+  "audio_review": "Final AAC measured, shared event cues inspected; no full subjective listening.",
+  "native_readback": {
+    "api": {
+      "responseScale": [
+        50,
+        50,
+        0
+      ],
+      "taskScale": [
+        49.99999999999999,
+        49.99999999999999,
+        0
+      ],
+      "ownerAtResponse": [
+        1062.912,
+        575,
+        0
+      ],
+      "ownerAtTask": [
+        580,
+        741,
+        0
+      ],
+      "ownerAtCrossing": [
+        580,
+        575.6406171396883,
+        0
+      ],
+      "taskAtCrossing": [
+        1124.5964835405255,
+        713.8861561272547,
+        0
+      ],
+      "endTitleOpacity": 100,
+      "backgroundColors": [
+        {
+          "name": "Color",
+          "value": [
+            0.9803921568627451,
+            0.9882352941176471,
+            0.996078431372549,
+            1
+          ]
+        },
+        {
+          "name": "Start Color",
+          "value": [
+            0.9803921568627451,
+            0.9882352941176471,
+            0.996078431372549,
+            1
+          ]
+        },
+        {
+          "name": "End Color",
+          "value": [
+            0.9176470588235294,
+            0.9450980392156862,
+            0.9686274509803922,
+            1
+          ]
+        },
+        {
+          "name": "Box Color",
+          "value": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Tint Color",
+          "value": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "brand": {
+      "motherPosition": [
+        1138.3190189086858,
+        540,
+        0
+      ],
+      "transitionPosition": [
+        1138.3190189086858,
+        540,
+        0
+      ],
+      "motherScale": [
+        1339.1495638891024,
+        631.0640988096153,
+        0
+      ],
+      "transitionScale": [
+        1339.1495638891024,
+        631.0640988096153,
+        100
+      ],
+      "middleBackground": [
+        {
+          "name": "Color",
+          "value": [
+            0.8627450980392157,
+            0.8980392156862745,
+            0.9647058823529412,
+            1
+          ]
+        },
+        {
+          "name": "Box Color",
+          "value": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Tint Color",
+          "value": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "service": {
+      "source": "LOOP / Request SR-024",
+      "heroScale": [
+        50,
+        50,
+        0
+      ],
+      "flowScale": [
+        32,
+        32,
+        0
+      ],
+      "heroEndScale": [
+        49.99999999999999,
+        49.99999999999999,
+        0
+      ],
+      "endTitleOpacity": 100,
+      "backgroundColors": [
+        {
+          "name": "Color",
+          "value": [
+            0.984313725490196,
+            0.9725490196078431,
+            0.9411764705882353,
+            1
+          ]
+        },
+        {
+          "name": "Start Color",
+          "value": [
+            0.984313725490196,
+            0.9725490196078431,
+            0.9411764705882353,
+            1
+          ]
+        },
+        {
+          "name": "End Color",
+          "value": [
+            0.9529411764705882,
+            0.9294117647058824,
+            0.8823529411764706,
+            1
+          ]
+        },
+        {
+          "name": "Box Color",
+          "value": [
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Tint Color",
+          "value": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "scope": "MCP readback of final native project. XY scales are compared for 2D layers; Z coercion differs.",
+    "engine": "EffectCraft 0.16.0",
+    "bit_depth": "16 bpc"
+  },
+  "fresh_rebuild": {
+    "fresh_directory_rebuild": true,
+    "bit_depth": "Bpc16",
+    "relative_audio": [
+      "audio/api/master.wav",
+      "audio/brand/master.wav",
+      "audio/service/master.wav"
+    ],
+    "frame_times": {
+      "api": 16.2,
+      "brand": 7.8,
+      "service": 22.5
+    },
+    "scope": "All three scenes rebuilt; one native frame per scene re-rendered. Final MP4 decode and sampled review are recorded separately."
+  },
+  "stable_frame_comparison": {
+    "api": {
+      "time": 16.2,
+      "mae_0_255": 2.1331,
+      "scope": "Rebuilt native frame versus decoded final H264 at a stable reading frame; lossy output and grain permit pixel differences."
+    },
+    "brand": {
+      "time": 7.8,
+      "mae_0_255": 2.3734,
+      "scope": "Rebuilt native frame versus decoded final H264 at a stable reading frame; lossy output and grain permit pixel differences."
+    },
+    "service": {
+      "time": 22.5,
+      "mae_0_255": 2.0959,
+      "scope": "Rebuilt native frame versus decoded final H264 at a stable reading frame; lossy output and grain permit pixel differences."
+    }
+  },
+  "user_acceptance": "Pending review of these new three films.",
+  "fixes": [
+    "Light palettes throughout this batch after user direction",
+    "Logical scale conversion for 2x precomps",
+    "Staggered field travel avoids owner/task overlap",
+    "End titles hold until final frame",
+    "Brand impact cue aligned to 9.65s climax cut",
+    "Timed foreground transition avoids covering earlier brand words"
+  ]
+}

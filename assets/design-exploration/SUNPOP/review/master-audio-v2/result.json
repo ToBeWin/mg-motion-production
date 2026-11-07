@@ -1,0 +1,55 @@
+[
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  [
+    {
+      "role": "user",
+      "metadata": null,
+      "content": {
+        "file": {
+          "path": "/tmp/gradio/f324552290b349264e32ffc88230a26c8aca39ddd3959681db3a014b0bc0efcc/sample.wav",
+          "url": "https://qwen-qwen3-5-omni-offline-demo.hf.space/gradio_api/file=/tmp/gradio/f324552290b349264e32ffc88230a26c8aca39ddd3959681db3a014b0bc0efcc/sample.wav",
+          "size": null,
+          "orig_name": null,
+          "mime_type": "audio/wav",
+          "is_stream": false,
+          "meta": {
+            "_type": "gradio.FileData"
+          }
+        },
+        "alt_text": null
+      },
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": "请完整听输入的品牌短片混音：逐字转写全部中文；检查人声是否清楚自然，音乐是否明显遮住任何字，音效是否刺耳，末尾是否自然渐弱或存在硬切。不要假设已知脚本和时间轴；不确定的时间位置请勿编造。只描述真实听得到的内容。",
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": "逐字转写：\n“把今天打开。热烈一点，再热烈一点。放晴、快乐、冒个泡。”\n\n人声清晰度：\n人声清晰、突出，没有被背景音乐明显遮盖。\n\n音乐与音效：\n音乐节奏感强，整体听感流畅，未发现刺耳的音效。\n\n结尾处理：\n音频在末尾处突然中断，存在硬切，并非自然渐弱。",
+      "options": null
+    }
+  ],
+  {
+    "visible": true,
+    "__type__": "update"
+  },
+  {
+    "visible": false,
+    "__type__": "update"
+  }
+]

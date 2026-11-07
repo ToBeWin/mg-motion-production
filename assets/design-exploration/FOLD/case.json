@@ -1,0 +1,32 @@
+{
+  "style_id": "fold-design",
+  "case": "FOLD · 让灵感展开",
+  "kind": "original_creative_software_concept",
+  "duration": 32.0,
+  "fps": 30,
+  "aspect": "16:9",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "source": "source/FOLD.ecproj",
+  "rebuild": "source/build.py",
+  "preview": "FOLD_让灵感展开_配音字幕版.mp4",
+  "variants": {
+    "voice_without_captions": "FOLD_让灵感展开_无字幕配音版.mp4",
+    "music_only": "FOLD_让灵感展开_纯音乐版.mp4"
+  },
+  "design_system": "source/design/design-system.json",
+  "figma": "https://www.figma.com/design/6ZRs20DvEs9PR01RDUEU01?node-id=7-76",
+  "user_feedback": {
+    "date": "2026-10-28",
+    "quote": "这个还可以，可以作为一种风格固化到skill里面",
+    "scope": "用户认可将这条案例作为一种风格保留并供后续调用；未扩大为所有变体、逐项音频验收或旗舰质量判断。"
+  },
+  "technical_checks": "review/final-delivery.json",
+  "review_notes": "review/审查结论.md",
+  "historical_qa_note": "原始审查与 final-delivery.json 早于本次反馈，保留其中当时的 customer_acceptance=false 和 human_listening=false；本文件追加风格认可，不改写历史记录。",
+  "open_review_scope": "配乐尾部模型听感有分歧；技术渐弱已有测量，乐句自然度未因本次风格认可而获得单独确认。",
+  "assets_scope": "新项目重新设计品牌、母形、内容、声音和版式。案例的花瓣、纸色、三输出格式、32 秒与镜头次序不是固定要求；真实模型服务或在线软件功能未在本片实现。",
+  "registered_skill_version": "3.15.0"
+}

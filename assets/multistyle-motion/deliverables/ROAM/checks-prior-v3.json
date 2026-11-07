@@ -1,0 +1,23 @@
+{
+  "kind": "actual_local_browser_checks",
+  "date": "2026-10-26",
+  "desktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "horizontal_overflow": false,
+    "image_loaded": true,
+    "navigation_targets": 3,
+    "tab_content_states": 3
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "horizontal_overflow": false,
+    "all_three_tabs_within_viewport": true
+  },
+  "scope": "Local static website only; not proof of an autonomous agent service or deployed product."
+}

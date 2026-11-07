@@ -1,0 +1,233 @@
+{
+  "version": "3.3.0",
+  "fps": 30,
+  "agent": {
+    "title": "一念协作 v4 · 让需求成为页面",
+    "duration": 27,
+    "composition": "一念协作 v4 — Build and verify",
+    "task": "为 ROAM 做一个旅行灵感首页。",
+    "requirements": [
+      "城市漫游",
+      "海岸路线",
+      "山野徒步"
+    ],
+    "times": {
+      "submit": 3.2,
+      "workspace": 4.4,
+      "research": 5.6,
+      "design": 7.3,
+      "check": 11.2,
+      "check_done": 13.0,
+      "result": 15.0,
+      "explore": 18.2,
+      "delivery": 21.0,
+      "close": 23.5,
+      "check_first": 12.0,
+      "check_second": 12.5,
+      "build_photo": 7.65,
+      "build_headline": 8.05,
+      "build_cta": 8.45,
+      "build_topics": 8.75
+    },
+    "cues": [
+      {
+        "time": 3.2,
+        "type": "click",
+        "pan": 0.3
+      },
+      {
+        "time": 3.35,
+        "type": "air",
+        "duration": 0.75
+      },
+      {
+        "time": 5.6,
+        "type": "tick",
+        "pan": -0.4
+      },
+      {
+        "time": 7.65,
+        "type": "air",
+        "duration": 0.55,
+        "gain": 0.65,
+        "anchor": "photo reveal"
+      },
+      {
+        "time": 8.45,
+        "type": "warm",
+        "gain": 0.55,
+        "anchor": "call to action appears"
+      },
+      {
+        "time": 9.15,
+        "type": "tick",
+        "gain": 0.55,
+        "anchor": "three topic tabs ready"
+      },
+      {
+        "time": 11.2,
+        "type": "air",
+        "duration": 0.65
+      },
+      {
+        "time": 12.0,
+        "type": "tick",
+        "pan": 0.4
+      },
+      {
+        "time": 12.5,
+        "type": "tick",
+        "pan": 0.4
+      },
+      {
+        "time": 13.0,
+        "type": "resolve",
+        "pan": 0.3
+      },
+      {
+        "time": 14.3,
+        "type": "air",
+        "duration": 0.8
+      },
+      {
+        "time": 18.2,
+        "type": "click",
+        "pan": -0.2
+      },
+      {
+        "time": 20.45,
+        "type": "air",
+        "duration": 0.65
+      },
+      {
+        "time": 23.1,
+        "type": "air",
+        "duration": 0.6
+      }
+    ],
+    "outputs": [
+      "deliverables/ROAM/index.html",
+      "deliverables/ROAM/checks.json"
+    ],
+    "scope": "Agent 工作过程为概念动画；配套 ROAM 网页是实际可浏览交付物。",
+    "audio_focus": [
+      {
+        "start": 7.5,
+        "end": 9.5,
+        "gain": 0.72
+      },
+      {
+        "start": 11.8,
+        "end": 13.4,
+        "gain": 0.7
+      }
+    ]
+  },
+  "data": {
+    "title": "DataTalk v4 · 看得见的贡献",
+    "duration": 26,
+    "composition": "DataTalk v4 — Count the contribution",
+    "question": "这期增长，来自哪个渠道？",
+    "times": {
+      "submit": 2.6,
+      "source": 3.6,
+      "compare": 6.2,
+      "delta": 9.6,
+      "contribution": 13.4,
+      "next": 17.0,
+      "export": 20.0,
+      "report": 21.0,
+      "close": 23.8,
+      "units": 14.15
+    },
+    "cues": [
+      {
+        "time": 2.6,
+        "type": "click",
+        "pan": 0.2
+      },
+      {
+        "time": 3.1,
+        "type": "air",
+        "duration": 0.6
+      },
+      {
+        "time": 5.6,
+        "type": "air",
+        "duration": 0.8
+      },
+      {
+        "time": 6.9,
+        "type": "tick"
+      },
+      {
+        "time": 9.0,
+        "type": "air",
+        "duration": 0.75
+      },
+      {
+        "time": 10.8,
+        "type": "tick",
+        "pan": 0.35
+      },
+      {
+        "time": 13.4,
+        "type": "air",
+        "duration": 0.7,
+        "gain": 0.5,
+        "anchor": "contributions align"
+      },
+      {
+        "time": 14.45,
+        "type": "resolve",
+        "gain": 0.72,
+        "anchor": "countable contribution settles"
+      },
+      {
+        "time": 16.35,
+        "type": "air",
+        "duration": 0.65
+      },
+      {
+        "time": 20.0,
+        "type": "click",
+        "pan": 0.25
+      },
+      {
+        "time": 20.7,
+        "type": "resolve"
+      },
+      {
+        "time": 23.3,
+        "type": "air",
+        "duration": 0.65
+      }
+    ],
+    "outputs": [
+      "deliverables/DataTalk/增长简报.html",
+      "data/channel-visits.csv",
+      "data/analysis.json"
+    ],
+    "scope": "虚构示例访问次数；两个等长 28 天窗口。描述性增量贡献，不证明因果、转化或 ROI。",
+    "unit_encoding": {
+      "unit_visits": 100,
+      "total_units": 20,
+      "search_units": 13,
+      "other_units": [
+        6,
+        1,
+        0
+      ],
+      "source": "data/analysis.json",
+      "note": "Fixed nonnegative example; integral units required."
+    },
+    "audio_focus": [
+      {
+        "start": 13.4,
+        "end": 16.2,
+        "gain": 0.65
+      }
+    ]
+  },
+  "visual_revision": "v4 / visible construction, anchored inspection, countable evidence"
+}

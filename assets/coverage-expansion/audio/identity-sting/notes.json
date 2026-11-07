@@ -1,0 +1,177 @@
+[
+  {
+    "time": 0.0,
+    "duration": 2.4,
+    "note": 60,
+    "velocity": 30,
+    "instrument": "pad"
+  },
+  {
+    "time": 0.022,
+    "duration": 2.4,
+    "note": 67,
+    "velocity": 32,
+    "instrument": "pad"
+  },
+  {
+    "time": 0.044,
+    "duration": 2.4,
+    "note": 71,
+    "velocity": 34,
+    "instrument": "pad"
+  },
+  {
+    "time": 0.066,
+    "duration": 2.4,
+    "note": 76,
+    "velocity": 36,
+    "instrument": "pad"
+  },
+  {
+    "time": 0.0,
+    "duration": 1.066667,
+    "note": 48,
+    "velocity": 44,
+    "instrument": "bass"
+  },
+  {
+    "time": 1.666667,
+    "duration": 0.466667,
+    "note": 48,
+    "velocity": 35,
+    "instrument": "bass"
+  },
+  {
+    "time": 0.333333,
+    "duration": 0.6,
+    "note": 88,
+    "velocity": 39,
+    "instrument": "piano"
+  },
+  {
+    "time": 1.166667,
+    "duration": 0.6,
+    "note": 83,
+    "velocity": 45,
+    "instrument": "piano"
+  },
+  {
+    "time": 2.0,
+    "duration": 0.6,
+    "note": 79,
+    "velocity": 39,
+    "instrument": "piano"
+  },
+  {
+    "time": 2.666667,
+    "duration": 2.4,
+    "note": 57,
+    "velocity": 30,
+    "instrument": "pad"
+  },
+  {
+    "time": 2.688667,
+    "duration": 2.4,
+    "note": 64,
+    "velocity": 32,
+    "instrument": "pad"
+  },
+  {
+    "time": 2.710667,
+    "duration": 2.4,
+    "note": 67,
+    "velocity": 34,
+    "instrument": "pad"
+  },
+  {
+    "time": 2.732667,
+    "duration": 2.4,
+    "note": 72,
+    "velocity": 36,
+    "instrument": "pad"
+  },
+  {
+    "time": 2.666667,
+    "duration": 1.066667,
+    "note": 45,
+    "velocity": 44,
+    "instrument": "bass"
+  },
+  {
+    "time": 4.333333,
+    "duration": 0.466667,
+    "note": 45,
+    "velocity": 35,
+    "instrument": "bass"
+  },
+  {
+    "time": 3.0,
+    "duration": 0.6,
+    "note": 84,
+    "velocity": 39,
+    "instrument": "piano"
+  },
+  {
+    "time": 3.833333,
+    "duration": 0.6,
+    "note": 79,
+    "velocity": 45,
+    "instrument": "piano"
+  },
+  {
+    "time": 4.666667,
+    "duration": 0.6,
+    "note": 76,
+    "velocity": 39,
+    "instrument": "piano"
+  },
+  {
+    "time": 4.0,
+    "duration": 1.8,
+    "note": 60,
+    "velocity": 33,
+    "instrument": "pad"
+  },
+  {
+    "time": 4.018,
+    "duration": 1.8,
+    "note": 67,
+    "velocity": 35,
+    "instrument": "pad"
+  },
+  {
+    "time": 4.036,
+    "duration": 1.8,
+    "note": 71,
+    "velocity": 37,
+    "instrument": "pad"
+  },
+  {
+    "time": 4.054,
+    "duration": 1.8,
+    "note": 76,
+    "velocity": 39,
+    "instrument": "pad"
+  },
+  {
+    "time": 4.0,
+    "duration": 0.9,
+    "note": 88,
+    "velocity": 38,
+    "instrument": "piano"
+  },
+  {
+    "time": 4.18,
+    "duration": 0.9,
+    "note": 83,
+    "velocity": 35,
+    "instrument": "piano"
+  },
+  {
+    "time": 4.36,
+    "duration": 0.9,
+    "note": 79,
+    "velocity": 32,
+    "instrument": "piano"
+  }
+]

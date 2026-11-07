@@ -1,0 +1,55 @@
+[
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  [
+    {
+      "role": "user",
+      "metadata": null,
+      "content": {
+        "file": {
+          "path": "/tmp/gradio/a9daa2794150f999d6217b91031f9b777e489745294181bdb15fe6746012386c/sample.wav",
+          "url": "https://qwen-qwen3-5-omni-offline-demo.hf.space/gradio_api/file=/tmp/gradio/a9daa2794150f999d6217b91031f9b777e489745294181bdb15fe6746012386c/sample.wav",
+          "size": null,
+          "orig_name": null,
+          "mime_type": "audio/wav",
+          "is_stream": false,
+          "meta": {
+            "_type": "gradio.FileData"
+          }
+        },
+        "alt_text": null
+      },
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": "请完整听这三段品牌短口号。先逐字转写你实际听到的全部中文，再检查是否漏字、多字、重音不自然、音色发闷、突兀停顿、尾字截断。判断声音是否明亮、有笑意、适合热烈的气泡饮料品牌广告。不要猜台词，不要给虚构的分数。",
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": "把今天打开，热烈一点，再热烈一点，放晴快乐冒个泡。\n\n经检查，未发现漏字、多字、重音不自然、音色发闷、突兀停顿或尾字截断的情况。声音明亮，带有明显笑意，整体听感活泼轻快，符合热烈的气泡饮料品牌广告风格。",
+      "options": null
+    }
+  ],
+  {
+    "visible": true,
+    "__type__": "update"
+  },
+  {
+    "visible": false,
+    "__type__": "update"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "method": "initialize",
+    "params": {
+      "protocolVersion": "2025-06-18",
+      "clientInfo": {
+        "name": "mg-design-pipeline",
+        "version": "1.0"
+      },
+      "capabilities": {}
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "resources": {},
+          "tools": {}
+        },
+        "serverInfo": {
+          "name": "photocraft",
+          "version": "0.16.0"
+        },
+        "instructions": "PhotoCraft image editor. Start with doc_new/doc_open, discover ids and parameter docs with command_list, edit with command_run or command_batch (one history step per command). Inspect with doc_inspect and render_preview; doc_save writes native .pcraft or exports by extension. File paths are relative to the read/write roots granted at launch. ui_inspect/ui_screenshot and other ui_* tools require bridge mode. Read photocraft://document and photocraft://commands for live JSON state."
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_open",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.pcraft"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "automation path rejected: absolute paths are not allowed: `~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.pcraft`"
+          }
+        ],
+        "isError": true
+      }
+    }
+  }
+]

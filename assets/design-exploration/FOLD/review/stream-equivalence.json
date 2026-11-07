@@ -1,0 +1,14 @@
+{
+  "audio_hashes": {
+    "caption": "SHA256=0523b8270d0af42baf770ea7c28d3b0ddd2c5605d1239b603789c2fdd34fdb27",
+    "voice": "SHA256=0523b8270d0af42baf770ea7c28d3b0ddd2c5605d1239b603789c2fdd34fdb27",
+    "music": "SHA256=ddf3fc8ea5958cdfc07192b2a03c25242b346b2e2022df1454409605b2393e63"
+  },
+  "video_hashes": {
+    "caption": "SHA256=5704f278e7859aa4c0340806991049c80b6e01390c223b19e07d411a9c64f1a9",
+    "voice": "SHA256=0d34ad36db274e1a8e9d733f9912a776c2e1caf77150889261c254fb65d4610a",
+    "music": "SHA256=0d34ad36db274e1a8e9d733f9912a776c2e1caf77150889261c254fb65d4610a"
+  },
+  "voice_audio_identical": true,
+  "clean_picture_identical": true
+}

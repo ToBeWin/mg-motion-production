@@ -1,0 +1,98 @@
+[
+  {
+    "name": "DESCRIPTION.en_us.html",
+    "path": "ofl/notosanssc/DESCRIPTION.en_us.html",
+    "sha": "4497d17be9b43cf061aa6f562fd0a1d85627ea1c",
+    "size": 378,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/DESCRIPTION.en_us.html?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/notosanssc/DESCRIPTION.en_us.html",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/4497d17be9b43cf061aa6f562fd0a1d85627ea1c",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/DESCRIPTION.en_us.html",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/DESCRIPTION.en_us.html?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/4497d17be9b43cf061aa6f562fd0a1d85627ea1c",
+      "html": "https://github.com/google/fonts/blob/main/ofl/notosanssc/DESCRIPTION.en_us.html"
+    }
+  },
+  {
+    "name": "METADATA.pb",
+    "path": "ofl/notosanssc/METADATA.pb",
+    "sha": "2da7e54d742a000810c6ec99ffae919158d9d4d6",
+    "size": 1296,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/METADATA.pb?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/notosanssc/METADATA.pb",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/2da7e54d742a000810c6ec99ffae919158d9d4d6",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/METADATA.pb",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/METADATA.pb?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/2da7e54d742a000810c6ec99ffae919158d9d4d6",
+      "html": "https://github.com/google/fonts/blob/main/ofl/notosanssc/METADATA.pb"
+    }
+  },
+  {
+    "name": "NotoSansSC[wght].ttf",
+    "path": "ofl/notosanssc/NotoSansSC[wght].ttf",
+    "sha": "fb0637bafbcd804fe32152370a1225990745b4bc",
+    "size": 17772300,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/NotoSansSC[wght].ttf?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/notosanssc/NotoSansSC[wght].ttf",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/fb0637bafbcd804fe32152370a1225990745b4bc",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/NotoSansSC[wght].ttf?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/fb0637bafbcd804fe32152370a1225990745b4bc",
+      "html": "https://github.com/google/fonts/blob/main/ofl/notosanssc/NotoSansSC[wght].ttf"
+    }
+  },
+  {
+    "name": "OFL.txt",
+    "path": "ofl/notosanssc/OFL.txt",
+    "sha": "1c9f43281b8f216c5461fe9ac729afbade7724e4",
+    "size": 4388,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/OFL.txt?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/notosanssc/OFL.txt",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/1c9f43281b8f216c5461fe9ac729afbade7724e4",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/OFL.txt?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/1c9f43281b8f216c5461fe9ac729afbade7724e4",
+      "html": "https://github.com/google/fonts/blob/main/ofl/notosanssc/OFL.txt"
+    }
+  },
+  {
+    "name": "article",
+    "path": "ofl/notosanssc/article",
+    "sha": "00c0dd7a9ed6dbcb2eb24d9613f24297b2b13fd8",
+    "size": 0,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/article?ref=main",
+    "html_url": "https://github.com/google/fonts/tree/main/ofl/notosanssc/article",
+    "git_url": "https://api.github.com/repos/google/fonts/git/trees/00c0dd7a9ed6dbcb2eb24d9613f24297b2b13fd8",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/article?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/trees/00c0dd7a9ed6dbcb2eb24d9613f24297b2b13fd8",
+      "html": "https://github.com/google/fonts/tree/main/ofl/notosanssc/article"
+    }
+  },
+  {
+    "name": "upstream_info.md",
+    "path": "ofl/notosanssc/upstream_info.md",
+    "sha": "3f3d1979d3778ad446f0e6e01c2fc96262f4f307",
+    "size": 2694,
+    "url": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/upstream_info.md?ref=main",
+    "html_url": "https://github.com/google/fonts/blob/main/ofl/notosanssc/upstream_info.md",
+    "git_url": "https://api.github.com/repos/google/fonts/git/blobs/3f3d1979d3778ad446f0e6e01c2fc96262f4f307",
+    "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/upstream_info.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google/fonts/contents/ofl/notosanssc/upstream_info.md?ref=main",
+      "git": "https://api.github.com/repos/google/fonts/git/blobs/3f3d1979d3778ad446f0e6e01c2fc96262f4f307",
+      "html": "https://github.com/google/fonts/blob/main/ofl/notosanssc/upstream_info.md"
+    }
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "duration": 16,
+  "captions": [
+    {
+      "id": "01",
+      "text": "换个视角。",
+      "start": 0.75,
+      "end": 1.7039166666666667,
+      "source": "take-01.wav",
+      "source_in": 0.254625,
+      "source_out": 1.2085416666666666,
+      "file": "voice-01.wav",
+      "gain_db": 14.158705252191668
+    },
+    {
+      "id": "02",
+      "text": "让想象，有形。",
+      "start": 12.5,
+      "end": 14.153833333333333,
+      "source": "take-02.wav",
+      "source_in": 0.2629375,
+      "source_out": 1.9167708333333333,
+      "file": "voice-02.wav",
+      "gain_db": 13.54859548997036
+    }
+  ],
+  "voice_engine": "IndexTTS2 / original v2 speech unchanged",
+  "music_engine": "MiniMax Music3 local MLX q6 / 30 steps",
+  "music_source": "minimax-aurel-v21-organic.wav",
+  "music_source_duration": 20.015604166666666,
+  "music_edits": [
+    {
+      "source_in": 0,
+      "source_out": 16,
+      "atempo": 1,
+      "ending": "Continuous excerpt, cosine fade 14.35–15.85 s, 0.15 s silence; final voice duck held"
+    }
+  ],
+  "normalization": {
+    "master-voice.wav": {
+      "target_lufs": -16,
+      "first_pass": {
+        "input_i": "-20.87",
+        "input_tp": "-5.94",
+        "input_lra": "4.30",
+        "input_thresh": "-31.73",
+        "output_i": "-16.27",
+        "output_tp": "-2.00",
+        "output_lra": "4.70",
+        "output_thresh": "-26.97",
+        "normalization_type": "dynamic",
+        "target_offset": "0.27"
+      }
+    },
+    "master-music.wav": {
+      "target_lufs": -18,
+      "first_pass": {
+        "input_i": "-22.98",
+        "input_tp": "-7.64",
+        "input_lra": "4.10",
+        "input_thresh": "-33.69",
+        "output_i": "-18.13",
+        "output_tp": "-2.70",
+        "output_lra": "4.50",
+        "output_thresh": "-28.68",
+        "normalization_type": "dynamic",
+        "target_offset": "0.13"
+      }
+    }
+  },
+  "sfx_events": [
+    [
+      4.67,
+      "air",
+      0.012
+    ],
+    [
+      5.65,
+      "soft-contact",
+      0.009
+    ],
+    [
+      8.1,
+      "air",
+      0.01
+    ],
+    [
+      10.87,
+      "soft-contact",
+      0.008
+    ]
+  ],
+  "source_hashes": {
+    "minimax-aurel-v21-organic.wav": "932e8657dcac91a7675d53b1cbee1f0205105f803dc368f0969e41f1b70bca59",
+    "voice-edit.wav": "a71fbd176469a453e7f44f83a7381d3d5010d934359d1fb4e1125e2d62c61a0a"
+  }
+}

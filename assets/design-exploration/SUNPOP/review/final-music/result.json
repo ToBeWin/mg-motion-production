@@ -1,0 +1,55 @@
+[
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  [
+    {
+      "role": "user",
+      "metadata": null,
+      "content": {
+        "file": {
+          "path": "/tmp/gradio/130030be77479231bf12c12df83e28692dcc6bbf39d2b18e2a927ac3a29e04dd/sample.wav",
+          "url": "https://qwen-qwen3-5-omni-offline-demo.hf.space/gradio_api/file=/tmp/gradio/130030be77479231bf12c12df83e28692dcc6bbf39d2b18e2a927ac3a29e04dd/sample.wav",
+          "size": null,
+          "orig_name": null,
+          "mime_type": "audio/wav",
+          "is_stream": false,
+          "meta": {
+            "_type": "gradio.FileData"
+          }
+        },
+        "alt_text": null
+      },
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": "请完整听这段纯音乐广告成品，不提供脚本。描述音乐风格、是否出现人声、是否有刺耳音效、声音是否顺畅，末尾是否正常衰减和结束。只按实际声音判断；若音乐是淡出而不是终止式和弦，可以直接说明。",
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": "这段音频是纯音乐，没有人声。\n\n音乐风格为电子舞曲（EDM），带有放克（Funk）元素，节奏感强，氛围活泼、动感。\n\n没有听到刺耳的音效。整体声音顺畅，制作精良。\n\n结尾处音乐没有以终止式和弦结束，而是采用了音量逐渐减弱的淡出（fade-out）方式收尾。",
+      "options": null
+    }
+  ],
+  {
+    "visible": true,
+    "__type__": "update"
+  },
+  {
+    "visible": false,
+    "__type__": "update"
+  }
+]

@@ -1,0 +1,286 @@
+{
+  "project": {
+    "activeSequence": 1,
+    "dirty": false,
+    "name": "SUNPOP",
+    "path": "~/workspace/opc/mg-motion-production/assets/design-exploration/SUNPOP/editor-handoff/SUNPOP.fcproj",
+    "revision": 2,
+    "root": {
+      "children": [
+        {
+          "children": [
+            {
+              "duration": 6096384000000,
+              "item": 1,
+              "label": "Forest",
+              "name": "SUNPOP · picture + final master",
+              "type": "Sequence"
+            },
+            {
+              "duration": 6096384000000,
+              "item": 4,
+              "label": "Iris",
+              "name": "Narration stem",
+              "type": "Audio"
+            },
+            {
+              "duration": 6096384000000,
+              "item": 5,
+              "label": "Iris",
+              "name": "Music stem",
+              "type": "Audio"
+            },
+            {
+              "duration": 6096384000000,
+              "item": 6,
+              "label": "Iris",
+              "name": "Sound design stem",
+              "type": "Audio"
+            }
+          ],
+          "id": 11,
+          "name": "SUNPOP · 把今天打开"
+        },
+        {
+          "duration": 6096384000000,
+          "item": 2,
+          "label": "Iris",
+          "name": "SUNPOP Picture",
+          "type": "Movie"
+        },
+        {
+          "duration": 6096384000000,
+          "item": 3,
+          "label": "Iris",
+          "name": "SUNPOP final master",
+          "type": "Audio"
+        }
+      ],
+      "id": 0,
+      "name": "SUNPOP"
+    },
+    "sourceItem": null
+  },
+  "sequence": {
+    "audio": [
+      {
+        "enabled": true,
+        "id": 9,
+        "items": [
+          {
+            "clip": 10,
+            "duration": 6096384000000,
+            "durationFrames": 720,
+            "effects": [
+              {
+                "effect": "volume",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "bypass": {
+                    "keyframes": 0,
+                    "value": "Bool(false)"
+                  },
+                  "level": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  }
+                }
+              },
+              {
+                "effect": "channel_volume",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "bypass": {
+                    "keyframes": 0,
+                    "value": "Bool(false)"
+                  },
+                  "left": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "right": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  }
+                }
+              },
+              {
+                "effect": "panner",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "balance": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "end": 6096384000000,
+            "endFrame": 720,
+            "gainDb": 0.0,
+            "item": 3,
+            "label": "Iris",
+            "link": null,
+            "name": "IndexTTS2 + MiniMax Music + sound design",
+            "reverse": false,
+            "sourceIn": 0,
+            "sourceOut": 6096384000000,
+            "speed": 1.0,
+            "start": 0,
+            "startFrame": 0
+          }
+        ],
+        "label": null,
+        "locked": false,
+        "muted": false,
+        "name": "Audio 1",
+        "solo": false,
+        "syncLock": true,
+        "transitions": []
+      }
+    ],
+    "duration": 6096384000000,
+    "durationFrames": 720,
+    "gapSelection": null,
+    "id": 1,
+    "in": null,
+    "markers": [],
+    "name": "SUNPOP · picture + final master",
+    "out": null,
+    "playhead": null,
+    "selection": [],
+    "settings": {
+      "audio_master": "Stereo",
+      "color": {
+        "auto_tone_map": true,
+        "wide_gamut": false,
+        "working": "Rec709"
+      },
+      "drop_frame": false,
+      "frame_rate": {
+        "den": 1,
+        "num": 30
+      },
+      "height": 1080,
+      "max_bit_depth": false,
+      "max_render_quality": false,
+      "par": [
+        1,
+        1
+      ],
+      "preset": "Custom 1920x1080 30",
+      "preview_codec": "ProRes 422",
+      "sample_rate": 48000,
+      "width": 1920,
+      "working_space": "Rec. 709"
+    },
+    "split": {
+      "audioIn": null,
+      "audioOut": null,
+      "videoIn": null,
+      "videoOut": null
+    },
+    "transitionSelection": [],
+    "video": [
+      {
+        "enabled": true,
+        "id": 7,
+        "items": [
+          {
+            "clip": 8,
+            "duration": 6096384000000,
+            "durationFrames": 720,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 960.0, y: 540.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 960.0, y: 540.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "end": 6096384000000,
+            "endFrame": 720,
+            "gainDb": 0.0,
+            "item": 2,
+            "label": "Iris",
+            "link": null,
+            "name": "SUNPOP / editable source in EffectCraft",
+            "reverse": false,
+            "sourceIn": 0,
+            "sourceOut": 6096384000000,
+            "speed": 1.0,
+            "start": 0,
+            "startFrame": 0
+          }
+        ],
+        "label": null,
+        "locked": false,
+        "muted": false,
+        "name": "Video 1",
+        "solo": false,
+        "syncLock": true,
+        "transitions": []
+      }
+    ]
+  }
+}

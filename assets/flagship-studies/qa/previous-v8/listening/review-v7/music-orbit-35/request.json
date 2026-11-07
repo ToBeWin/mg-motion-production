@@ -1,0 +1,14 @@
+{
+  "source": "orbit.wav",
+  "sha256": "60ad7e16c816772af36ceb37ef34931b959e878a8186bde52cf1b40751491a1d",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)",
+  "prompt": "只根据实际音频，描述这段音乐的声音、主要乐器、节奏是否稳定、情绪和动态发展。是否有可辨人声、哼唱或残留词语？是否有突兀剪口？结束是自然收束还是被截断？适合哪些产品画面，哪些不适合？不需要泛泛建议，无法确定请说明。",
+  "status": "completed",
+  "started_at": 1793074593.612455,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "2a21a75524ea6fc53f6c39501119e31a4d3850f7c3108e4fe9217e974d061708",
+  "finished_at": 1793074622.014053,
+  "response_sha256": "190543288b8f5ebe598686d500bc999c560d112c24b6c3a024a4c0e0f54bad16"
+}

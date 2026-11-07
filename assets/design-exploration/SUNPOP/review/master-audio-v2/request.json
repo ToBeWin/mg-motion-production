@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG品牌探索_放晴SUNPOP_v1/source/audio/master-voice.wav",
+  "sha256": "53cfb5e72f78629a0c81b5f4e4fb5d12ba124e5d1f96542ce79b50055b236717",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听输入的品牌短片混音：逐字转写全部中文；检查人声是否清楚自然，音乐是否明显遮住任何字，音效是否刺耳，末尾是否自然渐弱或存在硬切。不要假设已知脚本和时间轴；不确定的时间位置请勿编造。只描述真实听得到的内容。",
+  "status": "completed",
+  "started_at": 1793205084.096077,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "07cedeec609e433e52acd2a435938171a6dbcd538470dc32ebcbf80e89d6df13",
+  "event_id": "a30565a2a750459ab1051fb7ffdd21ef",
+  "finished_at": 1793205098.9215732,
+  "response_sha256": "188bb2bcb25c02fb5caf4df0d64c6e994ee91035cea29738f4260d8cf5a192b2"
+}

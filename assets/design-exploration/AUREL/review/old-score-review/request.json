@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG风格探索_映序AUREL_v2_字形构形/source/audio/master-music.wav",
+  "sha256": "f607da36dc72457c6fd90dcbf0394108f3229d3682ebbd74e3424f223b73b9d2",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整审听实际音频。先客观描述主要音色和节奏，不参考任何生成提示词。检查：有没有尖锐、刺耳、音高不自然、底噪、破音、节奏突变、旋律碎片重复或结尾截断。指出其最明显的风格特征，以及哪些听觉特征可能使其不适合白色空间、蓝色金属字形、克制现代品牌宣传片。不要编造时间精度、材质声音或评分，听不清则说明。",
+  "status": "completed",
+  "started_at": 1793243522.3032892,
+  "method": "full-duration model-assisted auditory review",
+  "review_copy_sha256": "a5baaa85471f491a24c8b04f69ce595305fb3c70a39589dd9a93c68442d58035",
+  "event_id": "1e385bde241d433fb7804e3cb2bf66d0",
+  "finished_at": 1793243536.075365,
+  "response_sha256": "2f28f0e87a5b2d448c81e7e9c7fb6c106b96d16cb56ba28cfbc5cb2f6129a1cc"
+}

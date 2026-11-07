@@ -1,0 +1,58 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "project": "TRACE",
+      "comp": "TRACE — From source to answer / 中文字幕",
+      "time": 16,
+      "image_sha256": "f819be742ddbea351bcbb6a6f1e9176e690ba858803b7db84ce3c934d28657f9",
+      "relocated_pixel_match": true,
+      "relative_footage": 2,
+      "caption_background_layers": 0
+    },
+    {
+      "project": "ORBIT",
+      "comp": "ORBIT — Precision in daylight / 中文字幕",
+      "time": 13.4,
+      "image_sha256": "b8dc73f108dfaeaab5c40792ccd663f4d373d13298c1a6484722157b7d9746a5",
+      "relocated_pixel_match": true,
+      "relative_footage": 3,
+      "caption_background_layers": 0
+    },
+    {
+      "project": "SHIFT",
+      "comp": "SHIFT — Make your next move / 中文字幕",
+      "time": 6.6,
+      "image_sha256": "08911bc99a9c00cae991ed502005c0ff453ae695d67760876dcf46f07eb50a73",
+      "relocated_pixel_match": true,
+      "relative_footage": 2,
+      "caption_background_layers": 0
+    },
+    {
+      "project": "STYLES",
+      "comp": "Style / Software spatial / 中文字幕",
+      "time": 4,
+      "image_sha256": "2d404bf5e3962bf85bf011bffec6e2ecbd2bdd6d29533d52c734d962a4a595b0",
+      "relocated_pixel_match": true,
+      "relative_footage": 14,
+      "caption_background_layers": 0
+    },
+    {
+      "project": "STYLES",
+      "comp": "Style / Hardware engineering / 中文字幕",
+      "time": 5.2,
+      "image_sha256": "4f66e62dd50e5dce7e6f4b89d251c299e7c2a4fb2bf7b48ad87097bba2e44826",
+      "relocated_pixel_match": true,
+      "scope": "Final revised narration and transparent captions"
+    },
+    {
+      "project": "ORBIT",
+      "comp": "ORBIT — Precision in daylight / 中文字幕",
+      "time": 3.9666667,
+      "image_sha256": "3b2e96b722463422112e99841ae77321e80ff274e2bd2311de24ae8b81c38c11",
+      "relocated_pixel_match": true,
+      "scope": "Corrected boundary plate"
+    }
+  ],
+  "scope": "Four projects rebuilt in a separate directory and native frames matched. This does not certify every frame or full application GUI editing."
+}

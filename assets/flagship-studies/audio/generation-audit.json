@@ -1,0 +1,115 @@
+{
+  "voice_takes": [
+    {
+      "file": "indextts2/orbit/01.json",
+      "seconds": 2.1130158730158732,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/orbit/04.json",
+      "seconds": 2.589024943310658,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/orbit/05.json",
+      "seconds": 2.2291156462585033,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/orbit/02.json",
+      "seconds": 2.1130158730158732,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/orbit/03.json",
+      "seconds": 2.3103854875283445,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/trace/01.json",
+      "seconds": 2.089795918367347,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/trace/06.json",
+      "seconds": 2.1130158730158732,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/trace/07.json",
+      "seconds": 2.36843537414966,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/trace/04.json",
+      "seconds": 2.0549659863945577,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/trace/05.json",
+      "seconds": 3.1695238095238096,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/trace/02.json",
+      "seconds": 1.474467120181406,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/trace/03.json",
+      "seconds": 2.1710657596371883,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/shift/01.json",
+      "seconds": 2.1942857142857144,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/shift/06.json",
+      "seconds": 2.0549659863945577,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/shift/04.json",
+      "seconds": 2.4729251700680273,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/shift/05.json",
+      "seconds": 2.507755102040816,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/shift/02.json",
+      "seconds": 2.589024943310658,
+      "engine": "indextts2",
+      "clean_exit": true
+    },
+    {
+      "file": "indextts2/shift/03.json",
+      "seconds": 2.0549659863945577,
+      "engine": "indextts2",
+      "clean_exit": true
+    }
+  ],
+  "listening_review": false,
+  "voice_reference_sha256": "reference-not-distributed",
+  "note": "The reference is a previously approved synthetic voice. No voice model or model weights are bundled."
+}

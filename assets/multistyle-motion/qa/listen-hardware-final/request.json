@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/ORBIT_v11_转动即反馈_中文字幕.mp4",
+  "sha256": "7381faf3b0a2cfeba61001817d2dfecbab910fe62df224919785bcf716c65cb8",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整分析这段成片的音频，并结合收到的视频画面进行保守审查。逐句抄写实际听到的中文配音，描述语气、停顿、发音、截断或口齿问题；描述背景音乐的风格、有没有人声、与片中题材是否贴合、是否遮盖配音或在剪接处突兀；检查实际看到的字幕与听到的内容是否对应，是否存在明显过早、过迟、遮挡、重叠；描述能确认的主要动画动作与声音节奏关系。没有把握的内容请明确说明。不要给总分，不要因为是宣传片就默认质量好，不要把字幕内容当作听到的配音。",
+  "status": "completed",
+  "started_at": 1793173727.245756,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "635469fd52feb0053ae24d13bdd9ae44de56815a496577c9dfc12e0cd21e6bc4",
+  "event_id": "40095639ad7a41be9e13f1363b80076d",
+  "finished_at": 1793173751.095277,
+  "response_sha256": "16c45c8148c2c1a001b2b3ba6d70d1a29165a018cafafadc03b20684b8a31d3e"
+}

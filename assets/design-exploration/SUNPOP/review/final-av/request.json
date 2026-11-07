@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG品牌探索_放晴SUNPOP_v1/SUNPOP_把今天打开_配音字幕版.mp4",
+  "sha256": "deaa5c8032267dabeea24f030ed23c1d27b9b08989e3c1600236a2b74c39f74d",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "完整观看并听完这支24秒品牌广告，请独立分析：1.逐字转写实际听到的全部人声；2.字幕内容和出入点是否大体跟随人声，是否有明显冲突；3.罐体、字体、图形转场是否有明显裁切错误、空白停顿、错层或文字无法阅读；4.音乐、音效与运动节奏是否契合，声音是否过响或刺耳；5.末尾是否自然结束。只报告看见/听见的问题，区分有意的超大字体裁切和产品缺损，不推测未看到的制作方法，不给虚构分数，不要把任意时间戳猜测当事实。",
+  "status": "completed",
+  "started_at": 1793205547.184289,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "8ee0ed9335148608f70533b05b3673fe16a3c7b40e07671967f2b5974ec8f546",
+  "event_id": "0576e3f70bb640ce9c574485b5884c8f",
+  "finished_at": 1793205595.777995,
+  "response_sha256": "16de654e1b0c10fd7caacb39b3f09a7bb3eb10cf0a902fbffb9b2a25db1f903f"
+}

@@ -1,0 +1,133 @@
+{
+  "duration": 16,
+  "voices": [
+    {
+      "id": "01",
+      "text": "细节，自有分寸。",
+      "file": "voice-01.wav",
+      "start": 0.5,
+      "end": 2.3200000000000003,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/orbit/voice-edit.wav",
+      "source_sha256": "66d7aad2a2825386214c60eb2528d15282b3266d02c19773c2dacfa5454acbd7",
+      "gain_db": 1.6429366132552128,
+      "newly_generated": false,
+      "source_in": 1.2,
+      "source_out": 3.02,
+      "selected_previous_take": "01"
+    },
+    {
+      "id": "02",
+      "text": "在转动中，感受秩序。",
+      "file": "voice-02.wav",
+      "start": 4.2,
+      "end": 6.09,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/orbit/voice-edit.wav",
+      "source_sha256": "66d7aad2a2825386214c60eb2528d15282b3266d02c19773c2dacfa5454acbd7",
+      "gain_db": 0.883584100697541,
+      "newly_generated": false,
+      "source_in": 8.2,
+      "source_out": 10.09,
+      "selected_previous_take": "03"
+    },
+    {
+      "id": "03",
+      "text": "每次转动，都恰到好处。",
+      "file": "voice-03.wav",
+      "start": 8.1,
+      "end": 10.25,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/orbit/voice-edit.wav",
+      "source_sha256": "66d7aad2a2825386214c60eb2528d15282b3266d02c19773c2dacfa5454acbd7",
+      "gain_db": 1.393984900235492,
+      "newly_generated": false,
+      "source_in": 12.3,
+      "source_out": 14.450000000000001,
+      "selected_previous_take": "04"
+    },
+    {
+      "id": "04",
+      "text": "把精密，握在手中。",
+      "file": "voice-04.wav",
+      "start": 13.0,
+      "end": 14.83,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/orbit/voice-edit.wav",
+      "source_sha256": "66d7aad2a2825386214c60eb2528d15282b3266d02c19773c2dacfa5454acbd7",
+      "gain_db": 1.6026239452019766,
+      "newly_generated": false,
+      "source_in": 16.3,
+      "source_out": 18.130000000000003,
+      "selected_previous_take": "05"
+    }
+  ],
+  "old_case": "orbit",
+  "music": "processed/orbit-v8-instrumental.wav",
+  "tempo": 1,
+  "sounds": [
+    {
+      "time": 2.5,
+      "file": "paper.wav",
+      "gain": 0.55
+    },
+    {
+      "time": 4.3,
+      "file": "tick.wav",
+      "gain": 0.32
+    },
+    {
+      "time": 5.0,
+      "file": "tick.wav",
+      "gain": 0.32
+    },
+    {
+      "time": 5.7,
+      "file": "tick.wav",
+      "gain": 0.32
+    },
+    {
+      "time": 6.4,
+      "file": "tick.wav",
+      "gain": 0.32
+    },
+    {
+      "time": 7.1,
+      "file": "tick.wav",
+      "gain": 0.38
+    },
+    {
+      "time": 9.4,
+      "file": "paper.wav",
+      "gain": 0.55
+    },
+    {
+      "time": 11.4,
+      "file": "paper.wav",
+      "gain": 0.35
+    },
+    {
+      "time": 13.05,
+      "file": "tick.wav",
+      "gain": 0.6
+    }
+  ],
+  "duck": 0.42,
+  "music_rms": 0.059,
+  "sample_rate": 48000,
+  "music_source": "minimax-selected.wav",
+  "music_original": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/processed/orbit-v8-instrumental.wav",
+  "music_original_sha256": "9e3ac8f060505843956a37309509b42130de0a6b85e63fa33f5959c8f3f61f8c",
+  "music_segments": [
+    {
+      "in": 0,
+      "out": 13.75,
+      "timeline_in": 0
+    },
+    {
+      "in": 23.217979166666666,
+      "out": 26.017979166666667,
+      "timeline_in": 13.2
+    }
+  ],
+  "crossfade": 0.55,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "music_newly_generated": false
+}

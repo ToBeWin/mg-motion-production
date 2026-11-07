@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p30" frameDuration="1/30s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <asset id="r2" name="AUREL Picture" start="0s" duration="16s" hasVideo="1" format="r1">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E9%A3%8E%E6%A0%BC%E6%8E%A2%E7%B4%A2_%E6%98%A0%E5%BA%8FAUREL_v2.1_%E5%A3%B0%E9%9F%B3%E9%87%8D%E9%85%8D/AUREL_v2.1_%E8%AE%A9%E6%83%B3%E8%B1%A1%E6%9C%89%E5%BD%A2_%E7%94%BB%E9%9D%A2.mp4" />
+    </asset>
+    <asset id="r3" name="AUREL final master" start="0s" duration="16s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E9%A3%8E%E6%A0%BC%E6%8E%A2%E7%B4%A2_%E6%98%A0%E5%BA%8FAUREL_v2.1_%E5%A3%B0%E9%9F%B3%E9%87%8D%E9%85%8D/source/audio/master-voice.wav" />
+    </asset>
+    <asset id="r4" name="Narration stem" start="0s" duration="16s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E9%A3%8E%E6%A0%BC%E6%8E%A2%E7%B4%A2_%E6%98%A0%E5%BA%8FAUREL_v2.1_%E5%A3%B0%E9%9F%B3%E9%87%8D%E9%85%8D/source/audio/voice-edit.wav" />
+    </asset>
+    <asset id="r5" name="Music stem" start="0s" duration="16s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E9%A3%8E%E6%A0%BC%E6%8E%A2%E7%B4%A2_%E6%98%A0%E5%BA%8FAUREL_v2.1_%E5%A3%B0%E9%9F%B3%E9%87%8D%E9%85%8D/source/audio/music-edit.wav" />
+    </asset>
+    <asset id="r6" name="Sound design stem" start="0s" duration="16s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E9%A3%8E%E6%A0%BC%E6%8E%A2%E7%B4%A2_%E6%98%A0%E5%BA%8FAUREL_v2.1_%E5%A3%B0%E9%9F%B3%E9%87%8D%E9%85%8D/source/audio/sfx-edit.wav" />
+    </asset>
+  </resources>
+  <library>
+    <event name="AUREL v2 · 让想象，有形">
+      <project name="AUREL · picture + final master">
+        <sequence format="r1" duration="16s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <asset-clip ref="r2" name="AUREL / editable source in EffectCraft" offset="0s" start="0s" duration="16s" format="r1">
+              <asset-clip ref="r3" name="IndexTTS2 + MiniMax Music + sound design" lane="-1" offset="0s" start="0s" duration="16s" audioRole="dialogue" />
+            </asset-clip>
+          </spine>
+        </sequence>
+      </project>
+      <asset-clip ref="r4" name="Narration stem" start="0s" duration="16s" />
+      <asset-clip ref="r5" name="Music stem" start="0s" duration="16s" />
+      <asset-clip ref="r6" name="Sound design stem" start="0s" duration="16s" />
+    </event>
+  </library>
+</fcpxml>

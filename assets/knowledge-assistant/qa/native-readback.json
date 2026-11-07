@@ -1,0 +1,656 @@
+{
+  "reading": [
+    {
+      "time": 10.2,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          510,
+          598,
+          0
+        ],
+        "scale": [
+          50.00000000000001,
+          50.00000000000001,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          1410,
+          598,
+          0
+        ],
+        "scale": [
+          50.00000000000001,
+          50.00000000000001,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          1410,
+          615,
+          0
+        ],
+        "scale": [
+          50,
+          50,
+          100
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          960,
+          660,
+          0
+        ],
+        "scale": [
+          46,
+          46,
+          0
+        ],
+        "opacity": 0,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    },
+    {
+      "time": 12.8,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          510,
+          598,
+          0
+        ],
+        "scale": [
+          50,
+          50,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          1410,
+          598,
+          0
+        ],
+        "scale": [
+          50.00000000000001,
+          50.00000000000001,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          1410,
+          615,
+          0
+        ],
+        "scale": [
+          50,
+          50,
+          100
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          960,
+          660,
+          0
+        ],
+        "scale": [
+          46,
+          46,
+          0
+        ],
+        "opacity": 0,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    },
+    {
+      "time": 16,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          960,
+          530,
+          0
+        ],
+        "scale": [
+          67.50000000000001,
+          67.50000000000001,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          960,
+          735,
+          0
+        ],
+        "scale": [
+          67.50000000000001,
+          67.50000000000001,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          2370,
+          680,
+          220
+        ],
+        "scale": [
+          43,
+          43,
+          100
+        ],
+        "opacity": 100,
+        "rotation_y": -14,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          960,
+          615,
+          0
+        ],
+        "scale": [
+          50,
+          50,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    },
+    {
+      "time": 20.8,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          960,
+          530,
+          0
+        ],
+        "scale": [
+          67.5,
+          67.5,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          960,
+          735,
+          0
+        ],
+        "scale": [
+          67.5,
+          67.5,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          2370,
+          680,
+          220
+        ],
+        "scale": [
+          43,
+          43,
+          100
+        ],
+        "opacity": 100,
+        "rotation_y": -14,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          960,
+          615,
+          0
+        ],
+        "scale": [
+          50,
+          50,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    },
+    {
+      "time": 23.5,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          500,
+          575.7,
+          0
+        ],
+        "scale": [
+          39.15,
+          39.15,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          500,
+          694.6,
+          0
+        ],
+        "scale": [
+          39.15,
+          39.15,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          1400,
+          615,
+          0
+        ],
+        "scale": [
+          46.49999999999999,
+          46.49999999999999,
+          99.99999999999999
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          500,
+          625,
+          0
+        ],
+        "scale": [
+          29,
+          29,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    },
+    {
+      "time": 26.5,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          500,
+          575.7,
+          0
+        ],
+        "scale": [
+          39.15,
+          39.15,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          500,
+          694.6,
+          0
+        ],
+        "scale": [
+          39.15,
+          39.15,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          1400,
+          615,
+          0
+        ],
+        "scale": [
+          46.5,
+          46.5,
+          100
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          500,
+          625,
+          0
+        ],
+        "scale": [
+          28.999999999999996,
+          28.999999999999996,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    },
+    {
+      "time": 30,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          1360,
+          567.2,
+          0
+        ],
+        "scale": [
+          45.89999999999999,
+          45.89999999999999,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          1360,
+          706.6,
+          0
+        ],
+        "scale": [
+          45.89999999999999,
+          45.89999999999999,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          2370,
+          600,
+          200
+        ],
+        "scale": [
+          36,
+          36,
+          100
+        ],
+        "opacity": 100,
+        "rotation_y": -14,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          1360,
+          625,
+          0
+        ],
+        "scale": [
+          34,
+          34,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    },
+    {
+      "time": 31.9666667,
+      "Evidence object / release": {
+        "layer_id": 3644,
+        "source_id": 3473,
+        "position": [
+          1360,
+          567.2,
+          0
+        ],
+        "scale": [
+          45.900000000000006,
+          45.900000000000006,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Evidence object / sync": {
+        "layer_id": 3887,
+        "source_id": 3669,
+        "position": [
+          1360,
+          706.6,
+          0
+        ],
+        "scale": [
+          45.900000000000006,
+          45.900000000000006,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      },
+      "Source document / sync": {
+        "layer_id": 2678,
+        "source_id": 1881,
+        "position": [
+          2370,
+          600,
+          200
+        ],
+        "scale": [
+          36,
+          36,
+          100
+        ],
+        "opacity": 100,
+        "rotation_y": -14,
+        "threeD": true
+      },
+      "Answer with attached evidence": {
+        "layer_id": 4429,
+        "source_id": 3912,
+        "position": [
+          1360,
+          625,
+          0
+        ],
+        "scale": [
+          34,
+          34,
+          0
+        ],
+        "opacity": 100,
+        "rotation_y": 0,
+        "threeD": false
+      }
+    }
+  ],
+  "quotes": [
+    {
+      "citation": 1,
+      "lines": [
+        {
+          "name": "Exact quote 0",
+          "text": "支持 PDF、Markdown、TXT。"
+        }
+      ]
+    },
+    {
+      "citation": 2,
+      "lines": [
+        {
+          "name": "Exact quote 1",
+          "text": "同步完成后，新内容可被检索。"
+        },
+        {
+          "name": "Exact quote 0",
+          "text": "文件发生修改后，需重新同步。"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "release",
+      "lines": [
+        {
+          "name": "Source paragraph 0",
+          "text": "支持 PDF、Markdown、TXT。"
+        }
+      ]
+    },
+    {
+      "id": "sync",
+      "lines": [
+        {
+          "name": "Source paragraph 1",
+          "text": "同步完成后，新内容可被检索。"
+        },
+        {
+          "name": "Source paragraph 0",
+          "text": "文件发生修改后，需重新同步。"
+        }
+      ]
+    }
+  ],
+  "pointer": [
+    1339.35,
+    735,
+    0
+  ],
+  "route": [
+    [
+      720.0229999999999,
+      694.6
+    ],
+    [
+      980,
+      694.6
+    ],
+    [
+      980,
+      599.19
+    ],
+    [
+      1102.4,
+      599.19
+    ]
+  ],
+  "end_opacity": {
+    "one": 100,
+    "two": 100
+  },
+  "handoffs": {
+    "opening_out": 2.9,
+    "question_in": 3.5,
+    "closing_in": 28,
+    "excerpt_opacity_at_entry": [
+      100,
+      100
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "comp": "Stage / Graphite light",
+    "width": 1920,
+    "height": 1080,
+    "grain": {
+      "speed": 0,
+      "seed": 37,
+      "intensity": 0.12
+    }
+  },
+  {
+    "comp": "Stage / Porcelain paper",
+    "width": 1920,
+    "height": 1080,
+    "grain": {
+      "speed": 0,
+      "seed": 37,
+      "intensity": 0.075
+    }
+  }
+]

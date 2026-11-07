@@ -1,0 +1,11 @@
+{
+  "source": "../raw/minimax/trace.wav",
+  "source_sha256": "2f34af53e84c59bcf9065999a823bf50ba4110d32d88c7d5c6e1c88bf13317cd",
+  "processing": "Installed Demucs htdemucs, CPU, shifts=0, overlap=.25, segment=7, no_vocals, float32",
+  "sha256": "78d94de8d3c5464c788b01305ee7fccb4f0338de440ed995a36b271c9f9f93c1",
+  "review_status": "Full-length isolated instrumental and final audiovisual model reviews: no extra voice or obvious separation damage reported",
+  "reviews": [
+    "review-candidates/trace-separated-no_vocals",
+    "review-v8/trace"
+  ]
+}

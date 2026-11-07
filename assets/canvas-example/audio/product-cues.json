@@ -1,0 +1,155 @@
+{
+  "style": "product",
+  "duration": 32,
+  "fps": 60,
+  "time_unit": "seconds",
+  "cues": [
+    {
+      "time": 0.5,
+      "type": "click",
+      "gain": 0.024,
+      "anchor": "文字输入",
+      "pitch": 900
+    },
+    {
+      "time": 0.82,
+      "type": "click",
+      "gain": 0.022,
+      "anchor": "文字输入",
+      "pitch": 1050
+    },
+    {
+      "time": 1.1,
+      "type": "click",
+      "gain": 0.02,
+      "anchor": "文字输入",
+      "pitch": 980
+    },
+    {
+      "time": 1.42,
+      "type": "click",
+      "gain": 0.021,
+      "anchor": "文字输入",
+      "pitch": 1140
+    },
+    {
+      "time": 1.74,
+      "type": "click",
+      "gain": 0.022,
+      "anchor": "文字输入",
+      "pitch": 1060
+    },
+    {
+      "time": 3,
+      "type": "click",
+      "gain": 0.095,
+      "anchor": "点击创建",
+      "pitch": 1350,
+      "duck_db": 1.5
+    },
+    {
+      "time": 3.15,
+      "type": "whoosh",
+      "gain": 0.12,
+      "anchor": "输入卡片展开为工作台",
+      "duration": 0.85
+    },
+    {
+      "time": 3.7,
+      "type": "chime",
+      "gain": 0.035,
+      "anchor": "画面进入工作台",
+      "note": 77,
+      "duration": 0.8
+    },
+    {
+      "time": 7,
+      "type": "whoosh",
+      "gain": 0.045,
+      "anchor": "镜头推入实时画面",
+      "duration": 2
+    },
+    {
+      "time": 12,
+      "type": "whoosh",
+      "gain": 0.07,
+      "anchor": "作品展开成多方案",
+      "duration": 1.4
+    },
+    {
+      "time": 15.6,
+      "type": "click",
+      "gain": 0.1,
+      "anchor": "选择珊瑚配色",
+      "pitch": 1420,
+      "duck_db": 2
+    },
+    {
+      "time": 15.6,
+      "type": "whoosh",
+      "gain": 0.065,
+      "anchor": "主题过渡",
+      "duration": 0.6
+    },
+    {
+      "time": 16.2,
+      "type": "chime",
+      "gain": 0.04,
+      "anchor": "配色完成并保持",
+      "note": 81,
+      "duration": 0.7
+    },
+    {
+      "time": 17.5,
+      "type": "whoosh",
+      "gain": 0.075,
+      "anchor": "方案退出，字排接续",
+      "duration": 0.5
+    },
+    {
+      "time": 18,
+      "type": "click",
+      "gain": 0.035,
+      "anchor": "排版节奏落点",
+      "pitch": 1100
+    },
+    {
+      "time": 23,
+      "type": "whoosh",
+      "gain": 0.09,
+      "anchor": "斜向遮罩揭开交付页",
+      "duration": 1
+    },
+    {
+      "time": 23.9,
+      "type": "click",
+      "gain": 0.05,
+      "anchor": "预览归位，开始生成",
+      "pitch": 920
+    },
+    {
+      "time": 25.4,
+      "type": "chime",
+      "gain": 0.09,
+      "anchor": "生成进度完成",
+      "note": 86,
+      "duration": 1.3,
+      "duck_db": 2
+    },
+    {
+      "time": 27.2,
+      "type": "whoosh",
+      "gain": 0.1,
+      "anchor": "圆形揭开片尾",
+      "duration": 0.8
+    },
+    {
+      "time": 28,
+      "type": "chime",
+      "gain": 0.04,
+      "anchor": "片尾品牌落拍",
+      "note": 81,
+      "duration": 1.4
+    }
+  ]
+}

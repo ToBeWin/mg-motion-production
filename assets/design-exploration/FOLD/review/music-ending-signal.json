@@ -1,0 +1,46 @@
+{
+  "file": "outputs/MG\u8f6f\u4ef6\u53d1\u5e03_FOLD_v1/FOLD_\u8ba9\u7075\u611f\u5c55\u5f00_\u7eaf\u97f3\u4e50\u7248.mp4",
+  "half_second_windows": [
+    {
+      "time": 27.0,
+      "rms_dbfs": -13.612293243408203
+    },
+    {
+      "time": 27.5,
+      "rms_dbfs": -12.77797794342041
+    },
+    {
+      "time": 28.0,
+      "rms_dbfs": -13.419407844543457
+    },
+    {
+      "time": 28.5,
+      "rms_dbfs": -15.400556564331055
+    },
+    {
+      "time": 29.0,
+      "rms_dbfs": -17.63831329345703
+    },
+    {
+      "time": 29.5,
+      "rms_dbfs": -21.37482452392578
+    },
+    {
+      "time": 30.0,
+      "rms_dbfs": -22.221405029296875
+    },
+    {
+      "time": 30.5,
+      "rms_dbfs": -29.513206481933594
+    },
+    {
+      "time": 31.0,
+      "rms_dbfs": -42.486900329589844
+    },
+    {
+      "time": 31.5,
+      "rms_dbfs": -56.70713424682617
+    }
+  ],
+  "scope": "Signal decay only; not a claim of musical resolution"
+}

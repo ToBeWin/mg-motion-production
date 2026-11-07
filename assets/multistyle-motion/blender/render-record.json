@@ -1,0 +1,14 @@
+{
+  "engine": "Blender Cycles / Metal",
+  "samples": 48,
+  "resolution": [
+    1024,
+    1024
+  ],
+  "frames": 120,
+  "rendered_unique_poses": 91,
+  "transparent": true,
+  "static_camera": true,
+  "moving_part": "Indexed rotary control",
+  "control_mapping": "24 to 80 percent is an illustrative brightness response, not a calibrated hardware claim"
+}

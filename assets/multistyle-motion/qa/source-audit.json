@@ -1,0 +1,178 @@
+{
+  "cases": [
+    {
+      "case": "brand",
+      "project_sha256": "baa456ce3f5e92da2411a721d9ecc1f7c9f229bcc3db090707e743a531b47ca1",
+      "duration": 18,
+      "frame_rate": 30,
+      "bit_depth": "Bpc16",
+      "relative_media": [
+        "audio/brand/master.wav"
+      ],
+      "caption_count": 5,
+      "captions": [
+        {
+          "id": "01",
+          "text": "让想法，向前一步。",
+          "in": 0.3333333333333333,
+          "out": 2.2,
+          "fill": "465E9B",
+          "no_plate": true
+        },
+        {
+          "id": "02",
+          "text": "打开新的空间。",
+          "in": 3.7333333333333334,
+          "out": 5.466666666666667,
+          "fill": "465E9B",
+          "no_plate": true
+        },
+        {
+          "id": "03",
+          "text": "把可能，变成作品。",
+          "in": 7.633333333333334,
+          "out": 9.733333333333333,
+          "fill": "465E9B",
+          "no_plate": true
+        },
+        {
+          "id": "04",
+          "text": "现在，开始创造。",
+          "in": 11.133333333333333,
+          "out": 13.233333333333333,
+          "fill": "465E9B",
+          "no_plate": true
+        },
+        {
+          "id": "05",
+          "text": "让下一步发生。",
+          "in": 15.133333333333333,
+          "out": 16.766666666666666,
+          "fill": "465E9B",
+          "no_plate": true
+        }
+      ],
+      "native_compositions": 8,
+      "native_layers": 116,
+      "track_mattes": 2
+    },
+    {
+      "case": "hardware",
+      "project_sha256": "c18af8c01f70e0123923fdf2e204766f13b0b0f478556e990b90ed723ecf1cd2",
+      "duration": 16,
+      "frame_rate": 30,
+      "bit_depth": "Bpc16",
+      "relative_media": [
+        "audio/hardware/master.wav",
+        "media/hardware-control.mov"
+      ],
+      "caption_count": 4,
+      "captions": [
+        {
+          "id": "01",
+          "text": "细节，自有分寸。",
+          "in": 0.5,
+          "out": 2.433333333333333,
+          "fill": "526E80",
+          "no_plate": true
+        },
+        {
+          "id": "02",
+          "text": "在转动中，感受秩序。",
+          "in": 4.2,
+          "out": 6.2,
+          "fill": "526E80",
+          "no_plate": true
+        },
+        {
+          "id": "03",
+          "text": "每次转动，都恰到好处。",
+          "in": 8.1,
+          "out": 10.366666666666667,
+          "fill": "526E80",
+          "no_plate": true
+        },
+        {
+          "id": "04",
+          "text": "把精密，握在手中。",
+          "in": 13.0,
+          "out": 14.933333333333334,
+          "fill": "526E80",
+          "no_plate": true
+        }
+      ],
+      "native_compositions": 3,
+      "native_layers": 39,
+      "track_mattes": 2,
+      "hardware": {
+        "control_samples_verified": 120,
+        "number_motion_blur": false,
+        "control_range_degrees": [
+          0,
+          60
+        ],
+        "brightness_range": [
+          24,
+          80
+        ],
+        "scope": "Illustrative mapping, not a calibrated device specification."
+      }
+    },
+    {
+      "case": "agent",
+      "project_sha256": "4495acee691dbd6d32d928ab12560f3cd1ffa7ca3f1e8d8039f63ed9ffe722bd",
+      "duration": 18,
+      "frame_rate": 30,
+      "bit_depth": "Bpc16",
+      "relative_media": [
+        "audio/agent/master.wav",
+        "media/roam-coast.png"
+      ],
+      "caption_count": 4,
+      "captions": [
+        {
+          "id": "01",
+          "text": "一个想法，开始协作。",
+          "in": 0.43333333333333335,
+          "out": 2.6333333333333333,
+          "fill": "497567",
+          "no_plate": true
+        },
+        {
+          "id": "02",
+          "text": "内容、设计、构建，同时推进。",
+          "in": 3.2333333333333334,
+          "out": 6.466666666666667,
+          "fill": "497567",
+          "no_plate": true
+        },
+        {
+          "id": "03",
+          "text": "把各自的产物，汇成一个结果。",
+          "in": 7.8,
+          "out": 10.466666666666667,
+          "fill": "497567",
+          "no_plate": true
+        },
+        {
+          "id": "04",
+          "text": "并行思考，一起完成。",
+          "in": 14.6,
+          "out": 17.0,
+          "fill": "497567",
+          "no_plate": true
+        }
+      ],
+      "native_compositions": 8,
+      "native_layers": 60,
+      "track_mattes": 2,
+      "roam": {
+        "same_photo_hash": "6ed0e8f5214cb6680405c5b923255358bbea8df545ca71e24719fde998d84416",
+        "coast_topic_matches": true,
+        "scope": "HTML/source/media consistency only. No current browser interaction or live multi-agent service claim."
+      }
+    }
+  ],
+  "caption_total": 13,
+  "scope": "Readback and integrity checks on saved native projects. Does not establish visual quality or customer acceptance."
+}

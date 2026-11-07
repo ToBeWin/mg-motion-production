@@ -1,0 +1,238 @@
+{
+  "retained_takes": 21,
+  "selected_unique_takes": 20,
+  "newly_generated_takes": 3,
+  "takes": [
+    {
+      "case": "orbit",
+      "id": "01",
+      "text": "细节，自有分寸。",
+      "duration_seconds": 2.1130158730158732,
+      "selected": true,
+      "sha256": "78362f9c1bf96f5019a1e30a992c18dc26d295f182120f8f6ca270bb1c45beae",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "orbit",
+      "id": "04",
+      "text": "每次转动，都恰到好处。",
+      "duration_seconds": 2.589024943310658,
+      "selected": true,
+      "sha256": "49af6123652b067e0085f5c416f0503c69354a815915c489794196ec7f4fc5a6",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "orbit",
+      "id": "05",
+      "text": "把精密，握在手中。",
+      "duration_seconds": 2.2291156462585033,
+      "selected": true,
+      "sha256": "d5b7bad19c213828f1316aea882562f31ed06cad3ef5cab5661a554d6e6a55dd",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "orbit",
+      "id": "02",
+      "text": "在光里，看见精密。",
+      "duration_seconds": 2.1130158730158732,
+      "selected": true,
+      "sha256": "9046f240e2c200f00a558d1c4ef96d02f7c307bd4fb522a77f1be9717536431c",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "orbit",
+      "id": "03",
+      "text": "在转动中，感受秩序。",
+      "duration_seconds": 2.3103854875283445,
+      "selected": true,
+      "sha256": "cfbcab04d7022bc3a945e5356c9978350c4fa7ad3aef024047f2f4256354ccf3",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "01",
+      "text": "答案，从哪里来？",
+      "duration_seconds": 2.089795918367347,
+      "selected": true,
+      "sha256": "7189f0a3a1bb8d3b6e3183bbed106f047665fc22328f43c114514f584637baf4",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "06",
+      "text": "点一下，回到原文。",
+      "duration_seconds": 2.1130158730158732,
+      "selected": true,
+      "sha256": "5f93e3ab963f1adab761f6468f6c3e2555e340016197a47219d1d90b03226971",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "07",
+      "text": "看见答案，也看见依据。",
+      "duration_seconds": 2.36843537414966,
+      "selected": true,
+      "sha256": "9071b2fb202a402e82252ecfc190b916e365e5bae94a834b0272735d016b92bf",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "04",
+      "text": "把原文，带进答案。",
+      "duration_seconds": 2.0549659863945577,
+      "selected": true,
+      "sha256": "10697869d159063e4cdd045e656431eedffb89aee53d9adf22d4dba57e9d6e09",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "08",
+      "text": "支持哪些文件，怎样更新，都能找到依据。",
+      "duration_seconds": 3.912562358276644,
+      "selected": true,
+      "sha256": "1f9b08317607331e83b47da48a82a76cac10da63d3109c349e84d82f1cb6e86e",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "05",
+      "text": "文件支持与更新方式，都有出处。",
+      "duration_seconds": 3.1695238095238096,
+      "selected": false,
+      "sha256": "5ff30578cae82153d002b18f4860d3b450c33b1d43a81348e9b6f2b2f12034a3",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "02",
+      "text": "提出问题。",
+      "duration_seconds": 1.474467120181406,
+      "selected": true,
+      "sha256": "c889a3f3c76c40eb4abf53a6c88cbab5cd7133a9c501990a988ece34d537e8c6",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "trace",
+      "id": "03",
+      "text": "从资料里，找到依据。",
+      "duration_seconds": 2.1710657596371883,
+      "selected": true,
+      "sha256": "443853d739d7d2224197177a3ea74362865c61591634c7f52f338311dac96071",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "shift",
+      "id": "01",
+      "text": "让想法，向前一步。",
+      "duration_seconds": 2.1942857142857144,
+      "selected": true,
+      "sha256": "1766907c23a35d90563d35bd986f6b812a565c65f1719eb9746653f55ac45c0c",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "shift",
+      "id": "06",
+      "text": "让下一步发生。",
+      "duration_seconds": 2.0549659863945577,
+      "selected": true,
+      "sha256": "f31120906fb008085ff49a466bbc82b8d1f9f58e2dd85938876d14565301de81",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "shift",
+      "id": "04",
+      "text": "把可能，变成作品。",
+      "duration_seconds": 2.4729251700680273,
+      "selected": true,
+      "sha256": "9d759af23102907744f6facf3d8b7c078a459a2abd4106fc43f494e9b986a77c",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "shift",
+      "id": "05",
+      "text": "现在，开始创造。",
+      "duration_seconds": 2.507755102040816,
+      "selected": true,
+      "sha256": "4e0ce26650d714e47a4297075c4723c4209c40bafcbf98926639057631a150e5",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "shift",
+      "id": "02",
+      "text": "让下一步，真实发生。",
+      "duration_seconds": 2.589024943310658,
+      "selected": true,
+      "sha256": "23e7db1667751ace4710dc3242ce1e6bb776aad36785c059f4f71f87babc4b50",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "shift",
+      "id": "03",
+      "text": "打开新的空间。",
+      "duration_seconds": 2.0549659863945577,
+      "selected": true,
+      "sha256": "e72cd167469afa015bb1e80c73a51254a88df9fcc1eebd4d5a7e0ee9efd34c43",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "engineering",
+      "id": "01",
+      "text": "从旋盖，到核心。",
+      "duration_seconds": 2.1710657596371883,
+      "selected": true,
+      "sha256": "8863ca0e0107734f28caa616b31bc1e15b42d55dbed22e105b07590234102808",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    },
+    {
+      "case": "engineering",
+      "id": "02",
+      "text": "每一层，都有作用。",
+      "duration_seconds": 2.2755555555555556,
+      "selected": true,
+      "sha256": "b24b73786183f00956d04fd5ad089768285b57abde90b8785b73aa4d5a81b0eb",
+      "process_exited": true,
+      "service_stopped": true,
+      "network_blocked": true
+    }
+  ]
+}

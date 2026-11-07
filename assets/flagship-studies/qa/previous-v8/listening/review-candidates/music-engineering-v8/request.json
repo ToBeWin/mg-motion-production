@@ -1,0 +1,14 @@
+{
+  "source": "engineering-v8.wav",
+  "sha256": "e09041c898e849dc48eb79f76db7b701f8bbdf6fa2fa5d23875c5b81fc775138",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "仅根据这段音乐声音，描述实际音色与节奏、情绪，尤其判断是否有可辨的人声、哼唱、歌词；如有给出大致位置。结尾是自然收束还是被截断？不确定的内容不要猜。",
+  "status": "completed",
+  "started_at": 1793075322.6049678,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "95b5a675e29c9176b4d4d549d397680adebacfb37313f9f85423b8b04f4e41c8",
+  "finished_at": 1793075336.478165,
+  "response_sha256": "35507a1c80ebcfc6020e213211610d996f2b8f11eaf96d23e26d098d4f7e7c77"
+}

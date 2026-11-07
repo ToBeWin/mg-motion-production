@@ -1,0 +1,250 @@
+[
+  {
+    "method": "initialize",
+    "params": {
+      "protocolVersion": "2025-06-18",
+      "clientInfo": {
+        "name": "mg-design-pipeline",
+        "version": "1.0"
+      },
+      "capabilities": {}
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "resources": {},
+          "tools": {}
+        },
+        "serverInfo": {
+          "name": "photocraft",
+          "version": "0.16.0"
+        },
+        "instructions": "PhotoCraft image editor. Start with doc_new/doc_open, discover ids and parameter docs with command_list, edit with command_run or command_batch (one history step per command). Inspect with doc_inspect and render_preview; doc_save writes native .pcraft or exports by extension. File paths are relative to the read/write roots granted at launch. ui_inspect/ui_screenshot and other ui_* tools require bridge mode. Read photocraft://document and photocraft://commands for live JSON state."
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_new",
+      "arguments": {
+        "name": "FOLD / warm editorial space",
+        "width": 1920,
+        "height": 1080,
+        "depth": 16,
+        "background": "#F4F1E9"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"document\":0}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "gradient.fill.create",
+        "params": {
+          "from": [
+            900,
+            160
+          ],
+          "to": [
+            1300,
+            1050
+          ],
+          "style": "linear",
+          "stops": [
+            [
+              0,
+              "#F7F5F0"
+            ],
+            [
+              0.65,
+              "#F0EDE6"
+            ],
+            [
+              1,
+              "#E2DBE6"
+            ]
+          ],
+          "dither": true
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"layer\":3}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Warm neutral to lavender bounce"
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "null"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "layer.new.layer",
+        "params": {
+          "name": "Paper microtexture",
+          "mode": "SoftLight",
+          "opacity": 0.1,
+          "fillNeutral": true
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"layer\":4}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "filter.noise.addNoise",
+        "params": {
+          "amount": 1.8,
+          "distribution": "gaussian",
+          "monochromatic": true,
+          "seed": 281
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"filter\":{\"amount\":1.7999999523162842,\"distribution\":\"gaussian\",\"filter\":\"addNoise\",\"monochromatic\":true,\"seed\":281},\"layer\":4}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_save",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.pcraft"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 7,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.pcraft\",\"warnings\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_export",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.psd"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 8,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.psd\",\"warnings\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_export",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.png"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 9,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.png\",\"warnings\":[\"3 layer(s) flattened; layers, masks and blend modes are not kept\"]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  }
+]

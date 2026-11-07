@@ -1,0 +1,410 @@
+{
+  "status": "complete",
+  "clips": 9,
+  "caption_events": 29,
+  "review_method": "Full signal, native project bounds, and 4 final MP4 caption-boundary crops per sentence",
+  "forced_word_alignment": false,
+  "human_listening": false,
+  "films": [
+    {
+      "id": "trace",
+      "sha256": "3849f6930a3af96225d556eeafcec234093e4aca9a40711762a8e6a5973ff123",
+      "seconds": 28,
+      "captions": [
+        {
+          "id": "01",
+          "text": "答案，从哪里来？",
+          "native_start": 0.3,
+          "native_end": 2.1333333333333333,
+          "signal_start": 0.32999999999999996,
+          "signal_end": 1.9600000000000002,
+          "caption_lead": 0.02999999999999997,
+          "caption_tail": 0.17333333333333312,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "02",
+          "text": "提出问题。",
+          "native_start": 3.5,
+          "native_end": 4.666666666666667,
+          "signal_start": 3.53,
+          "signal_end": 4.51,
+          "caption_lead": 0.029999999999999805,
+          "caption_tail": 0.15666666666666718,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "03",
+          "text": "从资料里，找到依据。",
+          "native_start": 6.4,
+          "native_end": 8.266666666666667,
+          "signal_start": 6.41,
+          "signal_end": 8.09,
+          "caption_lead": 0.009999999999999787,
+          "caption_tail": 0.17666666666666764,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "04",
+          "text": "把原文，带进答案。",
+          "native_start": 10.9,
+          "native_end": 12.733333333333333,
+          "signal_start": 10.93,
+          "signal_end": 12.58,
+          "caption_lead": 0.02999999999999936,
+          "caption_tail": 0.15333333333333243,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "08",
+          "text": "支持哪些文件，怎样更新，都能找到依据。",
+          "native_start": 14.5,
+          "native_end": 18.066666666666666,
+          "signal_start": 14.52,
+          "signal_end": 17.9,
+          "caption_lead": 0.019999999999999574,
+          "caption_tail": 0.16666666666666785,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "06",
+          "text": "点一下，回到原文。",
+          "native_start": 20.5,
+          "native_end": 22.3,
+          "signal_start": 20.53,
+          "signal_end": 22.12,
+          "caption_lead": 0.030000000000001137,
+          "caption_tail": 0.17999999999999972,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "07",
+          "text": "看见答案，也看见依据。",
+          "native_start": 24.7,
+          "native_end": 26.766666666666666,
+          "signal_start": 24.73,
+          "signal_end": 26.599999999999998,
+          "caption_lead": 0.030000000000001137,
+          "caption_tail": 0.16666666666666785,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.49104663326437376,
+      "missing_media": []
+    },
+    {
+      "id": "orbit",
+      "sha256": "135e763f0f2628ef870f4c6812135f4c5cdfe2a86a8ab48fb0fa76e1b8913fb7",
+      "seconds": 20,
+      "captions": [
+        {
+          "id": "01",
+          "text": "细节，自有分寸。",
+          "native_start": 1.2,
+          "native_end": 3.1333333333333333,
+          "signal_start": 1.23,
+          "signal_end": 2.9699999999999998,
+          "caption_lead": 0.030000000000000027,
+          "caption_tail": 0.16333333333333355,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "02",
+          "text": "在光里，看见精密。",
+          "native_start": 4.4,
+          "native_end": 6.233333333333333,
+          "signal_start": 4.42,
+          "signal_end": 6.0600000000000005,
+          "caption_lead": 0.019999999999999574,
+          "caption_tail": 0.1733333333333329,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "03",
+          "text": "在转动中，感受秩序。",
+          "native_start": 8.166666666666666,
+          "native_end": 10.2,
+          "signal_start": 8.229999999999999,
+          "signal_end": 10.04,
+          "caption_lead": 0.06333333333333258,
+          "caption_tail": 0.16000000000000014,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "04",
+          "text": "每次转动，都恰到好处。",
+          "native_start": 12.3,
+          "native_end": 14.566666666666666,
+          "signal_start": 12.33,
+          "signal_end": 14.4,
+          "caption_lead": 0.02999999999999936,
+          "caption_tail": 0.16666666666666607,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "05",
+          "text": "把精密，握在手中。",
+          "native_start": 16.3,
+          "native_end": 18.233333333333334,
+          "signal_start": 16.330000000000002,
+          "signal_end": 18.080000000000002,
+          "caption_lead": 0.030000000000001137,
+          "caption_tail": 0.15333333333333243,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.28379893794743083,
+      "missing_media": []
+    },
+    {
+      "id": "shift",
+      "sha256": "eb0f3678d0eef8a872f007663dddb6fa730c2626ecd254718098066f972de5cf",
+      "seconds": 20,
+      "captions": [
+        {
+          "id": "01",
+          "text": "让想法，向前一步。",
+          "native_start": 0.1,
+          "native_end": 1.9333333333333333,
+          "signal_start": 0.13,
+          "signal_end": 1.77,
+          "caption_lead": 0.03,
+          "caption_tail": 0.16333333333333333,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "02",
+          "text": "让下一步，真实发生。",
+          "native_start": 3.2,
+          "native_end": 5.366666666666666,
+          "signal_start": 3.23,
+          "signal_end": 5.19,
+          "caption_lead": 0.029999999999999805,
+          "caption_tail": 0.17666666666666586,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "03",
+          "text": "打开新的空间。",
+          "native_start": 6.2,
+          "native_end": 7.9,
+          "signal_start": 6.23,
+          "signal_end": 7.75,
+          "caption_lead": 0.03000000000000025,
+          "caption_tail": 0.15000000000000036,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "04",
+          "text": "把可能，变成作品。",
+          "native_start": 9.0,
+          "native_end": 11.1,
+          "signal_start": 9.03,
+          "signal_end": 10.93,
+          "caption_lead": 0.02999999999999936,
+          "caption_tail": 0.16999999999999993,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "05",
+          "text": "现在，开始创造。",
+          "native_start": 12.0,
+          "native_end": 14.1,
+          "signal_start": 12.03,
+          "signal_end": 13.93,
+          "caption_lead": 0.02999999999999936,
+          "caption_tail": 0.16999999999999993,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "06",
+          "text": "让下一步发生。",
+          "native_start": 16.3,
+          "native_end": 17.933333333333334,
+          "signal_start": 16.32,
+          "signal_end": 17.75,
+          "caption_lead": 0.019999999999999574,
+          "caption_tail": 0.18333333333333357,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.4604587891036592,
+      "missing_media": []
+    },
+    {
+      "id": "software-editorial",
+      "sha256": "639ba5d5ca31d6ef481d1d8ad9dc6242d8bdb83d71f04fca1588df9569b14373",
+      "seconds": 8,
+      "captions": [
+        {
+          "id": "03",
+          "text": "从资料里，找到依据。",
+          "native_start": 0.3333333333333333,
+          "native_end": 2.2,
+          "signal_start": 0.3433333333333333,
+          "signal_end": 2.0233333333333334,
+          "caption_lead": 0.010000000000000009,
+          "caption_tail": 0.17666666666666675,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "04",
+          "text": "把原文，带进答案。",
+          "native_start": 4.166666666666667,
+          "native_end": 6.0,
+          "signal_start": 4.196666666666667,
+          "signal_end": 5.846666666666667,
+          "caption_lead": 0.03000000000000025,
+          "caption_tail": 0.15333333333333332,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.7502845485961208,
+      "missing_media": []
+    },
+    {
+      "id": "software-spatial",
+      "sha256": "b7bfe23cfd3ce5e5e332d08e78695c97fa7975e1f8440e42efe64d25ab5092d8",
+      "seconds": 8,
+      "captions": [
+        {
+          "id": "08",
+          "text": "支持哪些文件，怎样更新，都能找到依据。",
+          "native_start": 1.3333333333333333,
+          "native_end": 4.9,
+          "signal_start": 1.3533333333333333,
+          "signal_end": 4.733333333333333,
+          "caption_lead": 0.020000000000000018,
+          "caption_tail": 0.16666666666666696,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.41872120383494355,
+      "missing_media": []
+    },
+    {
+      "id": "brand-editorial",
+      "sha256": "02391bb686533fcf30bc900bfb6a8357650f01555e7000582bb856ace652281b",
+      "seconds": 8,
+      "captions": [
+        {
+          "id": "01",
+          "text": "让想法，向前一步。",
+          "native_start": 0.3333333333333333,
+          "native_end": 2.1666666666666665,
+          "signal_start": 0.3633333333333333,
+          "signal_end": 2.0033333333333334,
+          "caption_lead": 0.02999999999999997,
+          "caption_tail": 0.1633333333333331,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "06",
+          "text": "让下一步发生。",
+          "native_start": 4.7,
+          "native_end": 6.3,
+          "signal_start": 4.72,
+          "signal_end": 6.15,
+          "caption_lead": 0.019999999999999574,
+          "caption_tail": 0.14999999999999947,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.9211880266940291,
+      "missing_media": []
+    },
+    {
+      "id": "brand-fluid",
+      "sha256": "3fb5aaa1889277bd57c7a59e0691cc134ceb53782cf5edce83cf3ade13c9383d",
+      "seconds": 8,
+      "captions": [
+        {
+          "id": "03",
+          "text": "打开新的空间。",
+          "native_start": 0.6666666666666666,
+          "native_end": 2.3666666666666667,
+          "signal_start": 0.6966666666666667,
+          "signal_end": 2.216666666666667,
+          "caption_lead": 0.030000000000000027,
+          "caption_tail": 0.1499999999999999,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "05",
+          "text": "现在，开始创造。",
+          "native_start": 4.533333333333333,
+          "native_end": 6.633333333333334,
+          "signal_start": 4.5633333333333335,
+          "signal_end": 6.463333333333333,
+          "caption_lead": 0.03000000000000025,
+          "caption_tail": 0.17000000000000082,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.24606931461996204,
+      "missing_media": []
+    },
+    {
+      "id": "hardware-optical",
+      "sha256": "283d93d68bd7eba0a8b6cb95f11b58cab3d6d7f8528a283f70e5e7409d487435",
+      "seconds": 8,
+      "captions": [
+        {
+          "id": "02",
+          "text": "在光里，看见精密。",
+          "native_start": 0.26666666666666666,
+          "native_end": 2.1,
+          "signal_start": 0.2866666666666667,
+          "signal_end": 1.9266666666666667,
+          "caption_lead": 0.020000000000000018,
+          "caption_tail": 0.17333333333333334,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "05",
+          "text": "把精密，握在手中。",
+          "native_start": 4.533333333333333,
+          "native_end": 6.466666666666667,
+          "signal_start": 4.5633333333333335,
+          "signal_end": 6.3133333333333335,
+          "caption_lead": 0.03000000000000025,
+          "caption_tail": 0.15333333333333332,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.2762796440134963,
+      "missing_media": []
+    },
+    {
+      "id": "hardware-engineering",
+      "sha256": "a9ba9196f4a66a6b6ee82d61af79c66e213df6e0480730c4be7ba05649ec74dc",
+      "seconds": 8,
+      "captions": [
+        {
+          "id": "01",
+          "text": "从旋盖，到核心。",
+          "native_start": 0.3,
+          "native_end": 2.3,
+          "signal_start": 0.32999999999999996,
+          "signal_end": 2.13,
+          "caption_lead": 0.02999999999999997,
+          "caption_tail": 0.16999999999999993,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        },
+        {
+          "id": "02",
+          "text": "每一层，都有作用。",
+          "native_start": 4.3,
+          "native_end": 6.266666666666667,
+          "signal_start": 4.33,
+          "signal_end": 6.109999999999999,
+          "caption_lead": 0.03000000000000025,
+          "caption_tail": 0.15666666666666718,
+          "method": "10 ms speech RMS plus actual native text in/out; not forced word alignment"
+        }
+      ],
+      "mono_fold_db": -0.2307939916640939,
+      "missing_media": []
+    }
+  ]
+}

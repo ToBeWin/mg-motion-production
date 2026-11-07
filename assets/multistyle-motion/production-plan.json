@@ -1,0 +1,303 @@
+{
+  "version": "v11",
+  "cases": {
+    "brand": {
+      "title": "SHIFT · 让下一步发生",
+      "duration": 18,
+      "palette": [
+        "F4F0E7",
+        "3553BD",
+        "273A60",
+        "D8684E"
+      ],
+      "style": "动态字体与几何遮挡",
+      "shots": [
+        [
+          0,
+          2.75,
+          "想法与双斜杠建立品牌母形"
+        ],
+        [
+          2.75,
+          6.15,
+          "双斜杠打开窗口，轮廓字与 OPEN 展开"
+        ],
+        [
+          6.15,
+          7.83,
+          "几何波次遮挡并交接主张"
+        ],
+        [
+          7.5,
+          10.85,
+          "可能进入作品，纹样在字内持续变化"
+        ],
+        [
+          10.85,
+          13.35,
+          "创造以水平切片汇合"
+        ],
+        [
+          13.35,
+          18,
+          "母形回收，逐字落到 SHIFT 标识"
+        ]
+      ],
+      "frame_rate": 30,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "audio_plan": "audio/brand/edit-plan.json",
+      "caption_timeline": "audio/brand/timeline.json",
+      "native_script": "effectcraft/brand.jsx",
+      "project": "BRAND.ecproj",
+      "sound_events": [
+        {
+          "time": 0.65,
+          "file": "tick.wav",
+          "gain": 0.65
+        },
+        {
+          "time": 2.75,
+          "file": "paper.wav",
+          "gain": 0.8
+        },
+        {
+          "time": 3.55,
+          "file": "tick.wav",
+          "gain": 0.65
+        },
+        {
+          "time": 6.15,
+          "file": "paper.wav",
+          "gain": 0.8
+        },
+        {
+          "time": 8.5,
+          "file": "tick.wav",
+          "gain": 0.8
+        },
+        {
+          "time": 11.15,
+          "file": "paper.wav",
+          "gain": 0.8
+        },
+        {
+          "time": 13.7,
+          "file": "paper.wav",
+          "gain": 0.7
+        },
+        {
+          "time": 14.4,
+          "file": "tick.wav",
+          "gain": 0.75
+        }
+      ]
+    },
+    "hardware": {
+      "title": "ORBIT · 转动即反馈",
+      "duration": 16,
+      "palette": [
+        "F8F9F6",
+        "E6EDF0",
+        "344D64",
+        "3E67B4"
+      ],
+      "style": "明亮金属材质与图形反馈",
+      "shots": [
+        [
+          0,
+          2.8,
+          "细节主张与弧线预告"
+        ],
+        [
+          2.8,
+          6.2,
+          "产品移入，真实三维转动与同源读数变化"
+        ],
+        [
+          6.2,
+          7.7,
+          "读数停稳后向上移，数字前景保留净空"
+        ],
+        [
+          7.7,
+          9.35,
+          "弧线连续拉直为标尺"
+        ],
+        [
+          9.35,
+          11.4,
+          "保持80的结果阅读"
+        ],
+        [
+          11.4,
+          13.05,
+          "线条经上方避让，回收成 O"
+        ],
+        [
+          13.05,
+          16,
+          "ORBIT 标识、材质与承诺收尾"
+        ]
+      ],
+      "frame_rate": 30,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "audio_plan": "audio/hardware/edit-plan.json",
+      "caption_timeline": "audio/hardware/timeline.json",
+      "native_script": "effectcraft/hardware.jsx",
+      "project": "HARDWARE.ecproj",
+      "sound_events": [
+        {
+          "time": 2.5,
+          "file": "paper.wav",
+          "gain": 0.55
+        },
+        {
+          "time": 4.3,
+          "file": "tick.wav",
+          "gain": 0.32
+        },
+        {
+          "time": 5.0,
+          "file": "tick.wav",
+          "gain": 0.32
+        },
+        {
+          "time": 5.7,
+          "file": "tick.wav",
+          "gain": 0.32
+        },
+        {
+          "time": 6.4,
+          "file": "tick.wav",
+          "gain": 0.32
+        },
+        {
+          "time": 7.1,
+          "file": "tick.wav",
+          "gain": 0.38
+        },
+        {
+          "time": 9.4,
+          "file": "paper.wav",
+          "gain": 0.55
+        },
+        {
+          "time": 11.4,
+          "file": "paper.wav",
+          "gain": 0.35
+        },
+        {
+          "time": 13.05,
+          "file": "tick.wav",
+          "gain": 0.6
+        }
+      ]
+    },
+    "agent": {
+      "title": "一念协作 · 从想法到作品",
+      "duration": 18,
+      "palette": [
+        "F0F3EB",
+        "235C4C",
+        "768BBF",
+        "CE9A7D"
+      ],
+      "style": "编辑式排版与产物组装",
+      "shots": [
+        [
+          0,
+          2.8,
+          "一个想法与协作主张"
+        ],
+        [
+          2.8,
+          4.4,
+          "任务分成内容、设计、构建"
+        ],
+        [
+          4.4,
+          6.7,
+          "实际文案、图片、色彩、布局并行呈现"
+        ],
+        [
+          6.7,
+          9.5,
+          "持续对象沿不同路径汇成同一页面"
+        ],
+        [
+          9.5,
+          12.3,
+          "ROAM 页面完整停留供阅读"
+        ],
+        [
+          12.3,
+          14.1,
+          "页面缩入右侧，价值主张进入"
+        ],
+        [
+          14.1,
+          18,
+          "结果和品牌共同保持"
+        ]
+      ],
+      "frame_rate": 30,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "audio_plan": "audio/agent/edit-plan.json",
+      "caption_timeline": "audio/agent/timeline.json",
+      "native_script": "effectcraft/agent.jsx",
+      "project": "AGENT.ecproj",
+      "sound_events": [
+        {
+          "time": 2.5,
+          "file": "paper.wav",
+          "gain": 0.55
+        },
+        {
+          "time": 3.35,
+          "file": "tick.wav",
+          "gain": 0.55
+        },
+        {
+          "time": 3.6,
+          "file": "tick.wav",
+          "gain": 0.4
+        },
+        {
+          "time": 3.85,
+          "file": "tick.wav",
+          "gain": 0.4
+        },
+        {
+          "time": 7.0,
+          "file": "paper.wav",
+          "gain": 0.7
+        },
+        {
+          "time": 9.4,
+          "file": "tick.wav",
+          "gain": 0.8
+        },
+        {
+          "time": 12.6,
+          "file": "paper.wav",
+          "gain": 0.55
+        },
+        {
+          "time": 14.0,
+          "file": "tick.wav",
+          "gain": 0.65
+        }
+      ]
+    }
+  },
+  "scope": "Three new examples in existing scene families, not three additional scenario categories. Historical films remain unchanged."
+}

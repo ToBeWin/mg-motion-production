@@ -1,0 +1,117 @@
+{
+  "status": "passed",
+  "new_directory": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/portable-rebuild-check",
+  "projects_rebuilt": 4,
+  "compositions_single_frame_rendered": 9,
+  "full_export_repeated": false,
+  "results": [
+    {
+      "id": "trace",
+      "project": "TRACE.ecproj",
+      "time": 1.2049999999999998,
+      "relative_footage_references": 2,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "orbit",
+      "project": "ORBIT.ecproj",
+      "time": 2.16,
+      "relative_footage_references": 3,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "shift",
+      "project": "SHIFT.ecproj",
+      "time": 1.01,
+      "relative_footage_references": 2,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "software-editorial",
+      "project": "STYLES.ecproj",
+      "time": 1.2533333333333334,
+      "relative_footage_references": 14,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "software-spatial",
+      "project": "STYLES.ecproj",
+      "time": 3.108333333333333,
+      "relative_footage_references": 14,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "brand-editorial",
+      "project": "STYLES.ecproj",
+      "time": 1.2433333333333334,
+      "relative_footage_references": 14,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "brand-fluid",
+      "project": "STYLES.ecproj",
+      "time": 1.5166666666666666,
+      "relative_footage_references": 14,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "hardware-optical",
+      "project": "STYLES.ecproj",
+      "time": 1.1716666666666666,
+      "relative_footage_references": 14,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    },
+    {
+      "id": "hardware-engineering",
+      "project": "STYLES.ecproj",
+      "time": 1.285,
+      "relative_footage_references": 14,
+      "all_references_resolve": true,
+      "size": [
+        1920,
+        1080
+      ],
+      "pixels_identical_to_source_preview": true
+    }
+  ]
+}

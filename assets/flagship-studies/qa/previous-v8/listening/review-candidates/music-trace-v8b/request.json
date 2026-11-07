@@ -1,0 +1,14 @@
+{
+  "source": "trace-v8b.wav",
+  "sha256": "03342fbc1417ddc3ea85362669e236e37e2589d4524b3344914c63d8845700ad",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整分析这段音乐实际听到的声音：主要音色和乐器、节奏、情绪与动态，有无人声/哼唱/残留词语，结尾是否自然。将它用于明亮的软件产品发布演示，旁白要清楚，音乐要支持阅读与操作。请判断适配程度并指出实际问题。不要凭提示猜音乐，没有问题无需找问题。",
+  "status": "completed",
+  "started_at": 1793075767.760631,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "15c2725f2b290638cbc75205303977fd4a6b4d9a9c1f552a61bc5120aca0cf60",
+  "finished_at": 1793075788.570955,
+  "response_sha256": "40f83c501fc20159e3a43642cd2abd1cab2422466e8c9b1da6d857b6adb5e15d"
+}

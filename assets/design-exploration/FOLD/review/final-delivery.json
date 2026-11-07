@@ -1,0 +1,49 @@
+{
+  "title": "FOLD / 让灵感展开",
+  "date": "2026-10-28",
+  "skill_version": "3.14.0",
+  "files": [
+    {
+      "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/FOLD_让灵感展开_配音字幕版.mp4",
+      "sha256": "9bb58399548173509288aea017f78543467924fbf0af3456fa0a4e05476dc981",
+      "duration": 32.0,
+      "decoded_frames": 960,
+      "decode_ok": true,
+      "audio_measurement": {
+        "integrated_lufs": -16.03,
+        "true_peak_dbtp": -2.23,
+        "loudness_range_lu": 3.1,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      }
+    },
+    {
+      "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/FOLD_让灵感展开_无字幕配音版.mp4",
+      "sha256": "7f1107562216d1fa62a201a632da7660ebe33cb5efcc3aa871bc850d120067dc",
+      "duration": 32.0,
+      "decoded_frames": 960,
+      "decode_ok": true,
+      "audio_measurement": {
+        "integrated_lufs": -16.03,
+        "true_peak_dbtp": -2.23,
+        "loudness_range_lu": 3.1,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      }
+    },
+    {
+      "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/FOLD_让灵感展开_纯音乐版.mp4",
+      "sha256": "043d2647b99175796e27246df35eb529a40b6eb6adc54b0989c61fb2185ee357",
+      "duration": 32.0,
+      "decoded_frames": 960,
+      "decode_ok": true,
+      "audio_measurement": {
+        "integrated_lufs": -16.03,
+        "true_peak_dbtp": -1.64,
+        "loudness_range_lu": 6.6,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      }
+    }
+  ],
+  "customer_acceptance": false,
+  "human_listening": false,
+  "audio_review": "Full-length remote model-assisted review; exact timing estimates not trusted"
+}

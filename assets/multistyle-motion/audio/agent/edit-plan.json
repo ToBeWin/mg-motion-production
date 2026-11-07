@@ -1,0 +1,123 @@
+{
+  "duration": 18,
+  "voices": [
+    {
+      "id": "01",
+      "text": "一个想法，开始协作。",
+      "file": "voice-01.wav",
+      "start": 0.45,
+      "end": 2.52,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/source/audio/agent/raw/01.wav",
+      "source_sha256": "71907f5501872524579980b28544a5ecb9c1906217c670defdf9fbb1944a355b",
+      "gain_db": 4.153977713688482,
+      "newly_generated": true,
+      "source_in": 0.17,
+      "source_out": 2.24
+    },
+    {
+      "id": "02",
+      "text": "内容、设计、构建，同时推进。",
+      "file": "voice-02.wav",
+      "start": 3.25,
+      "end": 6.359999999999999,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/source/audio/agent/raw/02.wav",
+      "source_sha256": "42bb69e5b375f0c65d05cb332cafb5f7c7b318ad01ebfc0ce5f699e9aa15b244",
+      "gain_db": 5.649137906262524,
+      "newly_generated": true,
+      "source_in": 0.17,
+      "source_out": 3.28
+    },
+    {
+      "id": "03",
+      "text": "把各自的产物，汇成一个结果。",
+      "file": "voice-03.wav",
+      "start": 7.8,
+      "end": 10.36,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/source/audio/agent/raw/03.wav",
+      "source_sha256": "357384a665fa526b019e2a8146bc6215779e90f836a9ed191dfa99d531665587",
+      "gain_db": 5.442618711962023,
+      "newly_generated": true,
+      "source_in": 0.17,
+      "source_out": 2.73
+    },
+    {
+      "id": "04",
+      "text": "并行思考，一起完成。",
+      "file": "voice-04.wav",
+      "start": 14.6,
+      "end": 16.9,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/source/audio/agent/raw/04.wav",
+      "source_sha256": "1f3dca50cacd44a432e6cd31437e6d65579018ec988385066383e541ae00b60f",
+      "gain_db": 5.973463618479064,
+      "newly_generated": true,
+      "source_in": 0.16,
+      "source_out": 2.46
+    }
+  ],
+  "music": "processed/trace-instrumental.wav",
+  "tempo": 1,
+  "sounds": [
+    {
+      "time": 2.5,
+      "file": "paper.wav",
+      "gain": 0.55
+    },
+    {
+      "time": 3.35,
+      "file": "tick.wav",
+      "gain": 0.55
+    },
+    {
+      "time": 3.6,
+      "file": "tick.wav",
+      "gain": 0.4
+    },
+    {
+      "time": 3.85,
+      "file": "tick.wav",
+      "gain": 0.4
+    },
+    {
+      "time": 7.0,
+      "file": "paper.wav",
+      "gain": 0.7
+    },
+    {
+      "time": 9.4,
+      "file": "tick.wav",
+      "gain": 0.8
+    },
+    {
+      "time": 12.6,
+      "file": "paper.wav",
+      "gain": 0.55
+    },
+    {
+      "time": 14.0,
+      "file": "tick.wav",
+      "gain": 0.65
+    }
+  ],
+  "duck": 0.35,
+  "music_rms": 0.064,
+  "sample_rate": 48000,
+  "music_source": "minimax-selected.wav",
+  "music_original": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/processed/trace-instrumental.wav",
+  "music_original_sha256": "78d94de8d3c5464c788b01305ee7fccb4f0338de440ed995a36b271c9f9f93c1",
+  "music_segments": [
+    {
+      "in": 0,
+      "out": 15.75,
+      "timeline_in": 0
+    },
+    {
+      "in": 29.150666666666666,
+      "out": 31.950666666666667,
+      "timeline_in": 15.2
+    }
+  ],
+  "crossfade": 0.55,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "music_newly_generated": false
+}

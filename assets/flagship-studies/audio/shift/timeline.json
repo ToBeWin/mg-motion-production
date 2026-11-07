@@ -1,0 +1,156 @@
+{
+  "duration": 20,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "shift",
+  "music_case": "shift",
+  "captions": [
+    {
+      "id": "01",
+      "start": 0.1,
+      "end": 1.9200000000000002,
+      "text": "让想法，向前一步。"
+    },
+    {
+      "id": "02",
+      "start": 3.2,
+      "end": 5.34,
+      "text": "让下一步，真实发生。"
+    },
+    {
+      "id": "03",
+      "start": 6.2,
+      "end": 7.9,
+      "text": "打开新的空间。"
+    },
+    {
+      "id": "04",
+      "start": 9.0,
+      "end": 11.08,
+      "text": "把可能，变成作品。"
+    },
+    {
+      "id": "05",
+      "start": 12.0,
+      "end": 14.08,
+      "text": "现在，开始创造。"
+    },
+    {
+      "id": "06",
+      "start": 16.3,
+      "end": 17.900000000000002,
+      "text": "让下一步发生。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "01",
+      "raw_duration": 2.1942857142857144,
+      "trim_leading": 0.26,
+      "trim_trailing": 0.21429166666666666,
+      "gain_db": -0.0859961209863258,
+      "start": 0.1,
+      "end": 1.82
+    },
+    {
+      "id": "02",
+      "raw_duration": 2.589024943310658,
+      "trim_leading": 0.3,
+      "trim_trailing": 0.24904166666666666,
+      "gain_db": 2.8560804684614114,
+      "start": 3.2,
+      "end": 5.24
+    },
+    {
+      "id": "03",
+      "raw_duration": 2.0549659863945577,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.20497916666666666,
+      "gain_db": 3.555227197988127,
+      "start": 6.2,
+      "end": 7.800000000000001
+    },
+    {
+      "id": "04",
+      "raw_duration": 2.4729251700680273,
+      "trim_leading": 0.27,
+      "trim_trailing": 0.2229375,
+      "gain_db": 1.9444826757451663,
+      "start": 9.0,
+      "end": 10.98
+    },
+    {
+      "id": "05",
+      "raw_duration": 2.507755102040816,
+      "trim_leading": 0.28,
+      "trim_trailing": 0.24777083333333333,
+      "gain_db": -1.0162319787459366,
+      "start": 12.0,
+      "end": 13.98
+    },
+    {
+      "id": "06",
+      "raw_duration": 2.0549659863945577,
+      "trim_leading": 0.3,
+      "trim_trailing": 0.25497916666666665,
+      "gain_db": 0.5442584062248763,
+      "start": 16.3,
+      "end": 17.8
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 0.102,
+      "source_out": 6.672,
+      "pre_tempo_timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "source_in": 8.852,
+      "source_out": 24.0210625,
+      "pre_tempo_timeline_in": 6.535,
+      "crossfade_seconds": 0.035
+    },
+    {
+      "tempo_factor_pitch_preserved": 1.096,
+      "effective_music_end": 19.81225,
+      "padded_seconds": 0.1877500000000012,
+      "selection_reason": "Spectral-flux estimate around 109 BPM; preserve pitch, align pulse near 120 BPM and remove one measured bar on onsets; musical perception checked separately"
+    }
+  ],
+  "mix_settings": {
+    "music_case": "shift",
+    "segments": [
+      [
+        0.102,
+        6.672
+      ],
+      [
+        8.852,
+        null
+      ]
+    ],
+    "crossfade": 0.035,
+    "tempo": 1.096,
+    "fade_in": 0.02,
+    "fade_out": 0.7,
+    "duck_release": 0.5,
+    "reason": "Spectral-flux estimate around 109 BPM; preserve pitch, align pulse near 120 BPM and remove one measured bar on onsets; musical perception checked separately"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-17.67:measured_TP=-2.36:measured_LRA=2.40:measured_thresh=-28.29:offset=0.03:linear=true,atrim=duration=20",
+  "master_verification": [
+    {
+      "input_i": "-16.02",
+      "input_tp": "-2.19",
+      "input_lra": "2.40",
+      "input_thresh": "-26.65",
+      "output_i": "-16.13",
+      "output_tp": "-2.20",
+      "output_lra": "2.50",
+      "output_thresh": "-26.66",
+      "normalization_type": "dynamic",
+      "target_offset": "0.13"
+    }
+  ],
+  "raw_music_seconds": 24.0210625
+}

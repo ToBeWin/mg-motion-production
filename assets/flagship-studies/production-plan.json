@@ -1,0 +1,72 @@
+{
+  "edition": "flagship-v9-color-and-environment",
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "cases": {
+    "trace": {
+      "composition": "TRACE — From source to answer",
+      "duration": 28,
+      "filename": "TRACE_v2_每一步有据_1080p30.mp4",
+      "cues": [
+        0.15,
+        2.8,
+        5.8,
+        7.15,
+        8.45,
+        10.4,
+        13.5,
+        19.8,
+        20.4,
+        23.7,
+        25.0
+      ],
+      "intent": "Question, two exact source spans, persistent citations, readable answer, return to source."
+    },
+    "orbit": {
+      "composition": "ORBIT — Precision in daylight",
+      "duration": 20,
+      "filename": "ORBIT_v4_光与精密_1080p30.mp4",
+      "cues": [
+        0.0,
+        2.1,
+        4.0,
+        4.8,
+        5.4,
+        6.0,
+        6.6,
+        8.0,
+        10.7,
+        12.0,
+        16.0,
+        17.0
+      ],
+      "intent": "Machined edge, optical face, indexed rotation, profile, full product. Original concept, no performance claims."
+    },
+    "shift": {
+      "composition": "SHIFT — Make your next move",
+      "duration": 20,
+      "filename": "SHIFT_v2_让下一步发生_1080p30.mp4",
+      "cues": [
+        0.0,
+        1.0,
+        2.5,
+        4.0,
+        5.5,
+        7.0,
+        8.5,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.5,
+        16.0,
+        17.0
+      ],
+      "intent": "One slash becomes a cut, an aperture, a rhythm field, and the final identity. Type performs the verbs."
+    }
+  },
+  "scope": "Three authored original concept films. Reference methods, not copied footage, marks or scores. Final quality remains subject to viewing and listening review."
+}

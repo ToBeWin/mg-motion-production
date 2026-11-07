@@ -1,0 +1,55 @@
+[
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  [
+    {
+      "role": "user",
+      "metadata": null,
+      "content": "请完整审看并审听实际16秒短片。先无提示稿逐句转写中文配音，描述实际音乐的主导音色与情绪。检查配音是否自然清晰、是否被背景音乐遮挡、字幕是否大体同步、是否有额外歌唱或说话、配乐是否与实际图形与材质气质相符、结尾是否突兀。不要给审美分数，不编造精确时间；只报告能从实际音画判断的事实。",
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": {
+        "file": {
+          "path": "/tmp/gradio/e0086e1878d90876764e54e3d413c85e9a970d38fd294015702ef4d61b63269d/sample.mp4",
+          "url": "https://qwen-qwen3-5-omni-offline-demo.hf.space/gradio_api/file=/tmp/gradio/e0086e1878d90876764e54e3d413c85e9a970d38fd294015702ef4d61b63269d/sample.mp4",
+          "size": null,
+          "orig_name": null,
+          "mime_type": "video/mp4",
+          "is_stream": false,
+          "meta": {
+            "_type": "gradio.FileData"
+          }
+        },
+        "alt_text": null
+      },
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": "中文配音转写（逐句）：\n- 换个视角。\n- 让想象有形。\n\n音乐与情绪：\n- 主导音色为钢琴，辅以柔和的合成器铺底；整体为轻柔、舒缓的旋律型配乐。\n- 情绪表现为温和、克制、略带启发感，无明显强烈起伏或戏剧化推进。\n\n配音清晰度与自然度：\n- 配音发音清晰、语速适中，听感自然。\n- 背景音乐音量较低，未对语音造成明显遮挡。\n\n字幕同步情况：\n- 画面中出现“换个视角。”与“让想象有形。”等中文字幕，内容与配音一致，呈现时机与语音大致同步。\n\n额外人声：\n- 未听到除上述两句外的其他说话或歌唱内容。\n\n配乐与图形/材质气质匹配度：\n- 画面以简洁几何体与蓝白配色为主，风格干净、现代；配乐的简约与柔和与该视觉气质相符。\n\n结尾处理：\n- 片尾在最后一句配音结束后，音乐继续短暂延续并逐渐收束，未见突兀切断。",
+      "options": null
+    }
+  ],
+  {
+    "visible": true,
+    "__type__": "update"
+  },
+  {
+    "visible": false,
+    "__type__": "update"
+  }
+]

@@ -1,0 +1,580 @@
+{
+  "scope": "Every final-encoded frame inside each sentence-level subtitle interval, compared with the separately encoded uncaptioned picture. Near-opaque text interiors are selected by color and image difference; these numerical checks supplement image inspection.",
+  "checked_frames": 80,
+  "lowest_frame_p05_contrast": 8.365,
+  "cues": [
+    {
+      "id": "01",
+      "first_frame": 22,
+      "end_frame_exclusive": 52
+    },
+    {
+      "id": "02",
+      "first_frame": 375,
+      "end_frame_exclusive": 425
+    }
+  ],
+  "frames": [
+    {
+      "frame": 22,
+      "cue": "01",
+      "interior_pixels": 165,
+      "contrast_p05": 10.576,
+      "median_contrast": 11.788
+    },
+    {
+      "frame": 23,
+      "cue": "01",
+      "interior_pixels": 166,
+      "contrast_p05": 10.669,
+      "median_contrast": 11.805
+    },
+    {
+      "frame": 24,
+      "cue": "01",
+      "interior_pixels": 166,
+      "contrast_p05": 10.793,
+      "median_contrast": 11.752
+    },
+    {
+      "frame": 25,
+      "cue": "01",
+      "interior_pixels": 167,
+      "contrast_p05": 10.899,
+      "median_contrast": 11.739
+    },
+    {
+      "frame": 26,
+      "cue": "01",
+      "interior_pixels": 168,
+      "contrast_p05": 10.991,
+      "median_contrast": 11.739
+    },
+    {
+      "frame": 27,
+      "cue": "01",
+      "interior_pixels": 165,
+      "contrast_p05": 11.012,
+      "median_contrast": 11.748
+    },
+    {
+      "frame": 28,
+      "cue": "01",
+      "interior_pixels": 166,
+      "contrast_p05": 11.025,
+      "median_contrast": 11.689
+    },
+    {
+      "frame": 29,
+      "cue": "01",
+      "interior_pixels": 161,
+      "contrast_p05": 10.928,
+      "median_contrast": 11.563
+    },
+    {
+      "frame": 30,
+      "cue": "01",
+      "interior_pixels": 160,
+      "contrast_p05": 10.948,
+      "median_contrast": 11.56
+    },
+    {
+      "frame": 31,
+      "cue": "01",
+      "interior_pixels": 163,
+      "contrast_p05": 10.849,
+      "median_contrast": 11.459
+    },
+    {
+      "frame": 32,
+      "cue": "01",
+      "interior_pixels": 162,
+      "contrast_p05": 10.748,
+      "median_contrast": 11.358
+    },
+    {
+      "frame": 33,
+      "cue": "01",
+      "interior_pixels": 161,
+      "contrast_p05": 10.65,
+      "median_contrast": 11.274
+    },
+    {
+      "frame": 34,
+      "cue": "01",
+      "interior_pixels": 165,
+      "contrast_p05": 10.48,
+      "median_contrast": 11.126
+    },
+    {
+      "frame": 35,
+      "cue": "01",
+      "interior_pixels": 159,
+      "contrast_p05": 10.36,
+      "median_contrast": 10.959
+    },
+    {
+      "frame": 36,
+      "cue": "01",
+      "interior_pixels": 162,
+      "contrast_p05": 10.174,
+      "median_contrast": 10.856
+    },
+    {
+      "frame": 37,
+      "cue": "01",
+      "interior_pixels": 169,
+      "contrast_p05": 10.002,
+      "median_contrast": 10.708
+    },
+    {
+      "frame": 38,
+      "cue": "01",
+      "interior_pixels": 167,
+      "contrast_p05": 9.859,
+      "median_contrast": 10.583
+    },
+    {
+      "frame": 39,
+      "cue": "01",
+      "interior_pixels": 166,
+      "contrast_p05": 9.725,
+      "median_contrast": 10.405
+    },
+    {
+      "frame": 40,
+      "cue": "01",
+      "interior_pixels": 167,
+      "contrast_p05": 9.543,
+      "median_contrast": 10.302
+    },
+    {
+      "frame": 41,
+      "cue": "01",
+      "interior_pixels": 169,
+      "contrast_p05": 9.387,
+      "median_contrast": 10.096
+    },
+    {
+      "frame": 42,
+      "cue": "01",
+      "interior_pixels": 169,
+      "contrast_p05": 9.207,
+      "median_contrast": 10.003
+    },
+    {
+      "frame": 43,
+      "cue": "01",
+      "interior_pixels": 174,
+      "contrast_p05": 9.009,
+      "median_contrast": 9.811
+    },
+    {
+      "frame": 44,
+      "cue": "01",
+      "interior_pixels": 171,
+      "contrast_p05": 8.915,
+      "median_contrast": 9.648
+    },
+    {
+      "frame": 45,
+      "cue": "01",
+      "interior_pixels": 169,
+      "contrast_p05": 8.841,
+      "median_contrast": 9.476
+    },
+    {
+      "frame": 46,
+      "cue": "01",
+      "interior_pixels": 173,
+      "contrast_p05": 8.766,
+      "median_contrast": 9.384
+    },
+    {
+      "frame": 47,
+      "cue": "01",
+      "interior_pixels": 173,
+      "contrast_p05": 8.741,
+      "median_contrast": 9.321
+    },
+    {
+      "frame": 48,
+      "cue": "01",
+      "interior_pixels": 172,
+      "contrast_p05": 8.695,
+      "median_contrast": 9.293
+    },
+    {
+      "frame": 49,
+      "cue": "01",
+      "interior_pixels": 171,
+      "contrast_p05": 8.682,
+      "median_contrast": 9.293
+    },
+    {
+      "frame": 50,
+      "cue": "01",
+      "interior_pixels": 168,
+      "contrast_p05": 8.679,
+      "median_contrast": 9.258
+    },
+    {
+      "frame": 51,
+      "cue": "01",
+      "interior_pixels": 168,
+      "contrast_p05": 8.658,
+      "median_contrast": 9.191
+    },
+    {
+      "frame": 375,
+      "cue": "02",
+      "interior_pixels": 62,
+      "contrast_p05": 8.365,
+      "median_contrast": 9.28
+    },
+    {
+      "frame": 376,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.473,
+      "median_contrast": 9.223
+    },
+    {
+      "frame": 377,
+      "cue": "02",
+      "interior_pixels": 68,
+      "contrast_p05": 8.475,
+      "median_contrast": 9.293
+    },
+    {
+      "frame": 378,
+      "cue": "02",
+      "interior_pixels": 64,
+      "contrast_p05": 8.472,
+      "median_contrast": 9.308
+    },
+    {
+      "frame": 379,
+      "cue": "02",
+      "interior_pixels": 65,
+      "contrast_p05": 8.419,
+      "median_contrast": 9.28
+    },
+    {
+      "frame": 380,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.405,
+      "median_contrast": 9.246
+    },
+    {
+      "frame": 381,
+      "cue": "02",
+      "interior_pixels": 66,
+      "contrast_p05": 8.405,
+      "median_contrast": 9.246
+    },
+    {
+      "frame": 382,
+      "cue": "02",
+      "interior_pixels": 67,
+      "contrast_p05": 8.405,
+      "median_contrast": 9.215
+    },
+    {
+      "frame": 383,
+      "cue": "02",
+      "interior_pixels": 64,
+      "contrast_p05": 8.405,
+      "median_contrast": 9.217
+    },
+    {
+      "frame": 384,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.414,
+      "median_contrast": 9.268
+    },
+    {
+      "frame": 385,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.5,
+      "median_contrast": 9.345
+    },
+    {
+      "frame": 386,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.414,
+      "median_contrast": 9.359
+    },
+    {
+      "frame": 387,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.498,
+      "median_contrast": 9.388
+    },
+    {
+      "frame": 388,
+      "cue": "02",
+      "interior_pixels": 58,
+      "contrast_p05": 8.647,
+      "median_contrast": 9.428
+    },
+    {
+      "frame": 389,
+      "cue": "02",
+      "interior_pixels": 65,
+      "contrast_p05": 8.608,
+      "median_contrast": 9.341
+    },
+    {
+      "frame": 390,
+      "cue": "02",
+      "interior_pixels": 65,
+      "contrast_p05": 8.608,
+      "median_contrast": 9.37
+    },
+    {
+      "frame": 391,
+      "cue": "02",
+      "interior_pixels": 67,
+      "contrast_p05": 8.667,
+      "median_contrast": 9.575
+    },
+    {
+      "frame": 392,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.674,
+      "median_contrast": 9.52
+    },
+    {
+      "frame": 393,
+      "cue": "02",
+      "interior_pixels": 63,
+      "contrast_p05": 8.708,
+      "median_contrast": 9.612
+    },
+    {
+      "frame": 394,
+      "cue": "02",
+      "interior_pixels": 64,
+      "contrast_p05": 8.779,
+      "median_contrast": 9.672
+    },
+    {
+      "frame": 395,
+      "cue": "02",
+      "interior_pixels": 59,
+      "contrast_p05": 8.873,
+      "median_contrast": 9.74
+    },
+    {
+      "frame": 396,
+      "cue": "02",
+      "interior_pixels": 61,
+      "contrast_p05": 9.035,
+      "median_contrast": 9.815
+    },
+    {
+      "frame": 397,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.025,
+      "median_contrast": 9.814
+    },
+    {
+      "frame": 398,
+      "cue": "02",
+      "interior_pixels": 62,
+      "contrast_p05": 9.041,
+      "median_contrast": 9.86
+    },
+    {
+      "frame": 399,
+      "cue": "02",
+      "interior_pixels": 62,
+      "contrast_p05": 9.125,
+      "median_contrast": 9.867
+    },
+    {
+      "frame": 400,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.029,
+      "median_contrast": 9.91
+    },
+    {
+      "frame": 401,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.029,
+      "median_contrast": 9.91
+    },
+    {
+      "frame": 402,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.029,
+      "median_contrast": 9.91
+    },
+    {
+      "frame": 403,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.214,
+      "median_contrast": 9.909
+    },
+    {
+      "frame": 404,
+      "cue": "02",
+      "interior_pixels": 61,
+      "contrast_p05": 9.225,
+      "median_contrast": 9.909
+    },
+    {
+      "frame": 405,
+      "cue": "02",
+      "interior_pixels": 61,
+      "contrast_p05": 9.225,
+      "median_contrast": 9.909
+    },
+    {
+      "frame": 406,
+      "cue": "02",
+      "interior_pixels": 62,
+      "contrast_p05": 9.226,
+      "median_contrast": 9.862
+    },
+    {
+      "frame": 407,
+      "cue": "02",
+      "interior_pixels": 62,
+      "contrast_p05": 9.226,
+      "median_contrast": 9.909
+    },
+    {
+      "frame": 408,
+      "cue": "02",
+      "interior_pixels": 62,
+      "contrast_p05": 9.226,
+      "median_contrast": 9.909
+    },
+    {
+      "frame": 409,
+      "cue": "02",
+      "interior_pixels": 59,
+      "contrast_p05": 9.156,
+      "median_contrast": 9.814
+    },
+    {
+      "frame": 410,
+      "cue": "02",
+      "interior_pixels": 59,
+      "contrast_p05": 9.156,
+      "median_contrast": 9.814
+    },
+    {
+      "frame": 411,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.158,
+      "median_contrast": 9.814
+    },
+    {
+      "frame": 412,
+      "cue": "02",
+      "interior_pixels": 59,
+      "contrast_p05": 9.067,
+      "median_contrast": 9.796
+    },
+    {
+      "frame": 413,
+      "cue": "02",
+      "interior_pixels": 58,
+      "contrast_p05": 9.107,
+      "median_contrast": 9.738
+    },
+    {
+      "frame": 414,
+      "cue": "02",
+      "interior_pixels": 58,
+      "contrast_p05": 9.065,
+      "median_contrast": 9.714
+    },
+    {
+      "frame": 415,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.07,
+      "median_contrast": 9.648
+    },
+    {
+      "frame": 416,
+      "cue": "02",
+      "interior_pixels": 58,
+      "contrast_p05": 9.14,
+      "median_contrast": 9.643
+    },
+    {
+      "frame": 417,
+      "cue": "02",
+      "interior_pixels": 59,
+      "contrast_p05": 9.114,
+      "median_contrast": 9.639
+    },
+    {
+      "frame": 418,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.018,
+      "median_contrast": 9.637
+    },
+    {
+      "frame": 419,
+      "cue": "02",
+      "interior_pixels": 61,
+      "contrast_p05": 8.984,
+      "median_contrast": 9.635
+    },
+    {
+      "frame": 420,
+      "cue": "02",
+      "interior_pixels": 59,
+      "contrast_p05": 9.102,
+      "median_contrast": 9.705
+    },
+    {
+      "frame": 421,
+      "cue": "02",
+      "interior_pixels": 61,
+      "contrast_p05": 9.0,
+      "median_contrast": 9.636
+    },
+    {
+      "frame": 422,
+      "cue": "02",
+      "interior_pixels": 60,
+      "contrast_p05": 9.023,
+      "median_contrast": 9.627
+    },
+    {
+      "frame": 423,
+      "cue": "02",
+      "interior_pixels": 59,
+      "contrast_p05": 9.022,
+      "median_contrast": 9.636
+    },
+    {
+      "frame": 424,
+      "cue": "02",
+      "interior_pixels": 61,
+      "contrast_p05": 9.024,
+      "median_contrast": 9.705
+    }
+  ],
+  "low_contrast_frames": []
+}

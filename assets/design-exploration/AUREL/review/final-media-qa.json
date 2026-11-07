@@ -1,0 +1,105 @@
+{
+  "media": {
+    "画面": {
+      "file": "AUREL_v2.1_让想象有形_画面.mp4",
+      "sha256": "7c1854f9e4a6d0c378665183bb9f4a3ca63b49772ccdb9b82c4c4fe54d478ddc",
+      "bytes": 44798294,
+      "width": 1920,
+      "height": 1080,
+      "frames_decoded": 480,
+      "fps": "30/1",
+      "duration": 16.0,
+      "full_decode": "passed"
+    },
+    "纯音乐版": {
+      "file": "AUREL_v2.1_让想象有形_纯音乐版.mp4",
+      "sha256": "b3ce694425a178ec716165fcc00c522f64b4546e8ffd7c1cf117d5f5170bca07",
+      "bytes": 45350475,
+      "width": 1920,
+      "height": 1080,
+      "frames_decoded": 480,
+      "fps": "30/1",
+      "duration": 16.0,
+      "full_decode": "passed",
+      "actual_encoded_audio": {
+        "codec": "aac",
+        "channels": 2,
+        "samplerate": "48000",
+        "lufs": -18.44,
+        "true_peak_dbtp": -2.23,
+        "lra": 10.0
+      },
+      "aac_sha256": "194a07948e046deddea0ecdcc0c0a086d12420b7b46bb281d8c891645f9f5ad4"
+    },
+    "无字幕配音版": {
+      "file": "AUREL_v2.1_让想象有形_无字幕配音版.mp4",
+      "sha256": "b3aa0c7dec33d83c9dee4a03ae1c4291fef94468ae0ef21a92d8b06a79411b17",
+      "bytes": 45357536,
+      "width": 1920,
+      "height": 1080,
+      "frames_decoded": 480,
+      "fps": "30/1",
+      "duration": 16.0,
+      "full_decode": "passed",
+      "actual_encoded_audio": {
+        "codec": "aac",
+        "channels": 2,
+        "samplerate": "48000",
+        "lufs": -16.01,
+        "true_peak_dbtp": -2.43,
+        "lra": 4.2
+      },
+      "aac_sha256": "4e159207eb3f5a712db0685d786f1d71ba58ba62e0c3b5ffdb5461de3a62f3e3"
+    },
+    "配音字幕版": {
+      "file": "AUREL_v2.1_让想象有形_配音字幕版.mp4",
+      "sha256": "5a0186ab049e39fce545c499431cc4347afaaafbcd3a14317f22aac311228700",
+      "bytes": 45367657,
+      "width": 1920,
+      "height": 1080,
+      "frames_decoded": 480,
+      "fps": "30/1",
+      "duration": 16.0,
+      "full_decode": "passed",
+      "actual_encoded_audio": {
+        "codec": "aac",
+        "channels": 2,
+        "samplerate": "48000",
+        "lufs": -16.01,
+        "true_peak_dbtp": -2.43,
+        "lra": 4.2
+      },
+      "aac_sha256": "4e159207eb3f5a712db0685d786f1d71ba58ba62e0c3b5ffdb5461de3a62f3e3"
+    }
+  },
+  "captions_from_real_voice_timing": [
+    {
+      "text": "换个视角。",
+      "voice_start": 0.75,
+      "voice_end": 1.7039166666666667,
+      "caption_first_frame": 22,
+      "caption_end_exclusive": 52,
+      "boundary_error_frames": 0.8825000000000003
+    },
+    {
+      "text": "让想象，有形。",
+      "voice_start": 12.5,
+      "voice_end": 14.153833333333333,
+      "caption_first_frame": 375,
+      "caption_end_exclusive": 425,
+      "boundary_error_frames": 0.3849999999999909
+    }
+  ],
+  "project": {
+    "compositions": 6,
+    "layers": 30,
+    "footage_references": 5,
+    "all_media_relative_and_present": true,
+    "continuous_3d_plates": [
+      "blender/unfold.mov",
+      "blender/hero.mov"
+    ],
+    "bit_depth": "Bpc16"
+  },
+  "scope": "Full final-file decoding and measurements; subtitle boundaries are sentence-level from trimmed source speech. Visual and model-assisted listening judgments are separate."
+}

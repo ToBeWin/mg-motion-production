@@ -1,0 +1,89 @@
+{
+  "kind": "orbit",
+  "duration": 20,
+  "sample_rate": 48000,
+  "events": [
+    {
+      "seconds": 3.65,
+      "frame": 110,
+      "event": "camera breath",
+      "sound": "air",
+      "gain": 0.8,
+      "duration": 0.5,
+      "pan": 0
+    },
+    {
+      "seconds": 7.65,
+      "frame": 230,
+      "event": "camera breath",
+      "sound": "air",
+      "gain": 0.8,
+      "duration": 0.5,
+      "pan": 0
+    },
+    {
+      "seconds": 11.65,
+      "frame": 350,
+      "event": "camera breath",
+      "sound": "air",
+      "gain": 0.8,
+      "duration": 0.5,
+      "pan": 0
+    },
+    {
+      "seconds": 15.65,
+      "frame": 470,
+      "event": "camera breath",
+      "sound": "air",
+      "gain": 0.8,
+      "duration": 0.5,
+      "pan": 0
+    },
+    {
+      "seconds": 5,
+      "frame": 150,
+      "event": "rotation detail",
+      "sound": "tick",
+      "gain": 0.75,
+      "duration": 0.12,
+      "pan": -0.2
+    },
+    {
+      "seconds": 5.4,
+      "frame": 162,
+      "event": "rotation detail",
+      "sound": "tick",
+      "gain": 0.75,
+      "duration": 0.12,
+      "pan": -0.2
+    },
+    {
+      "seconds": 5.8,
+      "frame": 174,
+      "event": "rotation detail",
+      "sound": "tick",
+      "gain": 0.75,
+      "duration": 0.12,
+      "pan": -0.2
+    },
+    {
+      "seconds": 6.2,
+      "frame": 186,
+      "event": "rotation detail",
+      "sound": "tick",
+      "gain": 0.75,
+      "duration": 0.12,
+      "pan": -0.2
+    },
+    {
+      "seconds": 6.6,
+      "frame": 198,
+      "event": "rotation detail",
+      "sound": "tick",
+      "gain": 0.75,
+      "duration": 0.12,
+      "pan": -0.2
+    }
+  ],
+  "scope": "Original event sounds only; MiniMax supplies final music."
+}

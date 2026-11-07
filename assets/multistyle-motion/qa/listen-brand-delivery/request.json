@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/SHIFT_v11_让下一步发生_中文字幕.mp4",
+  "sha256": "54e88a1054ebdd61a2c47263e2fc1f68c0a2ea9e9e5e98b2fd4a790ef54d09d6",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整分析这段成片的音频，并结合收到的视频画面进行保守审查。逐句抄写实际听到的中文配音，描述语气、停顿、发音、截断或口齿问题；描述背景音乐的风格、有没有人声、与片中题材是否贴合、是否遮盖配音或在剪接处突兀；检查实际看到的字幕与听到的内容是否对应，是否存在明显过早、过迟、遮挡、重叠；描述能确认的主要动画动作与声音节奏关系。没有把握的内容请明确说明。不要给总分，不要因为是宣传片就默认质量好，不要把字幕内容当作听到的配音。",
+  "status": "completed",
+  "started_at": 1793174539.264936,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "33d7190157a27d72619b60a2498fdde5399b7533486d0c04f4b86cccd7ca148d",
+  "event_id": "d3372f20bc224ecf9a0652182e902ff9",
+  "finished_at": 1793174568.6039062,
+  "response_sha256": "908b35301fec032ea0c3048c2c4e16dccdd9df8d7b10739e74aec4c50a6e02ca"
+}

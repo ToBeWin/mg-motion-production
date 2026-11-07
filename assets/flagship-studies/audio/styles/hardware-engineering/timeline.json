@@ -1,0 +1,85 @@
+{
+  "duration": 8,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "engineering",
+  "music_case": "engineering-v8",
+  "captions": [
+    {
+      "id": "01",
+      "start": 0.3,
+      "end": 2.27,
+      "text": "从旋盖，到核心。"
+    },
+    {
+      "id": "02",
+      "start": 4.3,
+      "end": 6.26,
+      "text": "每一层，都有作用。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "01",
+      "raw_duration": 2.1710657596371883,
+      "trim_leading": 0.23,
+      "trim_trailing": 0.07108333333333333,
+      "gain_db": 9.41068220649089,
+      "start": 0.3,
+      "end": 2.17
+    },
+    {
+      "id": "02",
+      "raw_duration": 2.2755555555555556,
+      "trim_leading": 0.26,
+      "trim_trailing": 0.1555625,
+      "gain_db": 8.769635886651132,
+      "start": 4.3,
+      "end": 6.16
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 8.0,
+      "source_out": 16.010166666666667,
+      "pre_tempo_timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "tempo_factor_pitch_preserved": 1,
+      "effective_music_end": 8,
+      "padded_seconds": 0,
+      "selection_reason": "Select ending phrase of the generated mallet/synth miniature; keep technical narration in front"
+    }
+  ],
+  "mix_settings": {
+    "music_case": "engineering-v8",
+    "segments": [
+      [
+        8,
+        null
+      ]
+    ],
+    "fade_in": 0.12,
+    "fade_out": 0.7,
+    "music_rms": 0.052,
+    "duck_level": 0.4,
+    "reason": "Select ending phrase of the generated mallet/synth miniature; keep technical narration in front"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-20.32:measured_TP=-6.31:measured_LRA=3.30:measured_thresh=-31.30:offset=0.18:linear=true,atrim=duration=8",
+  "master_verification": [
+    {
+      "input_i": "-16.37",
+      "input_tp": "-2.20",
+      "input_lra": "3.50",
+      "input_thresh": "-27.30",
+      "output_i": "-16.33",
+      "output_tp": "-2.31",
+      "output_lra": "2.10",
+      "output_thresh": "-27.16",
+      "normalization_type": "dynamic",
+      "target_offset": "0.33"
+    }
+  ],
+  "raw_music_seconds": 16.010166666666667
+}

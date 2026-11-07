@@ -1,0 +1,9 @@
+{
+  "engine": "MiniMax Music3 local",
+  "seed": 27,
+  "steps": 30,
+  "prompt": "Instrumental. Genre: minimal electronic, contemporary chamber pop. Mood: bright, confident, warm, clean, optimistic. Instruments: soft piano, mallet synthesizer, quiet warm bass, light steady percussion. BPM: 96. Sparse precise arrangement with room for a narrator. No vocals, no voice, no humming, no choir, no lyrics. A developing musical theme with a calm resolved outro.",
+  "lyrics": "[intro]\n[instrumental]\n[verse]\n[instrumental]\n[bridge]\n[instrumental]\n[outro]\n[instrumental]\n",
+  "requested_max_seconds": 36,
+  "wall_seconds": 359.87748312950134
+}

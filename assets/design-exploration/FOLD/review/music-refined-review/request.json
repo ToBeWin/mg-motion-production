@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/audio/minimax-fold-refined.wav",
+  "sha256": "639a41d8e45f1129774cabb3bb21999605d046ccde803845d44b20161a1f7809",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "完整听这段纯音乐，描述实际乐器感、节奏、情绪、是否有人声或杂音、开头与结尾。估计速度与可循环段落，但不要假装能精确拍点。判断其是否适合明亮、讲设计与创作的现代软件产品发布片，不是史诗科技或黑暗悬疑。指出具体不协调的地方。\n",
+  "status": "completed",
+  "started_at": 1793194367.76412,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "39d86becd7fc7440bc3d52b3c3e1db2279e43b14d241aa129cb99b9748bb9cba",
+  "event_id": "460e58f46f0e434eaa0939e8459b9014",
+  "finished_at": 1793194389.5247018,
+  "response_sha256": "f3b28c4c3996f93c0dc62959a4ed3db3469e812915037ef19dbd426ec473d03d"
+}

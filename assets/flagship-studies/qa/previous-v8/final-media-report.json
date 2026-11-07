@@ -1,0 +1,219 @@
+{
+  "status": "complete",
+  "films": [
+    {
+      "id": "clean-trace",
+      "file": "TRACE_v2_每一步有据_1080p30.mp4",
+      "seconds": 28.0,
+      "frames": 840,
+      "sha256": "b81dc4edb53e15da56f0d213181cd441754dac44b557bf3a32ceaca73b67711b",
+      "sampled_frames": 2,
+      "audio": {
+        "integrated_lufs": -16.09,
+        "true_peak_dbtp": -2.15,
+        "loudness_range_lu": 4.8,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.999922530139454,
+      "master_gain": 0.9988310933113098,
+      "caption_count": 7
+    },
+    {
+      "id": "final-trace",
+      "file": "TRACE_v2_每一步有据_1080p30_中文字幕.mp4",
+      "seconds": 28.01,
+      "frames": 840,
+      "sha256": "3849f6930a3af96225d556eeafcec234093e4aca9a40711762a8e6a5973ff123",
+      "sampled_frames": 27,
+      "audio": {
+        "integrated_lufs": -16.08,
+        "true_peak_dbtp": -2.04,
+        "loudness_range_lu": 4.7,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9998933578606137,
+      "master_gain": 0.9996010065078735,
+      "caption_count": 7
+    },
+    {
+      "id": "clean-orbit",
+      "file": "ORBIT_v4_光与精密_1080p30.mp4",
+      "seconds": 20.0,
+      "frames": 600,
+      "sha256": "dae4c9c07053ba2e2d99bb1bef90696d34f1c88546653acc9467bd8354e84828",
+      "sampled_frames": 2,
+      "audio": {
+        "integrated_lufs": -16.07,
+        "true_peak_dbtp": -2.13,
+        "loudness_range_lu": 2.9,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9999402078400129,
+      "master_gain": 0.998989462852478,
+      "caption_count": 5
+    },
+    {
+      "id": "final-orbit",
+      "file": "ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+      "seconds": 20.0,
+      "frames": 600,
+      "sha256": "135e763f0f2628ef870f4c6812135f4c5cdfe2a86a8ab48fb0fa76e1b8913fb7",
+      "sampled_frames": 18,
+      "audio": {
+        "integrated_lufs": -16.07,
+        "true_peak_dbtp": -2.13,
+        "loudness_range_lu": 2.9,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9999402078400129,
+      "master_gain": 0.998989462852478,
+      "caption_count": 5
+    },
+    {
+      "id": "clean-shift",
+      "file": "SHIFT_v2_让下一步发生_1080p30.mp4",
+      "seconds": 20.0,
+      "frames": 600,
+      "sha256": "ee7eb6c801267c9c3c1593bd76ff706e273bece8bd79df0d7115f931bb0af834",
+      "sampled_frames": 2,
+      "audio": {
+        "integrated_lufs": -16.03,
+        "true_peak_dbtp": -2.11,
+        "loudness_range_lu": 2.5,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9995970990258829,
+      "master_gain": 0.9975723028182983,
+      "caption_count": 6
+    },
+    {
+      "id": "final-shift",
+      "file": "SHIFT_v2_让下一步发生_1080p30_中文字幕.mp4",
+      "seconds": 20.0,
+      "frames": 600,
+      "sha256": "eb0f3678d0eef8a872f007663dddb6fa730c2626ecd254718098066f972de5cf",
+      "sampled_frames": 27,
+      "audio": {
+        "integrated_lufs": -16.03,
+        "true_peak_dbtp": -2.11,
+        "loudness_range_lu": 2.5,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9995970990258829,
+      "master_gain": 0.9975723028182983,
+      "caption_count": 6
+    },
+    {
+      "id": "software-editorial",
+      "file": "style-films/software-editorial_编辑式信息设计.mp4",
+      "seconds": 8.0,
+      "frames": 240,
+      "sha256": "639ba5d5ca31d6ef481d1d8ad9dc6242d8bdb83d71f04fca1588df9569b14373",
+      "sampled_frames": 9,
+      "audio": {
+        "integrated_lufs": -16.18,
+        "true_peak_dbtp": -2.19,
+        "loudness_range_lu": 7.2,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9998359534369432,
+      "master_gain": 0.998938262462616,
+      "caption_count": 2
+    },
+    {
+      "id": "software-spatial",
+      "file": "style-films/software-spatial_空间工作台.mp4",
+      "seconds": 8.0,
+      "frames": 240,
+      "sha256": "b7bfe23cfd3ce5e5e332d08e78695c97fa7975e1f8440e42efe64d25ab5092d8",
+      "sampled_frames": 9,
+      "audio": {
+        "integrated_lufs": -16.02,
+        "true_peak_dbtp": -2.1,
+        "loudness_range_lu": 8.0,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9998812092513973,
+      "master_gain": 0.999659538269043,
+      "caption_count": 1
+    },
+    {
+      "id": "brand-editorial",
+      "file": "style-films/brand-editorial_克制的品牌叙事.mp4",
+      "seconds": 8.0,
+      "frames": 240,
+      "sha256": "02391bb686533fcf30bc900bfb6a8357650f01555e7000582bb856ace652281b",
+      "sampled_frames": 9,
+      "audio": {
+        "integrated_lufs": -15.99,
+        "true_peak_dbtp": -2.17,
+        "loudness_range_lu": 4.7,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9995719434310473,
+      "master_gain": 0.9980144500732422,
+      "caption_count": 2
+    },
+    {
+      "id": "brand-fluid",
+      "file": "style-films/brand-fluid_流动抽象视觉.mp4",
+      "seconds": 8.0,
+      "frames": 240,
+      "sha256": "3fb5aaa1889277bd57c7a59e0691cc134ceb53782cf5edce83cf3ade13c9383d",
+      "sampled_frames": 9,
+      "audio": {
+        "integrated_lufs": -16.04,
+        "true_peak_dbtp": -2.17,
+        "loudness_range_lu": 4.9,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9998546048337206,
+      "master_gain": 0.9984549283981323,
+      "caption_count": 2
+    },
+    {
+      "id": "hardware-optical",
+      "file": "style-films/hardware-optical_柔和光学材质.mp4",
+      "seconds": 8.0,
+      "frames": 240,
+      "sha256": "283d93d68bd7eba0a8b6cb95f11b58cab3d6d7f8528a283f70e5e7409d487435",
+      "sampled_frames": 9,
+      "audio": {
+        "integrated_lufs": -16.01,
+        "true_peak_dbtp": -3.25,
+        "loudness_range_lu": 6.0,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9998886284633383,
+      "master_gain": 0.9987276792526245,
+      "caption_count": 2
+    },
+    {
+      "id": "hardware-engineering",
+      "file": "style-films/hardware-engineering_结构与工程展示.mp4",
+      "seconds": 8.0,
+      "frames": 240,
+      "sha256": "a9ba9196f4a66a6b6ee82d61af79c66e213df6e0480730c4be7ba05649ec74dc",
+      "sampled_frames": 9,
+      "audio": {
+        "integrated_lufs": -16.38,
+        "true_peak_dbtp": -2.18,
+        "loudness_range_lu": 3.5,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "master_correlation": 0.9999377726685761,
+      "master_gain": 0.9998821020126343,
+      "caption_count": 2
+    }
+  ],
+  "missing": [],
+  "decoded_frames": 5520,
+  "extracted_frames": 132,
+  "full_subjective_playback_review": false,
+  "full_listening_review": false,
+  "customer_acceptance": false,
+  "note": "Signal and decode checks are independent of listening. Full-length model-assisted AV review is recorded separately; direct human monitoring and customer acceptance were not performed.",
+  "full_model_assisted_audio_visual_review": true,
+  "human_listening_review": false,
+  "model_assisted_review_report": "listening-review.json"
+}

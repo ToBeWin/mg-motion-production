@@ -1,0 +1,15 @@
+{
+  "kind": "actual_local_browser_checks",
+  "date": "2026-10-26",
+  "desktop": {"viewport": [1440, 1000], "document": [1440, 1104], "horizontal_overflow": false},
+  "mobile": {"viewport": [390, 844], "document_width": 390, "horizontal_overflow": false},
+  "title": "增长，主要来自自然搜索。",
+  "table_rows": [
+    ["自然搜索", "4,200", "5,500", "+1,300", "65%"],
+    ["推荐访问", "2,400", "3,000", "+600", "30%"],
+    ["广告访问", "1,800", "1,900", "+100", "5%"],
+    ["邮件访问", "1,600", "1,600", "+0", "0%"]
+  ],
+  "download_targets": [{"path": "channel-visits.csv", "http_status": 200}, {"path": "analysis.json", "http_status": 200}],
+  "scope": "DOM, dimensions and link responses checked in an actual browser. Screenshot capture timed out, so no full-page visual review is inferred. Local concept report, not a deployed DataTalk product."
+}

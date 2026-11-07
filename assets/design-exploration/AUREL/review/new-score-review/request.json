@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG风格探索_映序AUREL_v2.1_声音重配/source/audio/minimax-aurel-v21-organic.wav",
+  "sha256": "932e8657dcac91a7675d53b1cbee1f0205105f803dc368f0969e41f1b70bca59",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整审听这段实际音频，先描述听到的主要音色、节奏、情绪和乐句发展，再检查是否有歌唱或说话（若有请转写），是否存在明显的尖锐/毛刺感、循环过密、失真、音量突变，以及结尾是否形成乐句收束。只根据声音判断，不要猜测生成提示词、品牌或画面。没有把握的地方直接说明。",
+  "status": "completed",
+  "started_at": 1793243951.5587552,
+  "method": "full-duration model-assisted auditory review",
+  "review_copy_sha256": "c55f43e5bdfb1aea6d8a0c7c2aa3106f4675ac978b8b959ac1d64ed9d1fb83fb",
+  "event_id": "b870117f3a3e4100bd2b415269f47117",
+  "finished_at": 1793243959.708239,
+  "response_sha256": "19d8655c7fecc457f6626c233791b090b181c713c9e882cd52abee49ca5eadd9"
+}

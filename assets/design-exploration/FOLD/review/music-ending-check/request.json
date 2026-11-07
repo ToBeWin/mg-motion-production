@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/fold-launch-v1/music-ending.wav",
+  "sha256": "17db399eed9ae871faa65e1c42482ae0b487f9a9b4b3978e379034a6ec8ec01f",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "只根据这段短音乐的实际声音，说明音量和尾音如何变化。末尾更像突然切断、逐渐减弱、自然余响，还是无法确定？不要猜整条影片的场景，也不要编造精确时间。\n",
+  "status": "completed",
+  "started_at": 1793195355.969035,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "917a44dc5457c791fdf8090fe47c2d3a1ca47b61b1c77a72582b9ec42494f576",
+  "event_id": "c1e5f5c970f74540a9915b7a18488df1",
+  "finished_at": 1793195365.904012,
+  "response_sha256": "713e285d9f5d3b8c735df89d0ae04dd90ba00bcb14f78949f9a0f7a2fd84a4fa"
+}

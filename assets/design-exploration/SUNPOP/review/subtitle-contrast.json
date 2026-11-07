@@ -1,0 +1,14 @@
+{
+  "native_bold_font_px": 33,
+  "backing_plate": false,
+  "designed_srgb_contrast": {
+    "orange": 3.452494880556454,
+    "blue": 6.553900985118768,
+    "cream": 8.936423320179584
+  },
+  "actual_render_checked": [
+    "caption-orange.png",
+    "caption-blue.png",
+    "caption-pack.png"
+  ]
+}

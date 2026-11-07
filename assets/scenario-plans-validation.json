@@ -1,0 +1,181 @@
+{
+  "version": "3.0.0",
+  "scenario_plans": [
+    {
+      "scenario": "software-launch",
+      "frames": 900,
+      "shots": 5,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "feature-demo",
+      "frames": 540,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "agent-workflow",
+      "frames": 900,
+      "shots": 5,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "developer-api",
+      "frames": 750,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "onboarding",
+      "frames": 900,
+      "shots": 5,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "business-process",
+      "frames": 900,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "customer-case",
+      "frames": 1350,
+      "shots": 5,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "brand-manifesto",
+      "frames": 900,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "identity-sting",
+      "frames": 180,
+      "shots": 3,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "performance-ad",
+      "frames": 450,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "product-material",
+      "frames": 360,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "product-function",
+      "frames": 750,
+      "shots": 5,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "industrial-exploded",
+      "frames": 750,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "data-story",
+      "frames": 900,
+      "shots": 5,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "mechanism-explainer",
+      "frames": 1200,
+      "shots": 5,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "map-journey",
+      "frames": 750,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "editorial-story",
+      "frames": 900,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "stage-opening",
+      "frames": 750,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "broadcast-package",
+      "frames": 360,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "exhibition-loop",
+      "frames": 600,
+      "shots": 4,
+      "silent": true,
+      "result": "pass"
+    },
+    {
+      "scenario": "website-loop",
+      "frames": 240,
+      "shots": 3,
+      "silent": true,
+      "result": "pass"
+    },
+    {
+      "scenario": "interface-feedback",
+      "frames": 120,
+      "shots": 3,
+      "silent": true,
+      "result": "pass"
+    },
+    {
+      "scenario": "footage-callouts",
+      "frames": 750,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    },
+    {
+      "scenario": "title-sequence",
+      "frames": 750,
+      "shots": 4,
+      "silent": false,
+      "result": "pass"
+    }
+  ],
+  "style_choices_checked": 12,
+  "custom_canvas": "2560x720",
+  "fractional_duration_frames": 171,
+  "invalid_and_preservation_cases": 7,
+  "links_ok": true,
+  "evidence_sources_ok": true,
+  "installed_symlink_ok": true,
+  "scope": "Planning and file integrity only; not visual or commercial acceptance of 24 films"
+}

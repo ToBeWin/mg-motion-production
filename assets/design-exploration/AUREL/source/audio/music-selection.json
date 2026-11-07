@@ -1,0 +1,9 @@
+{
+  "primary": "minimax-aurel-v21-chamber.wav",
+  "alternative": "minimax-aurel-v21-organic.wav",
+  "judgment": "Use the soft piano-led take for a quieter, spatial brand character; keep the brighter mallet-led take as a comparison suited to more playful creative-tool branding. This is a creative selection, not user acceptance.",
+  "actual_observation": "Full-source reviews report no speech or singing in either candidate. The chamber request yielded mainly piano, so the final is not described as an orchestral or string recording.",
+  "music_generation": "local MiniMax Music3 MLX q6, 30 steps",
+  "picture_and_original_voice": "preserved",
+  "skill_registered": false
+}

@@ -1,0 +1,13 @@
+{
+  "engine": "Blender 5.2.0 Cycles / Metal",
+  "frames": 180,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "samples": 48,
+  "continuous_physical_camera": true,
+  "real_solidify_thickness": true,
+  "frame_reuse": false
+}

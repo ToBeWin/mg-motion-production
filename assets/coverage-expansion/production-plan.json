@@ -1,0 +1,344 @@
+{
+  "version": "3.6.0",
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "scope": "13 authored technology scenario implementations; bounded demonstrations, not real product or client claims.",
+  "scenes": [
+    {
+      "id": "onboarding",
+      "title": "START · 第一次连接",
+      "duration": 18,
+      "composition": "Coverage / onboarding",
+      "filename": "START_新手引导_1080p30.mp4",
+      "sound": true,
+      "bpm": 100,
+      "cues": [
+        {
+          "time": 0.2,
+          "type": "arrival"
+        },
+        {
+          "time": 2.3,
+          "type": "tick"
+        },
+        {
+          "time": 6.6,
+          "type": "confirm"
+        },
+        {
+          "time": 10.5,
+          "type": "tick"
+        },
+        {
+          "time": 13.8,
+          "type": "confirm"
+        }
+      ]
+    },
+    {
+      "id": "customer-case",
+      "title": "ATLAS LAB · 一份简报的变化",
+      "duration": 18,
+      "composition": "Coverage / customer-case",
+      "filename": "ATLAS_案例表达_1080p30.mp4",
+      "sound": true,
+      "bpm": 108,
+      "cues": [
+        {
+          "time": 0.2,
+          "type": "arrival"
+        },
+        {
+          "time": 3,
+          "type": "paper",
+          "duration": 0.52
+        },
+        {
+          "time": 7.5,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 11.5,
+          "type": "confirm"
+        },
+        {
+          "time": 15,
+          "type": "tick"
+        }
+      ]
+    },
+    {
+      "id": "identity-sting",
+      "title": "PRISM · 光的秩序",
+      "duration": 6,
+      "composition": "Coverage / identity-sting",
+      "filename": "PRISM_品牌识别_1080p30.mp4",
+      "sound": true,
+      "bpm": 90,
+      "cues": [
+        {
+          "time": 0.2,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 2.2,
+          "type": "tick"
+        },
+        {
+          "time": 3.8,
+          "type": "confirm"
+        }
+      ]
+    },
+    {
+      "id": "product-function",
+      "title": "ORBIT · 一转即得",
+      "duration": 12,
+      "composition": "Coverage / product-function",
+      "filename": "ORBIT_硬件功能_1080p30.mp4",
+      "sound": true,
+      "bpm": 100,
+      "cues": [
+        {
+          "time": 0.2,
+          "type": "arrival"
+        },
+        {
+          "time": 3.4,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 7.6,
+          "type": "confirm"
+        }
+      ]
+    },
+    {
+      "id": "industrial-exploded",
+      "title": "ORBIT · 内外有序",
+      "duration": 14,
+      "composition": "Coverage / industrial-exploded",
+      "filename": "ORBIT_结构拆解_1080p30.mp4",
+      "sound": true,
+      "bpm": 108,
+      "cues": [
+        {
+          "time": 1.8,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 3.6,
+          "type": "tick"
+        },
+        {
+          "time": 5.3,
+          "type": "confirm"
+        },
+        {
+          "time": 9.2,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 12.6,
+          "type": "confirm"
+        }
+      ]
+    },
+    {
+      "id": "map-journey",
+      "title": "RELAY · 三地一程",
+      "duration": 14,
+      "composition": "Coverage / map-journey",
+      "filename": "RELAY_地图旅程_1080p30.mp4",
+      "sound": true,
+      "bpm": 90,
+      "cues": [
+        {
+          "time": 2.5,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 5.5,
+          "type": "confirm"
+        },
+        {
+          "time": 7.8,
+          "type": "confirm"
+        },
+        {
+          "time": 10.5,
+          "type": "tick"
+        }
+      ]
+    },
+    {
+      "id": "editorial-story",
+      "title": "BUILD LOG · 能力的生长",
+      "duration": 16,
+      "composition": "Coverage / editorial-story",
+      "filename": "BUILD_LOG_研发年表_1080p30.mp4",
+      "sound": true,
+      "bpm": 100,
+      "cues": [
+        {
+          "time": 1.2,
+          "type": "tick"
+        },
+        {
+          "time": 4.7,
+          "type": "tick"
+        },
+        {
+          "time": 8.2,
+          "type": "tick"
+        },
+        {
+          "time": 11.7,
+          "type": "confirm"
+        }
+      ]
+    },
+    {
+      "id": "stage-opening",
+      "title": "NEXT · 向下一步",
+      "duration": 14,
+      "composition": "Coverage / stage-opening",
+      "filename": "NEXT_发布会开场_1080p30.mp4",
+      "sound": true,
+      "bpm": 108,
+      "cues": [
+        {
+          "time": 0.1,
+          "type": "arrival"
+        },
+        {
+          "time": 3,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 5.5,
+          "type": "tick"
+        },
+        {
+          "time": 8.2,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 11.5,
+          "type": "confirm"
+        }
+      ]
+    },
+    {
+      "id": "broadcast-package",
+      "title": "FIELD NOTES · 科技现场",
+      "duration": 12,
+      "composition": "Coverage / broadcast-package",
+      "filename": "FIELD_NOTES_直播包装_1080p30.mp4",
+      "sound": true,
+      "bpm": 90,
+      "cues": [
+        {
+          "time": 1,
+          "type": "arrival"
+        },
+        {
+          "time": 3,
+          "type": "tick"
+        },
+        {
+          "time": 7,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 10.5,
+          "type": "tick"
+        }
+      ]
+    },
+    {
+      "id": "exhibition-loop",
+      "title": "OPEN LAB · 探索地图",
+      "duration": 16,
+      "composition": "Coverage / exhibition-loop",
+      "filename": "OPEN_LAB_展厅循环_1080p30.mp4",
+      "sound": false,
+      "bpm": 100,
+      "cues": []
+    },
+    {
+      "id": "interface-feedback",
+      "title": "READY · 状态有回应",
+      "duration": 10,
+      "composition": "Coverage / interface-feedback",
+      "filename": "READY_界面反馈_1080p30.mp4",
+      "sound": false,
+      "bpm": 108,
+      "cues": []
+    },
+    {
+      "id": "footage-callouts",
+      "title": "ANCHOR · 跟随真实空间",
+      "duration": 12,
+      "composition": "Coverage / footage-callouts",
+      "filename": "ANCHOR_实拍跟踪_1080p30.mp4",
+      "sound": true,
+      "bpm": 90,
+      "cues": [
+        {
+          "time": 2,
+          "type": "tick"
+        },
+        {
+          "time": 6,
+          "type": "confirm"
+        },
+        {
+          "time": 10.5,
+          "type": "sweep",
+          "duration": 0.52
+        }
+      ]
+    },
+    {
+      "id": "title-sequence",
+      "title": "BETWEEN · 思考之间",
+      "duration": 16,
+      "composition": "Coverage / title-sequence",
+      "filename": "BETWEEN_科技片头_1080p30.mp4",
+      "sound": true,
+      "bpm": 100,
+      "cues": [
+        {
+          "time": 0.2,
+          "type": "arrival"
+        },
+        {
+          "time": 4,
+          "type": "sweep",
+          "duration": 0.52
+        },
+        {
+          "time": 8.2,
+          "type": "tick"
+        },
+        {
+          "time": 12.4,
+          "type": "confirm"
+        }
+      ]
+    }
+  ]
+}

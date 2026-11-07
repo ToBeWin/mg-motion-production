@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "stable_reading_10.2_12.8": true,
+    "stable_reading_16_20.8": true,
+    "stable_reading_23.5_26.5": true,
+    "same_source_document_id": true,
+    "same_evidence_identities": true,
+    "source_front_facing_when_reading": true,
+    "exact_quote_identity": true,
+    "click_hits_citation_center": true,
+    "route_starts_at_moved_citation": true,
+    "route_ends_at_original_highlight": true,
+    "closing_held_to_last_frame": true,
+    "new_folder_rebuild_pixels_identical": true,
+    "excerpt_text_continuous_at_entry": true,
+    "opening_does_not_overlap_question": true,
+    "closing_starts_after_space_clears": true
+  },
+  "result": "passed",
+  "scope": "Native property readback, exact authored spans and one rebuilt frame; not subjective motion or listening acceptance.",
+  "rebuild_frame_times": [
+    8.8,
+    28.2
+  ],
+  "native_report": "native-readback.json"
+}

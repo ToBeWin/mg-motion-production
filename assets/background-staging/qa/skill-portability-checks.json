@@ -1,0 +1,17 @@
+{
+  "build_success": true,
+  "bit_depth": "Bpc16",
+  "relative_assets_exist": [
+    "assets/roam-coast.png",
+    "audio/agent/master.wav",
+    "audio/data/master.wav"
+  ],
+  "nonempty_guard": {
+    "returncode": 2,
+    "message": "rebuild.py: error: Use a new or empty output folder; existing work is preserved."
+  },
+  "rendered_frame": {
+    "file": "skill-rebuilt-data-22.png",
+    "exists": true
+  }
+}

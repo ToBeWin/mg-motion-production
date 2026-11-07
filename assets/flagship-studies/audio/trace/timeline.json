@@ -1,0 +1,153 @@
+{
+  "duration": 28,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "trace",
+  "music_case": "trace",
+  "captions": [
+    {
+      "id": "01",
+      "start": 0.3,
+      "end": 2.11,
+      "text": "答案，从哪里来？"
+    },
+    {
+      "id": "02",
+      "start": 3.5,
+      "end": 4.6499999999999995,
+      "text": "提出问题。"
+    },
+    {
+      "id": "03",
+      "start": 6.4,
+      "end": 8.24,
+      "text": "从资料里，找到依据。"
+    },
+    {
+      "id": "04",
+      "start": 10.9,
+      "end": 12.73,
+      "text": "把原文，带进答案。"
+    },
+    {
+      "id": "08",
+      "start": 14.5,
+      "end": 18.05,
+      "text": "支持哪些文件，怎样更新，都能找到依据。"
+    },
+    {
+      "id": "06",
+      "start": 20.5,
+      "end": 22.270000000000003,
+      "text": "点一下，回到原文。"
+    },
+    {
+      "id": "07",
+      "start": 24.7,
+      "end": 26.740000000000002,
+      "text": "看见答案，也看见依据。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "01",
+      "raw_duration": 2.089795918367347,
+      "trim_leading": 0.26,
+      "trim_trailing": 0.1198125,
+      "gain_db": 9.80243519667101,
+      "start": 0.3,
+      "end": 2.01
+    },
+    {
+      "id": "02",
+      "raw_duration": 1.474467120181406,
+      "trim_leading": 0.26,
+      "trim_trailing": 0.16447916666666668,
+      "gain_db": 9.047450275551533,
+      "start": 3.5,
+      "end": 4.55
+    },
+    {
+      "id": "03",
+      "raw_duration": 2.1710657596371883,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.18108333333333335,
+      "gain_db": 10.022665791872745,
+      "start": 6.4,
+      "end": 8.14
+    },
+    {
+      "id": "04",
+      "raw_duration": 2.0549659863945577,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.07497916666666667,
+      "gain_db": 8.141392142590567,
+      "start": 10.9,
+      "end": 12.63
+    },
+    {
+      "id": "08",
+      "raw_duration": 3.912562358276644,
+      "trim_leading": 0.28,
+      "trim_trailing": 0.1825625,
+      "gain_db": 8.432201215243264,
+      "start": 14.5,
+      "end": 17.95
+    },
+    {
+      "id": "06",
+      "raw_duration": 2.1130158730158732,
+      "trim_leading": 0.26,
+      "trim_trailing": 0.18302083333333333,
+      "gain_db": 8.40565166060778,
+      "start": 20.5,
+      "end": 22.17
+    },
+    {
+      "id": "07",
+      "raw_duration": 2.36843537414966,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.1784375,
+      "gain_db": 8.97039509299873,
+      "start": 24.7,
+      "end": 26.64
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 0.0,
+      "source_out": 26.15,
+      "timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "source_in": 29.450666666666667,
+      "source_out": 31.950666666666667,
+      "timeline_in": 25.5,
+      "crossfade_seconds": 0.65
+    }
+  ],
+  "mix_settings": {
+    "music_case": "trace",
+    "music_path": "processed/trace-instrumental.wav",
+    "fade_in": 0.1,
+    "fade_out": 1.3,
+    "reason": "Retain the coherent original piano phrase and ending after removing verified vocal leakage; reject the new long-form dreamy candidate"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-18.36:measured_TP=-2.51:measured_LRA=5.30:measured_thresh=-29.40:offset=-0.08:linear=true,atrim=duration=28",
+  "master_verification": [
+    {
+      "input_i": "-16.08",
+      "input_tp": "-2.20",
+      "input_lra": "4.70",
+      "input_thresh": "-27.12",
+      "output_i": "-16.50",
+      "output_tp": "-2.20",
+      "output_lra": "4.40",
+      "output_thresh": "-27.46",
+      "normalization_type": "dynamic",
+      "target_offset": "0.50"
+    }
+  ],
+  "raw_music_seconds": 31.950666666666667
+}

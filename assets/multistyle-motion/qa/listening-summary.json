@@ -1,0 +1,99 @@
+{
+  "method": "Full-duration model-assisted audiovisual review using a 960px/24kHz mono copy of each complete final film. Original stereo AAC measured locally. No script supplied in the prompt; captions are visible in the video, so this is not a blinded listening experiment.",
+  "total_unique_seconds": 52,
+  "total_sentences": 13,
+  "reviews": [
+    {
+      "case": "brand",
+      "final_media_sha256": "54e88a1054ebdd61a2c47263e2fc1f68c0a2ea9e9e5e98b2fd4a790ef54d09d6",
+      "review_directory": "listen-brand-delivery",
+      "duration": 18,
+      "status": "completed",
+      "sentences": [
+        {
+          "text": "让想法，向前一步。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "打开新的空间。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "把可能，变成作品。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "现在，开始创造。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "让下一步发生。",
+          "in_returned_transcription": true
+        }
+      ],
+      "conclusion": "No clear truncation, unintelligibility, vocal masking, or hard music edit reported in the final review. Instrument labels and fine timing claims are not treated as objective evidence."
+    },
+    {
+      "case": "hardware",
+      "final_media_sha256": "7381faf3b0a2cfeba61001817d2dfecbab910fe62df224919785bcf716c65cb8",
+      "review_directory": "listen-hardware-final",
+      "duration": 16,
+      "status": "completed",
+      "sentences": [
+        {
+          "text": "细节，自有分寸。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "在转动中，感受秩序。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "每次转动，都恰到好处。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "把精密，握在手中。",
+          "in_returned_transcription": true
+        }
+      ],
+      "conclusion": "No clear truncation, unintelligibility, vocal masking, or hard music edit reported in the final review. Instrument labels and fine timing claims are not treated as objective evidence."
+    },
+    {
+      "case": "agent",
+      "final_media_sha256": "23240652acbb288a9bf00e0fef6ddb07085d18abe6d4556d792be8cbb9eb4410",
+      "review_directory": "listen-agent",
+      "duration": 18,
+      "status": "completed",
+      "sentences": [
+        {
+          "text": "一个想法，开始协作。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "内容、设计、构建，同时推进。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "把各自的产物，汇成一个结果。",
+          "in_returned_transcription": true
+        },
+        {
+          "text": "并行思考，一起完成。",
+          "in_returned_transcription": true
+        }
+      ],
+      "conclusion": "No clear truncation, unintelligibility, vocal masking, or hard music edit reported in the final review. Instrument labels and fine timing claims are not treated as objective evidence."
+    }
+  ],
+  "revision": {
+    "brand": "Earlier review mentioned slightly abrupt between-phrase music rises; lowered music RMS from .07 to .058, changed duck factor .38 to .48 and return time .35 to .6 seconds, then rerendered both versions and repeated the full review.",
+    "hardware": "Curve clearance and movement path corrected; end cue moved to13.05s with added quiet transition sound; full final review repeated.",
+    "agent": "Four newly generated local IndexTTS2 phrases and selected existing MiniMax music; final full review completed."
+  },
+  "limitations": [
+    "No human headphone or speaker monitoring claim.",
+    "Model judgments are subjective and may misdescribe instruments or visual details.",
+    "Caption exact timing is verified in the native project separately."
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "method": "initialize",
+    "params": {
+      "protocolVersion": "2025-06-18",
+      "clientInfo": {
+        "name": "mg-design-pipeline",
+        "version": "1.0"
+      },
+      "capabilities": {}
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "resources": {},
+          "tools": {}
+        },
+        "serverInfo": {
+          "name": "photocraft",
+          "version": "0.16.0"
+        },
+        "instructions": "PhotoCraft image editor. Start with doc_new/doc_open, discover ids and parameter docs with command_list, edit with command_run or command_batch (one history step per command). Inspect with doc_inspect and render_preview; doc_save writes native .pcraft or exports by extension. File paths are relative to the read/write roots granted at launch. ui_inspect/ui_screenshot and other ui_* tools require bridge mode. Read photocraft://document and photocraft://commands for live JSON state."
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_open",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.pcraft"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"height\":1080,\"index\":0,\"layers\":3,\"name\":\"FOLD-space.pcraft\",\"warnings\":[],\"width\":1920}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_save",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/review/photocraft-reopen.png"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/review/photocraft-reopen.png\",\"warnings\":[\"3 layer(s) flattened; layers, masks and blend modes are not kept\"]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_inspect",
+      "arguments": {}
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"activeLayer\":4,\"canRedo\":false,\"canUndo\":false,\"channels\":{\"alpha\":[],\"colors\":[{\"name\":\"Red\",\"visible\":true},{\"name\":\"Green\",\"visible\":true},{\"name\":\"Blue\",\"visible\":true}],\"composite\":\"RGB\",\"compositeVisible\":true,\"layerMaskView\":null,\"quickMask\":null,\"target\":{\"kind\":\"composite\"}},\"depth\":16,\"hasSelection\":false,\"height\":1080,\"history\":[\"Open\"],\"historySource\":{\"label\":\"Open\",\"state\":0},\"isolatedLayers\":[],\"lastAppliedComp\":null,\"layerComps\":[],\"layerMaskView\":null,\"layers\":[{\"blend\":\"Soft Light\",\"bounds\":[0,0,1920,1080],\"clipped\":false,\"fill\":1.0,\"hasMask\":false,\"hasVectorMask\":false,\"hasXmp\":false,\"id\":4,\"kind\":\"Pixel\",\"labelColor\":\"none\",\"linkGroup\":null,\"name\":\"Paper microtexture\",\"opacity\":0.10000000149011612,\"selected\":true,\"vectorMaskEnabled\":null,\"visible\":true},{\"blend\":\"Normal\",\"bounds\":null,\"clipped\":false,\"fill\":1.0,\"hasMask\":false,\"hasVectorMask\":false,\"hasXmp\":false,\"id\":3,\"kind\":\"Fill\",\"labelColor\":\"none\",\"linkGroup\":null,\"name\":\"Warm neutral to lavender bounce\",\"opacity\":1.0,\"selected\":false,\"vectorMaskEnabled\":null,\"visible\":true},{\"blend\":\"Normal\",\"bounds\":[0,0,1920,1080],\"clipped\":false,\"fill\":1.0,\"hasMask\":false,\"hasVectorMask\":false,\"hasXmp\":false,\"id\":2,\"kind\":\"Pixel\",\"labelColor\":\"none\",\"linkGroup\":null,\"name\":\"Background\",\"opacity\":1.0,\"selected\":false,\"vectorMaskEnabled\":null,\"visible\":true}],\"measurement\":{\"count\":0,\"countGroups\":0,\"ruler\":null,\"scale\":\"1 pixels = 1.0000 pixels\"},\"mode\":\"Rgb\",\"name\":\"FOLD-space.pcraft\",\"notes\":[],\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/assets/FOLD-space.pcraft\",\"quickMask\":false,\"resolution\":72.0,\"revision\":1,\"selectedLayers\":[4],\"selectionBounds\":null,\"snapshots\":[],\"symmetry\":null,\"timeline\":null,\"variables\":null,\"width\":1920}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  }
+]

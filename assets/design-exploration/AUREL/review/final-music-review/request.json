@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG风格探索_映序AUREL_v2.1_声音重配/AUREL_v2.1_让想象有形_纯音乐版.mp4",
+  "sha256": "b3ce694425a178ec716165fcc00c522f64b4546e8ffd7c1cf117d5f5170bca07",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整审看审听实际16秒纯音乐短片，描述实际音乐音色、节奏与画面是否协调；特别检查是否仍有明显复古游戏感、过分俏皮、强烈电子主旋律或额外人声，结尾是否自然。不要将柔和等同于高级，给出具体观察而非评分。",
+  "status": "completed",
+  "started_at": 1793244623.696256,
+  "method": "full-duration model-assisted audiovisual review",
+  "review_copy_sha256": "5bb091e4b2e56aab34b0305e00c5782974d24f6ce256a2f660dd3de9bcf50588",
+  "event_id": "4e77da2dfd034f64b90587abc88946b7",
+  "finished_at": 1793244637.676641,
+  "response_sha256": "1edd8afa317724f4fcbbac810bdcd39588db80315ada011916c1a28f64e79325"
+}

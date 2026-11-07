@@ -1,0 +1,15 @@
+{
+  "source": "software-editorial_编辑式信息设计.mp4",
+  "sha256": "199df6d6d5de32f39b1ea484855e2a1da66a693933643542da05070852da29bb",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)",
+  "prompt": "请完整分析这段音频。没有提供剧本，请不要猜。用中文简洁回答：\n1. 按听到的先后逐句转写旁白，不漏字。不清楚的字标注不确定。\n2. 旁白的语速、停顿、句尾、重音、情绪和自然度；如有机械感、奇怪断句、吞字或尾音被切断，指出具体原句。\n3. 背景音乐中实际听到的主要乐器/音色、节奏、情绪；是否含人声或哼唱。不要从题材猜乐器。\n4. 配音和音乐的平衡、听得见的剪接/跳音、压低后回升是否突兀、结尾是否完整。指出发生在开头/哪句附近/结尾；时间只给可确定的粗略位置。\n5. 只列真正有音频依据的修改建议。没有问题就明确说没有明显问题；无法判断的项目标注无法判断。\n",
+  "status": "invalid_response",
+  "started_at": 1793074772.437031,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "1a7f7295a870b2409388a0a14712b10ba61905071276a2ae109da1cacec6c330",
+  "finished_at": 1793074782.473946,
+  "response_sha256": "b91087807d1ebbe0fc4637e7b81f82648477f9655c0ee2887d4e546f8dd2e15b",
+  "counted_as_listening": false
+}

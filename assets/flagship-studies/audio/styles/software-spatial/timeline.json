@@ -1,0 +1,68 @@
+{
+  "duration": 8,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "trace",
+  "music_case": "trace-v8",
+  "captions": [
+    {
+      "id": "08",
+      "start": 1.3333333333333333,
+      "end": 4.883333333333333,
+      "text": "支持哪些文件，怎样更新，都能找到依据。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "08",
+      "raw_duration": 3.912562358276644,
+      "trim_leading": 0.28,
+      "trim_trailing": 0.1825625,
+      "gain_db": 8.432201215243264,
+      "start": 1.3333333333333333,
+      "end": 4.783333333333333
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 0.0,
+      "source_out": 6.559645833333334,
+      "pre_tempo_timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "tempo_factor_pitch_preserved": 1,
+      "effective_music_end": 6.559645833333334,
+      "padded_seconds": 1.4403541666666664,
+      "selection_reason": "Same software voice identity, clean piano supports the reading interval"
+    }
+  ],
+  "mix_settings": {
+    "music_case": "trace-v8",
+    "segments": [
+      [
+        0,
+        null
+      ]
+    ],
+    "fade_in": 0.2,
+    "fade_out": 0.7,
+    "reason": "Same software voice identity, clean piano supports the reading interval"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-17.43:measured_TP=0.08:measured_LRA=7.70:measured_thresh=-30.13:offset=0.12:linear=true,atrim=duration=8",
+  "master_verification": [
+    {
+      "input_i": "-16.02",
+      "input_tp": "-2.20",
+      "input_lra": "8.00",
+      "input_thresh": "-28.72",
+      "output_i": "-15.76",
+      "output_tp": "-2.20",
+      "output_lra": "8.30",
+      "output_thresh": "-27.42",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.24"
+    }
+  ],
+  "raw_music_seconds": 6.559645833333334
+}

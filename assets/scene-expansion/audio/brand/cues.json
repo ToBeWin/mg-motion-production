@@ -1,0 +1,61 @@
+{
+  "source": "../../production-plan.json",
+  "case": "brand",
+  "bpm": 124,
+  "cues": [
+    {
+      "time": 0.18,
+      "type": "impact"
+    },
+    {
+      "time": 2.4,
+      "type": "sweep",
+      "duration": 0.55
+    },
+    {
+      "time": 3.05,
+      "type": "impact"
+    },
+    {
+      "time": 6.05,
+      "type": "sweep",
+      "duration": 0.65
+    },
+    {
+      "time": 6.7,
+      "type": "impact"
+    },
+    {
+      "time": 9.45,
+      "type": "sweep",
+      "duration": 0.5
+    },
+    {
+      "time": 9.65,
+      "type": "impact"
+    },
+    {
+      "time": 12.2,
+      "type": "sweep",
+      "duration": 0.65
+    },
+    {
+      "time": 13.2,
+      "type": "impact"
+    },
+    {
+      "time": 14.0,
+      "type": "confirm"
+    }
+  ],
+  "focus": [
+    [
+      14.8,
+      18,
+      0.68
+    ]
+  ],
+  "target_lufs": -16,
+  "mix_gain": 1,
+  "scope": "Original notes and synthesized event sounds; runtime uses the host macOS sound bank, which is not redistributed. Subjective listening is separate."
+}

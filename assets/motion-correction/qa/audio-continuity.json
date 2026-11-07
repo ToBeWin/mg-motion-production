@@ -1,0 +1,18 @@
+[
+  {
+    "file": "TRACE_v10_从问题到依据_中文字幕.mp4",
+    "first_pass_audio_hash": "87f48cf07419e3701cadb422fba7a9640d4a063557db3897062e20c038588030",
+    "final_audio_hash": "87f48cf07419e3701cadb422fba7a9640d4a063557db3897062e20c038588030",
+    "payload_identical": true,
+    "sha256": "3ca007edcfc020525464b9f27b987650838da93f28f9c20e4db555cc29f7e1e4",
+    "first_pass_video_sha256": "a6a725c584a7c47f1f7a09a08bb0eb774fad952758ac6e08b3b725a2337004b8"
+  },
+  {
+    "file": "TRACE_v10_从问题到依据_无字幕.mp4",
+    "first_pass_audio_hash": "87f48cf07419e3701cadb422fba7a9640d4a063557db3897062e20c038588030",
+    "final_audio_hash": "87f48cf07419e3701cadb422fba7a9640d4a063557db3897062e20c038588030",
+    "payload_identical": true,
+    "sha256": "06c0bf76ef5359995450fc265d4cc9272a77c07148a491b9d8b03691761ed6d4",
+    "first_pass_video_sha256": "b0e6aeec682fb3ae371e24c3e5567c64d06a0619e345460ebdb1db4a9b383d2d"
+  }
+]

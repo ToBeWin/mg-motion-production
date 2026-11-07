@@ -1,0 +1,14 @@
+{
+  "source": "trace-v8.wav",
+  "sha256": "42d67a20d8a57168822db8d5fd1d0004712f34ea01ace4696323a22c8c449460",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)",
+  "prompt": "请听完整段音乐后分析实际音色、情绪、节奏、是否有可辨人声或哼唱，以及结尾是否自然。不要根据文件名推测，不编造声音；不确定就说明。适合明亮干净的软件产品发布吗？",
+  "status": "completed",
+  "started_at": 1793074863.746864,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "7066c3e49dd1166d2c163b42a348e1f3edc0dcc6e61671b0a42a63d3c10a0934",
+  "finished_at": 1793074876.628284,
+  "response_sha256": "b09c66a81273ff10d90dddd2e759ca45dd6a25e68031770837575fb76b2eb945"
+}

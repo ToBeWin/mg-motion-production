@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-29",
+  "skill_version": "3.17.0",
+  "style_id": "bold-brand-pop",
+  "status": "registered_and_rebuild_checked",
+  "user_feedback": "可以，这个做另外一种风格固化到skill中吧",
+  "approval_scope": "风格收录及本例方向正面反馈；不扩大为新行业、竖屏成片、人工监听或全部场景验收。",
+  "catalog": {
+    "styles": 16,
+    "scenarios": 24,
+    "domains": {
+      "software": 6,
+      "brand": 4,
+      "hardware": 3
+    }
+  },
+  "planning_checks": [
+    {
+      "aspect": "16:9",
+      "frames": 900,
+      "style": "bold-brand-pop",
+      "status": "planning_validated_not_new_video_render"
+    },
+    {
+      "aspect": "9:16",
+      "frames": 660,
+      "style": "bold-brand-pop",
+      "status": "planning_validated_not_new_video_render"
+    }
+  ],
+  "canonical_rebuild": {
+    "engine": "EffectCraft",
+    "fresh_preview_frames": [
+      {
+        "file": "frame-0009.png",
+        "identical_rgb_pixels": true
+      },
+      {
+        "file": "frame-0129.png",
+        "identical_rgb_pixels": true
+      },
+      {
+        "file": "frame-0225.png",
+        "identical_rgb_pixels": true
+      }
+    ],
+    "footage_all_relative_and_present": true,
+    "footage_references": 6
+  },
+  "unchanged_final_media": [
+    {
+      "file": "SUNPOP_把今天打开_无字幕配音版.mp4",
+      "sha256": "9bb32b66d88fad63884a34b8107c40b97a948e70f125eb7cf6862a394d2882f1",
+      "matches_original_delivery": true
+    },
+    {
+      "file": "SUNPOP_把今天打开_画面.mp4",
+      "sha256": "5728529a8c31710c4f8e2b9300e866dd4ae9170e46b6d996e10ca5a83dac6214",
+      "matches_original_delivery": true
+    },
+    {
+      "file": "SUNPOP_把今天打开_纯音乐版.mp4",
+      "sha256": "0b1ff151fdaf1d9cfa8660b5214e78b3acd5dfd0e189be5f192a71d527e351c0",
+      "matches_original_delivery": true
+    },
+    {
+      "file": "SUNPOP_把今天打开_配音字幕版.mp4",
+      "sha256": "deaa5c8032267dabeea24f030ed23c1d27b9b08989e3c1600236a2b74c39f74d",
+      "matches_original_delivery": true
+    }
+  ],
+  "handoff": "Canonical-path FCPXML passed DTD validation; FilmCraft import and native save passed. No new editor GUI test.",
+  "codex_install": {
+    "path": "~/.codex/skills/mg-motion-production",
+    "canonical": "~/workspace/opc/mg-motion-production",
+    "symlink_verified": true
+  },
+  "notes": [
+    "Original delivery folder and complete archive preserved.",
+    "Historical delivery case preserved as review/case-at-delivery.json.",
+    "Full listening and media QA inherited only for hash-identical delivered media; no new human listening claim."
+  ]
+}

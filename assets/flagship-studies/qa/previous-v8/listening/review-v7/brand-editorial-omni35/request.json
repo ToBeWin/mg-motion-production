@@ -1,0 +1,9 @@
+{
+  "started_at": 1793074499.3947709,
+  "status": "completed",
+  "source": "master.wav",
+  "sha256": "12aa3465afd2c55a5c35054d7ca4aea0482f5a7b18c47e33d05b09191d6b94ba",
+  "model": "qwen3.5-omni-plus",
+  "mode": "audio",
+  "method": "full-media model-assisted auditory review"
+}

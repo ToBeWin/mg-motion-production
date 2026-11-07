@@ -1,0 +1,13 @@
+{
+  "version": "v8",
+  "viewed_actual_mp4_contact_sheets": [
+    "final-trace",
+    "software-spatial",
+    "hardware-engineering"
+  ],
+  "unchanged_picture_streams": 9,
+  "new_native_caption_renders": 3,
+  "full_model_assisted_av_review": true,
+  "human_full_playback": false,
+  "note": "Three changed caption pictures inspected; other nine output picture streams remuxed from v7 without video encoding. Native project and timing checks cover all nine routes."
+}

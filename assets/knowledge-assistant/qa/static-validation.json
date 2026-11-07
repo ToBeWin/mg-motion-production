@@ -1,0 +1,12 @@
+{
+  "documents": 3,
+  "exact_claims": 2,
+  "anchor_links": 8,
+  "relative_media": [
+    "audio/master.wav"
+  ],
+  "audio_cues_match": true,
+  "audio_seconds": 32,
+  "project_bit_depth": 16,
+  "scope": "Static data, links, audio structure and project paths. No browser, AI inference or listening acceptance."
+}

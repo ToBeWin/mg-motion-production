@@ -1,0 +1,34 @@
+{
+  "brand": {
+    "zh": "放晴",
+    "en": "SUNPOP",
+    "status": "Original fictional citrus soda brand; speculative advertising concept"
+  },
+  "colors": {
+    "blue": "163FE8",
+    "orange": "FF6B19",
+    "cream": "FFF3D9",
+    "yellow": "FFCE44",
+    "ink": "1936A8"
+  },
+  "duration": 24,
+  "fps": 30,
+  "design_principle": "One circular motif becomes sun, bubbles, aperture and transition. Typography and pack interact through occlusion and matched movement.",
+  "motion": [
+    "Metal is rigid; no can squash",
+    "Graphic sun and bubbles are elastic",
+    "Every loud build resolves to a clean packshot"
+  ],
+  "references": [
+    {
+      "url": "https://wearecollins.com/case-studies/musegroup/",
+      "learned": "A modular brand system with coherent motion identity and music-reactive type. No copied assets or layout."
+    }
+  ],
+  "copy": [
+    "把今天，打开。",
+    "热烈一点。",
+    "再热烈一点。",
+    "快乐冒个泡。"
+  ]
+}

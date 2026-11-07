@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG品牌探索_放晴SUNPOP_v1/source/audio/master-voice.wav",
+  "sha256": "4802b3871beb450b8c89a5e644568a13c0c3a6b142edbe92e627d30d56f2d8c0",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听这支24秒品牌片的成品混音。先逐字转写中文，检查有无吞字、尾字截断或不自然重音。检查音乐与明亮热烈的气泡饮料广告是否贴合、是否压过配音、音效是否刺耳，以及结尾是否还有硬切问题。已做了结束重拍与短回声尾音，判断实际听感是否合理，不要照着说明说通过。明确指出听得到的缺陷，不给虚构评分。",
+  "status": "completed",
+  "started_at": 1793204912.259469,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "ef15c210da1f2a301daa1788e1d2b86b2594d8491bb03fd5600855591446fdc1",
+  "event_id": "3b4122b2cd374fe3855b4dcc8e9aa9f4",
+  "finished_at": 1793204924.292887,
+  "response_sha256": "126bc66dee5b0a59946dbcaddb740490a5463afca0c4a75ca39ec7cda8835006"
+}

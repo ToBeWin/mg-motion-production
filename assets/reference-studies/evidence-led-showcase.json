@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "research_key": "evidence-led-showcase",
+  "name_zh": "实证式产品发布",
+  "name_en": "Evidence-led Product Showcase",
+  "status": "portable-general-method",
+  "guide": "references/evidence-led-showcase.md",
+  "principle": "少量完整任务证明深度，真实成果巡览展示广度，集合后回到人的收益。",
+  "components": [
+    {
+      "id": "role-question-stack",
+      "label": "岗位问题组",
+      "states": [
+        "single",
+        "established",
+        "exit"
+      ],
+      "guardrail": "岗位身份与具体问题配对",
+      "name": "岗位问题组"
+    },
+    {
+      "id": "chapter-identity",
+      "label": "章节身份条",
+      "states": [
+        "case-1",
+        "case-n"
+      ],
+      "guardrail": "所有换章同步任务身份",
+      "name": "章节身份条"
+    },
+    {
+      "id": "question-heading",
+      "label": "问题标题",
+      "states": [
+        "hero",
+        "docked"
+      ],
+      "guardrail": "同一句问题从大字进入顶部定位",
+      "name": "问题标题"
+    },
+    {
+      "id": "intent-composer",
+      "label": "输入框与能力标签",
+      "states": [
+        "empty",
+        "typing",
+        "ready",
+        "handoff"
+      ],
+      "guardrail": "设计输入与真实操作明确区分",
+      "name": "输入框与能力标签"
+    },
+    {
+      "id": "product-viewport",
+      "label": "产品工作台",
+      "states": [
+        "overview",
+        "reply",
+        "artifact-entry"
+      ],
+      "guardrail": "保留真实产品与当前任务的位置关系",
+      "name": "产品工作台"
+    },
+    {
+      "id": "artifact-viewport",
+      "label": "成果预览",
+      "states": [
+        "dashboard",
+        "document",
+        "spreadsheet",
+        "deck"
+      ],
+      "guardrail": "保留文件身份与必要统计口径",
+      "name": "成果预览"
+    },
+    {
+      "id": "proof-rail",
+      "label": "价值摘要侧栏",
+      "states": [
+        "one",
+        "accumulated",
+        "hold"
+      ],
+      "guardrail": "一项结论必须有当前画面依据",
+      "name": "价值摘要侧栏"
+    },
+    {
+      "id": "timing-evidence",
+      "label": "效率证据牌",
+      "states": [
+        "hidden",
+        "shown-after-result"
+      ],
+      "guardrail": "只展示可核验的当前任务用时",
+      "name": "效率证据牌"
+    },
+    {
+      "id": "scope-bridge",
+      "label": "扩展桥段",
+      "states": [
+        "few-cases",
+        "more-scenarios"
+      ],
+      "guardrail": "明确由深讲转到快览",
+      "name": "扩展桥段"
+    },
+    {
+      "id": "capability-navigation",
+      "label": "能力导航",
+      "states": [
+        "inactive",
+        "active",
+        "all"
+      ],
+      "guardrail": "是影片导航而不是产品后台状态",
+      "name": "能力导航"
+    },
+    {
+      "id": "artifact-matrix",
+      "label": "成果矩阵",
+      "states": [
+        "single",
+        "assembling",
+        "group-hold"
+      ],
+      "guardrail": "重复使用已证明的成果，不混入无关页面",
+      "name": "成果矩阵"
+    },
+    {
+      "id": "brand-close",
+      "label": "品牌落版",
+      "states": [
+        "human-value",
+        "logo",
+        "tagline-hold"
+      ],
+      "guardrail": "用短主张和稳定识别结束",
+      "name": "品牌落版"
+    }
+  ],
+  "motion_recipes": [
+    {
+      "id": "problem-stagger",
+      "label": "问题递进",
+      "before": "问题列表",
+      "change": "逐项显露",
+      "after": "品牌承接",
+      "proposed_native_implementation": "图层错时与文字显露"
+    },
+    {
+      "id": "title-reveal",
+      "label": "标题显露",
+      "before": "空舞台",
+      "change": "从局部到完整",
+      "after": "明确问题",
+      "proposed_native_implementation": "遮罩或文字动画器；原实现未知"
+    },
+    {
+      "id": "intent-typing",
+      "label": "意图输入",
+      "before": "输入框",
+      "change": "文本增长",
+      "after": "完整任务意图",
+      "proposed_native_implementation": "文本内容控制和光标"
+    },
+    {
+      "id": "composer-to-workspace",
+      "label": "输入到工作台",
+      "before": "独立输入框",
+      "change": "重叠接替且标题让位",
+      "after": "工作台主体",
+      "proposed_native_implementation": "缩放、位移和透明度；不要写成无缝形变"
+    },
+    {
+      "id": "workspace-to-artifact",
+      "label": "工作台到结果",
+      "before": "回复页面",
+      "change": "保持任务标题并替换结果",
+      "after": "真实看板",
+      "proposed_native_implementation": "视窗切换或短叠化"
+    },
+    {
+      "id": "inner-scroll",
+      "label": "内动外稳",
+      "before": "成果窗口",
+      "change": "窗口内浏览",
+      "after": "关键内容留读",
+      "proposed_native_implementation": "真实录屏或带裁切的原始结果"
+    },
+    {
+      "id": "proof-accumulation",
+      "label": "摘要累计",
+      "before": "少量结论",
+      "change": "随证据增加",
+      "after": "价值摘要",
+      "proposed_native_implementation": "固定侧栏错时入场"
+    },
+    {
+      "id": "timing-after-result",
+      "label": "后置用时牌",
+      "before": "结果已展示",
+      "change": "出现用时与任务范围",
+      "after": "案例总结",
+      "proposed_native_implementation": "独立证据组件，不伪造数字"
+    },
+    {
+      "id": "chapter-reset",
+      "label": "章节复位",
+      "before": "旧成果与摘要",
+      "change": "淡出并回到大问题",
+      "after": "下一任务输入",
+      "proposed_native_implementation": "统一背景下的分组淡变"
+    },
+    {
+      "id": "capability-tour",
+      "label": "能力巡览",
+      "before": "定位导航",
+      "change": "标签、标题、成果同步变化",
+      "after": "广度被看见",
+      "proposed_native_implementation": "共同状态索引；第一项较慢"
+    },
+    {
+      "id": "artifact-matrix",
+      "label": "成果成组",
+      "before": "单份结果",
+      "change": "最后成果保持身份，缩小并移入矩阵右下格，其他成果错时建立",
+      "after": "两行成果集合",
+      "proposed_native_implementation": "保留最后成果同一预合成实例并动画位置与尺度；其他结果错时入格。该连续回位在原片可见，不宣称已实现原生模板。"
+    },
+    {
+      "id": "value-to-brand",
+      "label": "主张到品牌",
+      "before": "成果集合",
+      "change": "短主张后品牌显露",
+      "after": "标识保持",
+      "proposed_native_implementation": "文字与标识预合成"
+    }
+  ],
+  "data_contracts": {
+    "case": [
+      "case_id",
+      "role",
+      "problem",
+      "request",
+      "skill_labels",
+      "capture",
+      "result_ids",
+      "proof_points",
+      "runtime_evidence"
+    ],
+    "result": [
+      "result_id",
+      "case_id",
+      "filename",
+      "type",
+      "page_or_tab",
+      "source",
+      "crop",
+      "scope_note",
+      "thumbnail"
+    ],
+    "capability": [
+      "capability_id",
+      "label",
+      "result_id",
+      "title",
+      "emphasis",
+      "hold_duration"
+    ]
+  },
+  "reuse_exclusions": [
+    "产品信息、截图、声音与未经授权的素材不得随通用模板传播。"
+  ]
+}

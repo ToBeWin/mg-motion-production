@@ -1,0 +1,32 @@
+{
+  "question": [
+    "知识库支持哪些文件？",
+    "更新后，怎样生效？"
+  ],
+  "claims": [
+    {
+      "citation": 1,
+      "document_id": "release",
+      "source_title": "知识库发布说明",
+      "section": "文件格式",
+      "lines": [
+        "支持 PDF、Markdown、TXT。"
+      ],
+      "source_anchor": "source-release",
+      "sha256": "6916d7b512c2a2d83d190979f0c889a6da4f6ee0340b6086760a3784b3cd83fe"
+    },
+    {
+      "citation": 2,
+      "document_id": "sync",
+      "source_title": "同步与更新",
+      "section": "内容更新",
+      "lines": [
+        "文件发生修改后，需重新同步。",
+        "同步完成后，新内容可被检索。"
+      ],
+      "source_anchor": "source-sync",
+      "sha256": "fb26b74b317c1b38107d5a54299113a1027bd87a86b2fb1efb3fbfe6f922c4dd"
+    }
+  ],
+  "scope": "Fictional product documents and concept assistant. No live AI retrieval or model inference."
+}

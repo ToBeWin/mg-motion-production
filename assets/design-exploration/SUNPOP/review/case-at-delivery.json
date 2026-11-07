@@ -1,0 +1,42 @@
+{
+  "title": "放晴 / SUNPOP · 把今天，打开。",
+  "date": "2026-10-29",
+  "type": "Original fictional brand advertising concept",
+  "status": "rendered_and_reviewed_pending_user_feedback",
+  "style": "Bold brand pop: original packaging, kinetic typography, continuous 3D can, circular transitions",
+  "duration": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "tool_versions": {
+    "VectorCraft": "0.17.0",
+    "EffectCraft": "0.17.0",
+    "FilmCraft": "0.13.0",
+    "Blender": "5.2.0 LTS"
+  },
+  "native_layers": 146,
+  "continuous_3d_frames": 435,
+  "audio": {
+    "tts": "local IndexTTS2",
+    "music": "local MiniMax Music3 q6, take 2",
+    "sfx": "Original tactile sound cues, not a synthesized music bed"
+  },
+  "checks": {
+    "full_media_decode": true,
+    "720_video_frames": true,
+    "three_voice_lines_blind_transcription": true,
+    "subtitle_timing_within_one_frame": true,
+    "full_final_audio_video_model_review": true,
+    "final_music_model_review": true,
+    "portable_effectcraft_reopen_pixel_match": true,
+    "fcpxml_dtd_valid": true,
+    "filmcraft_native_import": true
+  },
+  "human_listening_qa": false,
+  "customer_acceptance": false,
+  "skill_registered": false,
+  "source_entry": "source/SUNPOP.ecproj",
+  "qa_entry": "review/final-media-qa.json"
+}

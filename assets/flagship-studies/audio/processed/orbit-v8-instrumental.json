@@ -1,0 +1,11 @@
+{
+  "source": "../raw/minimax/orbit-v8.wav",
+  "source_sha256": "12c10ca2beb62ed2def75409a817485dd420f625e3852cc2422de78deb12393b",
+  "processing": "Installed Demucs htdemucs, CPU, shifts=0, overlap=.25, segment=7, no_vocals, float32",
+  "sha256": "9e3ac8f060505843956a37309509b42130de0a6b85e63fa33f5959c8f3f61f8c",
+  "review_status": "full-length model-assisted review: no detectable voice and no obvious separation damage; original cutoff handled in timeline fade",
+  "reviews": [
+    "review-candidates/orbit-separated-no_vocals",
+    "review-candidates/orbit-separated-vocals"
+  ]
+}

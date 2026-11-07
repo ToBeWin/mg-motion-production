@@ -1,0 +1,113 @@
+{
+  "version": "3.5.0",
+  "composition": "TRACE / Answers with sources",
+  "duration": 32,
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "filename": "TRACE_答案有出处_1080p30.mp4",
+  "scenario": "software-launch",
+  "style": "bright-editorial-ui",
+  "bpm": 100,
+  "timing": {
+    "workspace": 3.5,
+    "submit": 6.5,
+    "sources": 7.1,
+    "highlight1": 8.8,
+    "highlight2": 9.7,
+    "assemble": 13.1,
+    "answer": 15.6,
+    "click": 21.2,
+    "sourceback": 22.4,
+    "close": 27.2
+  },
+  "cues": [
+    {
+      "time": 0.2,
+      "type": "arrival"
+    },
+    {
+      "time": 2.8,
+      "type": "sweep",
+      "duration": 0.8
+    },
+    {
+      "time": 6.5,
+      "type": "tick"
+    },
+    {
+      "time": 7.1,
+      "type": "paper",
+      "duration": 1.0
+    },
+    {
+      "time": 8.8,
+      "type": "tick"
+    },
+    {
+      "time": 9.7,
+      "type": "tick"
+    },
+    {
+      "time": 13.1,
+      "type": "paper",
+      "duration": 1.2
+    },
+    {
+      "time": 15.6,
+      "type": "confirm"
+    },
+    {
+      "time": 21.2,
+      "type": "tick"
+    },
+    {
+      "time": 21.35,
+      "type": "sweep",
+      "duration": 0.9
+    },
+    {
+      "time": 22.4,
+      "type": "confirm"
+    },
+    {
+      "time": 27.2,
+      "type": "sweep",
+      "duration": 1.1
+    },
+    {
+      "time": 28.5,
+      "type": "arrival"
+    }
+  ],
+  "focus": [
+    [
+      9.9,
+      12.8,
+      0.65
+    ],
+    [
+      16,
+      20.8,
+      0.62
+    ],
+    [
+      23,
+      26.7,
+      0.65
+    ]
+  ],
+  "palette": {
+    "background": [
+      "F9FAF5",
+      "EAF0FA"
+    ],
+    "ink": "25384D",
+    "accent": "365BDF",
+    "highlight": "E8EDFF",
+    "secondary": "68798B"
+  },
+  "scope": "Original concept launch film with linked source documents; no live AI inference."
+}

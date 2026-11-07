@@ -1,0 +1,329 @@
+{
+  "date": "2026-10-26",
+  "scope": "Three landscape cases; existing other scene recipes and films retain their prior status.",
+  "native_checks": {
+    "feature": {
+      "live": [
+        0.19215686274509808,
+        0.3725490196078432,
+        0.9450980392156864,
+        1.0000000000000002
+      ],
+      "before": [
+        0.7450980392156863,
+        0.3764705882352941,
+        0.2823529411764706,
+        1
+      ],
+      "beforeExpression": "",
+      "maskMiddle": [
+        [
+          0,
+          0
+        ],
+        [
+          960,
+          0
+        ],
+        [
+          960,
+          1320
+        ],
+        [
+          0,
+          1320
+        ]
+      ],
+      "maskEnd": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1320
+        ],
+        [
+          0,
+          1320
+        ]
+      ]
+    },
+    "task": {
+      "headlineOpacity": [
+        0,
+        100
+      ],
+      "topicFocus": 100.00000000000001,
+      "unitSeparators": [
+        {
+          "x": 240,
+          "opacity": 100
+        },
+        {
+          "x": 320,
+          "opacity": 100
+        },
+        {
+          "x": 400,
+          "opacity": 100
+        },
+        {
+          "x": 480,
+          "opacity": 100
+        },
+        {
+          "x": 560,
+          "opacity": 100
+        },
+        {
+          "x": 640,
+          "opacity": 99.99999999999997
+        },
+        {
+          "x": 720,
+          "opacity": 99.99999999999997
+        },
+        {
+          "x": 800,
+          "opacity": 99.99999999999997
+        },
+        {
+          "x": 880,
+          "opacity": 99.99999999999997
+        },
+        {
+          "x": 960,
+          "opacity": 99.99999999999997
+        },
+        {
+          "x": 1040,
+          "opacity": 99.99999999999999
+        },
+        {
+          "x": 1120,
+          "opacity": 99.99999999999999
+        },
+        {
+          "x": 1200,
+          "opacity": 100
+        },
+        {
+          "x": 1280,
+          "opacity": 100
+        },
+        {
+          "x": 1360,
+          "opacity": 100.00000000000001
+        },
+        {
+          "x": 1440,
+          "opacity": 100.00000000000001
+        },
+        {
+          "x": 1520,
+          "opacity": 100.00000000000001
+        },
+        {
+          "x": 1600,
+          "opacity": 100
+        },
+        {
+          "x": 1680,
+          "opacity": 100
+        }
+      ],
+      "bars": [
+        {
+          "channel": "自然搜索",
+          "position": [
+            680,
+            655,
+            0
+          ],
+          "size": [
+            1040,
+            96
+          ]
+        },
+        {
+          "channel": "推荐访问",
+          "position": [
+            1440,
+            655,
+            0
+          ],
+          "size": [
+            480,
+            96
+          ]
+        },
+        {
+          "channel": "广告访问",
+          "position": [
+            1720,
+            655,
+            0
+          ],
+          "size": [
+            80.00000000000001,
+            96
+          ]
+        },
+        {
+          "channel": "邮件访问",
+          "position": [
+            1760,
+            655,
+            0
+          ],
+          "size": [
+            0,
+            96
+          ]
+        }
+      ]
+    }
+  },
+  "rebuild": {
+    "feature-final": {
+      "project_bpc": 16,
+      "relative_footage_count": 2,
+      "all_footage_resolves": true,
+      "keyframes_rendered": true
+    },
+    "task": {
+      "project_bpc": 16,
+      "relative_footage_count": 3,
+      "all_footage_resolves": true,
+      "keyframes_rendered": true
+    },
+    "existing_output_guard": {
+      "exit_code": 2,
+      "project_unchanged": true
+    }
+  },
+  "data_guard": {
+    "original_analysis_unchanged": true,
+    "invalid_partition_rejected": true,
+    "scope": "Fixed authored example; no general-data support claimed"
+  },
+  "media": [
+    {
+      "case": "feature",
+      "sha256": "2bf5a84391e45afd73e5ba5c3c301b6c65ba600fd04e6fe73df0bb9d817edec2",
+      "duration": 24.0,
+      "decode_ok": true,
+      "decoded_frames": 720,
+      "visually_reviewed_times": [
+        0.8,
+        2.0,
+        3.6,
+        5.8,
+        6.6,
+        7.1,
+        9.3,
+        10.8,
+        11.15,
+        11.42,
+        11.7,
+        12.15,
+        12.4,
+        12.65,
+        13.0,
+        13.5,
+        14.8,
+        15.7,
+        17.7,
+        18.7,
+        20.6,
+        22.2,
+        23.5
+      ],
+      "audio": {
+        "integrated_lufs": -18.17,
+        "true_peak_dbtp": -2.99,
+        "loudness_range_lu": 3.9,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      }
+    },
+    {
+      "case": "agent",
+      "sha256": "c95aaf2f4b692b0118dca806fe44aedd52f9019815cb9e2a1ddd5c098c569ca0",
+      "duration": 27.008,
+      "decode_ok": true,
+      "decoded_frames": 810,
+      "visually_reviewed_times": [
+        1.3,
+        3.3,
+        4.4,
+        6.5,
+        7.3,
+        7.65,
+        8.0,
+        8.2,
+        8.45,
+        8.8,
+        9.2,
+        9.5,
+        11.2,
+        11.6,
+        12.0,
+        12.2,
+        12.6,
+        13.2,
+        14.5,
+        15.2,
+        18.3,
+        21.3,
+        25.2
+      ],
+      "audio": {
+        "integrated_lufs": -18.35,
+        "true_peak_dbtp": -1.74,
+        "loudness_range_lu": 3.3,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      }
+    },
+    {
+      "case": "data",
+      "sha256": "4254fb6c11cb2b5615bc19454eb07f7669fbc6dfe0dbd31c19a86f0ab348de79",
+      "duration": 26.005,
+      "decode_ok": true,
+      "decoded_frames": 780,
+      "visually_reviewed_times": [
+        1.5,
+        2.6,
+        6.4,
+        7.5,
+        10.2,
+        11.6,
+        13.4,
+        14.15,
+        14.35,
+        14.5,
+        15.0,
+        16.35,
+        16.55,
+        17.15,
+        18.7,
+        20.8,
+        21.3,
+        23.6,
+        25.5
+      ],
+      "audio": {
+        "integrated_lufs": -18.25,
+        "true_peak_dbtp": -1.84,
+        "loudness_range_lu": 3.2,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      }
+    }
+  ],
+  "full_realtime_subjective_listening": false,
+  "user_acceptance": false
+}

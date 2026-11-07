@@ -1,0 +1,120 @@
+{
+  "trace": {
+    "music_case": "trace",
+    "music_path": "processed/trace-instrumental.wav",
+    "fade_in": 0.1,
+    "fade_out": 1.3,
+    "reason": "Retain the coherent original piano phrase and ending after removing verified vocal leakage; reject the new long-form dreamy candidate"
+  },
+  "orbit": {
+    "music_case": "orbit-v8",
+    "music_path": "processed/orbit-v8-instrumental.wav",
+    "segments": [
+      [
+        0,
+        20
+      ]
+    ],
+    "fade_in": 0.25,
+    "fade_out": 2.5,
+    "duck_level": 0.4,
+    "duck_release": 0.6,
+    "reason": "Single continuous material score; no repeated middle passage; verified vocal separation candidate"
+  },
+  "shift": {
+    "music_case": "shift",
+    "segments": [
+      [
+        0.102,
+        6.672
+      ],
+      [
+        8.852,
+        null
+      ]
+    ],
+    "crossfade": 0.035,
+    "tempo": 1.096,
+    "fade_in": 0.02,
+    "fade_out": 0.7,
+    "duck_release": 0.5,
+    "reason": "Spectral-flux estimate around 109 BPM; preserve pitch, align pulse near 120 BPM and remove one measured bar on onsets; musical perception checked separately"
+  },
+  "software-editorial": {
+    "music_case": "trace-v8",
+    "segments": [
+      [
+        0,
+        null
+      ]
+    ],
+    "fade_in": 0.12,
+    "fade_out": 0.7,
+    "reason": "Short clean piano cue with natural decay and a quiet final hold"
+  },
+  "software-spatial": {
+    "music_case": "trace-v8",
+    "segments": [
+      [
+        0,
+        null
+      ]
+    ],
+    "fade_in": 0.2,
+    "fade_out": 0.7,
+    "reason": "Same software voice identity, clean piano supports the reading interval"
+  },
+  "brand-editorial": {
+    "music_case": "trace-v8",
+    "segments": [
+      [
+        0,
+        null
+      ]
+    ],
+    "fade_in": 0.15,
+    "fade_out": 0.7,
+    "music_rms": 0.065,
+    "reason": "Restrained piano miniature; natural decay before the end hold"
+  },
+  "brand-fluid": {
+    "music_case": "orbit-v8",
+    "music_path": "processed/orbit-v8-instrumental.wav",
+    "segments": [
+      [
+        0,
+        8
+      ]
+    ],
+    "fade_in": 0.25,
+    "fade_out": 1.6,
+    "reason": "Continuous soft material texture follows ribbon motion"
+  },
+  "hardware-optical": {
+    "music_case": "orbit-v8",
+    "music_path": "processed/orbit-v8-instrumental.wav",
+    "segments": [
+      [
+        0,
+        8
+      ]
+    ],
+    "fade_in": 0.2,
+    "fade_out": 1.6,
+    "reason": "Soft bright texture for glass; no guitar-led dramatic turn"
+  },
+  "hardware-engineering": {
+    "music_case": "engineering-v8",
+    "segments": [
+      [
+        8,
+        null
+      ]
+    ],
+    "fade_in": 0.12,
+    "fade_out": 0.7,
+    "music_rms": 0.052,
+    "duck_level": 0.4,
+    "reason": "Select ending phrase of the generated mallet/synth miniature; keep technical narration in front"
+  }
+}

@@ -1,0 +1,151 @@
+[
+  [
+    "comp.new",
+    {
+      "name": "07 ORBIT — Native Loop",
+      "width": 1920,
+      "height": 1080,
+      "frameRate": 30,
+      "duration": 16
+    }
+  ],
+  [
+    "layer.new3dPrimitive",
+    {
+      "kind": "torus",
+      "name": "Native alloy orbit A",
+      "radius": 280,
+      "tubeRadius": 28,
+      "segments": 96,
+      "rings": 24,
+      "position": [
+        1230,
+        540,
+        0
+      ],
+      "baseColor": "#A5B6D3",
+      "metallic": 0.9,
+      "roughness": 0.24,
+      "castsShadows": true,
+      "acceptsLights": true
+    }
+  ],
+  [
+    "layer.new3dPrimitive",
+    {
+      "kind": "torus",
+      "name": "Native copper orbit B",
+      "radius": 210,
+      "tubeRadius": 22,
+      "segments": 96,
+      "rings": 24,
+      "position": [
+        1270,
+        540,
+        0
+      ],
+      "baseColor": "#DC764B",
+      "metallic": 0.68,
+      "roughness": 0.23,
+      "acceptsLights": true
+    }
+  ],
+  [
+    "layer.new3dPrimitive",
+    {
+      "kind": "torus",
+      "name": "Native porcelain orbit C",
+      "radius": 142,
+      "tubeRadius": 18,
+      "segments": 80,
+      "rings": 20,
+      "position": [
+        1270,
+        540,
+        0
+      ],
+      "baseColor": "#D8E6E1",
+      "metallic": 0.22,
+      "roughness": 0.28,
+      "acceptsLights": true
+    }
+  ],
+  [
+    "layer.new3dPrimitive",
+    {
+      "kind": "sphere",
+      "name": "Native core",
+      "radius": 67,
+      "segments": 48,
+      "rings": 32,
+      "position": [
+        1270,
+        540,
+        0
+      ],
+      "baseColor": "#A2E0CA",
+      "metallic": 0.25,
+      "roughness": 0.2,
+      "emissive": "#10271F",
+      "acceptsLights": true
+    }
+  ],
+  [
+    "layer.newLight",
+    {
+      "kind": "Parallel",
+      "name": "Key — silk",
+      "color": "#E5EEFF",
+      "intensity": 60,
+      "position": [
+        400,
+        100,
+        -800
+      ],
+      "poi": [
+        1270,
+        540,
+        0
+      ],
+      "castsShadows": true,
+      "shadowDiffusion": 30
+    }
+  ],
+  [
+    "layer.newLight",
+    {
+      "kind": "Parallel",
+      "name": "Rim — warm",
+      "color": "#FFCC99",
+      "intensity": 20,
+      "position": [
+        1900,
+        350,
+        600
+      ],
+      "poi": [
+        1270,
+        540,
+        0
+      ]
+    }
+  ],
+  [
+    "layer.newLight",
+    {
+      "kind": "Ambient",
+      "name": "Soft fill",
+      "color": "#C1D5E3",
+      "intensity": 15
+    }
+  ],
+  [
+    "comp.settings",
+    {
+      "comp": "07 ORBIT — Native Loop",
+      "background": "#0B1823",
+      "motionBlurSamples": 6,
+      "shutterAngle": 150
+    }
+  ]
+]

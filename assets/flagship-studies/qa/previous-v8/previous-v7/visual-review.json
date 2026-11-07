@@ -1,0 +1,32 @@
+{
+  "reviewer": "assistant image inspection",
+  "inspected_contact_sheets": [
+    "final-trace",
+    "final-orbit",
+    "final-shift",
+    "software-editorial",
+    "software-spatial",
+    "brand-editorial",
+    "brand-fluid",
+    "hardware-optical",
+    "hardware-engineering"
+  ],
+  "method": "Final encoded MP4 contact sheets, key single frames and native project checks. No full subjective playback or listening claim.",
+  "revisions": [
+    "Removed rounded caption backing from all nine routes; transparent text with a narrow glyph outline.",
+    "Moved software workspace upward to reserve a subtitle band.",
+    "Retained answer when source drawer opens.",
+    "Avoided source-page titles crossing the question during transition.",
+    "Removed opening and closing text collisions.",
+    "Kept a continuous pale stage through the kinetic type squeeze.",
+    "Made closing slashes present at the full blue cut.",
+    "Repaired negative source offsets with explicit in/out points.",
+    "Moved spatial application inside safe edges.",
+    "Replaced rotation narration in the assembly study with the existing precision-material line.",
+    "Re-rendered and inspected all eight camera-cut boundary frames with shutter integration disabled; no cross-shot ghosting in these frames."
+  ],
+  "full_playback": false,
+  "listening": false,
+  "browser_interaction": false,
+  "user_acceptance": false
+}

@@ -1,0 +1,177 @@
+{
+  "duration": 18,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "captions": [
+    {
+      "id": "01",
+      "text": "让想法，向前一步。",
+      "start": 0.35,
+      "end": 2.17
+    },
+    {
+      "id": "02",
+      "text": "打开新的空间。",
+      "start": 3.75,
+      "end": 5.449999999999999
+    },
+    {
+      "id": "03",
+      "text": "把可能，变成作品。",
+      "start": 7.65,
+      "end": 9.73
+    },
+    {
+      "id": "04",
+      "text": "现在，开始创造。",
+      "start": 11.15,
+      "end": 13.23
+    },
+    {
+      "id": "05",
+      "text": "让下一步发生。",
+      "start": 15.15,
+      "end": 16.75
+    }
+  ],
+  "takes": [
+    {
+      "id": "01",
+      "text": "让想法，向前一步。",
+      "file": "voice-01.wav",
+      "start": 0.35,
+      "end": 2.07,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/shift/voice-edit.wav",
+      "source_sha256": "1768256dcff9b35973330ed9e2f080028d33d0cab965d4ad1ae871a1f2d486b5",
+      "gain_db": 2.5438732701511038,
+      "newly_generated": false,
+      "source_in": 0.1,
+      "source_out": 1.82,
+      "selected_previous_take": "01"
+    },
+    {
+      "id": "02",
+      "text": "打开新的空间。",
+      "file": "voice-02.wav",
+      "start": 3.75,
+      "end": 5.35,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/shift/voice-edit.wav",
+      "source_sha256": "1768256dcff9b35973330ed9e2f080028d33d0cab965d4ad1ae871a1f2d486b5",
+      "gain_db": 0.8919753504221645,
+      "newly_generated": false,
+      "source_in": 6.2,
+      "source_out": 7.800000000000001,
+      "selected_previous_take": "03"
+    },
+    {
+      "id": "03",
+      "text": "把可能，变成作品。",
+      "file": "voice-03.wav",
+      "start": 7.65,
+      "end": 9.63,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/shift/voice-edit.wav",
+      "source_sha256": "1768256dcff9b35973330ed9e2f080028d33d0cab965d4ad1ae871a1f2d486b5",
+      "gain_db": 0.9567574553988718,
+      "newly_generated": false,
+      "source_in": 9.0,
+      "source_out": 10.98,
+      "selected_previous_take": "04"
+    },
+    {
+      "id": "04",
+      "text": "现在，开始创造。",
+      "file": "voice-04.wav",
+      "start": 11.15,
+      "end": 13.13,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/shift/voice-edit.wav",
+      "source_sha256": "1768256dcff9b35973330ed9e2f080028d33d0cab965d4ad1ae871a1f2d486b5",
+      "gain_db": 1.0591488811065695,
+      "newly_generated": false,
+      "source_in": 12.0,
+      "source_out": 13.98,
+      "selected_previous_take": "05"
+    },
+    {
+      "id": "05",
+      "text": "让下一步发生。",
+      "file": "voice-05.wav",
+      "start": 15.15,
+      "end": 16.65,
+      "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v9/source/audio/shift/voice-edit.wav",
+      "source_sha256": "1768256dcff9b35973330ed9e2f080028d33d0cab965d4ad1ae871a1f2d486b5",
+      "gain_db": 2.101620969818311,
+      "newly_generated": false,
+      "source_in": 16.3,
+      "source_out": 17.8,
+      "selected_previous_take": "06"
+    }
+  ],
+  "music_edits": [
+    {
+      "in": 0,
+      "out": 15.75,
+      "timeline_in": 0
+    },
+    {
+      "in": 19.133458333333333,
+      "out": 21.933458333333334,
+      "timeline_in": 15.2
+    }
+  ],
+  "sounds": [
+    {
+      "time": 0.65,
+      "file": "tick.wav",
+      "gain": 0.65
+    },
+    {
+      "time": 2.75,
+      "file": "paper.wav",
+      "gain": 0.8
+    },
+    {
+      "time": 3.55,
+      "file": "tick.wav",
+      "gain": 0.65
+    },
+    {
+      "time": 6.15,
+      "file": "paper.wav",
+      "gain": 0.8
+    },
+    {
+      "time": 8.5,
+      "file": "tick.wav",
+      "gain": 0.8
+    },
+    {
+      "time": 11.15,
+      "file": "paper.wav",
+      "gain": 0.8
+    },
+    {
+      "time": 13.7,
+      "file": "paper.wav",
+      "gain": 0.7
+    },
+    {
+      "time": 14.4,
+      "file": "tick.wav",
+      "gain": 0.75
+    }
+  ],
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-16.97:measured_TP=0.04:measured_LRA=2.70:measured_thresh=-28.23:offset=0.20:linear=true,atrim=duration=18",
+  "final_wav_measurement": {
+    "input_i": "-16.04",
+    "input_tp": "-2.17",
+    "input_lra": "2.60",
+    "input_thresh": "-27.19",
+    "output_i": "-15.86",
+    "output_tp": "-2.20",
+    "output_lra": "2.30",
+    "output_thresh": "-27.03",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.14"
+  },
+  "review_status": "Signal measurements only; listening review is recorded separately against actual final media."
+}

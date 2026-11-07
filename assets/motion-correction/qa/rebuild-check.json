@@ -1,0 +1,37 @@
+{
+  "rebuild_command": "python3 source/rebuild.py --out <new-dir>/source",
+  "source_project_sha256": "70bee9e163e7861a633457a2aa8f3a556ebb2f3e4d50441adc1d586d06fbd7c8",
+  "rebuilt_project_sha256": "70bee9e163e7861a633457a2aa8f3a556ebb2f3e4d50441adc1d586d06fbd7c8",
+  "all_pixels_equal": true,
+  "frames": [
+    {
+      "time": 3.9,
+      "pixel_equal": true,
+      "files": [
+        {
+          "name": "rebuild-source-3.9.png",
+          "sha256": "b6730dc631a62af812c9ecc94b36ea3d4c524ad72e446222f23d1d56f030e2e7"
+        },
+        {
+          "name": "rebuild-rebuild-3.9.png",
+          "sha256": "b6730dc631a62af812c9ecc94b36ea3d4c524ad72e446222f23d1d56f030e2e7"
+        }
+      ]
+    },
+    {
+      "time": 9.6,
+      "pixel_equal": true,
+      "files": [
+        {
+          "name": "rebuild-source-9.6.png",
+          "sha256": "bbf226b8e3e718a84d6a1d658c4b9ae4122772df4e77331082f90a961a22f4d0"
+        },
+        {
+          "name": "rebuild-rebuild-9.6.png",
+          "sha256": "bbf226b8e3e718a84d6a1d658c4b9ae4122772df4e77331082f90a961a22f4d0"
+        }
+      ]
+    }
+  ],
+  "scope": "New-directory native build and two native render-frame pixel comparisons; not a full render in the new directory."
+}

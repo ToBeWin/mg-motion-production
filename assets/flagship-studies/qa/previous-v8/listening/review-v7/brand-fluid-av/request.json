@@ -1,0 +1,14 @@
+{
+  "source": "brand-fluid_流动抽象视觉.mp4",
+  "sha256": "68caeb21ad1faafeee8412b174cd936c2b4f8796b003f67558a331096683482a",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)",
+  "prompt": "请完整分析这段视频的实际声音和画面。首先写出你看到的主要画面变化和听到的全部旁白，以确认读到了输入。再检查：旁白的自然度和情绪是否适合画面；音乐的节奏和性格是否适合画面；转场与声音有无明显脱节；底部旁白字幕是否对应实际所读内容和出现阶段；片尾是否仓促。只记录可验证的实际问题，给出粗略位置和具体建议。不凭画面猜音乐，不虚构精确帧差。无法判断的项目明确说明。",
+  "status": "completed",
+  "started_at": 1793074801.692273,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "8f662fcbd452715a5696104031d86deb45072ea350026e6c7e2ae5acb832ccdb",
+  "finished_at": 1793074823.4277918,
+  "response_sha256": "bf2b15585f016001587d6d96d2e0d5e342144ef6039e6d5bcea52dfab140b7b6"
+}

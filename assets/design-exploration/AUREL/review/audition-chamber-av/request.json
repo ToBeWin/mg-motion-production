@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG风格探索_映序AUREL_v2.1_声音重配/review/audition-chamber/film.mp4",
+  "sha256": "95ec80275d5cf205e3ee67961dccd3879fcb67c79abe4bf0d25f6e4aceb83adf",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整审看审听实际短片。先描述画面的视觉性格与声音中实际占主导的音色和情绪，然后判断两者是否协调。检查音乐是否过分抢戏、节奏是否压迫，是否有额外歌唱或说话，结尾是否自然。指出具体不协调之处，不必给分数，不要从画面臆测乐器，不编造精确时间。",
+  "status": "completed",
+  "started_at": 1793244378.6416519,
+  "method": "full-duration model-assisted audiovisual review",
+  "review_copy_sha256": "62f00dbfed55352a24a4e33e4fdd856194386b8158510a869a1097580dc89946",
+  "event_id": "c122bcb42a6e4db88b8910286c05aae7",
+  "finished_at": 1793244391.5748138,
+  "response_sha256": "3ca274b74d5c70eac033ee51aced8f46970a2c2e59d9bc21948f69e7157e8a8b"
+}

@@ -1,0 +1,158 @@
+{
+  "duration": 32,
+  "captions": [
+    {
+      "id": "01",
+      "text": "每个作品，都从一个想法开始。",
+      "start": 0.8,
+      "end": 3.49275,
+      "source": "take-01.wav",
+      "source_in": 0.033916666666666664,
+      "source_out": 2.7266666666666666,
+      "file": "voice-01.wav",
+      "gain_db": 11.405750335081663
+    },
+    {
+      "id": "02",
+      "text": "把灵感，变成看得见的设计。",
+      "start": 6.6,
+      "end": 9.653437499999999,
+      "source": "take-02.wav",
+      "source_in": 0.0,
+      "source_out": 3.0534375,
+      "file": "voice-02.wav",
+      "gain_db": 12.811638952731974
+    },
+    {
+      "id": "03",
+      "text": "每一种色彩，都可以随心而变。",
+      "start": 12.15,
+      "end": 14.678666666666667,
+      "source": "take-03.wav",
+      "source_in": 0.11027083333333333,
+      "source_out": 2.6389375,
+      "file": "voice-03.wav",
+      "gain_db": 12.006585886577518
+    },
+    {
+      "id": "04",
+      "text": "一个画面，自由展开。",
+      "start": 16.8,
+      "end": 19.145229166666667,
+      "source": "take-04.wav",
+      "source_in": 0.0,
+      "source_out": 2.3452291666666665,
+      "file": "voice-04.wav",
+      "gain_db": 14.523673638805262
+    },
+    {
+      "id": "05",
+      "text": "让好设计，走进每一种尺寸。",
+      "start": 21.2,
+      "end": 23.69708333333333,
+      "source": "take-05.wav",
+      "source_in": 0.2150625,
+      "source_out": 2.7121458333333335,
+      "file": "voice-05.wav",
+      "gain_db": 10.703114334255474
+    },
+    {
+      "id": "06",
+      "text": "让灵感，展开。",
+      "start": 29.1,
+      "end": 30.784145833333334,
+      "source": "take-06.wav",
+      "source_in": 0.25664583333333335,
+      "source_out": 1.9407916666666667,
+      "file": "voice-06.wav",
+      "gain_db": 12.938615991692139
+    }
+  ],
+  "voice_engine": "IndexTTS2 / six individual takes",
+  "music_engine": "MiniMax Music 3 local / 30 steps",
+  "music_source": "minimax-fold-structured.wav",
+  "music_source_duration": 27.73625,
+  "tempo_estimate": 96.98275862068965,
+  "music_edits": [
+    {
+      "source_in": 0,
+      "source_out": 27.73625,
+      "destination": 0,
+      "atempo": 0.8667578125,
+      "pitch_preserved": true
+    }
+  ],
+  "music_crossfade_seconds": 0.0,
+  "normalization": {
+    "master-voice.wav": {
+      "input_i": "-18.63",
+      "input_tp": "-4.84",
+      "input_lra": "3.10",
+      "input_thresh": "-29.14",
+      "output_i": "-15.93",
+      "output_tp": "-1.97",
+      "output_lra": "3.00",
+      "output_thresh": "-26.33",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.07"
+    },
+    "master-music.wav": {
+      "input_i": "-20.95",
+      "input_tp": "-6.64",
+      "input_lra": "6.60",
+      "input_thresh": "-31.38",
+      "output_i": "-15.21",
+      "output_tp": "-1.50",
+      "output_lra": "4.00",
+      "output_thresh": "-25.53",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.79"
+    }
+  },
+  "sfx_events": [
+    [
+      4.35,
+      "unfold",
+      0.2
+    ],
+    [
+      5.75,
+      "grow",
+      0.08
+    ],
+    [
+      13.43,
+      "click",
+      0.22
+    ],
+    [
+      16.25,
+      "stretch",
+      0.1
+    ],
+    [
+      20.55,
+      "spread",
+      0.1
+    ],
+    [
+      24.35,
+      "fold",
+      0.15
+    ],
+    [
+      28.15,
+      "resolve",
+      0.1
+    ]
+  ],
+  "source_hashes": {
+    "minimax-fold-structured.wav": "e9b0d42e3292a53fb21f9553777418375883e0909953b9ce99341dd625eb61ce",
+    "take-01.wav": "b91397c7478b8fe2b0026398b5dd137d1a23e908f92e4fab9dbbecf3dcb313b8",
+    "take-02.wav": "5555ecfaecfa94b49aff4f6cce5d43468afa82d9e2161bbcc291a18fc48cc1f5",
+    "take-03.wav": "5ed9aa99e7db71e0f84c15ea8a7b3c68732936703b80c505dff4d3a3ca6834b3",
+    "take-04.wav": "827ea9528f9cc1748d253d98d77c3d462be5fcc196d1b4195adf6642a9d28da2",
+    "take-05.wav": "b6aa4f37d1e661516199516bbe2d919fd3d9ea9f8666f65e6735041d4495dd0f",
+    "take-06.wav": "7904726a4a41ddbaf2a0765f6a13bdfc44905e573b9ca5a5fd61a36f3a63cbfa"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "relative_footage": [
+    "assets/roam-coast.png",
+    "audio/agent/master.wav",
+    "audio/data/master.wav"
+  ],
+  "fresh_build": true,
+  "frames_rendered": [
+    "agent@18.3",
+    "data@14.9"
+  ],
+  "nonempty_destination_rejected": true,
+  "existing_project_hash_unchanged": true
+}

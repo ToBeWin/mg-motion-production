@@ -1,0 +1,545 @@
+{
+  "version": "v8",
+  "status": "complete",
+  "method": "Full-length audio/video model-assisted review plus independent signal, native text, frame and encoded-stream checks",
+  "unique_clips": 9,
+  "unique_seconds": 116,
+  "caption_events": 29,
+  "full_model_assisted_audio_visual_review": true,
+  "human_listening": false,
+  "human_headphone_or_speaker_monitoring": false,
+  "customer_acceptance": false,
+  "auditory_copy": {
+    "sample_rate": 24000,
+    "channels": 1,
+    "video_width": 960,
+    "no_temporal_truncation": true,
+    "model_internal_frame_sampling": "not exposed"
+  },
+  "actual_delivery": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "resolution": "1920x1080",
+    "fps": 30
+  },
+  "limits": [
+    "Model instrument labels and exact visual descriptions can be wrong; not all incidental descriptions were accepted.",
+    "Model analysis is not human monitoring, word-level forced alignment, a frame-by-frame watch, or proof of flagship commercial quality.",
+    "Subtitle headline confusion was rejected using native text layers and actual frames."
+  ],
+  "films": [
+    {
+      "id": "trace",
+      "seconds": 28,
+      "file": "TRACE_v2_每一步有据_1080p30_中文字幕.mp4",
+      "sha256": "3849f6930a3af96225d556eeafcec234093e4aca9a40711762a8e6a5973ff123",
+      "changes": "重录功能说明为口语化表达；保留原钢琴乐句，去除后段声乐残留；放缓避让回升并保留结尾。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "答案，从哪里来？",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "提出问题。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "从资料里，找到依据。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "把原文，带进答案。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "支持哪些文件，怎样更新，都能找到依据。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "点一下，回到原文。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "看见答案，也看见依据。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/trace/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "orbit",
+      "seconds": 20,
+      "file": "ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+      "sha256": "135e763f0f2628ef870f4c6812135f4c5cdfe2a86a8ab48fb0fa76e1b8913fb7",
+      "changes": "改用稳定明亮的新 MiniMax 材质配乐，去除声乐层；采用连续片段替代中段重复，延长淡出。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "细节，自有分寸。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "在光里，看见精密。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "在转动中，感受秩序。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "每次转动，都恰到好处。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "把精密，握在手中。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/orbit/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "shift",
+      "seconds": 20,
+      "file": "SHIFT_v2_让下一步发生_1080p30_中文字幕.mp4",
+      "sha256": "eb0f3678d0eef8a872f007663dddb6fa730c2626ecd254718098066f972de5cf",
+      "changes": "按实际重拍候选重编配乐，配乐保留音高调整至约 120 BPM，按重拍去掉一小节，修整最后重音与尾响。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "让想法，向前一步。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "让下一步，真实发生。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "打开新的空间。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "把可能，变成作品。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "现在，开始创造。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "让下一步发生。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/shift/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "software-editorial",
+      "seconds": 8,
+      "file": "software-editorial_编辑式信息设计.mp4",
+      "sha256": "639ba5d5ca31d6ef481d1d8ad9dc6242d8bdb83d71f04fca1588df9569b14373",
+      "changes": "改用经全长审查的短钢琴乐句，保留完整自然尾响和画面阅读停留。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "从资料里，找到依据。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "把原文，带进答案。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/software-editorial/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "software-spatial",
+      "seconds": 8,
+      "file": "software-spatial_空间工作台.mp4",
+      "sha256": "b7bfe23cfd3ce5e5e332d08e78695c97fa7975e1f8440e42efe64d25ab5092d8",
+      "changes": "同步替换功能配音与字幕，调整进场时间；钢琴乐句支持文档阅读。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "支持哪些文件，怎样更新，都能找到依据。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/software-spatial/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "brand-editorial",
+      "seconds": 8,
+      "file": "brand-editorial_克制的品牌叙事.mp4",
+      "sha256": "02391bb686533fcf30bc900bfb6a8357650f01555e7000582bb856ace652281b",
+      "changes": "采用更稀疏的短钢琴乐句，并修正此前偏响的短片母带。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "让想法，向前一步。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "让下一步发生。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/brand-editorial/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "brand-fluid",
+      "seconds": 8,
+      "file": "brand-fluid_流动抽象视觉.mp4",
+      "sha256": "3fb5aaa1889277bd57c7a59e0691cc134ceb53782cf5edce83cf3ade13c9383d",
+      "changes": "改用连续、明亮的电子材质配乐，替换原来偏戏剧性的吉他素材。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "打开新的空间。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "现在，开始创造。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/brand-fluid/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "hardware-optical",
+      "seconds": 8,
+      "file": "hardware-optical_柔和光学材质.mp4",
+      "sha256": "283d93d68bd7eba0a8b6cb95f11b58cab3d6d7f8528a283f70e5e7409d487435",
+      "changes": "采用柔和明亮的器乐材质段，尾声为产品静止画面留余量。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "在光里，看见精密。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "把精密，握在手中。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/hardware-optical/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    },
+    {
+      "id": "hardware-engineering",
+      "seconds": 8,
+      "file": "hardware-engineering_结构与工程展示.mp4",
+      "sha256": "a9ba9196f4a66a6b6ee82d61af79c66e213df6e0480730c4be7ba05649ec74dc",
+      "changes": "重录“从旋盖，到核心”“每一层，都有作用”，对应分件画面；选用克制电声节奏并让旁白居前。",
+      "full_input": true,
+      "review_status": "completed",
+      "model": "qwen3.5-omni-plus",
+      "transcript_checks": [
+        {
+          "text": "从旋盖，到核心。",
+          "present_in_review_transcript": true
+        },
+        {
+          "text": "每一层，都有作用。",
+          "present_in_review_transcript": true
+        }
+      ],
+      "response": "qa/listening/review-v8/hardware-engineering/response.txt",
+      "auditory_findings": "Model reported no obvious unnatural speech, masking, extra vocals, abrupt splice or ending problem in final context.",
+      "human_acceptance": false
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate": "trace-v8",
+      "decision": "Accept for three 8-second studies; reject for 28-second main film",
+      "reason": "Actual duration 6.56 s; complete clean piano miniature, insufficient long-form arc"
+    },
+    {
+      "candidate": "trace-v8b",
+      "decision": "Reject",
+      "reason": "Full-length auditory model reports vocal leakage and overly dreamy, low-energy character"
+    },
+    {
+      "candidate": "orbit-v8 raw",
+      "decision": "Reject raw; accept processed candidate",
+      "reason": "Auditory review and isolated vocal stem indicate humming; separated instrument track rechecked for residual voice and obvious damage"
+    },
+    {
+      "candidate": "trace raw",
+      "decision": "Accept processed instrumental while retaining musical structure",
+      "reason": "Original score fits the knowledge product, but late vocal leakage was reported; the processed track was rechecked before final full-film review"
+    }
+  ],
+  "attempts": [
+    {
+      "stage": "review-v7",
+      "id": "brand-editorial",
+      "status": "failed",
+      "source_sha256": "12aa3465afd2c55a5c35054d7ca4aea0482f5a7b18c47e33d05b09191d6b94ba",
+      "model": "qwen3-omni-flash-2025-12-01"
+    },
+    {
+      "stage": "review-v7",
+      "id": "brand-editorial-omni35",
+      "status": "completed",
+      "source_sha256": "12aa3465afd2c55a5c35054d7ca4aea0482f5a7b18c47e33d05b09191d6b94ba",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v7",
+      "id": "brand-fluid",
+      "status": "completed",
+      "source_sha256": "7e7b70ce568cb591ec60fc5f3e926cb2f145f383a4aab74f23e04cfd82d5a5a5",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "brand-fluid-av",
+      "status": "completed",
+      "source_sha256": "68caeb21ad1faafeee8412b174cd936c2b4f8796b003f67558a331096683482a",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "hardware-engineering",
+      "status": "completed",
+      "source_sha256": "2d55bafd50a33e86d270e198ff8e33724f313f4ff60ddcc5e5fde54fa44c4976",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "hardware-optical",
+      "status": "completed",
+      "source_sha256": "817ad9a76595ff75ab4d033b4d84f8efafd4c67c10bc7189598a6ce32085472a",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "music-orbit",
+      "status": "failed",
+      "source_sha256": null,
+      "model": "qwen3-omni-30b-a3b-captioner"
+    },
+    {
+      "stage": "review-v7",
+      "id": "music-orbit-35",
+      "status": "completed",
+      "source_sha256": "60ad7e16c816772af36ceb37ef34931b959e878a8186bde52cf1b40751491a1d",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "music-shift-35",
+      "status": "completed",
+      "source_sha256": "8b20b6738de59cf68244456243dbd6e27859579b4e97b71323ad8200f141c265",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "music-trace-35",
+      "status": "completed",
+      "source_sha256": "2f34af53e84c59bcf9065999a823bf50ba4110d32d88c7d5c6e1c88bf13317cd",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "orbit",
+      "status": "completed",
+      "source_sha256": "476ed5a929ee25b3be0dc347ff998a26b02440c7917a239e3a49adff9a35a5e7",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "shift",
+      "status": "completed",
+      "source_sha256": "3601512ef2be7ee2262eba3cfb1feb51ab4db7d3d5cf4edcfc708e4f2ea90d4e",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "software-editorial",
+      "status": "invalid_response",
+      "source_sha256": "14d8c5a39f621c9df5102ef6530d7bcb413082505866555a22547e274e2df559",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "software-editorial-av",
+      "status": "completed",
+      "source_sha256": "199df6d6d5de32f39b1ea484855e2a1da66a693933643542da05070852da29bb",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "software-editorial-recheck",
+      "status": "invalid_response",
+      "source_sha256": "199df6d6d5de32f39b1ea484855e2a1da66a693933643542da05070852da29bb",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "software-spatial",
+      "status": "completed",
+      "source_sha256": "6f93ea622eaf0fb49cf83edec48e3656b0390cfc873473db5aef30344054d6ba",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-v7",
+      "id": "trace",
+      "status": "completed",
+      "source_sha256": "69e90c7f5b25b35ce00c6789c022fed811bd7ee52476e9cbbdd73ef7910dbd71",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "music-engineering-v8",
+      "status": "completed",
+      "source_sha256": "e09041c898e849dc48eb79f76db7b701f8bbdf6fa2fa5d23875c5b81fc775138",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "music-orbit-v8",
+      "status": "completed",
+      "source_sha256": "12c10ca2beb62ed2def75409a817485dd420f625e3852cc2422de78deb12393b",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "music-trace-v8",
+      "status": "completed",
+      "source_sha256": "42d67a20d8a57168822db8d5fd1d0004712f34ea01ace4696323a22c8c449460",
+      "model": "Qwen3.5-Omni (official demo; exact backend in source snapshot)"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "music-trace-v8b",
+      "status": "completed",
+      "source_sha256": "03342fbc1417ddc3ea85362669e236e37e2589d4524b3344914c63d8845700ad",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "orbit-separated-no_vocals",
+      "status": "completed",
+      "source_sha256": "9e3ac8f060505843956a37309509b42130de0a6b85e63fa33f5959c8f3f61f8c",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "orbit-separated-vocals",
+      "status": "completed",
+      "source_sha256": "256e654ba41e6af2f043220cfc873b195eab02d40bea4db3b4bb5500e63faf5d",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "trace-separated-no_vocals",
+      "status": "completed",
+      "source_sha256": "78d94de8d3c5464c788b01305ee7fccb4f0338de440ed995a36b271c9f9f93c1",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-candidates",
+      "id": "voice-trace08",
+      "status": "invalid_response",
+      "source_sha256": "1f9b08317607331e83b47da48a82a76cac10da63d3109c349e84d82f1cb6e86e",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "brand-editorial",
+      "status": "completed",
+      "source_sha256": "02391bb686533fcf30bc900bfb6a8357650f01555e7000582bb856ace652281b",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "brand-fluid",
+      "status": "completed",
+      "source_sha256": "3fb5aaa1889277bd57c7a59e0691cc134ceb53782cf5edce83cf3ade13c9383d",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "hardware-engineering",
+      "status": "completed",
+      "source_sha256": "a9ba9196f4a66a6b6ee82d61af79c66e213df6e0480730c4be7ba05649ec74dc",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "hardware-optical",
+      "status": "completed",
+      "source_sha256": "283d93d68bd7eba0a8b6cb95f11b58cab3d6d7f8528a283f70e5e7409d487435",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "orbit",
+      "status": "completed",
+      "source_sha256": "135e763f0f2628ef870f4c6812135f4c5cdfe2a86a8ab48fb0fa76e1b8913fb7",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "shift",
+      "status": "completed",
+      "source_sha256": "eb0f3678d0eef8a872f007663dddb6fa730c2626ecd254718098066f972de5cf",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "software-editorial",
+      "status": "completed",
+      "source_sha256": "639ba5d5ca31d6ef481d1d8ad9dc6242d8bdb83d71f04fca1588df9569b14373",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "software-spatial",
+      "status": "completed",
+      "source_sha256": "b7bfe23cfd3ce5e5e332d08e78695c97fa7975e1f8440e42efe64d25ab5092d8",
+      "model": "qwen3.5-omni-plus"
+    },
+    {
+      "stage": "review-v8",
+      "id": "trace",
+      "status": "completed",
+      "source_sha256": "3849f6930a3af96225d556eeafcec234093e4aca9a40711762a8e6a5973ff123",
+      "model": "qwen3.5-omni-plus"
+    }
+  ]
+}

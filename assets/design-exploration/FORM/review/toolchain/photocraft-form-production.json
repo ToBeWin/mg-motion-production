@@ -1,0 +1,270 @@
+[
+  {
+    "method": "initialize",
+    "params": {
+      "protocolVersion": "2025-06-18",
+      "clientInfo": {
+        "name": "mg-design-pipeline",
+        "version": "1.0"
+      },
+      "capabilities": {}
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "protocolVersion": "2025-06-18",
+        "capabilities": {
+          "resources": {},
+          "tools": {}
+        },
+        "serverInfo": {
+          "name": "photocraft",
+          "version": "0.16.0"
+        },
+        "instructions": "PhotoCraft image editor. Start with doc_new/doc_open, discover ids and parameter docs with command_list, edit with command_run or command_batch (one history step per command). Inspect with doc_inspect and render_preview; doc_save writes native .pcraft or exports by extension. File paths are relative to the read/write roots granted at launch. ui_inspect/ui_screenshot and other ui_* tools require bridge mode. Read photocraft://document and photocraft://commands for live JSON state."
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_new",
+      "arguments": {
+        "name": "FORM / studio ground",
+        "width": 1920,
+        "height": 1080,
+        "depth": 16,
+        "background": "#F2EFE7"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"document\":0}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "gradient.fill.create",
+        "params": {
+          "from": [
+            700,
+            180
+          ],
+          "to": [
+            1700,
+            1050
+          ],
+          "style": "linear",
+          "stops": [
+            [
+              0,
+              "#F6F3EB"
+            ],
+            [
+              0.62,
+              "#EAE8DD"
+            ],
+            [
+              1,
+              "#D4E3DA"
+            ]
+          ],
+          "dither": true
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"layer\":3}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Warm paper to mineral light"
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "null"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "layer.new.layer",
+        "params": {
+          "name": "Fine photographic grain",
+          "mode": "SoftLight",
+          "opacity": 0.16,
+          "fillNeutral": true
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"layer\":4}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "command_run",
+      "arguments": {
+        "id": "filter.noise.addNoise",
+        "params": {
+          "amount": 2,
+          "distribution": "gaussian",
+          "monochromatic": true,
+          "seed": 2718
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"filter\":{\"amount\":2.0,\"distribution\":\"gaussian\",\"filter\":\"addNoise\",\"monochromatic\":true,\"seed\":2718},\"layer\":4}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_save",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/assets/FORM-studio.pcraft"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 7,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/assets/FORM-studio.pcraft\",\"warnings\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_export",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/assets/FORM-studio.png"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 8,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/assets/FORM-studio.png\",\"warnings\":[\"3 layer(s) flattened; layers, masks and blend modes are not kept\"]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_export",
+      "arguments": {
+        "path": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/assets/FORM-studio.psd"
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 9,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/assets/FORM-studio.psd\",\"warnings\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "method": "tools/call",
+    "params": {
+      "name": "doc_inspect",
+      "arguments": {}
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 10,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"activeLayer\":4,\"canRedo\":false,\"canUndo\":true,\"channels\":{\"alpha\":[],\"colors\":[{\"name\":\"Red\",\"visible\":true},{\"name\":\"Green\",\"visible\":true},{\"name\":\"Blue\",\"visible\":true}],\"composite\":\"RGB\",\"compositeVisible\":true,\"layerMaskView\":null,\"quickMask\":null,\"target\":{\"kind\":\"composite\"}},\"depth\":16,\"hasSelection\":false,\"height\":1080,\"history\":[\"Open\",\"New Gradient Fill Layer\",\"Rename Layer\",\"New Layer\",\"Add Noise\"],\"historySource\":{\"label\":\"Open\",\"state\":0},\"isolatedLayers\":[],\"lastAppliedComp\":null,\"layerComps\":[],\"layerMaskView\":null,\"layers\":[{\"blend\":\"Soft Light\",\"bounds\":[0,0,1920,1080],\"clipped\":false,\"fill\":1.0,\"hasMask\":false,\"hasVectorMask\":false,\"hasXmp\":false,\"id\":4,\"kind\":\"Pixel\",\"labelColor\":\"none\",\"linkGroup\":null,\"name\":\"Fine photographic grain\",\"opacity\":0.1599999964237213,\"selected\":true,\"vectorMaskEnabled\":null,\"visible\":true},{\"blend\":\"Normal\",\"bounds\":null,\"clipped\":false,\"fill\":1.0,\"hasMask\":false,\"hasVectorMask\":false,\"hasXmp\":false,\"id\":3,\"kind\":\"Fill\",\"labelColor\":\"none\",\"linkGroup\":null,\"name\":\"Warm paper to mineral light\",\"opacity\":1.0,\"selected\":false,\"vectorMaskEnabled\":null,\"visible\":true},{\"blend\":\"Normal\",\"bounds\":[0,0,1920,1080],\"clipped\":false,\"fill\":1.0,\"hasMask\":false,\"hasVectorMask\":false,\"hasXmp\":false,\"id\":2,\"kind\":\"Pixel\",\"labelColor\":\"none\",\"linkGroup\":null,\"name\":\"Background\",\"opacity\":1.0,\"selected\":false,\"vectorMaskEnabled\":null,\"visible\":true}],\"measurement\":{\"count\":0,\"countGroups\":0,\"ruler\":null,\"scale\":\"1 pixels = 1.0000 pixels\"},\"mode\":\"Rgb\",\"name\":\"FORM-studio.psd\",\"notes\":[],\"path\":\"~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/assets/FORM-studio.psd\",\"quickMask\":false,\"resolution\":72.0,\"revision\":5,\"selectedLayers\":[4],\"selectionBounds\":null,\"snapshots\":[],\"symmetry\":null,\"timeline\":null,\"variables\":null,\"width\":1920}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  }
+]

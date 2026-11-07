@@ -1,0 +1,12 @@
+{
+  "samples": 64,
+  "scale": 100,
+  "range": [
+    91,
+    330
+  ],
+  "preview": [],
+  "engine": "Cycles / Metal",
+  "camera_and_geometry": "preserved from the concept assembly",
+  "new_environment": "neutral studio with real area lights and reflection flag"
+}

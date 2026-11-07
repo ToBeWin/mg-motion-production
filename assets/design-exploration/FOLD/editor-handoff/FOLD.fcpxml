@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p30" frameDuration="1/30s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <asset id="r2" name="FOLD Picture" start="0s" duration="32s" hasVideo="1" format="r1">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E8%BD%AF%E4%BB%B6%E5%8F%91%E5%B8%83_FOLD_v1/FOLD_%E8%AE%A9%E7%81%B5%E6%84%9F%E5%B1%95%E5%BC%80_%E7%94%BB%E9%9D%A2.mp4" />
+    </asset>
+    <asset id="r3" name="FOLD final master" start="0s" duration="32s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E8%BD%AF%E4%BB%B6%E5%8F%91%E5%B8%83_FOLD_v1/source/audio/master-voice.wav" />
+    </asset>
+    <asset id="r4" name="Narration stem" start="0s" duration="32s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E8%BD%AF%E4%BB%B6%E5%8F%91%E5%B8%83_FOLD_v1/source/audio/voice-edit.wav" />
+    </asset>
+    <asset id="r5" name="Music stem" start="0s" duration="32s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E8%BD%AF%E4%BB%B6%E5%8F%91%E5%B8%83_FOLD_v1/source/audio/music-edit.wav" />
+    </asset>
+    <asset id="r6" name="Sound design stem" start="0s" duration="32s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG%E8%BD%AF%E4%BB%B6%E5%8F%91%E5%B8%83_FOLD_v1/source/audio/sfx-edit.wav" />
+    </asset>
+  </resources>
+  <library>
+    <event name="FOLD · 让灵感展开">
+      <project name="FOLD · picture + final master">
+        <sequence format="r1" duration="32s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <asset-clip ref="r2" name="FOLD / editable source in EffectCraft" offset="0s" start="0s" duration="32s" format="r1">
+              <asset-clip ref="r3" name="IndexTTS2 + MiniMax Music + sound design" lane="-1" offset="0s" start="0s" duration="32s" audioRole="dialogue" />
+            </asset-clip>
+          </spine>
+        </sequence>
+      </project>
+      <asset-clip ref="r4" name="Narration stem" start="0s" duration="32s" />
+      <asset-clip ref="r5" name="Music stem" start="0s" duration="32s" />
+      <asset-clip ref="r6" name="Sound design stem" start="0s" duration="32s" />
+    </event>
+  </library>
+</fcpxml>

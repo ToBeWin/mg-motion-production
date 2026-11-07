@@ -1,0 +1,84 @@
+{
+  "duration": 8,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "shift",
+  "music_case": "orbit-v8",
+  "captions": [
+    {
+      "id": "03",
+      "start": 0.6666666666666666,
+      "end": 2.3666666666666667,
+      "text": "打开新的空间。"
+    },
+    {
+      "id": "05",
+      "start": 4.533333333333333,
+      "end": 6.613333333333333,
+      "text": "现在，开始创造。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "03",
+      "raw_duration": 2.0549659863945577,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.20497916666666666,
+      "gain_db": 3.555227197988127,
+      "start": 0.6666666666666666,
+      "end": 2.2666666666666666
+    },
+    {
+      "id": "05",
+      "raw_duration": 2.507755102040816,
+      "trim_leading": 0.28,
+      "trim_trailing": 0.24777083333333333,
+      "gain_db": -1.0162319787459366,
+      "start": 4.533333333333333,
+      "end": 6.513333333333334
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 0.0,
+      "source_out": 8.0,
+      "pre_tempo_timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "tempo_factor_pitch_preserved": 1,
+      "effective_music_end": 8,
+      "padded_seconds": 0,
+      "selection_reason": "Continuous soft material texture follows ribbon motion"
+    }
+  ],
+  "mix_settings": {
+    "music_case": "orbit-v8",
+    "music_path": "processed/orbit-v8-instrumental.wav",
+    "segments": [
+      [
+        0,
+        8
+      ]
+    ],
+    "fade_in": 0.25,
+    "fade_out": 1.6,
+    "reason": "Continuous soft material texture follows ribbon motion"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-16.42:measured_TP=-2.42:measured_LRA=4.50:measured_thresh=-27.78:offset=-0.34:linear=true,atrim=duration=8",
+  "master_verification": [
+    {
+      "input_i": "-16.02",
+      "input_tp": "-2.20",
+      "input_lra": "4.90",
+      "input_thresh": "-27.38",
+      "output_i": "-15.96",
+      "output_tp": "-2.20",
+      "output_lra": "3.00",
+      "output_thresh": "-26.74",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.04"
+    }
+  ],
+  "raw_music_seconds": 26.017979166666667
+}

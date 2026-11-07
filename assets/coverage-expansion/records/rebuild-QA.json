@@ -1,0 +1,86 @@
+{
+  "new_directory": true,
+  "media_paths_resolved": true,
+  "all_13_projects_rebuilt": true,
+  "frames": [
+    {
+      "id": "onboarding",
+      "time": 11.700000000000001,
+      "identical_native_frame": true,
+      "sha256": "c8e4c260f4d04c0faefefb648763cd524a1ca4ec5293c57236ae56c091d3ae1e"
+    },
+    {
+      "id": "customer-case",
+      "time": 11.700000000000001,
+      "identical_native_frame": true,
+      "sha256": "0518deaeb6ec44914f97facb945c4b52dd49aae4be25d76416efe4037c32a1dd"
+    },
+    {
+      "id": "identity-sting",
+      "time": 3.9000000000000004,
+      "identical_native_frame": true,
+      "sha256": "7b1aa31f4d8c9b01f7a7a610e64f71bfe7190a55c7ea79877c9fd8374339ed25"
+    },
+    {
+      "id": "product-function",
+      "time": 7.800000000000001,
+      "identical_native_frame": true,
+      "sha256": "60e4281b903e947037187f19a82a4a4eeba3f7f901b3ab72a11896186dfd885a"
+    },
+    {
+      "id": "industrial-exploded",
+      "time": 9.1,
+      "identical_native_frame": true,
+      "sha256": "a70b8dae93238ede606348c0c7ea6b2b8f1d30f795fa0cabf0fa37c8ba12fa3b"
+    },
+    {
+      "id": "map-journey",
+      "time": 9.1,
+      "identical_native_frame": true,
+      "sha256": "bd7e56827480547b0472570b1478615e2fe2c2058744f7e4c3d4dd06967ece8c"
+    },
+    {
+      "id": "editorial-story",
+      "time": 10.4,
+      "identical_native_frame": true,
+      "sha256": "a58e396e5960a1adb5102ce916dd9e426fcf350cca9bec5cbaed58418900078f"
+    },
+    {
+      "id": "stage-opening",
+      "time": 9.1,
+      "identical_native_frame": true,
+      "sha256": "6c7d6ebaee3f7ce5107c27a2e5afa418c5ad23a8ea3d9a605cdf373baba125a8"
+    },
+    {
+      "id": "broadcast-package",
+      "time": 7.800000000000001,
+      "identical_native_frame": true,
+      "sha256": "3a45f9db17dfb8d77a7a0cd2e9fc43ffe9751499323de2750542c3bac01638fa"
+    },
+    {
+      "id": "exhibition-loop",
+      "time": 10.4,
+      "identical_native_frame": true,
+      "sha256": "5ff3a13e6871452335e32d886d74ce011060bc636095e46e2a95b6a59a5235f8"
+    },
+    {
+      "id": "interface-feedback",
+      "time": 6.5,
+      "identical_native_frame": true,
+      "sha256": "37be8ad3baa9bc37fa3814b96e4127357d9bb1718db38c749a97f6fdb16d4177"
+    },
+    {
+      "id": "footage-callouts",
+      "time": 7.800000000000001,
+      "identical_native_frame": true,
+      "sha256": "88dd4594f54c9651be271e0633b232d16bdfd85cc0c14a3059582c95a4c4292a"
+    },
+    {
+      "id": "title-sequence",
+      "time": 10.4,
+      "identical_native_frame": true,
+      "sha256": "c3e9eae74dcc5994a526656e7c6fe9ca2be0d664126f7269925309065d5a3672"
+    }
+  ],
+  "scope": "One identical native PNG per film; not a second complete 178-second render"
+}

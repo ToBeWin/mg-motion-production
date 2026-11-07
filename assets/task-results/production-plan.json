@@ -1,0 +1,173 @@
+{
+  "version": "3.2.0",
+  "fps": 30,
+  "agent": {
+    "title": "一念协作 v3 · 从简报到网站",
+    "duration": 27,
+    "composition": "一念协作 v3 — Task to website",
+    "task": "为 ROAM 做一个旅行灵感首页。",
+    "requirements": [
+      "城市漫游",
+      "海岸路线",
+      "山野徒步"
+    ],
+    "times": {
+      "submit": 3.2,
+      "workspace": 4.4,
+      "research": 5.6,
+      "design": 8.0,
+      "check": 11.2,
+      "check_done": 13.0,
+      "result": 15.0,
+      "explore": 18.2,
+      "delivery": 21.0,
+      "close": 23.5,
+      "check_first": 12.0,
+      "check_second": 12.5
+    },
+    "cues": [
+      {
+        "time": 3.2,
+        "type": "click",
+        "pan": 0.3
+      },
+      {
+        "time": 3.35,
+        "type": "air",
+        "duration": 0.75
+      },
+      {
+        "time": 5.6,
+        "type": "tick",
+        "pan": -0.4
+      },
+      {
+        "time": 8.0,
+        "type": "warm",
+        "pan": 0
+      },
+      {
+        "time": 11.2,
+        "type": "air",
+        "duration": 0.65
+      },
+      {
+        "time": 12.0,
+        "type": "tick",
+        "pan": 0.4
+      },
+      {
+        "time": 12.5,
+        "type": "tick",
+        "pan": 0.4
+      },
+      {
+        "time": 13.0,
+        "type": "resolve",
+        "pan": 0.3
+      },
+      {
+        "time": 14.3,
+        "type": "air",
+        "duration": 0.8
+      },
+      {
+        "time": 18.2,
+        "type": "click",
+        "pan": -0.2
+      },
+      {
+        "time": 20.45,
+        "type": "air",
+        "duration": 0.65
+      },
+      {
+        "time": 23.1,
+        "type": "air",
+        "duration": 0.6
+      }
+    ],
+    "outputs": [
+      "deliverables/ROAM/index.html",
+      "deliverables/ROAM/checks.json"
+    ],
+    "scope": "Agent 工作过程为概念动画；配套 ROAM 网页是实际可浏览交付物。"
+  },
+  "data": {
+    "title": "DataTalk v3 · 从问题到下一步",
+    "duration": 26,
+    "composition": "DataTalk v3 — Evidence to action",
+    "question": "这期增长，来自哪个渠道？",
+    "times": {
+      "submit": 2.6,
+      "source": 3.6,
+      "compare": 6.2,
+      "delta": 9.6,
+      "contribution": 13.4,
+      "next": 17.0,
+      "export": 20.0,
+      "report": 21.0,
+      "close": 23.8
+    },
+    "cues": [
+      {
+        "time": 2.6,
+        "type": "click",
+        "pan": 0.2
+      },
+      {
+        "time": 3.1,
+        "type": "air",
+        "duration": 0.6
+      },
+      {
+        "time": 5.6,
+        "type": "air",
+        "duration": 0.8
+      },
+      {
+        "time": 6.9,
+        "type": "tick"
+      },
+      {
+        "time": 9.0,
+        "type": "air",
+        "duration": 0.75
+      },
+      {
+        "time": 10.8,
+        "type": "tick",
+        "pan": 0.35
+      },
+      {
+        "time": 13.4,
+        "type": "resolve"
+      },
+      {
+        "time": 16.35,
+        "type": "air",
+        "duration": 0.65
+      },
+      {
+        "time": 20.0,
+        "type": "click",
+        "pan": 0.25
+      },
+      {
+        "time": 20.7,
+        "type": "resolve"
+      },
+      {
+        "time": 23.3,
+        "type": "air",
+        "duration": 0.65
+      }
+    ],
+    "outputs": [
+      "deliverables/DataTalk/增长简报.html",
+      "data/channel-visits.csv",
+      "data/analysis.json"
+    ],
+    "scope": "虚构示例访问次数；两个等长 28 天窗口。描述性增量贡献，不证明因果、转化或 ROI。"
+  }
+}

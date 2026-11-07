@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/一念协作_v11_从想法到作品_中文字幕.mp4",
+  "sha256": "23240652acbb288a9bf00e0fef6ddb07085d18abe6d4556d792be8cbb9eb4410",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整分析这段成片的音频，并结合收到的视频画面进行保守审查。逐句抄写实际听到的中文配音，描述语气、停顿、发音、截断或口齿问题；描述背景音乐的风格、有没有人声、与片中题材是否贴合、是否遮盖配音或在剪接处突兀；检查实际看到的字幕与听到的内容是否对应，是否存在明显过早、过迟、遮挡、重叠；描述能确认的主要动画动作与声音节奏关系。没有把握的内容请明确说明。不要给总分，不要因为是宣传片就默认质量好，不要把字幕内容当作听到的配音。",
+  "status": "completed",
+  "started_at": 1793173432.905767,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "c2d946160a7872b3429e4ed9fd749b760fe4bc1afa1792de971945d95ddce9f5",
+  "event_id": "ace57f57c0ea49a78a340b1d182d8f73",
+  "finished_at": 1793173462.1912389,
+  "response_sha256": "922f8d5279e52298e0f7f9c87bf833bbb69824a5865b8cf2afcaf29043a7da5b"
+}

@@ -1,175 +1,217 @@
 {
-  "version": "1.0.0",
+  "version": "3.24.0",
   "styles": {
     "editorial-type": {
       "name": "极简编辑 / 动态字体",
       "assets": "字体、短文案、基线与字号层级",
-      "motion": "按词义揭示，保留完整阅读；不默认逐字弹跳",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "按词义揭示，保留完整阅读；不默认逐字弹跳"
     },
     "precise-ui": {
       "name": "精确产品 UI",
       "assets": "真实状态、组件与操作反馈",
-      "motion": "焦点、选区、光标、成功 / 失败状态保持因果",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "焦点、选区、光标、成功 / 失败状态保持因果"
     },
     "spatial-ui": {
       "name": "2.5D / 空间界面",
       "assets": "完整界面、层级、可读正视面",
-      "motion": "透视与相机只用于揭示关系，阅读时回到稳定构图",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "透视与相机只用于揭示关系，阅读时回到稳定构图"
     },
     "optical": {
       "name": "玻璃 / 金属 / 光学材质",
       "assets": "实体厚度、可信法线、反射环境",
-      "motion": "微距、连续灯光和有观察目标的相机",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "微距、连续灯光和有观察目标的相机"
     },
     "matte-3d": {
       "name": "哑光 / 黏土 / 柔性三维",
       "assets": "有设计的轮廓、尺度、粗糙度与接触阴影",
-      "motion": "重量、挤压和碰撞服从材质；避免默认玩具质感",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "重量、挤压和碰撞服从材质；避免默认玩具质感"
     },
     "flat-illustration": {
       "name": "二维扁平 / 图标插画",
       "assets": "统一线宽、造型比例与有限色板",
-      "motion": "语义形变、轮廓接力、错峰动作",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "语义形变、轮廓接力、错峰动作"
     },
     "character": {
       "name": "角色表演 / 叙事插画",
       "assets": "角色设定、分层或绑定、关键姿态",
-      "motion": "明确意图、预备与反应；滑动贴图不等于角色表演",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "明确意图、预备与反应；滑动贴图不等于角色表演"
     },
     "paper-collage": {
       "name": "纸感 / 手作 / 编辑拼贴",
       "assets": "图片、纸张边缘、纹理与版式",
-      "motion": "有限帧率性格、遮挡接力、稳定纹理",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "有限帧率性格、遮挡接力、稳定纹理"
     },
     "technical": {
       "name": "结构技术 / 线框 / 克制 HUD",
       "assets": "有含义的结构、编号、路径与标尺",
-      "motion": "明亮中性底上的描线、流向、组装与结构揭示；颜色承载字段或状态，不默认黑底或发光",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "明亮中性底上的描线、流向、组装与结构揭示；颜色承载字段或状态，不默认黑底或发光"
     },
     "data-map": {
       "name": "数据 / 地图 / 信息图",
       "assets": "可复算数据、编码、底图与图例",
-      "motion": "保持尺度和投影，让数据对象持续存在",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "保持尺度和投影，让数据对象持续存在"
     },
     "bold-type": {
       "name": "高对比 / 大字 / 节奏几何",
       "assets": "大字号、强色块、母形与节拍",
-      "motion": "主次节拍、尺度跳变、构图匹配切，留出关键停顿",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "主次节拍、尺度跳变、构图匹配切，留出关键停顿"
     },
     "footage-hybrid": {
       "name": "实拍 / 三维 / 图形混合",
       "assets": "影像、跟踪、遮挡和统一色彩",
-      "motion": "图形与真实世界同一运动和光照逻辑",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "motion": "图形与真实世界同一运动和光照逻辑"
     },
     "kinetic-process": {
       "name": "目标成行 / 动态字排与进程叙事",
       "assets": "本次品牌、带单位与来源的主对象、可拆解的结构/阶段、真实界面与产物；数量和时长按内容确定",
       "motion": "同一数字或关键词持续转化为结构与阶段；遮罩展开、路径接力、时间轴推进，完整停稳后回到真实结果",
-      "guide": "references/styles.md",
+      "guide": "references/kinetic-process.md",
       "evidence": [],
-      "checks": []
+      "checks": [
+        "数字/关键词在前后状态中保持同一身份，目标与实际值不混用",
+        "有真实时间依据才按时长比例绘制时间轴；无时长则明确为步骤",
+        "文字不随容器非等比拉伸，背板与标签共同运动",
+        "证据换页无空白闪断，游标避开正文，品牌片尾旁白保留完整"
+      ]
     },
     "fold-design": {
-      "name": "设计展开",
+      "name": "FOLD / 设计展开",
       "assets": "本次品牌的原创作品、几何母形、字体与色彩角色、组件前后状态，以及分别设计的必要输出版式；保留可编辑路径和文字",
       "motion": "让组件操作改变同一件作品，以对象身份和边界连接主题、版式与输出；完整界面建立位置、特写展示变化、结果停稳，主体再接品牌收尾",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "guide": "references/fold-design.md",
+      "evidence": [
+        "fold-design-v1"
+      ],
+      "checks": [
+        "先完成可展示的原创结果资产；概念交互与实际运行的软件功能分开标注",
+        "主要控件的前态、触发、变化与后态一致，同一作品在转场中保持身份",
+        "尺寸变化同步重排字阶、对齐、锚点和间距，不把扁平图机械缩放为多尺寸",
+        "路径控制点和切线连续，文字可编辑且不过度拉伸；检查最大放大尺度和转场中间帧",
+        "背景、主体、强调色和透明字幕共同设计，阅读窗口稳定且无相互遮挡",
+        "旁白实际发声与字幕一致，主要动作和声音落点配合，完整审查音乐与配音收尾"
+      ]
     },
     "editorial-product": {
       "name": "编辑式产品叙事",
       "assets": "本次产品的完整结果资产、精确字排与色彩角色、来源与输入、选区与修改、分享或交付的组件状态；保留可编辑文字与矢量",
       "motion": "稀疏大字与密集产品证据交替，完整界面与操作特写切换尺度；让同一内容经历输入、结果、修改与交付，用局部滚动、线条与对象接替保持连续",
-      "guide": "references/styles.md",
+      "guide": "references/editorial-product.md",
       "evidence": [],
-      "checks": []
+      "checks": [
+        "使用本次产品身份；要求新概念时重新构思，不擅自沿用历史案例的产品名或内容",
+        "结果资产独立设计，输入、选区、操作与变化作用于同一内容；概念与实际软件运行分开说明",
+        "完整界面建立位置，特写解释变化，阅读段停稳；镜头尺度改变有信息用途",
+        "在最大放大倍率检查文字与路径清晰度，不能以连续栅格化开关状态代替实际渲染检查",
+        "滚动与替换有明确遮罩边界；检查中间帧、选区与正文间距，以及主体接替时的意外空白",
+        "字幕和主体共同配色并避让；真实语音时长驱动字幕，主要动作与声音落点相配，完整复核收尾"
+      ]
     },
     "bold-brand-pop": {
       "name": "热烈品牌 / Bold Brand Pop",
       "assets": "本次品牌的原创字标、图形母形、包装/实体产品或插画、有限强色场与字幕色彩角色；先完成能独立成立的设计资产，三维按需要使用",
       "motion": "在产品特写、巨幅字体、图案展开与清楚落版之间改变密度；让同一母形接替包装、标点和转场，刚性产品与弹性图形分开设计，快段后留可读停顿",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "guide": "references/bold-brand-pop.md",
+      "evidence": [
+        "sunpop-bold-brand-pop-v1"
+      ],
+      "checks": [
+        "使用本次品牌与产品依据；新概念重新设计，不能自动继承 SUNPOP、饮料罐、太阳、橙蓝或 24 秒",
+        "包装、字标、母形、主体与字幕共同配色；巨幅字可有意裁边，但品牌与关键口号有完整可读状态",
+        "刚性物体不随图形挤压；需要三维时检查真实连续运动、标签贴图、反射和极端姿态的源画幅裁切",
+        "父子坐标、素材开始时间与入出点在实际渲染中核对；转场中段无露底、错层或无意空拍",
+        "按实际音乐选择曲风与重拍，不以提示词当结果；音效跟随主要动作，配音避让和片尾包络完整",
+        "有配音时检查透明字幕字色和实际发声边界，完整审看最终编码；新画幅、循环和行业另行验证"
+      ]
     },
     "sculptural-type": {
       "name": "字形雕塑＋动态排版",
       "assets": "本次品牌的原创字形/母形、命名矢量路径与对应实体构件、文字版式、明亮环境与前侧面材质、字幕色彩；Figma/PhotoCraft 按资产需要使用",
       "motion": "同一轮廓在三维实体、平面文字载体与负空间之间连续改变角色；以真实可见轮廓连接三维与二维，尺度与密度变化之后留出可读停顿",
-      "guide": "references/styles.md",
-      "evidence": [],
-      "checks": []
+      "guide": "references/sculptural-type.md",
+      "evidence": [
+        "aurel-sculptural-type-v21"
+      ],
+      "checks": [
+        "按本次品牌重新设计母形与内容，不自动继承 AUREL、字母 A、四构件、蓝色、16 秒或钢琴；软件功能仍需真实输入、操作与结果",
+        "矢量、实体前表面和文字遮罩共用轮廓身份；检查路径点序、方向与拓扑，字形不随载体无意拉伸",
+        "以同相机同画幅的可见轮廓交接三维与二维，排除被地面或其他物体遮挡的部分；密集检查交接前后无残影、跳尺度或错层",
+        "实体厚度、光向和接触可信；三维受光色与平面色以真实合成匹配，品牌和关键文案保留完整可读状态",
+        "有声版本按品牌气质比较实际配乐音色，提示词/文件名/BPM 不等于结果；安静材质、明快创意和复古主题分别选择，不默认钢琴或游戏音色",
+        "有声版本让主动作与乐句相配而不机械对拍；有配音时检查旁白避让、透明字幕对比和发声边界，最终文件复核最后一句与音乐收束；无声用途不强加声音",
+        "只换声音时核对保留的视频流与语音 stem；改几何/相机/灯光/材质需失效旧帧缓存；新比例重排、循环接缝和现场播放另行验证"
+      ]
     },
     "luminous-workspace": {
       "name": "柔光工作台与成果叙事",
       "assets": "本次软件工作台、关键输入与来源、共享任务对象、实际报告/演示/网页等结果、明确文件名；统一字体与色彩角色，保留矢量与可编辑文字；独立职责的资料/结论窗口、同一组件修改前后的设计状态",
       "motion": "全景定位 → 资料与结论双窗口 → 操作靠近 → 选区和具体指令 → 同一对象重排 → 停稳阅读 → 成果交付；持久任务、来源与关键内容贯穿，镜头和内容变化错开",
-      "guide": "references/styles.md",
+      "guide": "references/luminous-workspace.md",
       "evidence": [],
-      "checks": [],
+      "checks": [
+        "先设计有实质内容的结果资产；同一任务、来源、数据、图片和交付文件前后对应，概念与真实执行分开注明",
+        "工作台、操作特写与结果阅读建立尺度层级；内部组件按最大放大倍率保持字形清晰",
+        "局部编辑有完整前后态，数值/名称/出处对应；多窗口分工可辨；同坐标选框与光标正确命中；圆角以几何尺寸动画保持形状",
+        "成果切换时保留空间锚点，检查密集转场的重叠正文、遮罩边缘、窗口内滚动和持久控件",
+        "按实际音色与乐句选配乐，检查真实生成时长、词尾和结尾；字幕来自实际发声并避开产品主体",
+        "最终媒体解码、视听审查、文件可解析、应用内交互和用户验收分别记录，不由其中一项推断其他项",
+        "参考风格的视觉、组件、空间和节奏从原片提取；样片只作为部分实现证据，不把样片现有能力当作风格全部边界"
+      ],
+      "reference_atlas": "references/luminous-motion-language.md",
+      "motion_recipe_library": {
+        "path": "assets/reference-motion-recipes.json",
+        "group": "luminous-workspace",
+        "kind": "reference-derived-design-methods-not-ready-render-templates"
+      },
       "interaction_motion_profile": {
         "path": "assets/native-interaction/style-profiles.json",
         "style": "luminous-workspace",
-        "guide": "references/interactions-and-motion.md"
+        "guide": "references/cross-style-mg-enhancements.md"
       }
     },
     "kinetic-product-pop": {
       "name": "高能混合媒介产品发布",
       "assets": "本次品牌字标与配色、独立设计的文件/图标/票签与状态控件、可读结果页；按真实镜头需要选择立体资产，保留设计源和动画分层",
       "motion": "大字、分层组件、描线与操作特写交替；开合、浅透视及阴影服务信息层级，来源身份进入输入与结果；按需求使用真实三维，阅读时停稳",
-      "guide": "references/styles.md",
+      "guide": "references/kinetic-product-pop.md",
       "evidence": [],
-      "checks": []
+      "checks": [
+        "按本次产品重新设计品牌、道具与结果，不沿用 既有案例、角色、配色或 42 秒；概念和真实执行分开标注",
+        "小型组件先设计轮廓、版式与状态再合成；先给带前后镜头的短预览，不以建模数量或材质复杂度代替设计判断",
+        "来源名称、颜色、数字与成果一致；操作前态、命中、响应、后态清楚，结果有可复核内容",
+        "三维源编码、alpha、startTime 与入出点在实际渲染检查；变更模型或灯光使旧帧缓存失效",
+        "转场中段无意外空拍或正文重叠；字排、控件与立体按各自物性运动，阅读时停稳",
+        "原生字幕透明且与各色场协调，色场切换按不重叠帧段；核对真实发声和低音量词尾",
+        "按实际结果选音乐并检查主动作、旁白避让和尾声；转写/测量与完整主观听审、用户认可分别记录"
+      ]
     },
     "graphic-product-pop": {
       "name": "图形组件产品发布",
       "assets": "本次品牌字形、有限色彩角色、独立设计的文件/票签/任务/结果组件与前后状态；按动作拆层，保留 FigCraft / VectorCraft 源与真实交接素材",
       "motion": "动态字排与设计组件错峰展开；纸张开合、路径描线、轻透视与浅阴影建立层级；同一输入进入操作和可读成果，对象或色彩接替转场，快段后停稳",
       "engine": "FigCraft / VectorCraft 设计 → EffectCraft 原生合成 → IndexTTS2 / MiniMax Music / SoundCraft 声音；按实际镜头需要选用其他工具",
-      "guide": "references/styles.md",
+      "guide": "references/graphic-product-pop.md",
       "evidence": [],
-      "checks": [],
+      "checks": [
+        "先验证组件轮廓、排版、色彩与状态；需要运动的部分拆层，小组件不默认建模",
+        "按本次品牌和实际输入/结果重设计；不要沿用 既有案例、明日展览、配色、42 秒或固定乐曲",
+        "来源、名称、数值与结果一致；操作命中、状态变化、产物与后续使用清楚",
+        "按最大放大倍率检查透明边缘与细字；核对锚点、遮罩、父子层和轻透视，阅读段保持清晰",
+        "带前后镜头预演展开和收拢；检查转场最满、中段遮挡、结果口径及空拍",
+        "参考已获认可的音乐实际文件，按新题材改写生成方向；重音和乐句配主动作，语音让位，保留自然尾部",
+        "独立背景音乐用原始 WAV 或纯音乐剪辑源；音乐加音效与配音混音分别标记",
+        "字幕透明、场景配色、真实发声同步；完整解码、源文件重开和用户评价分别记录",
+        "参考风格的视觉、组件、空间和节奏从原片提取；样片只作为部分实现证据，不把样片现有能力当作风格全部边界"
+      ],
+      "reference_atlas": "references/graphic-motion-language.md",
+      "motion_recipe_library": {
+        "path": "assets/reference-motion-recipes.json",
+        "group": "graphic-product-pop",
+        "kind": "reference-derived-design-methods-not-ready-render-templates"
+      },
       "interaction_motion_profile": {
         "path": "assets/native-interaction/style-profiles.json",
         "style": "graphic-product-pop",
-        "guide": "references/interactions-and-motion.md"
+        "guide": "references/cross-style-mg-enhancements.md"
       }
     },
     "companion-ui-explainer": {
@@ -177,13 +219,37 @@
       "assets": "本次产品的持续工作台、原创向导分层 rig、语义组件、真实控件状态与独立设计结果；按组件蓝图制作，不复制参考片品牌角色",
       "motion": "视线与手势引导、对象错峰出现、界面退焦和局部操作、连接/状态传播、左右比较、任务到结果与复盘；由讲解语义组织停顿",
       "engine": "FigCraft / VectorCraft 设计 → EffectCraft 原生动画 → IndexTTS2 / MiniMax Music / SoundCraft 声音",
-      "guide": "references/styles.md",
+      "guide": "references/companion-ui-explainer.md",
+      "reference_atlas": "references/companion-ui-motion-language.md",
+      "component_recipe_library": {
+        "path": "assets/companion-ui-components.json",
+        "kind": "reference-derived-component-blueprints"
+      },
+      "motion_recipe_library": {
+        "path": "assets/reference-motion-recipes.json",
+        "group": "companion-ui-explainer",
+        "kind": "reference-derived-design-methods-not-ready-render-templates"
+      },
       "evidence": [],
-      "checks": [],
+      "checks": [
+        "以完整参考片为依据，不用 Demo 已实现范围限制原风格",
+        "按观众问题、讲解、目标对象、操作、结果和继承锚点设计注意力表",
+        "角色身体/眼神/手势独立；界面与字幕分属世界/屏幕坐标",
+        "输入、工具、结果、修改前后一致；真实与概念内容分别标明",
+        "图标、设备、标签、反馈、路径、结果与团队按组件库选择，不默认全套出现",
+        "连续转场检查最拥挤中间帧；对象扩大前处理标题碰撞，结果整体淡出",
+        "配音语义和控件动作同步；实际切分音频后核对，不只按文本长度或静音猜词界",
+        "新项目重做品牌/角色/场景/时长/配乐；不固定 既有案例、紫色、周末地图或 40 秒",
+        "技术验证、完整听审、用户审美认可分别记录",
+        "实测屏幕轨迹与新版设计参数分别记录，不反推原作者关键帧",
+        "角色集合前先退出阅读层，各角色分配路径，检查中段相撞",
+        "迁移须改任务/角色职责/结果设计并重新渲染，不只换颜色"
+      ],
+      "depth_study": "references/companion-ui-frame-study.md",
       "interaction_motion_profile": {
         "path": "assets/native-interaction/style-profiles.json",
         "style": "companion-ui-explainer",
-        "guide": "references/interactions-and-motion.md"
+        "guide": "references/cross-style-mg-enhancements.md"
       }
     },
     "evidence-led-showcase": {
@@ -191,17 +257,304 @@
       "assets": "本次品牌、原始请求、真实产品页面、实际成果、来源和范围说明；同产品已授权参考业务可沿用，其他项目重新核实，不挪用客户数据",
       "motion": "问题逐字显露与停靠、输入前景交给工作台、成果与摘要、由慢到快的巡览、最后结果连续进入自适应矩阵。",
       "engine": "FigCraft 设计 → EffectCraft 原生合成 → 本地 IndexTTS2 / MiniMax Music / SoundCraft",
-      "guide": "references/styles.md",
+      "guide": "references/evidence-led-showcase.md",
+      "production_guide": "references/evidence-led-showcase-production.md",
+      "component_recipe_library": {
+        "path": "assets/reference-studies/evidence-led-showcase.json",
+        "kind": "reference-blueprints-with-per-component-implementation-status"
+      },
+      "motion_recipe_library": {
+        "path": "assets/reference-motion-recipes.json",
+        "group": "evidence-led-showcase",
+        "kind": "reference-methods-with-authored-demo-subset"
+      },
       "evidence": [],
-      "checks": [],
+      "checks": [
+        "真实请求、任务、成果与来源对应；截图不冒充新一轮实时生成",
+        "标签、标题与成果共用索引；最后成果同一实例回位",
+        "前段可读、后段加速、集合后稳定；不按 1 秒机械切片",
+        "检查标题/章节、矩阵/脚注/字幕的中间帧碰撞",
+        "输入、结果、侧栏须与本次数据对应；无运行日志不加用时牌",
+        "声音实际剪辑后对齐字幕；不将测量或既有 ASR 记作完整听审",
+        "本路线新样片仍待用户审美反馈；竖屏、纵向文档和跨行业另行验证"
+      ],
+      "implementation_examples": {
+        "rebuild": "assets/evidence-led-showcase/rebuild.py",
+        "scope": "1920x1080 / 30fps, 6 and 8 results, two tasks in one product"
+      },
       "interaction_motion_profile": {
         "path": "assets/native-interaction/style-profiles.json",
         "style": "evidence-led-showcase",
-        "guide": "references/interactions-and-motion.md"
+        "guide": "references/cross-style-mg-enhancements.md"
       }
     }
   },
-  "evidence": {},
+  "evidence": {
+    "feature-v2": {
+      "name": "品牌色同步 v2",
+      "status": "film_rendered",
+      "source": "assets/effectcraft-native/effectcraft/feature.jsx",
+      "scope": "单一控制变量传播到多个设计触点"
+    },
+    "agent-v2": {
+      "name": "一念协作 v2",
+      "status": "film_rendered",
+      "source": "references/seven-scenarios.md",
+      "scope": "概念 Agent 产物交接；不是实际产品运行证明"
+    },
+    "data-v2": {
+      "name": "DataTalk v2",
+      "status": "film_rendered",
+      "source": "references/seven-scenarios.md",
+      "scope": "可复算示例数据的表格 / 图形连续表达"
+    },
+    "event-v2": {
+      "name": "OPEN STUDIO v2",
+      "status": "film_rendered",
+      "source": "assets/effectcraft-native/effectcraft/event.jsx",
+      "scope": "虚构活动的独立竖屏构图"
+    },
+    "signal-v2": {
+      "name": "SIGNAL v2",
+      "status": "film_rendered",
+      "source": "assets/effectcraft-native/effectcraft/explainer.jsx",
+      "scope": "采样量化示意，低样本演示非真实音频保真模型"
+    },
+    "form-v3": {
+      "name": "Form 光学玻璃 v3",
+      "status": "user_positive_review",
+      "source": "assets/optical-materials/source/blender/build_optical.py",
+      "scope": "用户对本轮两条三维重做反馈“这次很不错”；认可针对该版本"
+    },
+    "orbit-v3": {
+      "name": "ORBIT 精密金属 v3",
+      "status": "user_positive_review",
+      "source": "assets/optical-materials/source/blender/build_optical.py",
+      "scope": "同轮三维重做获得正面反馈，不扩展为所有三维题材的验收"
+    },
+    "orbit-loop-v3": {
+      "name": "ORBIT 无声循环 v3",
+      "status": "film_rendered",
+      "source": "assets/optical-materials/source/effectcraft/optical.jsx",
+      "scope": "完整解码、边界帧与相机回位检查；未单独得到用户对循环的评价"
+    },
+    "feature-v3": {
+      "name": "品牌色同步 v3 / 横屏与竖屏",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/feature-release/production-plan.json",
+      "scope": "24 秒横屏与 18 秒独立竖屏；完整解码、40 点抽帧与转场修订、共享状态检查、干净目录重建；概念演示，未完成全片主观听审或用户验收"
+    },
+    "agent-v3": {
+      "name": "一念协作 v3 / 从简报到网站",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/task-results/production-plan.json",
+      "scope": "27 秒概念动画，附可浏览网页与实际导航/主题/手机尺寸检查；原生图层、共享状态、完整解码和抽帧。不是实际 Agent 服务运行；未完成完整主观听审或用户验收。"
+    },
+    "data-v3": {
+      "name": "DataTalk v3 / 从问题到下一步",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/task-results/production-plan.json",
+      "scope": "26 秒概念动画，CSV 驱动总量/增量/占比并交付 HTML 简报；共同基线、零值与下一步边界可核验。固定四渠道虚构样例；未完成完整主观听审或用户验收。"
+    },
+    "agent-v3.1": {
+      "name": "一念协作 v3.1 / 石墨柔光",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/background-staging/production-plan.json",
+      "scope": "在 v3 内容与声音上修订原生背景、光色、边缘和阴影；完整解码、合计 43 点抽帧、阅读段背景像素稳定与音轨一致检查；不是新增产品能力或完整主观听审，待用户审看。"
+    },
+    "data-v3.1": {
+      "name": "DataTalk v3.1 / 冷暖白空间",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/background-staging/production-plan.json",
+      "scope": "在 v3 内容与声音上修订原生背景、光色、边缘和阴影；完整解码、合计 43 点抽帧、阅读段背景像素稳定与音轨一致检查；不是新增产品能力或完整主观听审，待用户审看。"
+    },
+    "feature-v4": {
+      "name": "品牌色同步 v4 / 同一版面的前后对照",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/release-polish/feature/production-plan.json",
+      "scope": "24 秒横屏；可编辑双份版面、冻结旧品牌色、原生遮罩与共享边界、静态颗粒改善浅色渐变；完整解码、23 点抽帧、原生值读回、干净目录重建。竖屏仍为历史 v3；未完成全片主观听审或用户验收。"
+    },
+    "agent-v4": {
+      "name": "一念协作 v4 / 需求到页面",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/release-polish/task/production-plan.json",
+      "scope": "27 秒横屏；导航、图片、标题、按钮和主题分组生成；检查标记跟随对应对象。完整解码、23 点抽帧、原生状态验证、干净目录重建。沿用既有 ROAM 网页与历史浏览检查；不是 Agent 服务运行或本轮重新浏览验收。"
+    },
+    "data-v4": {
+      "name": "DataTalk v4 / 看得见的贡献",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/release-polish/task/production-plan.json",
+      "scope": "26 秒横屏；2,000 次新增访问编码为 20 格，13/6/1/0 对应四渠道，计算口径保持。完整解码、19 点抽帧、格宽及零值读回、干净目录重建。固定虚构样例；未完成全片主观听审或用户验收。"
+    },
+    "api-v5": {
+      "name": "PULSE API / 冷白字段到结果",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/scene-expansion/production-plan.json",
+      "scope": "24 秒横屏；三个字段持续进入 schema、JSON 与任务卡；固定概念接口与校验 JSON，没有真实 API 调用。 三片共 86 点抽帧、完整解码与新目录重建；未完成全片主观听审或用户验收。"
+    },
+    "manifesto-v5": {
+      "name": "SHIFT / 明亮品牌宣言",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/scene-expansion/production-plan.json",
+      "scope": "18 秒横屏；双斜线母形、分带字排、原生重复器和字形遮罩；未制作现场发布会交接或投放版本。 三片共 86 点抽帧、完整解码与新目录重建；未完成全片主观听审或用户验收。"
+    },
+    "service-v5": {
+      "name": "LOOP / 暖纸服务旅程",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/scene-expansion/production-plan.json",
+      "scope": "26 秒竖屏；SR-024 身份、缺资料回路、附件与寄出状态；固定虚构业务，不是真实履约。 三片共 86 点抽帧、完整解码与新目录重建；未完成全片主观听审或用户验收。"
+    },
+    "knowledge-v1": {
+      "name": "TRACE / 答案有出处",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/knowledge-assistant/production-plan.json",
+      "scope": "32 秒横屏知识助手概念片；同源段落与引用、原生文档平面、回到同一来源及配套 HTML/JSON。完整解码、最终成片 47 点抽帧、原生属性读回、音轨测量、新目录重建。没有真实检索或模型推理；未完成全片主观听审、浏览器交互验收或用户认可。"
+    },
+    "coverage-onboarding-v1": {
+      "name": "START · 第一次连接",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/onboarding.ecproj",
+      "scope": "18 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。实际本地 CSV 控制器与工作区 JSON；浏览器交互未验收；未完成全片主观听审或用户验收。"
+    },
+    "coverage-customer-case-v1": {
+      "name": "ATLAS LAB · 一份简报的变化",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/customer-case.ecproj",
+      "scope": "18 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。原创资料与虚构团队；无真实客户或效率主张；未完成全片主观听审或用户验收。"
+    },
+    "coverage-identity-sting-v1": {
+      "name": "PRISM · 光的秩序",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/identity-sting.ecproj",
+      "scope": "6 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。原生形状与 SVG；透明 ProRes4444 已检查；未完成全片主观听审或用户验收。"
+    },
+    "coverage-product-function-v1": {
+      "name": "ORBIT · 一转即得",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/product-function.ecproj",
+      "scope": "12 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。原创硬件模型与参数同步；不代表实物测试；未完成全片主观听审或用户验收。"
+    },
+    "coverage-industrial-exploded-v1": {
+      "name": "ORBIT · 内外有序",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/industrial-exploded.ecproj",
+      "scope": "14 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。四分件、轴向间隙与投影标注；非制造级 CAD；未完成全片主观听审或用户验收。"
+    },
+    "coverage-map-journey-v1": {
+      "name": "RELAY · 三地一程",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/map-journey.ecproj",
+      "scope": "14 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。Natural Earth 经纬度与大圆示意；非真实部署或网络指标；未完成全片主观听审或用户验收。"
+    },
+    "coverage-editorial-story-v1": {
+      "name": "BUILD LOG · 能力的生长",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/editorial-story.ecproj",
+      "scope": "16 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。已有本地版本资产的编辑叙事；无虚构日期；未完成全片主观听审或用户验收。"
+    },
+    "coverage-stage-opening-v1": {
+      "name": "NEXT · 向下一步",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/stage-opening.ecproj",
+      "scope": "14 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。1080p30 开场与交接静帧；现场 LED/音响待适配；未完成全片主观听审或用户验收。"
+    },
+    "coverage-broadcast-package-v1": {
+      "name": "FIELD NOTES · 科技现场",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/broadcast-package.ecproj",
+      "scope": "12 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。角标、姓名条和章节条；透明通道与两种底色检查；未完成全片主观听审或用户验收。"
+    },
+    "coverage-exhibition-loop-v1": {
+      "name": "OPEN LAB · 探索地图",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/exhibition-loop.ecproj",
+      "scope": "16 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。16 秒有意无声循环；接缝像素与周期状态检查，现场待适配；未完成全片主观听审或用户验收。"
+    },
+    "coverage-interface-feedback-v1": {
+      "name": "READY · 状态有回应",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/interface-feedback.ecproj",
+      "scope": "10 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。可运行状态逻辑通过 Node 测试；浏览器视觉与辅助技术未验收；未完成全片主观听审或用户验收。"
+    },
+    "coverage-footage-callouts-v1": {
+      "name": "ANCHOR · 跟随真实空间",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/footage-callouts.ecproj",
+      "scope": "12 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。原生 tracker 360 帧，刚性 XY；技术演示素材不能挪作人物代言广告；未完成全片主观听审或用户验收。"
+    },
+    "coverage-title-sequence-v1": {
+      "name": "BETWEEN · 思考之间",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/coverage-expansion/projects/title-sequence.ecproj",
+      "scope": "16 秒独立样片；完整解码、16 点抽帧、新目录原生单帧重建。原生曲线场、字排与原创音乐；特定作品正文交接另设计；未完成全片主观听审或用户验收。"
+    },
+    "trace-v2-ui": {
+      "name": "TRACE v2 / 正常软件发布",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/flagship-studies/制作说明.md",
+      "scope": "28 秒完整工作台、任务到结果、原文回溯和可操作的关键词原型；非在线 AI。 IndexTTS2 配音、MiniMax 配乐和透明字幕。自动检查及抽帧范围见 qa；未完成全片主观听审或用户验收。"
+    },
+    "orbit-v4": {
+      "name": "ORBIT v4 / 明亮材质摄影",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/flagship-studies/制作说明.md",
+      "scope": "20 秒五镜头原创硬件概念；非制造级 CAD。 IndexTTS2 配音、MiniMax 配乐和透明字幕。自动检查及抽帧范围见 qa；未完成全片主观听审或用户验收。"
+    },
+    "shift-v2-flagship": {
+      "name": "SHIFT v2 / 母形与动态字体",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/flagship-studies/制作说明.md",
+      "scope": "20 秒原生字形、遮罩、重复器和三维字体空间。 IndexTTS2 配音、MiniMax 配乐和透明字幕。自动检查及抽帧范围见 qa；未完成全片主观听审或用户验收。"
+    },
+    "domain-studies-v7": {
+      "name": "三领域六条风格短研究",
+      "status": "film_rendered_sampled_review",
+      "source": "assets/flagship-studies/制作说明.md",
+      "scope": "软件编辑式与空间界面、品牌克制字排与流动曲线、硬件光学与结构，各 8 秒；不是六支完整发布片。 IndexTTS2 配音、MiniMax 配乐和透明字幕。自动检查及抽帧范围见 qa；未完成全片主观听审或用户验收。"
+    },
+    "trace-v10": {
+      "name": "TRACE v10 / 连续图形叙事",
+      "status": "user_positive_review",
+      "source": "assets/motion-correction/",
+      "scope": "用户对这版评价“这次效果还可以”；16 秒纠偏段，认可不延伸到旧九条或其他场景。"
+    },
+    "brand-v11": {
+      "name": "SHIFT v11 / 让下一步发生",
+      "status": "film_rendered_sampled_and_model_assisted_review",
+      "source": "assets/multistyle-motion/制作说明.md",
+      "scope": "18 秒 1080p30；IndexTTS2 + MiniMax Music，透明主题字幕；完整解码、密集转场抽帧、全长模型辅助声画审查与新目录重建。母形、原生字排、遮挡与切片；未获本轮用户反馈。"
+    },
+    "hardware-v11": {
+      "name": "ORBIT v11 / 转动即反馈",
+      "status": "film_rendered_sampled_and_model_assisted_review",
+      "source": "assets/multistyle-motion/制作说明.md",
+      "scope": "16 秒 1080p30；IndexTTS2 + MiniMax Music，透明主题字幕；完整解码、密集转场抽帧、全长模型辅助声画审查与新目录重建。新 Cycles 部件转动与同源示意读数、曲线转场；非实测硬件参数，未获本轮用户反馈。"
+    },
+    "agent-v11": {
+      "name": "一念协作 v11 / 从想法到作品",
+      "status": "film_rendered_sampled_and_model_assisted_review",
+      "source": "assets/multistyle-motion/制作说明.md",
+      "scope": "18 秒 1080p30；IndexTTS2 + MiniMax Music，透明主题字幕；完整解码、密集转场抽帧、全长模型辅助声画审查与新目录重建。同一内容、图像、色块与布局汇为 ROAM 页面；配套 HTML 源码核对，非服务实跑或当前浏览器验收，未获本轮用户反馈。"
+    },
+    "fold-design-v1": {
+      "name": "FOLD · 让灵感展开 / 设计展开风格",
+      "status": "user_positive_style_feedback",
+      "source": "assets/design-exploration/FOLD/case.json",
+      "scope": "32 秒原创创作软件概念片，三个有声版本、设计资产、原生工程、声音与检查保留。用户评价“这个还可以，可以作为一种风格固化到skill里面”。认可限于这条案例风格可保留；不等于真实 AI 功能、全变体或旗舰质量验收。模型辅助听审与人工监听分开，音乐尾部意见分歧仍保留。"
+    },
+    "sunpop-bold-brand-pop-v1": {
+      "name": "放晴 / SUNPOP · 把今天，打开。 / 热烈品牌风格",
+      "status": "user_positive_style_feedback_and_registration",
+      "source": "assets/design-exploration/SUNPOP/case.json",
+      "scope": "24 秒原创虚构气泡饮料品牌广告，三种有声版本和无声母版各 720 帧完整解码；原创 VectorCraft 包装与图形、435 帧连续 Blender 动画、146 层 EffectCraft 工程、IndexTTS2 与 MiniMax 音频分轨已归档。全长音画及纯音乐经模型辅助审查，最终 AAC、字幕帧边界与异地重开像素一致有记录。用户反馈“可以，这个做另外一种风格固化到skill中吧”；认可此风格收录，不等于实际上市产品、所有行业/画幅、人工监听或旗舰品质验收。"
+    },
+    "aurel-sculptural-type-v21": {
+      "name": "映序 / AUREL · 让想象，有形。 / 字形雕塑＋动态排版",
+      "status": "user_requested_style_registration",
+      "source": "assets/design-exploration/AUREL/case.json",
+      "scope": "16 秒原创虚构品牌片，1080p30；三种有声主版本、无声画面及音乐对照版有完整解码记录，共享 VectorCraft 路径、两份 Blender 工程与 300 帧连续三维底片、六合成 30 层 EffectCraft 工程已归档。v2.1 更换 MiniMax 音乐及混音，四个主视频编码画面与 v2 相同，原 IndexTTS2 语音 stem 一致；全长模型辅助音画审查与最终音轨测量有记录。用户要求收录风格与配乐注意事项；不等于真实产品、所有用途/画幅、人工监听或旗舰质量已验收。"
+    }
+  },
   "scenarios": [
     {
       "id": "software-launch",
@@ -286,7 +639,14 @@
         "workflow-handoff"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "feature-v3",
+        "feature-v4",
+        "knowledge-v1",
+        "trace-v2-ui",
+        "domain-studies-v7",
+        "trace-v10"
+      ],
       "silent": false
     },
     {
@@ -358,7 +718,13 @@
         "focus-highlight"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "feature-v2",
+        "feature-v3",
+        "feature-v4",
+        "knowledge-v1",
+        "trace-v2-ui"
+      ],
       "silent": false
     },
     {
@@ -444,7 +810,13 @@
         "workflow-handoff"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "agent-v2",
+        "agent-v3",
+        "agent-v3.1",
+        "agent-v4",
+        "agent-v11"
+      ],
       "silent": false
     },
     {
@@ -517,7 +889,9 @@
         "workflow-handoff"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "api-v5"
+      ],
       "silent": false
     },
     {
@@ -594,7 +968,9 @@
         "focus-highlight"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-onboarding-v1"
+      ],
       "silent": false
     },
     {
@@ -665,7 +1041,9 @@
         "route-draw"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "service-v5"
+      ],
       "silent": false
     },
     {
@@ -743,7 +1121,9 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-customer-case-v1"
+      ],
       "silent": false
     },
     {
@@ -813,7 +1193,12 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "manifesto-v5",
+        "shift-v2-flagship",
+        "domain-studies-v7",
+        "brand-v11"
+      ],
       "silent": false
     },
     {
@@ -873,7 +1258,9 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-identity-sting-v1"
+      ],
       "silent": false
     },
     {
@@ -946,7 +1333,9 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "event-v2"
+      ],
       "silent": false
     },
     {
@@ -1012,7 +1401,13 @@
       "avoid": "用发光球和默认圆环替代产品设计",
       "components": [],
       "engine": "Blender Cycles + EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "form-v3",
+        "orbit-v3",
+        "orbit-v4",
+        "domain-studies-v7",
+        "hardware-v11"
+      ],
       "silent": false
     },
     {
@@ -1089,7 +1484,10 @@
         "title-banner"
       ],
       "engine": "Blender / 实拍 + EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-product-function-v1",
+        "hardware-v11"
+      ],
       "silent": false
     },
     {
@@ -1153,7 +1551,10 @@
       "avoid": "按视觉好看随意拆开有约束的结构",
       "components": [],
       "engine": "Blender + EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-industrial-exploded-v1",
+        "domain-studies-v7"
+      ],
       "silent": false
     },
     {
@@ -1243,7 +1644,12 @@
         "data-compare"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "data-v2",
+        "data-v3",
+        "data-v3.1",
+        "data-v4"
+      ],
       "silent": false
     },
     {
@@ -1322,7 +1728,9 @@
         "focus-highlight"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "signal-v2"
+      ],
       "silent": false
     },
     {
@@ -1389,7 +1797,9 @@
         "route-draw"
       ],
       "engine": "地图 / SVG 数据 + EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-map-journey-v1"
+      ],
       "silent": false
     },
     {
@@ -1459,7 +1869,9 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-editorial-story-v1"
+      ],
       "silent": false
     },
     {
@@ -1529,7 +1941,9 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-stage-opening-v1"
+      ],
       "silent": false
     },
     {
@@ -1596,7 +2010,9 @@
         "countdown"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-broadcast-package-v1"
+      ],
       "silent": false
     },
     {
@@ -1665,7 +2081,9 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-exhibition-loop-v1"
+      ],
       "silent": true
     },
     {
@@ -1724,7 +2142,9 @@
         "workflow-handoff"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "orbit-loop-v3"
+      ],
       "silent": true
     },
     {
@@ -1781,7 +2201,9 @@
         "focus-highlight"
       ],
       "engine": "EffectCraft 视频预览；运行时矢量 / Rive / Lottie 交付另行验证",
-      "evidence": [],
+      "evidence": [
+        "coverage-interface-feedback-v1"
+      ],
       "silent": true
     },
     {
@@ -1847,7 +2269,9 @@
         "title-banner"
       ],
       "engine": "按素材验证 Fusion / Blender 跟踪，再用 EffectCraft 合成",
-      "evidence": [],
+      "evidence": [
+        "coverage-footage-callouts-v1"
+      ],
       "silent": false
     },
     {
@@ -1917,8 +2341,11 @@
         "title-banner"
       ],
       "engine": "EffectCraft",
-      "evidence": [],
+      "evidence": [
+        "coverage-title-sequence-v1"
+      ],
       "silent": false
     }
-  ]
+  ],
+  "evidence_updated_skill_version": "3.30.0"
 }

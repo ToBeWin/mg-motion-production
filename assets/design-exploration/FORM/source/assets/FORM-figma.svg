@@ -1,0 +1,8 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="FORM / master contours">
+<path id="form-main" d="M800 350C800 198 666 88 500 88C334 88 200 198 200 350C200 502 334 612 500 612C666 612 800 502 800 350Z" stroke="#247A73" stroke-width="28"/>
+<path id="form-inner" d="M716 350C716 244 620 168 500 168C380 168 284 244 284 350C284 456 380 532 500 532C620 532 716 456 716 350Z" stroke="#DFAF85" stroke-width="18"/>
+<path id="form-optical" d="M866 350C866 162 702 28 500 28C298 28 134 162 134 350C134 538 298 672 500 672C702 672 866 538 866 350Z" stroke="#AFD7C6" stroke-width="8"/>
+</g>
+</svg>
+

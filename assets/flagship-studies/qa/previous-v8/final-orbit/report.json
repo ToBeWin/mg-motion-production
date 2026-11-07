@@ -1,0 +1,209 @@
+{
+  "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+  "sha256": "135e763f0f2628ef870f4c6812135f4c5cdfe2a86a8ab48fb0fa76e1b8913fb7",
+  "duration": 20.0,
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "has_b_frames": 1,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 41,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 307200,
+      "duration": "20.000000",
+      "bit_rate": "29775456",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "600",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 960000,
+      "duration": "20.000000",
+      "bit_rate": "259780",
+      "nb_frames": "939",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    }
+  ],
+  "decode_ok": true,
+  "decode_messages": "",
+  "decoded_frames": 600,
+  "review_scope": "Full decode and signal measurements; extracted frames require visual inspection. No listening or customer acceptance is inferred.",
+  "audio_measurement": {
+    "integrated_lufs": -16.07,
+    "true_peak_dbtp": -2.13,
+    "loudness_range_lu": 2.9,
+    "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+  },
+  "extracted_frames": [
+    {
+      "time": 0.03,
+      "file": "frame-000-0.0300.png"
+    },
+    {
+      "time": 1.7,
+      "file": "frame-001-1.7000.png"
+    },
+    {
+      "time": 3.95,
+      "file": "frame-002-3.9500.png"
+    },
+    {
+      "time": 4.05,
+      "file": "frame-003-4.0500.png"
+    },
+    {
+      "time": 4.8,
+      "file": "frame-004-4.8000.png"
+    },
+    {
+      "time": 6,
+      "file": "frame-005-6.0000.png"
+    },
+    {
+      "time": 7.95,
+      "file": "frame-006-7.9500.png"
+    },
+    {
+      "time": 8.05,
+      "file": "frame-007-8.0500.png"
+    },
+    {
+      "time": 9,
+      "file": "frame-008-9.0000.png"
+    },
+    {
+      "time": 10.5,
+      "file": "frame-009-10.5000.png"
+    },
+    {
+      "time": 11.95,
+      "file": "frame-010-11.9500.png"
+    },
+    {
+      "time": 12.05,
+      "file": "frame-011-12.0500.png"
+    },
+    {
+      "time": 13.4,
+      "file": "frame-012-13.4000.png"
+    },
+    {
+      "time": 15.95,
+      "file": "frame-013-15.9500.png"
+    },
+    {
+      "time": 16.05,
+      "file": "frame-014-16.0500.png"
+    },
+    {
+      "time": 16.8,
+      "file": "frame-015-16.8000.png"
+    },
+    {
+      "time": 18,
+      "file": "frame-016-18.0000.png"
+    },
+    {
+      "time": 19.95,
+      "file": "frame-017-19.9500.png"
+    }
+  ],
+  "contact_sheet": "contact-sheet.jpg"
+}

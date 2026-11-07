@@ -1,0 +1,50 @@
+{
+  "metric": "访问次数",
+  "source": "channel-visits.csv",
+  "period": "两个连续、等长的 28 天窗口",
+  "data_kind": "fictional_demo",
+  "rows": [
+    {
+      "channel": "自然搜索",
+      "before": 4200,
+      "after": 5500,
+      "delta": 1300,
+      "contribution": 0.65
+    },
+    {
+      "channel": "推荐访问",
+      "before": 2400,
+      "after": 3000,
+      "delta": 600,
+      "contribution": 0.3
+    },
+    {
+      "channel": "广告访问",
+      "before": 1800,
+      "after": 1900,
+      "delta": 100,
+      "contribution": 0.05
+    },
+    {
+      "channel": "邮件访问",
+      "before": 1600,
+      "after": 1600,
+      "delta": 0,
+      "contribution": 0.0
+    }
+  ],
+  "before": 10000,
+  "after": 12000,
+  "delta": 2000,
+  "growth": 0.2,
+  "max_delta": 1300,
+  "leader": {
+    "channel": "自然搜索",
+    "before": 4200,
+    "after": 5500,
+    "delta": 1300,
+    "contribution": 0.65
+  },
+  "next_step": "复盘自然搜索的落地页，并核对新增访问的转化质量。",
+  "caveat": "本数据只有访问次数，不能推断转化率、营收或因果关系。"
+}

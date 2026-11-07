@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "principle": "Choose subtitle color with the actual shot palette. Maintain one stable treatment within a cue; do not switch color from frame luminance. No caption cards.",
+  "defaults": {
+    "font": "HiraginoSansGB-W3",
+    "size": 36,
+    "position": [
+      960,
+      1014
+    ],
+    "stroke_width": 0
+  },
+  "profiles": {
+    "trace": {
+      "fill": "6266A2",
+      "role": "muted iris on porcelain"
+    },
+    "software-editorial": {
+      "fill": "68639B",
+      "role": "iris ink on warm paper"
+    },
+    "software-spatial": {
+      "fill": "596F91",
+      "role": "slate blue on a neutral work surface"
+    },
+    "shift": {
+      "fill": "4560B6",
+      "role": "brand blue on ivory or pale fields",
+      "cues": {
+        "02": {
+          "fill": "F5F1E8"
+        },
+        "06": {
+          "fill": "F5F1E8"
+        }
+      }
+    },
+    "brand-editorial": {
+      "fill": "98604D",
+      "role": "terracotta paired with the punctuation accent"
+    },
+    "brand-fluid": {
+      "fill": "586DA8",
+      "role": "muted ribbon blue on pearl"
+    },
+    "orbit": {
+      "fill": "526E80",
+      "role": "steel blue on the bright product stage",
+      "cues": {
+        "01": {
+          "fill": "F5F8FC",
+          "stroke": "4E6377",
+          "stroke_width": 0.65,
+          "shadow": {
+            "color": "3E536B",
+            "opacity": 45,
+            "distance": 1,
+            "softness": 5
+          },
+          "font": "HiraginoSansGB-W6"
+        },
+        "02": {
+          "fill": "F5F8FC",
+          "stroke": "4E6377",
+          "stroke_width": 0.65,
+          "shadow": {
+            "color": "3E536B",
+            "opacity": 45,
+            "distance": 1,
+            "softness": 5
+          },
+          "font": "HiraginoSansGB-W6"
+        },
+        "03": {
+          "fill": "F5F8FC",
+          "stroke": "4E6377",
+          "stroke_width": 0.65,
+          "shadow": {
+            "color": "3E536B",
+            "opacity": 45,
+            "distance": 1,
+            "softness": 5
+          },
+          "font": "HiraginoSansGB-W6"
+        }
+      }
+    },
+    "hardware-optical": {
+      "fill": "5B6D9B",
+      "role": "optical blue on warm white"
+    },
+    "hardware-engineering": {
+      "fill": "536E86",
+      "role": "steel blue on the neutral studio floor"
+    }
+  }
+}

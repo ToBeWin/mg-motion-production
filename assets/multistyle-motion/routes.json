@@ -1,0 +1,81 @@
+{
+  "skill_version": "3.11.0",
+  "cases": [
+    {
+      "stem": "SHIFT_v11_让下一步发生",
+      "title": "SHIFT · 让下一步发生",
+      "subtitle": "品牌动态字体",
+      "description": "双斜杠打开空间，几何遮挡衔接段落，切片字形汇成品牌。",
+      "duration": 18,
+      "poster": 8.9,
+      "review": "listen-brand-delivery",
+      "cues": [
+        [
+          2.7,
+          "母形打开"
+        ],
+        [
+          6.1,
+          "几何换场"
+        ],
+        [
+          10.9,
+          "切片字形"
+        ]
+      ],
+      "case": "brand",
+      "build": "build.py --case brand --render"
+    },
+    {
+      "stem": "ORBIT_v11_转动即反馈",
+      "title": "ORBIT · 转动即反馈",
+      "subtitle": "科技硬件 · 材质与功能",
+      "description": "真实三维部件转动带动读数，弧线变成标尺，再回收到品牌。",
+      "duration": 16,
+      "poster": 5.2,
+      "review": "listen-hardware-final",
+      "cues": [
+        [
+          3.7,
+          "转动与反馈"
+        ],
+        [
+          7.7,
+          "弧线到标尺"
+        ],
+        [
+          11.4,
+          "图形回收"
+        ]
+      ],
+      "case": "hardware",
+      "build": "build.py --case hardware --render"
+    },
+    {
+      "stem": "一念协作_v11_从想法到作品",
+      "title": "一念协作 · 从想法到作品",
+      "subtitle": "AI 协作 · 产物组装",
+      "description": "内容、设计、构建分别产出，同一段文案、照片与色块连续汇成网页。",
+      "duration": 18,
+      "poster": 10.6,
+      "review": "listen-agent",
+      "cues": [
+        [
+          3.3,
+          "分工与产物"
+        ],
+        [
+          6.8,
+          "汇成页面"
+        ],
+        [
+          13.5,
+          "结果与主张"
+        ]
+      ],
+      "case": "agent",
+      "build": "build.py --case agent --render"
+    }
+  ],
+  "films": "The MP4s are in the separately delivered v11 film package; this skill bundle contains editable source and QA."
+}

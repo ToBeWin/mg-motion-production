@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/FOLD_让灵感展开_纯音乐版.mp4",
+  "sha256": "043d2647b99175796e27246df35eb529a40b6eb6adc54b0989c61fb2185ee357",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "完整听这段32秒纯音乐与少量转场音效。描述实际音色、情绪、连续性、结尾是否突兀，有无说话/歌唱/哼唱或明显失真。画面方向为暖纸色、紫色和柑橘色的设计软件与活动视觉。音乐是否能支持这种轻快的创作过程而不过分隆重？不要根据提示词猜乐器，不能确定就说明。\n",
+  "status": "completed",
+  "started_at": 1793195171.635825,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "4a844081a7638d9e48b0ff5c235cc3335e17f7c654665ff6f6404efc27c0df8f",
+  "event_id": "8274d94bbe7d49d589f21f4339be929c",
+  "finished_at": 1793195187.941049,
+  "response_sha256": "d2923542e423e5cc2f4551d66fbb1f285c52982e14c724f684abc61dc559dcab"
+}

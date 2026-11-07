@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/FOLD_让灵感展开_配音字幕版.mp4",
+  "sha256": "9bb58399548173509288aea017f78543467924fbf0af3456fa0a4e05476dc981",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请分析完整的32秒软件概念发布短片，依据实际输入的音视频，不要依据品牌或创作意图打高分。先转写听到的全部旁白（不提供预期文字）。再检查：1）配音读音、重音、自然程度；2）音乐实际风格与画面是否协调，有没有人声、突兀剪口或片尾残音；3）主要操作变化与语义/音效是否对应；4）底部字幕与实际旁白内容和出现区间是否对应，区分画面大标题和底部字幕；5）画面是否存在裁切、重叠、文字难读、主体忽然丢失。给具体问题与大致区间，无法确定的内容注明。不把抽样帧描述为逐帧检查，不编造精确帧级同步结论，不把概念影片当成真实在线软件已经实现。\n",
+  "status": "completed",
+  "started_at": 1793195171.635999,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "36169fcb4683737f8a81e3f4c0c59220680e6cc65c2a5d29c1d0bee1ca928dd7",
+  "event_id": "b856021074364b11a4f2685e8923860d",
+  "finished_at": 1793195194.25455,
+  "response_sha256": "65ab5939262e1550886790ca9d24b3d741e8628a9899c64dab51c418231fd6c5"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "放晴，快乐冒个泡。",
+    "audio_start": 20.04,
+    "audio_end": 22.023770833333334,
+    "caption_start": 20.033333333333335,
+    "caption_end": 22.033333333333335,
+    "frame_boundary_check": "pass"
+  },
+  {
+    "text": "热烈一点，再热烈一点。",
+    "audio_start": 11.65,
+    "audio_end": 13.637770833333335,
+    "caption_start": 11.633333333333333,
+    "caption_end": 13.666666666666666,
+    "frame_boundary_check": "pass"
+  },
+  {
+    "text": "把今天，打开。",
+    "audio_start": 2.51,
+    "audio_end": 4.133666666666667,
+    "caption_start": 2.5,
+    "caption_end": 4.166666666666667,
+    "frame_boundary_check": "pass"
+  }
+]

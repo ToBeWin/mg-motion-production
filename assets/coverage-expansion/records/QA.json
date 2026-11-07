@@ -1,0 +1,412 @@
+{
+  "version": "3.6.0",
+  "films": [
+    {
+      "id": "onboarding",
+      "frames": 540,
+      "duration": 18,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "db37f63baf4327ba6efafcbc4db08f0ee1c773cf99901e07dff7d351e6c31627",
+      "sample_times": [
+        0.2,
+        0.8,
+        2.3,
+        3.5,
+        6.5,
+        6.7,
+        7,
+        7.4,
+        9,
+        10.5,
+        10.7,
+        12,
+        13.8,
+        14.1,
+        15.6,
+        17.7
+      ],
+      "audio_measurement": {
+        "input_i": -18.01,
+        "input_tp": -7.27,
+        "input_lra": 0.5
+      }
+    },
+    {
+      "id": "identity-sting",
+      "frames": 180,
+      "duration": 6,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "dfd33b723f9e8045a9368db58f8fb9376e24af58c9c83f7a36c1c0058d35e8ee",
+      "sample_times": [
+        0.1,
+        0.3,
+        0.5,
+        0.9,
+        1.4,
+        1.8,
+        2.2,
+        2.5,
+        2.9,
+        3.1,
+        3.3,
+        3.6,
+        3.8,
+        4.2,
+        5,
+        5.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.02,
+        "input_tp": -5.5,
+        "input_lra": 0.9
+      }
+    },
+    {
+      "id": "product-function",
+      "frames": 360,
+      "duration": 12,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "ef74f53ddbfe29a728603210f7a51be60c8447673511663d53c2ff9b0f9a7a07",
+      "sample_times": [
+        0.1,
+        0.8,
+        1.8,
+        3.3,
+        3.5,
+        4,
+        4.6,
+        5.5,
+        6.3,
+        7,
+        7.6,
+        8.3,
+        8.6,
+        9,
+        10.5,
+        11.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.0,
+        "input_tp": -6.14,
+        "input_lra": 0.7
+      }
+    },
+    {
+      "id": "industrial-exploded",
+      "frames": 420,
+      "duration": 14,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "4ac2d76012afdc2c09f4dc0c2463bdf4aaa6b83ea685753241d2299df47dab02",
+      "sample_times": [
+        0.2,
+        1,
+        1.8,
+        2.7,
+        3.6,
+        4.5,
+        5.3,
+        5.9,
+        7,
+        8.7,
+        9.2,
+        10,
+        10.8,
+        11.4,
+        12.6,
+        13.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.01,
+        "input_tp": -4.92,
+        "input_lra": 1.4
+      }
+    },
+    {
+      "id": "editorial-story",
+      "frames": 480,
+      "duration": 16,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "f593f18fde38568503a0aa25d63c0620b8c119ba996ab0220c4eabbe647bf079",
+      "sample_times": [
+        0.2,
+        0.9,
+        1.2,
+        2,
+        4.6,
+        4.9,
+        5.4,
+        6,
+        8.2,
+        8.5,
+        9,
+        10,
+        11.7,
+        12,
+        13,
+        15.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.0,
+        "input_tp": -7.73,
+        "input_lra": 0.8
+      }
+    },
+    {
+      "id": "stage-opening",
+      "frames": 420,
+      "duration": 14,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "a679085e49dcf0da0f055e4730b9d30ef63ff6de6565b87dab2c9124cfc2b666",
+      "sample_times": [
+        0.2,
+        0.8,
+        1.5,
+        2.8,
+        3,
+        3.3,
+        4.3,
+        5.5,
+        5.8,
+        6.4,
+        8.2,
+        8.5,
+        9.2,
+        10.8,
+        11.8,
+        13.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.0,
+        "input_tp": -7.16,
+        "input_lra": 0.8
+      }
+    },
+    {
+      "id": "broadcast-package",
+      "frames": 360,
+      "duration": 12,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "92df8c463076f3baa7f9b8471bde5576bcf88fd50f9a557671822cdc96bd54db",
+      "sample_times": [
+        0.2,
+        1,
+        1.4,
+        2,
+        3,
+        3.3,
+        3.7,
+        4.5,
+        6.2,
+        6.7,
+        7,
+        7.3,
+        7.8,
+        9.8,
+        10.5,
+        11.8
+      ],
+      "audio_measurement": {
+        "input_i": -17.98,
+        "input_tp": -4.99,
+        "input_lra": 0.4
+      }
+    },
+    {
+      "id": "exhibition-loop",
+      "frames": 480,
+      "duration": 16,
+      "decode": "pass",
+      "audio_stream": false,
+      "sha256": "0e61a0de556609a6c4fa166857ed38bc781d1057456ba006d10ede81905836ec",
+      "sample_times": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15.9666667
+      ]
+    },
+    {
+      "id": "footage-callouts",
+      "frames": 360,
+      "duration": 12,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "6a43a575a061a03ac0cdc7380518daab36831ed610717bb5e0f687ef02e68c4a",
+      "sample_times": [
+        0.2,
+        1,
+        1.9,
+        2.1,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5,
+        10.2,
+        10.5,
+        11,
+        11.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.01,
+        "input_tp": -6.66,
+        "input_lra": 1.7
+      }
+    },
+    {
+      "id": "title-sequence",
+      "frames": 480,
+      "duration": 16,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "83921ef325ec68033006f202dda4a1be1fb3db4cbc8f98de9899a205c406e0b3",
+      "sample_times": [
+        0.2,
+        0.7,
+        2,
+        3.8,
+        4,
+        4.3,
+        6,
+        8.2,
+        8.5,
+        10,
+        11.7,
+        12,
+        12.4,
+        12.7,
+        14,
+        15.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.01,
+        "input_tp": -6.06,
+        "input_lra": 0.9
+      }
+    },
+    {
+      "id": "customer-case",
+      "frames": 540,
+      "duration": 18,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "38535e2aac616a6cb6a11a4f26164536dd2e14e3946c2599d137a9dd5feb43f5",
+      "sample_times": [
+        0.4,
+        1,
+        3,
+        5.5,
+        6.4,
+        7,
+        7.5,
+        8,
+        8.3,
+        8.6,
+        9,
+        11.5,
+        13,
+        15,
+        16.5,
+        17.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.01,
+        "input_tp": -5.37,
+        "input_lra": 1.3
+      }
+    },
+    {
+      "id": "map-journey",
+      "frames": 420,
+      "duration": 14,
+      "decode": "pass",
+      "audio_stream": true,
+      "sha256": "d2121b62c33aa039b2c50beb8232a7537b65fd22c2266a259380e630cfde5956",
+      "sample_times": [
+        0.4,
+        1,
+        2.5,
+        2.8,
+        3.5,
+        4.5,
+        5.5,
+        5.8,
+        6.8,
+        7.8,
+        8.1,
+        9.1,
+        10.5,
+        11,
+        12.5,
+        13.8
+      ],
+      "audio_measurement": {
+        "input_i": -18.0,
+        "input_tp": -7.57,
+        "input_lra": 0.7
+      }
+    },
+    {
+      "id": "interface-feedback",
+      "frames": 300,
+      "duration": 10,
+      "decode": "pass",
+      "audio_stream": false,
+      "sha256": "d936b06682b88ded9e2a3fcb5d21c3288715cada0db5f4a185fe6df930dc1410",
+      "sample_times": [
+        0.2,
+        0.6,
+        1,
+        1.8,
+        2,
+        2.3,
+        3.2,
+        4.1,
+        4.4,
+        4.9,
+        5.5,
+        5.8,
+        6.4,
+        7.2,
+        7.5,
+        9.8
+      ]
+    }
+  ],
+  "visual_review": "208 decoded MP4 samples reviewed, including revised transfer text, continuous state surface, route marker alignment, complete 3D assembly; plus alpha backgrounds and tracking crops.",
+  "subjective_full_playback_listening": "not performed",
+  "browser_interaction": "not performed",
+  "total_frames": 5340,
+  "total_seconds": 178,
+  "sampled_frames": 208,
+  "repairs": [
+    "Two-line hardware title separated into correctly sized reveal comps",
+    "Editorial stems shortened to avoid crossing labels",
+    "English document text wrapped at phrase boundaries",
+    "Document text removed before merge to prevent overlap",
+    "Persistent state feedback surface",
+    "Route trim and marker share linear screen-distance progression"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "skill_version": "3.2.0",
+  "scenarios": [
+    {
+      "scenario": "agent-workflow",
+      "frames": 810,
+      "shots": 5,
+      "contiguous": true
+    },
+    {
+      "scenario": "data-story",
+      "frames": 780,
+      "shots": 6,
+      "contiguous": true
+    }
+  ],
+  "total_scenarios": 24,
+  "total_style_routes": 12,
+  "skill_links_checked": 21,
+  "new_evidence_paths_exist": true,
+  "installed_symlink_verified": true,
+  "preview_script_syntax": true,
+  "preview_static_links_exist": true,
+  "preview_browser_open": "blocked_by_file_protocol_policy; no workaround attempted",
+  "scope": "Planning, local files and code syntax only; no preview browser interaction or commercial acceptance inferred."
+}

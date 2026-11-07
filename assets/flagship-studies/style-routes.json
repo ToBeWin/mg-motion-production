@@ -1,0 +1,135 @@
+{
+  "software": [
+    {
+      "id": "software-ui",
+      "name": "界面操作发布",
+      "level": "main-film",
+      "sample": "TRACE_v2",
+      "purpose": "标准 SaaS、AI 助手与功能发布；建立界面位置，再演示动作和结果。"
+    },
+    {
+      "id": "software-editorial",
+      "name": "编辑式信息设计",
+      "level": "motion-study",
+      "composition": "Style / Software editorial",
+      "duration": 8,
+      "voice_case": "trace",
+      "voice_ids": [
+        "03",
+        "04"
+      ],
+      "voice_at": [
+        0.35,
+        4.15
+      ],
+      "purpose": "知识、研究、数据与复杂规则；依靠字阶、原文、比较和留白。",
+      "music_case": "trace"
+    },
+    {
+      "id": "software-spatial",
+      "name": "空间工作台",
+      "level": "motion-study",
+      "composition": "Style / Software spatial",
+      "duration": 8,
+      "voice_case": "trace",
+      "voice_ids": [
+        "08"
+      ],
+      "voice_at": [
+        1.35
+      ],
+      "purpose": "多窗口、多文档与跨工具协作；用镜头深度组织对象，阅读时回到正面。",
+      "music_case": "trace"
+    }
+  ],
+  "brand": [
+    {
+      "id": "brand-kinetic",
+      "name": "强节奏动态字体",
+      "level": "main-film",
+      "sample": "SHIFT_v2",
+      "purpose": "品牌宣言、发布会、社交广告；用动作体现动词，用母形推动转场。"
+    },
+    {
+      "id": "brand-editorial",
+      "name": "克制的品牌叙事",
+      "level": "motion-study",
+      "composition": "Style / Brand editorial",
+      "duration": 8,
+      "voice_case": "shift",
+      "voice_ids": [
+        "01",
+        "06"
+      ],
+      "voice_at": [
+        0.35,
+        4.7
+      ],
+      "purpose": "设计、专业服务与高端软件品牌；少量字形、细线、留白和较长停顿。",
+      "music_case": "trace"
+    },
+    {
+      "id": "brand-fluid",
+      "name": "流动抽象视觉",
+      "level": "motion-study",
+      "composition": "Style / Brand fluid",
+      "duration": 8,
+      "voice_case": "shift",
+      "voice_ids": [
+        "03",
+        "05"
+      ],
+      "voice_at": [
+        0.65,
+        4.55
+      ],
+      "purpose": "创意科技、平台能力与品牌主视觉；用连续形变建立可识别的品牌母形。",
+      "music_case": "orbit"
+    }
+  ],
+  "hardware": [
+    {
+      "id": "hardware-studio",
+      "name": "明亮金属微距",
+      "level": "main-film",
+      "sample": "ORBIT_v4",
+      "purpose": "精密硬件与工业设计；以切边、加工结构、反射和整机关系证明质感。"
+    },
+    {
+      "id": "hardware-optical",
+      "name": "柔和光学材质",
+      "level": "motion-study",
+      "composition": "Style / Hardware optical",
+      "duration": 8,
+      "voice_case": "orbit",
+      "voice_ids": [
+        "02",
+        "05"
+      ],
+      "voice_at": [
+        0.25,
+        4.55
+      ],
+      "purpose": "透明材料、交互控件与设计语言；折射随功能动作变化，保留柔和明亮空间。",
+      "music_case": "orbit"
+    },
+    {
+      "id": "hardware-engineering",
+      "name": "结构与工程展示",
+      "level": "motion-study",
+      "composition": "Style / Hardware engineering",
+      "duration": 8,
+      "voice_case": "engineering",
+      "voice_ids": [
+        "01",
+        "02"
+      ],
+      "voice_at": [
+        0.3,
+        4.3
+      ],
+      "purpose": "部件、装配与功能原理；用准确分件和引线说明结构，避免伪造工程精度。",
+      "music_case": "engineering-v8"
+    }
+  ]
+}

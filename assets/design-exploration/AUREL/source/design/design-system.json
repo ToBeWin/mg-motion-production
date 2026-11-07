@@ -1,0 +1,105 @@
+{
+  "brand": "AUREL / 映序",
+  "thought": "让想象，有形。",
+  "duration": 16,
+  "fps": 30,
+  "colors": {
+    "paper": "F7F5EE",
+    "blue": "244CFF",
+    "ink": "091E91",
+    "accent": "D6F045",
+    "silver": "D5D9E5"
+  },
+  "parts": [
+    {
+      "name": "left-stem",
+      "points": [
+        [
+          -3,
+          0
+        ],
+        [
+          -1.55,
+          0
+        ],
+        [
+          0,
+          5.8
+        ],
+        [
+          -0.55,
+          5.8
+        ]
+      ],
+      "color": "244CFF"
+    },
+    {
+      "name": "right-stem",
+      "points": [
+        [
+          1.55,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0.55,
+          5.8
+        ],
+        [
+          0,
+          5.8
+        ]
+      ],
+      "color": "244CFF"
+    },
+    {
+      "name": "crossbar",
+      "points": [
+        [
+          -1.94,
+          2.25
+        ],
+        [
+          1.94,
+          2.25
+        ],
+        [
+          1.66,
+          2.82
+        ],
+        [
+          -1.66,
+          2.82
+        ]
+      ],
+      "color": "244CFF"
+    },
+    {
+      "name": "citron-inlay",
+      "points": [
+        [
+          -0.86,
+          3.87
+        ],
+        [
+          0.86,
+          3.87
+        ],
+        [
+          0.73,
+          4.14
+        ],
+        [
+          -0.73,
+          4.14
+        ]
+      ],
+      "color": "D6F045"
+    }
+  ],
+  "font": "AurelGrotesk-Black",
+  "principle": "The same four authored paths become dimensional sculpture, moving graphic strips and a reconstructed A. The 3D-to-2D transition uses actual projected front-face vertices, not an unrelated wipe."
+}

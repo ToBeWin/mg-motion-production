@@ -1,0 +1,68 @@
+[
+  {
+    "output": "TRACE_v2_每一步有据_1080p30.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/TRACE_v2_每一步有据_1080p30.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/trace/master.wav"
+  },
+  {
+    "output": "TRACE_v2_每一步有据_1080p30_中文字幕.mp4",
+    "picture": "native render; revised narration and caption"
+  },
+  {
+    "output": "ORBIT_v4_光与精密_1080p30.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/ORBIT_v4_光与精密_1080p30.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/orbit/master.wav"
+  },
+  {
+    "output": "ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/orbit/master.wav"
+  },
+  {
+    "output": "SHIFT_v2_让下一步发生_1080p30.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/SHIFT_v2_让下一步发生_1080p30.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/shift/master.wav"
+  },
+  {
+    "output": "SHIFT_v2_让下一步发生_1080p30_中文字幕.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/SHIFT_v2_让下一步发生_1080p30_中文字幕.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/shift/master.wav"
+  },
+  {
+    "output": "style-films/software-editorial_编辑式信息设计.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/style-films/software-editorial_编辑式信息设计.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/styles/software-editorial/master.wav"
+  },
+  {
+    "output": "style-films/software-spatial_空间工作台.mp4",
+    "picture": "native render; revised narration and caption"
+  },
+  {
+    "output": "style-films/brand-editorial_克制的品牌叙事.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/style-films/brand-editorial_克制的品牌叙事.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/styles/brand-editorial/master.wav"
+  },
+  {
+    "output": "style-films/brand-fluid_流动抽象视觉.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/style-films/brand-fluid_流动抽象视觉.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/styles/brand-fluid/master.wav"
+  },
+  {
+    "output": "style-films/hardware-optical_柔和光学材质.mp4",
+    "picture": "copied without video re-encoding",
+    "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v7/style-films/hardware-optical_柔和光学材质.mp4",
+    "master": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/styles/hardware-optical/master.wav"
+  },
+  {
+    "output": "style-films/hardware-engineering_结构与工程展示.mp4",
+    "picture": "native render; revised narration and caption"
+  }
+]

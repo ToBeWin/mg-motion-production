@@ -1,0 +1,27 @@
+{
+  "title": "AUREL / 让想象，有形。",
+  "version": "2.1",
+  "status": "ready_for_user_review",
+  "base_version": "../MG风格探索_映序AUREL_v2_字形构形",
+  "user_feedback": "这个背景音乐感觉有问题",
+  "picture_changes": false,
+  "skill_registered": false,
+  "user_style_acceptance": false,
+  "started_at": 1793243522.117513,
+  "finished_at": 1793244828.717928,
+  "feedback_detail": "音色和风格不搭",
+  "primary_music": "柔和钢琴",
+  "alternative_music": "明快器乐",
+  "user_music_acceptance": false,
+  "deliverables": {
+    "captioned": "AUREL_v2.1_让想象有形_配音字幕版.mp4",
+    "voiced": "AUREL_v2.1_让想象有形_无字幕配音版.mp4",
+    "music": "AUREL_v2.1_让想象有形_纯音乐版.mp4",
+    "alternative": "AUREL_v2.1_明快器乐_对照版.mp4",
+    "preview": "打开配乐对照.html",
+    "source": "source/AUREL-v2.ecproj",
+    "package": "AUREL_v2.1_完整工程.zip"
+  },
+  "preservation": "All four main video stream hashes match v2; original voice stem is bit-identical. Changed music, effects and mix only.",
+  "review": "Full final-file decode and audio measurements; full-duration model-assisted audiovisual reviews; no claim of human listening or aesthetic acceptance."
+}

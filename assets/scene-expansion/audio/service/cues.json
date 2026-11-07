@@ -1,0 +1,81 @@
+{
+  "source": "../../production-plan.json",
+  "case": "service",
+  "bpm": 96,
+  "cues": [
+    {
+      "time": 0.3,
+      "type": "paper",
+      "duration": 0.7
+    },
+    {
+      "time": 3.2,
+      "type": "paper",
+      "duration": 0.75
+    },
+    {
+      "time": 5.5,
+      "type": "tick"
+    },
+    {
+      "time": 6.8,
+      "type": "soft"
+    },
+    {
+      "time": 8.1,
+      "type": "paper",
+      "duration": 0.4
+    },
+    {
+      "time": 9.8,
+      "type": "paper",
+      "duration": 0.55
+    },
+    {
+      "time": 10.6,
+      "type": "confirm"
+    },
+    {
+      "time": 12.0,
+      "type": "paper",
+      "duration": 0.65
+    },
+    {
+      "time": 14.8,
+      "type": "tick"
+    },
+    {
+      "time": 16.7,
+      "type": "paper",
+      "duration": 0.55
+    },
+    {
+      "time": 18.2,
+      "type": "confirm"
+    },
+    {
+      "time": 19.5,
+      "type": "paper",
+      "duration": 0.8
+    },
+    {
+      "time": 22,
+      "type": "arrival"
+    }
+  ],
+  "focus": [
+    [
+      6.7,
+      10.5,
+      0.65
+    ],
+    [
+      20.5,
+      25,
+      0.76
+    ]
+  ],
+  "target_lufs": -18,
+  "mix_gain": 1,
+  "scope": "Original notes and synthesized event sounds; runtime uses the host macOS sound bank, which is not redistributed. Subjective listening is separate."
+}

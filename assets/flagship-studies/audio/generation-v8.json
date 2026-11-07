@@ -1,0 +1,56 @@
+[
+  {
+    "type": "music",
+    "id": "trace-v8",
+    "prompt": "Pure instrumental contemporary software product film score. Bright warm felt piano and soft mallet plucks with a precise gentle analog pulse, rounded quiet bass. Restrained optimistic clarity, elegant major harmony, sparse arrangement, 96 BPM steady pulse. Clear opening motif, subtle forward development, a short calm resolved outro. A light modern studio sound with wide space for spoken narration. No voice of any kind: no singing, no humming, no spoken words, no choir, no breathy vocal textures. No solo bowed strings, no melancholy violin, no acoustic guitar. 34 seconds.",
+    "requested_max_seconds": 34,
+    "steps": 30,
+    "wall_seconds": 47.694605112075806,
+    "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/raw/minimax/trace-v8.wav"
+  },
+  {
+    "type": "music",
+    "id": "orbit-v8",
+    "prompt": "Pure instrumental minimal ambient sound design for a refined optical glass and precision metal product in daylight. Very sparse soft glass mallet tones, a warm quiet synthesizer pad and a deep rounded low pulse. Slow even flow, calm luminous spacious mood, no dramatic escalation, no suspense. Gentle tonal development, then a sustained resolved chord and a long natural decay. Keep all midrange open for narration. No voice, no humming, no choir, no vocal textures. No acoustic guitar, no plucked guitar, no violin solo, no fast runs, no trailer drums. 26 seconds.",
+    "requested_max_seconds": 26,
+    "steps": 30,
+    "wall_seconds": 268.50705885887146,
+    "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/raw/minimax/orbit-v8.wav"
+  },
+  {
+    "type": "music",
+    "id": "engineering-v8",
+    "prompt": "Pure instrumental miniature technology ident, 100 BPM. Sparse precise muted marimba ticks, a clean warm analog synth pulse, quiet rounded bass, very light tactile percussion. Calm technical precision, simple stable major harmony, confident neutral mood, uncluttered, a small resolved ending with a two second natural decay. Suitable for exploded-view industrial components and assembly. No vocals, no singing, no humming, no choir, no strings, no acoustic guitar, no cinematic drama. 16 seconds.",
+    "requested_max_seconds": 16,
+    "steps": 30,
+    "wall_seconds": 147.51752185821533,
+    "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/raw/minimax/engineering-v8.wav"
+  },
+  {
+    "type": "voice",
+    "case": "trace",
+    "id": "08",
+    "text": "支持哪些文件，怎样更新，都能找到依据。",
+    "emotion": "平静、清晰、自然，带一点好奇心",
+    "wall_seconds": 55.442858934402466,
+    "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/raw/indextts2/trace/08.wav"
+  },
+  {
+    "type": "voice",
+    "case": "engineering",
+    "id": "01",
+    "text": "从旋盖，到核心。",
+    "emotion": "平静、从容、克制",
+    "wall_seconds": 32.323139905929565,
+    "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/raw/indextts2/engineering/01.wav"
+  },
+  {
+    "type": "voice",
+    "case": "engineering",
+    "id": "02",
+    "text": "每一层，都有作用。",
+    "emotion": "平静、从容、克制",
+    "wall_seconds": 30.306379079818726,
+    "file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/source/audio/raw/indextts2/engineering/02.wav"
+  }
+]

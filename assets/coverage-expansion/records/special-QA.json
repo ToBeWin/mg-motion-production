@@ -1,0 +1,74 @@
+{
+  "alpha": [
+    {
+      "id": "identity-sting",
+      "time": 4.5,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "semi_transparent_pixels": 5985
+    },
+    {
+      "id": "broadcast-package",
+      "time": 4.5,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "semi_transparent_pixels": 90
+    },
+    {
+      "id": "broadcast-package",
+      "time": 8.2,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "semi_transparent_pixels": 168
+    }
+  ],
+  "loop": {
+    "seam_mean_absolute_rgb_difference": 0.5004634452160494,
+    "adjacent_differences": [
+      0.4308447466563786,
+      0.2724903549382716,
+      0.25359021347736627,
+      0.251786908436214
+    ],
+    "scope": "Decoded 8-bit RGB; compare seam to neighbouring frame changes, not a perceptual guarantee"
+  },
+  "assembly": {
+    "frame_count": 420,
+    "minimum_axial_gaps_model_units": [
+      0.15250000000000002,
+      0.03500000000000003,
+      0.3450000000000001,
+      0.25
+    ],
+    "closed_final_offsets": [
+      0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scope": "Concept-model axial gap inequalities; not mesh-wide CAD or manufacturing acceptance"
+  },
+  "runtime": {
+    "passed": true,
+    "onboarding": "parse,validation,order,private scope",
+    "feedback": "cancel,stale completion,error,retry,success",
+    "browserInteraction": "not verified"
+  },
+  "native_tracking": {
+    "keys": 360,
+    "sampled_crops": [
+      0,
+      90,
+      180,
+      270,
+      359
+    ],
+    "scope": "Native tracker full solve; five decoded-frame attachment crops visually reviewed; rigid XY only"
+  }
+}

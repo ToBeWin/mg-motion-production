@@ -1,0 +1,25 @@
+{
+  "background_hold_tests": {
+    "graphite": {
+      "pixel_max_difference": 0,
+      "identical": true
+    },
+    "paper": {
+      "pixel_max_difference": 0,
+      "identical": true
+    }
+  },
+  "audio_comparison": {
+    "agent": {
+      "old_pcm_sha256": "0d2503af8ce66ede4d09429be5a14f61dd51f39d9e124956d58be1ddf14dbb07",
+      "new_pcm_sha256": "0d2503af8ce66ede4d09429be5a14f61dd51f39d9e124956d58be1ddf14dbb07",
+      "identical": true
+    },
+    "data": {
+      "old_pcm_sha256": "ab1ed6b46d94433eca2b1ecd7c05c1b8f661a2ca9540048e0be685e9f5a8b667",
+      "new_pcm_sha256": "ab1ed6b46d94433eca2b1ecd7c05c1b8f661a2ca9540048e0be685e9f5a8b667",
+      "identical": true
+    }
+  },
+  "project_bit_depth": "Bpc16"
+}

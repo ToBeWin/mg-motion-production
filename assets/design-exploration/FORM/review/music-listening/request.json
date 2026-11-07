@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/audio/minimax-form.wav",
+  "sha256": "8f3c33c3fe2c6a8c7a0e1a0c350dca5d860cd182420a90101f9eb201c7e81b10",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听这段音乐。它是否是纯器乐？有没有歌声、哼唱或人声？概括节奏、乐器听感、起承转合，是否有突兀的断裂、噪声、失真。不根据文件名猜测内容，不要给主观百分分数。",
+  "status": "completed",
+  "started_at": 1793185391.882515,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "db817b29519b9256a9c14540fbbd097c7a644a66687b604d166910d2f19d9f23",
+  "event_id": "614623989cd24ab2a0038d3c1c62da59",
+  "finished_at": 1793185406.3819242,
+  "response_sha256": "af7e1213c0e5a08af4d2fb5f0ccca62dc4f3387c5725fc4922db92d6e4021ba9"
+}

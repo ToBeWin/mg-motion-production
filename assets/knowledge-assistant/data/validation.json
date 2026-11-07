@@ -1,0 +1,11 @@
+{
+  "documents": 3,
+  "claims": 2,
+  "citations": [
+    "source-release",
+    "source-sync"
+  ],
+  "exact_source_spans": true,
+  "artifact": "../result/答案与出处.html",
+  "scope": "Data and static anchor validation; not AI inference or browser interaction acceptance."
+}

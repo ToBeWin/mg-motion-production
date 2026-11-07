@@ -1,0 +1,133 @@
+{
+  "engine_voice": "IndexTTS2 local",
+  "engine_music": "MiniMax Music 3 local Q6 / 30 steps / instrumental",
+  "reference_provenance": "Previously user-approved synthetic MiniMax Warm_Bestie reference retained in cinematic-footage-editor/assets/voices/user-supplied-voice-reference/reference.wav. Not a recording of a real identifiable speaker.",
+  "cases": {
+    "trace": {
+      "music_prompt": "Instrumental score for a sophisticated AI research software launch, warm felt piano, delicate plucked analog synth, elegant restrained electronic chamber music. 96 BPM, D major with subtle suspended harmonies. Clear curious opening, growing precision and forward motion in the middle, a brief breath around 20 seconds, graceful resolved ending. Rich professional production, acoustic texture, rounded bass, very light percussion. Keep the middle frequencies open for a clear Chinese female narrator. No vocals, no choir, no sung words, no epic trailer drums, no generic corporate guitar. 32 second compact complete musical arc.",
+      "music_duration": 32,
+      "emotion": "平静、清晰、自然，带一点好奇心",
+      "lines": [
+        {
+          "id": "01",
+          "at": 0.3,
+          "text": "答案，从哪里来？"
+        },
+        {
+          "id": "02",
+          "at": 3.5,
+          "text": "提出问题。"
+        },
+        {
+          "id": "03",
+          "at": 6.4,
+          "text": "从资料里，找到依据。"
+        },
+        {
+          "id": "04",
+          "at": 10.9,
+          "text": "把原文，带进答案。"
+        },
+        {
+          "id": "08",
+          "at": 14.5,
+          "text": "支持哪些文件，怎样更新，都能找到依据。"
+        },
+        {
+          "id": "06",
+          "at": 20.5,
+          "text": "点一下，回到原文。"
+        },
+        {
+          "id": "07",
+          "at": 24.7,
+          "text": "看见答案，也看见依据。"
+        }
+      ]
+    },
+    "orbit": {
+      "music_prompt": "Instrumental luxury technology product film score, tactile electroacoustic minimalism. Spacious warm analog bass, delicate glass harmonics, brushed metal percussion, deep soft felt piano and airy evolving pads. Slow unmetered introduction, refined pulse around 80 BPM, beautiful tension and release, subtle material detail, controlled dynamic range. Macro photography of precision-machined titanium and optical glass in a bright white studio. A distinct reveal at twelve seconds and a resolved warm final chord. Leave generous space for a calm Chinese female voice. No vocals, no choir, no singing, no EDM drop, no dramatic trailer hits. A 24 second complete sophisticated piece.",
+      "music_duration": 24,
+      "emotion": "平静、从容、克制",
+      "lines": [
+        {
+          "id": "01",
+          "at": 1.2,
+          "text": "细节，自有分寸。"
+        },
+        {
+          "id": "02",
+          "at": 4.4,
+          "text": "在光里，看见精密。"
+        },
+        {
+          "id": "03",
+          "at": 8.2,
+          "text": "在转动中，感受秩序。"
+        },
+        {
+          "id": "04",
+          "at": 12.3,
+          "text": "每次转动，都恰到好处。"
+        },
+        {
+          "id": "05",
+          "at": 16.3,
+          "text": "把精密，握在手中。"
+        }
+      ]
+    },
+    "shift": {
+      "music_prompt": "Instrumental bold creative technology brand campaign. 120 BPM, tight syncopated electro-funk drums, punchy warm synth bass, crisp handclap and rim accents, playful bright analog synth hook, rhythmic staccato strings. High fashion graphic design energy, confident and optimistic, sophisticated rather than aggressive. Strong half-second beats for kinetic typography, a brief rhythmic breakdown in the middle, build to a clean memorable brand reveal near sixteen seconds, then a satisfying final chord with space. Professional full rich sound with headroom for Chinese narration. No vocals, no singing, no choir, no generic corporate stock music. A concise 24 second complete cue.",
+      "music_duration": 24,
+      "emotion": "自信、明快、有期待感，不过度兴奋",
+      "lines": [
+        {
+          "id": "01",
+          "at": 0.1,
+          "text": "让想法，向前一步。"
+        },
+        {
+          "id": "02",
+          "at": 3.2,
+          "text": "让下一步，真实发生。"
+        },
+        {
+          "id": "03",
+          "at": 6.2,
+          "text": "打开新的空间。"
+        },
+        {
+          "id": "04",
+          "at": 9.0,
+          "text": "把可能，变成作品。"
+        },
+        {
+          "id": "05",
+          "at": 12.0,
+          "text": "现在，开始创造。"
+        },
+        {
+          "id": "06",
+          "at": 16.3,
+          "text": "让下一步发生。"
+        }
+      ]
+    },
+    "engineering": {
+      "emotion": "平静、从容、克制",
+      "lines": [
+        {
+          "id": "01",
+          "at": 0.3,
+          "text": "从旋盖，到核心。"
+        },
+        {
+          "id": "02",
+          "at": 4.3,
+          "text": "每一层，都有作用。"
+        }
+      ]
+    }
+  }
+}

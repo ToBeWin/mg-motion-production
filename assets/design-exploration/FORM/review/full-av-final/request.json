@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/FORM_形的发生_配音字幕版.mp4",
+  "sha256": "5f8ca39d05556ee0d3f006d6f24b07b626220c0ee45f2926ea5026a9d735d9b8",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整观看并听这段动效片，仅依据视频和声音回答。按开头、中段、结尾描述视觉如何变化，是否存在三维连续运动。逐句转写听到的中文配音，并说明它与屏幕字幕是否大体同步。检查字幕颜色和背景是否易读、是否遮挡主要内容；音乐与配音是否相互压盖；是否有明显黑帧、跳变、画面露空、卡顿、噪声或句尾截断。区分可确定问题与主观建议，不要按我没有提供的脚本补细节，不要给质量百分数。",
+  "status": "completed",
+  "started_at": 1793189811.167308,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "c8e554e9c8c24a52d86e78efc5d8cb8910316fef02bf2a41de55811f660a80a5",
+  "event_id": "648fa0aac8aa4ac4a9688ec7df649e83",
+  "finished_at": 1793189838.132661,
+  "response_sha256": "d5eaaa6cdb3facb7775cccdfab20079644ce40be8fca4cadb290fb070242356f"
+}

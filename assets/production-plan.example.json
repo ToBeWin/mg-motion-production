@@ -1,0 +1,25 @@
+{
+  "title": "一念 Focus — 每个结论，都有来处",
+  "scope": "Original AI research workspace concept; not a shipped product demo",
+  "duration": 18,
+  "fps": 30,
+  "markers": {"title": 0.2, "prompt": 0.8, "organize": 2.7, "highlight": 2.9, "answer": 4.0, "link": 5.7, "read": 7.5, "pointer": 9.1, "click": 9.85, "citation": 10.05, "exit": 11.7, "brand": 13.2, "name": 14.25},
+  "shots": [
+    {"id": "sources", "start": 0, "end": 2.7, "purpose": "A specific research task and three identifiable sources"},
+    {"id": "organize", "start": 2.7, "end": 7.5, "purpose": "The same sources align and connect to a brief"},
+    {"id": "trace", "start": 7.5, "end": 13.2, "purpose": "Read the result, select citation, reveal original wording"},
+    {"id": "brand", "start": 13.2, "end": 18, "purpose": "Land one value claim, identify concept product"}
+  ],
+  "cues": [
+    {"id": "prompt_touch", "anchor": "prompt", "type": "tap", "duration": 0.12, "gain": 0.035, "pan": 0},
+    {"id": "paper_alignment", "anchor": "organize", "offset": 0.15, "type": "air", "duration": 1.4, "gain": 0.016, "pan": -0.3},
+    {"id": "answer_arrival", "anchor": "answer", "offset": 0.8, "type": "air", "duration": 1.1, "gain": 0.018, "pan": 0.25},
+    {"id": "link_1", "anchor": "link", "offset": 0.4, "type": "link", "duration": 0.65, "gain": 0.020, "pan": -0.25, "note": 76},
+    {"id": "link_2", "anchor": "link", "offset": 0.83, "type": "link", "duration": 0.65, "gain": 0.018, "pan": 0, "note": 79},
+    {"id": "link_3", "anchor": "link", "offset": 1.26, "type": "link", "duration": 0.65, "gain": 0.016, "pan": 0.25, "note": 83},
+    {"id": "citation_click", "anchor": "click", "type": "tap", "duration": 0.10, "gain": 0.045, "pan": 0.4},
+    {"id": "citation_open", "anchor": "citation", "type": "link", "duration": 0.8, "gain": 0.015, "pan": 0.4, "note": 88},
+    {"id": "brand_breath", "anchor": "brand", "offset": -0.15, "type": "air", "duration": 1.4, "gain": 0.012, "pan": 0},
+    {"id": "brand_resolve", "anchor": "brand", "offset": 0.6, "type": "link", "duration": 1.8, "gain": 0.018, "pan": 0, "note": 76}
+  ]
+}

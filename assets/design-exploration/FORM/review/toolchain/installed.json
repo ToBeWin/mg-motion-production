@@ -1,0 +1,91 @@
+[
+  {
+    "app": "VectorCraft",
+    "version": "0.17.0",
+    "signature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/mount-vectorcraft/VectorCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/mount-vectorcraft/VectorCraft.app: satisfies its Designated Requirement",
+    "gatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/mount-vectorcraft/VectorCraft.app: accepted\nsource=Notarized Developer ID",
+    "architectures": "x86_64 arm64",
+    "installedSignature": "/Applications/VectorCraft.app: valid on disk\n/Applications/VectorCraft.app: satisfies its Designated Requirement",
+    "cliSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/vectorcraft-cli/vectorcraft-cli-0.17.0-macos-universal/vectorcraft-cli: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/vectorcraft-cli/vectorcraft-cli-0.17.0-macos-universal/vectorcraft-cli: satisfies its Designated Requirement",
+    "cliGatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/vectorcraft-cli/vectorcraft-cli-0.17.0-macos-universal/vectorcraft-cli: rejected (the code is valid but does not seem to be an app)",
+    "cliVersion": "vectorcraft-cli 0.17.0"
+  },
+  {
+    "app": "PhotoCraft",
+    "version": "0.16.0",
+    "architectures": "x86_64 arm64",
+    "originalStagedSignature": "file with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app/Contents/Resources/Licenses/OFL-biz-ud-mincho.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app/Contents/Resources/Licenses/OFL-shippori-mincho.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app/Contents/Resources/PhotoCraft.icns\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app/Contents/Resources/Licenses/OFL-biz-ud-pgothic.txt\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app: resource fork, Finder information, or similar detritus not allowed\n",
+    "finderMetadataCleanup": {
+      "exit": 0,
+      "detail": ""
+    },
+    "signature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app: satisfies its Designated Requirement",
+    "gatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PhotoCraft.app: accepted\nsource=Notarized Developer ID",
+    "previousVersion": "0.15.1",
+    "backup": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/backup/PhotoCraft-0.15.1.app",
+    "installedSignature": "/Applications/PhotoCraft.app: valid on disk\n/Applications/PhotoCraft.app: satisfies its Designated Requirement",
+    "cliSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/photocraft-cli/photocraft-cli-0.16.0-macos-universal/photocraft-cli: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/photocraft-cli/photocraft-cli-0.16.0-macos-universal/photocraft-cli: satisfies its Designated Requirement",
+    "cliGatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/photocraft-cli/photocraft-cli-0.16.0-macos-universal/photocraft-cli: rejected (the code is valid but does not seem to be an app)",
+    "cliVersion": "photocraft-cli 0.16.0 (b1794c6e0, 2026-10-25)"
+  },
+  {
+    "app": "EffectCraft",
+    "version": "0.17.0",
+    "architectures": "x86_64 arm64",
+    "originalStagedSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/EffectCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/EffectCraft.app: satisfies its Designated Requirement\n",
+    "signature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/EffectCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/EffectCraft.app: satisfies its Designated Requirement",
+    "gatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/EffectCraft.app: accepted\nsource=Notarized Developer ID",
+    "previousVersion": "0.16.0",
+    "backup": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/backup/EffectCraft-0.16.0.app",
+    "installedSignature": "/Applications/EffectCraft.app: valid on disk\n/Applications/EffectCraft.app: satisfies its Designated Requirement",
+    "cliSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/effectcraft-cli/effectcraft-cli-0.17.0-macos-universal/effectcraft-cli: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/effectcraft-cli/effectcraft-cli-0.17.0-macos-universal/effectcraft-cli: satisfies its Designated Requirement",
+    "cliGatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/effectcraft-cli/effectcraft-cli-0.17.0-macos-universal/effectcraft-cli: rejected (the code is valid but does not seem to be an app)",
+    "cliVersion": "effectcraft-cli 0.17.0"
+  },
+  {
+    "app": "FilmCraft",
+    "version": "0.13.0",
+    "architectures": "x86_64 arm64",
+    "originalStagedSignature": "file with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/OFL-biz-ud-mincho.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/OFL-shippori-mincho.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/OFL-noto-sans-arabic.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/FilmCraft.icns\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/OFL-noto-sans-cjk-sc.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/OFL-biz-ud-pgothic.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/OFL-noto-sans-thai.txt\nfile with invalid attached data: Disallowed xattr com.apple.FinderInfo found on ~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app/Contents/Resources/OFL-noto-sans-georgian.txt\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app: resource fork, Finder information, or similar detritus not allowed\n",
+    "finderMetadataCleanup": {
+      "exit": 0,
+      "detail": ""
+    },
+    "signature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app: satisfies its Designated Requirement",
+    "gatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/FilmCraft.app: accepted\nsource=Notarized Developer ID",
+    "previousVersion": "0.12.0",
+    "backup": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/backup/FilmCraft-0.12.0.app",
+    "installedSignature": "/Applications/FilmCraft.app: valid on disk\n/Applications/FilmCraft.app: satisfies its Designated Requirement",
+    "cliSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/filmcraft-cli/filmcraft-cli-0.13.0-macos-universal/filmcraft-cli: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/filmcraft-cli/filmcraft-cli-0.13.0-macos-universal/filmcraft-cli: satisfies its Designated Requirement",
+    "cliGatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/filmcraft-cli/filmcraft-cli-0.13.0-macos-universal/filmcraft-cli: rejected (the code is valid but does not seem to be an app)",
+    "cliVersion": "filmcraft-cli 0.13.0"
+  },
+  {
+    "app": "LightCraft",
+    "version": "0.14.0",
+    "architectures": "x86_64 arm64",
+    "originalStagedSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/LightCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/LightCraft.app: satisfies its Designated Requirement\n",
+    "signature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/LightCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/LightCraft.app: satisfies its Designated Requirement",
+    "gatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/LightCraft.app: accepted\nsource=Notarized Developer ID",
+    "previousVersion": "0.13.0",
+    "backup": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/backup/LightCraft-0.13.0.app",
+    "installedSignature": "/Applications/LightCraft.app: valid on disk\n/Applications/LightCraft.app: satisfies its Designated Requirement",
+    "cliSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/lightcraft-cli/lightcraft-cli-0.14.0-macos-universal/lightcraft-cli: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/lightcraft-cli/lightcraft-cli-0.14.0-macos-universal/lightcraft-cli: satisfies its Designated Requirement",
+    "cliGatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/lightcraft-cli/lightcraft-cli-0.14.0-macos-universal/lightcraft-cli: rejected (the code is valid but does not seem to be an app)",
+    "cliVersion": "lightcraft-cli 0.14.0"
+  },
+  {
+    "app": "PdfCraft",
+    "version": "0.14.0",
+    "architectures": "x86_64 arm64",
+    "originalStagedSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PdfCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PdfCraft.app: satisfies its Designated Requirement\n",
+    "signature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PdfCraft.app: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PdfCraft.app: satisfies its Designated Requirement",
+    "gatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/PdfCraft.app: accepted\nsource=Notarized Developer ID",
+    "previousVersion": "0.13.0",
+    "backup": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/backup/PdfCraft-0.13.0.app",
+    "installedSignature": "/Applications/PdfCraft.app: valid on disk\n/Applications/PdfCraft.app: satisfies its Designated Requirement",
+    "cliSignature": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/pdfcraft-cli/pdfcraft-cli-0.14.0-macos-universal/pdfcraft-cli: valid on disk\n~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/pdfcraft-cli/pdfcraft-cli-0.14.0-macos-universal/pdfcraft-cli: satisfies its Designated Requirement",
+    "cliGatekeeper": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-design-pipeline-v13/stage/pdfcraft-cli/pdfcraft-cli-0.14.0-macos-universal/pdfcraft-cli: rejected (the code is valid but does not seem to be an app)",
+    "cliVersion": "pdfcraft-cli 0.14.0\nDiscord: https://discord.gg/artcraft  (help and feedback)\nWeb:     https://getartcraft.com/apps/pdfcraft\nSource:  https://github.com/storytold/pdfcraft"
+  }
+]

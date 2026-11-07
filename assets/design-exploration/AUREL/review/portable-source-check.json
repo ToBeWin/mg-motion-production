@@ -1,0 +1,30 @@
+{
+  "scope": "Same-host relocation test using the already installed fonts and CLIs; not a clean-machine compatibility claim. No still-image proxies or missing footage substitutions were used.",
+  "destination": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/Skill固化_字形雕塑_20261029/relocated-source",
+  "effectcraft_frames": [
+    {
+      "time": 5.9,
+      "exact_rgb_match": true,
+      "max_rgb_error": 0
+    },
+    {
+      "time": 14.8,
+      "exact_rgb_match": true,
+      "max_rgb_error": 0
+    }
+  ],
+  "blender_projects": [
+    {
+      "shot": "unfold",
+      "objects": 13,
+      "frames": 144,
+      "fonts": []
+    },
+    {
+      "shot": "hero",
+      "objects": 13,
+      "frames": 156,
+      "fonts": []
+    }
+  ]
+}

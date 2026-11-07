@@ -1,0 +1,164 @@
+{
+  "style": "brand",
+  "duration": 32,
+  "fps": 60,
+  "time_unit": "seconds",
+  "cues": [
+    {
+      "time": 0.12,
+      "type": "click",
+      "gain": 0.1,
+      "anchor": "种子出现",
+      "pitch": 980
+    },
+    {
+      "time": 1.5,
+      "type": "bounce",
+      "gain": 0.2,
+      "anchor": "第一次压缩着地",
+      "pitch": 230,
+      "pan": 0.22
+    },
+    {
+      "time": 2.5,
+      "type": "bounce",
+      "gain": 0.13,
+      "anchor": "第二次压缩着地",
+      "pitch": 310,
+      "pan": 0.22
+    },
+    {
+      "time": 3.38,
+      "type": "whoosh",
+      "gain": 0.15,
+      "anchor": "色带展开，峰值靠近3.54s启动",
+      "duration": 0.32
+    },
+    {
+      "time": 4,
+      "type": "impact",
+      "gain": 0.16,
+      "anchor": "流线段落落拍"
+    },
+    {
+      "time": 7.55,
+      "type": "whoosh",
+      "gain": 0.13,
+      "anchor": "圆形揭幕速度峰值7.775s",
+      "duration": 0.45
+    },
+    {
+      "time": 8,
+      "type": "click",
+      "gain": 0.055,
+      "anchor": "阵列接续",
+      "pitch": 890
+    },
+    {
+      "time": 11.75,
+      "type": "whoosh",
+      "gain": 0.12,
+      "anchor": "阵列进入空间",
+      "duration": 0.25
+    },
+    {
+      "time": 12.05,
+      "type": "chime",
+      "gain": 0.055,
+      "anchor": "三维环带展开",
+      "note": 81,
+      "duration": 1.5
+    },
+    {
+      "time": 15.6,
+      "type": "whoosh",
+      "gain": 0.14,
+      "anchor": "环带揭开字形",
+      "duration": 0.4
+    },
+    {
+      "time": 16,
+      "type": "impact",
+      "gain": 0.15,
+      "anchor": "MAKE段落落拍"
+    },
+    {
+      "time": 16.35,
+      "type": "click",
+      "gain": 0.035,
+      "anchor": "IT接力",
+      "pitch": 950
+    },
+    {
+      "time": 16.83,
+      "type": "click",
+      "gain": 0.04,
+      "anchor": "MOVE接力",
+      "pitch": 1200
+    },
+    {
+      "time": 18.2,
+      "type": "whoosh",
+      "gain": 0.06,
+      "anchor": "箭杆沿方向绘制",
+      "duration": 0.42,
+      "pan": 0.35
+    },
+    {
+      "time": 18.6,
+      "type": "click",
+      "gain": 0.04,
+      "anchor": "箭头完成",
+      "pitch": 1450,
+      "pan": 0.35
+    },
+    {
+      "time": 19.75,
+      "type": "whoosh",
+      "gain": 0.12,
+      "anchor": "字形压成横带，揭开机械花",
+      "duration": 0.25
+    },
+    {
+      "time": 20,
+      "type": "impact",
+      "gain": 0.1,
+      "anchor": "机械花段落",
+      "note": 34
+    },
+    {
+      "time": 23.65,
+      "type": "whoosh",
+      "gain": 0.13,
+      "anchor": "机械花汇成圆形揭幕",
+      "duration": 0.35
+    },
+    {
+      "time": 24,
+      "type": "chime",
+      "gain": 0.045,
+      "anchor": "路径环阵接续",
+      "note": 77
+    },
+    {
+      "time": 26.8,
+      "type": "whoosh",
+      "gain": 0.13,
+      "anchor": "汇聚蓄势",
+      "duration": 1.2
+    },
+    {
+      "time": 28,
+      "type": "impact",
+      "gain": 0.13,
+      "anchor": "标志开始归位"
+    },
+    {
+      "time": 28.65,
+      "type": "click",
+      "gain": 0.025,
+      "anchor": "标志归位",
+      "pitch": 1100
+    }
+  ]
+}

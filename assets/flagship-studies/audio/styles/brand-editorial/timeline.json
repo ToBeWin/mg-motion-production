@@ -1,0 +1,84 @@
+{
+  "duration": 8,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "shift",
+  "music_case": "trace-v8",
+  "captions": [
+    {
+      "id": "01",
+      "start": 0.3333333333333333,
+      "end": 2.1533333333333333,
+      "text": "让想法，向前一步。"
+    },
+    {
+      "id": "06",
+      "start": 4.7,
+      "end": 6.3,
+      "text": "让下一步发生。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "01",
+      "raw_duration": 2.1942857142857144,
+      "trim_leading": 0.26,
+      "trim_trailing": 0.21429166666666666,
+      "gain_db": -0.0859961209863258,
+      "start": 0.3333333333333333,
+      "end": 2.0533333333333332
+    },
+    {
+      "id": "06",
+      "raw_duration": 2.0549659863945577,
+      "trim_leading": 0.3,
+      "trim_trailing": 0.25497916666666665,
+      "gain_db": 0.5442584062248763,
+      "start": 4.7,
+      "end": 6.2
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 0.0,
+      "source_out": 6.559645833333334,
+      "pre_tempo_timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "tempo_factor_pitch_preserved": 1,
+      "effective_music_end": 6.559645833333334,
+      "padded_seconds": 1.4403541666666664,
+      "selection_reason": "Restrained piano miniature; natural decay before the end hold"
+    }
+  ],
+  "mix_settings": {
+    "music_case": "trace-v8",
+    "segments": [
+      [
+        0,
+        null
+      ]
+    ],
+    "fade_in": 0.15,
+    "fade_out": 0.7,
+    "music_rms": 0.065,
+    "reason": "Restrained piano miniature; natural decay before the end hold"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-18.08:measured_TP=-1.67:measured_LRA=4.40:measured_thresh=-28.68:offset=-0.00:linear=true,atrim=duration=8",
+  "master_verification": [
+    {
+      "input_i": "-15.97",
+      "input_tp": "-2.18",
+      "input_lra": "4.80",
+      "input_thresh": "-26.58",
+      "output_i": "-15.83",
+      "output_tp": "-2.20",
+      "output_lra": "3.00",
+      "output_thresh": "-26.17",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.17"
+    }
+  ],
+  "raw_music_seconds": 6.559645833333334
+}

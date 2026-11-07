@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<rect width="1920" height="1080" fill="#F7F5EE"/>
+<g id="AUREL-type" fill="#091E91" font-family="Aurel Grotesk" font-weight="900"><text x="96" y="145" font-size="62">AUREL</text><text x="90" y="714" font-size="138">SHIFT</text><text x="90" y="850" font-size="138">YOUR VIEW.</text></g>
+<polygon id="left-stem" points="829.00,950.00 1027.65,950.00 1240.00,155.40 1164.65,155.40" fill="#244CFF"/>
+<polygon id="right-stem" points="1452.35,950.00 1651.00,950.00 1315.35,155.40 1240.00,155.40" fill="#244CFF"/>
+<polygon id="crossbar" points="974.22,641.75 1505.78,641.75 1467.42,563.66 1012.58,563.66" fill="#244CFF"/>
+<polygon id="citron-inlay" points="1122.18,419.81 1357.82,419.81 1340.01,382.82 1139.99,382.82" fill="#D6F045"/>
+<g stroke="#091E91" stroke-width="1.5"><path d="M96 199H590 M96 930H300 M339 915V945 M324 930H354"/></g>
+<text x="96" y="1006" fill="#091E91" font-family="FOLD Han" font-size="24">让想象，有形。</text>
+</svg>

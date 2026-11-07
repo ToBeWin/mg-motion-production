@@ -1,0 +1,14 @@
+{
+  "source": "no_vocals.wav",
+  "sha256": "9e3ac8f060505843956a37309509b42130de0a6b85e63fa33f5959c8f3f61f8c",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听这段音频，只描述实际听到的内容。是否有可辨人声、哼唱、歌唱、话语？还是只有乐器/合成器？有不确定性就说不确定。是否有水声、跳音、相位飘动等明显损伤？结尾怎样？不要根据文件名猜测。",
+  "status": "completed",
+  "started_at": 1793075685.198482,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "7e1c3c80b22c0d874785ffc7facca8f09117f55a9219a294b11360e6fa587959",
+  "finished_at": 1793075700.375561,
+  "response_sha256": "c1f60a1dba3443d15b8141c69441d05cec6e0c121582fcffe330445927842aca"
+}

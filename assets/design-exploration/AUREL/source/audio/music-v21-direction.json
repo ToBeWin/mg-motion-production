@@ -1,0 +1,12 @@
+{
+  "prompt": "Genre: contemporary minimalist instrumental, organic acoustic-electronic brand soundtrack. Tempo: 100 BPM. Instruments: warm muted electric piano chords, low soft marimba notes, deep round bass and restrained brushed percussion. Smooth rounded timbres, spacious studio acoustics, elegant short reverb. A simple three-note motif with slow harmonic movement and breathing room. Understated, tactile, confident, sophisticated and optimistic. Clear gentle pulse supports geometric motion. Begin immediately, develop one small motif, resolve with a warm sustained chord and a soft natural decay. Purely instrumental.",
+  "lyrics": "[instrumental]",
+  "engine": "MiniMax Music3 MLX q6",
+  "steps": 30,
+  "duration_limit": 20,
+  "seed": 4127,
+  "reason": "User rejects prior score timbre and style; replace chiptune-like lead with warm rounded instrumental timbres and restrained pulse.",
+  "musical_terms_are_request_not_verified_result": true,
+  "status": "generated",
+  "seconds": 196.43705105781555
+}

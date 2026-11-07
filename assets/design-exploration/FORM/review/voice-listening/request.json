@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG自由探索_FORM_v1/source/audio/voice-raw.wav",
+  "sha256": "12f8eea347a7660a112384d042e91d207a1da271bbc9482898a94ce3ccdfca0e",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请实际完整听这段短配音，先逐句转写你听到的全部中文，不给任何提示词。然后判断是否有明显错读、漏字、吞音、机械停顿、句尾截断、气口异常。不要从文件名推断。",
+  "status": "completed",
+  "started_at": 1793185495.536248,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "13d907bc9725e7f1a36a88617f940d5ba46942021218a268320927cf6cefa708",
+  "event_id": "c5814b77145e4b4ba8baf5a06f2e7f8a",
+  "finished_at": 1793185507.323406,
+  "response_sha256": "5b9a712faa29bc2333cebfbb1a78223f0f310fa072f3b939170aa3ef17f1161e"
+}

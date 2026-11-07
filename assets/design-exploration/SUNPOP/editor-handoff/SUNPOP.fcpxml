@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p30" frameDuration="1/30s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <asset id="r2" name="SUNPOP Picture" start="0s" duration="24s" hasVideo="1" format="r1">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/SUNPOP/SUNPOP_%E6%8A%8A%E4%BB%8A%E5%A4%A9%E6%89%93%E5%BC%80_%E7%94%BB%E9%9D%A2.mp4" />
+    </asset>
+    <asset id="r3" name="SUNPOP final master" start="0s" duration="24s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/SUNPOP/source/audio/master-voice.wav" />
+    </asset>
+    <asset id="r4" name="Narration stem" start="0s" duration="24s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/SUNPOP/source/audio/voice-edit.wav" />
+    </asset>
+    <asset id="r5" name="Music stem" start="0s" duration="24s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/SUNPOP/source/audio/music-edit.wav" />
+    </asset>
+    <asset id="r6" name="Sound design stem" start="0s" duration="24s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/SUNPOP/source/audio/sfx-edit.wav" />
+    </asset>
+  </resources>
+  <library>
+    <event name="SUNPOP · 把今天打开">
+      <project name="SUNPOP · picture + final master">
+        <sequence format="r1" duration="24s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <asset-clip ref="r2" name="SUNPOP / editable source in EffectCraft" offset="0s" start="0s" duration="24s" format="r1">
+              <asset-clip ref="r3" name="IndexTTS2 + MiniMax Music + sound design" lane="-1" offset="0s" start="0s" duration="24s" audioRole="dialogue" />
+            </asset-clip>
+          </spine>
+        </sequence>
+      </project>
+      <asset-clip ref="r4" name="Narration stem" start="0s" duration="24s" />
+      <asset-clip ref="r5" name="Music stem" start="0s" duration="24s" />
+      <asset-clip ref="r6" name="Sound design stem" start="0s" duration="24s" />
+    </event>
+  </library>
+</fcpxml>

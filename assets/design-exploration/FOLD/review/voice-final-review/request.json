@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG软件发布_FOLD_v1/source/audio/voice-edit.wav",
+  "sha256": "9ea444db5c58fda8a7224e803630224e7fc670be71366f668d6df33c70feed3b",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听这段中文配音。不提供预期文字，请先忠实转写听见的全部内容，再按时间顺序估计每个短语开始和结束的秒数。检查读音、吞字、机械感、奇怪重音、静音长度。若没有能力确定某项，明确说明。不要根据创作意图补全漏字。这是原始配音，较长句间空白后续会剪辑。\n",
+  "status": "completed",
+  "started_at": 1793194357.924154,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "fe7d2a2da456118ebed8da19d2e571162656e475ea34951cd4c721a44f8d21c7",
+  "event_id": "a3758b8bf65c4482a6e3c42b1550b9de",
+  "finished_at": 1793194380.151146,
+  "response_sha256": "d1b94ddad72e24dcb48b0efeb56b470e4874b9331e08af2b396dce9ccdf8cb37"
+}

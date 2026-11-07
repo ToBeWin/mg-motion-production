@@ -1,0 +1,123 @@
+{
+  "duration": 16,
+  "sample_rate": 48000,
+  "voices": [
+    {
+      "id": "01",
+      "file": "voice-01.wav",
+      "text": "提出问题。",
+      "start": 0.5,
+      "end": 1.55,
+      "source_v8_take": "02",
+      "source_start": 3.5,
+      "source_end": 4.55,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "02",
+      "file": "voice-02.wav",
+      "text": "从资料里，找到依据。",
+      "start": 3.05,
+      "end": 4.79,
+      "source_v8_take": "03",
+      "source_start": 6.4,
+      "source_end": 8.14,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "03",
+      "file": "voice-03.wav",
+      "text": "把原文，带进答案。",
+      "start": 5.55,
+      "end": 7.279999999999999,
+      "source_v8_take": "04",
+      "source_start": 10.9,
+      "source_end": 12.63,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "04",
+      "file": "voice-04.wav",
+      "text": "点一下，回到原文。",
+      "start": 9.25,
+      "end": 10.92,
+      "source_v8_take": "06",
+      "source_start": 20.5,
+      "source_end": 22.17,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "05",
+      "file": "voice-05.wav",
+      "text": "看见答案，也看见依据。",
+      "start": 13.45,
+      "end": 15.389999999999999,
+      "source_v8_take": "07",
+      "source_start": 24.7,
+      "source_end": 26.64,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    }
+  ],
+  "music_source": "minimax-selected-instrumental.wav",
+  "music_segments": [
+    {
+      "in": 0,
+      "out": 14.15,
+      "timeline_in": 0
+    },
+    {
+      "in": 29.450666666666667,
+      "out": 31.950666666666667,
+      "timeline_in": 13.5
+    }
+  ],
+  "crossfade": 0.65,
+  "sounds": [
+    {
+      "time": 1.52,
+      "file": "tick.wav",
+      "gain": 0.9
+    },
+    {
+      "time": 1.7,
+      "file": "paper.wav",
+      "gain": 0.65
+    },
+    {
+      "time": 3.38,
+      "file": "tick.wav",
+      "gain": 0.6
+    },
+    {
+      "time": 3.8,
+      "file": "tick.wav",
+      "gain": 0.6
+    },
+    {
+      "time": 4.88,
+      "file": "paper.wav",
+      "gain": 0.8
+    },
+    {
+      "time": 9.15,
+      "file": "tick.wav",
+      "gain": 1
+    },
+    {
+      "time": 9.35,
+      "file": "paper.wav",
+      "gain": 0.6
+    },
+    {
+      "time": 12.4,
+      "file": "paper.wav",
+      "gain": 0.75
+    },
+    {
+      "time": 13.05,
+      "file": "tick.wav",
+      "gain": 0.65
+    }
+  ],
+  "provenance": "Reuse the selected, previously reviewed IndexTTS2 takes and MiniMax Music material; re-edit for the new 16-second visual timeline. Not a newly generated music track."
+}

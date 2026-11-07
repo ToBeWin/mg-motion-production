@@ -1,0 +1,33 @@
+{
+  "scope": "Visual inspection of final MP4 contact sheets, dense transition sheets and selected full-resolution readability frames. Not continuous human playback of every frame.",
+  "main_captioned_sample_count": 58,
+  "clean_sample_count": 12,
+  "dense_samples": 176,
+  "dense_transitions": 11,
+  "observations": {
+    "brand": [
+      "Opening type and slash remain readable before the handoff.",
+      "Corrected the uncovered early scene change: OPEN remains beneath tiles until the common full-coverage interval.",
+      "Work texture stays inside the text matte; create bands converge into a readable held word.",
+      "The final SHIFT wordmark uses measured glyph widths, and caption tone belongs to the blue palette."
+    ],
+    "hardware": [
+      "Transparent Cycles plate includes a moving upper rotary assembly and coherent contact shadow.",
+      "Numerals remain a single source-text state without motion-blur ghosts.",
+      "The curve is explicitly occluded behind the readout during the upward crossing.",
+      "The final curve traverses the upper free region and the product moves right before the O settles."
+    ],
+    "agent": [
+      "Three roles terminate above the labels, and concrete content is visible in each branch.",
+      "Text switches from green to white at the moving photograph boundary, preserving readable words during overlap.",
+      "Photo, topics, palette token and page frame retain object identity into the final page.",
+      "Final promise and retained ROAM page occupy separate regions; coast selection and copy match the delivered HTML."
+    ]
+  },
+  "iteration_fixes": [
+    "Brand glyph spacing, full-coverage transition and music dynamics.",
+    "Hardware camera framing, numeric motion blur, text/curve clearance and product/curve path.",
+    "Agent branch endpoints, title fade, photo-boundary text contrast and deliverable consistency."
+  ],
+  "acceptance": "New v11 films await user feedback. TRACE v10 alone had the latest positive user response."
+}

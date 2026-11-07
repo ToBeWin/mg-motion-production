@@ -1,0 +1,10 @@
+[
+  {
+    "version": "配音字幕版",
+    "aac_packet_sha256": "219871d1709719f8a097f4efe9272dd84da3291b8917f853e344c4936ca7b178"
+  },
+  {
+    "version": "无字幕配音版",
+    "aac_packet_sha256": "219871d1709719f8a097f4efe9272dd84da3291b8917f853e344c4936ca7b178"
+  }
+]

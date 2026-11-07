@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p30" frameDuration="1/30s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)" />
+    <asset id="r2" name="FORM Picture" start="0s" duration="18s" hasVideo="1" format="r1">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/FORM/FORM_%E5%BD%A2%E7%9A%84%E5%8F%91%E7%94%9F_%E7%94%BB%E9%9D%A2.mp4" />
+    </asset>
+    <asset id="r3" name="FORM final master" start="0s" duration="18s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/FORM/source/audio/master-voice.wav" />
+    </asset>
+    <asset id="r4" name="Narration stem" start="0s" duration="18s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/FORM/source/audio/voice-edit.wav" />
+    </asset>
+    <asset id="r5" name="Music stem" start="0s" duration="18s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/FORM/source/audio/music-edit.wav" />
+    </asset>
+    <asset id="r6" name="Sound design stem" start="0s" duration="18s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+      <media-rep kind="original-media" src="file://~/workspace/opc/mg-motion-production/assets/design-exploration/FORM/source/audio/sfx-edit.wav" />
+    </asset>
+  </resources>
+  <library>
+    <event name="FORM · 形的发生">
+      <project name="FORM · picture + final master">
+        <sequence format="r1" duration="18s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+          <spine>
+            <asset-clip ref="r2" name="FORM / editable source in EffectCraft" offset="0s" start="0s" duration="18s" format="r1">
+              <asset-clip ref="r3" name="IndexTTS2 + MiniMax Music + sound design" lane="-1" offset="0s" start="0s" duration="18s" audioRole="dialogue" />
+            </asset-clip>
+          </spine>
+        </sequence>
+      </project>
+      <asset-clip ref="r4" name="Narration stem" start="0s" duration="18s" />
+      <asset-clip ref="r5" name="Music stem" start="0s" duration="18s" />
+      <asset-clip ref="r6" name="Sound design stem" start="0s" duration="18s" />
+    </event>
+  </library>
+</fcpxml>

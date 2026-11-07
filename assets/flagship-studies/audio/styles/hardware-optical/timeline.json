@@ -1,0 +1,84 @@
+{
+  "duration": 8,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "orbit",
+  "music_case": "orbit-v8",
+  "captions": [
+    {
+      "id": "02",
+      "start": 0.26666666666666666,
+      "end": 2.0766666666666667,
+      "text": "在光里，看见精密。"
+    },
+    {
+      "id": "05",
+      "start": 4.533333333333333,
+      "end": 6.463333333333333,
+      "text": "把精密，握在手中。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "02",
+      "raw_duration": 2.1130158730158732,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.15302083333333333,
+      "gain_db": 8.677960205148764,
+      "start": 0.26666666666666666,
+      "end": 1.9766666666666666
+    },
+    {
+      "id": "05",
+      "raw_duration": 2.2291156462585033,
+      "trim_leading": 0.24,
+      "trim_trailing": 0.159125,
+      "gain_db": 8.980749554437313,
+      "start": 4.533333333333333,
+      "end": 6.363333333333333
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 0.0,
+      "source_out": 8.0,
+      "pre_tempo_timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "tempo_factor_pitch_preserved": 1,
+      "effective_music_end": 8,
+      "padded_seconds": 0,
+      "selection_reason": "Soft bright texture for glass; no guitar-led dramatic turn"
+    }
+  ],
+  "mix_settings": {
+    "music_case": "orbit-v8",
+    "music_path": "processed/orbit-v8-instrumental.wav",
+    "segments": [
+      [
+        0,
+        8
+      ]
+    ],
+    "fade_in": 0.2,
+    "fade_out": 1.6,
+    "reason": "Soft bright texture for glass; no guitar-led dramatic turn"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-17.20:measured_TP=-4.44:measured_LRA=6.00:measured_thresh=-28.48:offset=-0.24:linear=true,atrim=duration=8",
+  "master_verification": [
+    {
+      "input_i": "-16.00",
+      "input_tp": "-3.24",
+      "input_lra": "6.00",
+      "input_thresh": "-27.28",
+      "output_i": "-15.76",
+      "output_tp": "-4.13",
+      "output_lra": "3.60",
+      "output_thresh": "-26.61",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.24"
+    }
+  ],
+  "raw_music_seconds": 26.017979166666667
+}

@@ -1,0 +1,7 @@
+{
+  "prompt": "Instrumental minimal electronica for a bold, precise design-studio motion graphics film. Clean tactile synthesizer plucks, rounded warm bass, tiny dry wood clicks, soft crisp electronic percussion, around 112 BPM. Confident, curious, intelligent and fresh, with elegant empty space between rhythmic gestures. Cool blue and ivory visual mood. A concise opening hook, two contrasting phrases, then a brief resolved musical ending. No vocals, no choir, no spoken word, no funk guitar, no brass, no cinematic boom, no dreamy piano ballad, no long intro or long ambient tail.",
+  "engine": "MiniMax Music3 MLX q6",
+  "steps": 30,
+  "duration_limit": 20,
+  "musical_terms_are_request_not_verified_result": true
+}

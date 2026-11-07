@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG风格探索_映序AUREL_v2.1_声音重配/AUREL_v2.1_让想象有形_配音字幕版.mp4",
+  "sha256": "5a0186ab049e39fce545c499431cc4347afaaafbcd3a14317f22aac311228700",
+  "mode": "video",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整审看并审听实际16秒短片。先无提示稿逐句转写中文配音，描述实际音乐的主导音色与情绪。检查配音是否自然清晰、是否被背景音乐遮挡、字幕是否大体同步、是否有额外歌唱或说话、配乐是否与实际图形与材质气质相符、结尾是否突兀。不要给审美分数，不编造精确时间；只报告能从实际音画判断的事实。",
+  "status": "completed",
+  "started_at": 1793244623.695945,
+  "method": "full-duration model-assisted audiovisual review",
+  "review_copy_sha256": "38d915c79bc042ef3005f17742ab43adb5b74c60e13eecd0bb73510878022374",
+  "event_id": "7c69c32328c34662b17ec21c54291dc6",
+  "finished_at": 1793244636.9374669,
+  "response_sha256": "d86a06fe1dac26bb6ac03f8e600907bca5fcc31c16cffa6eae4c50be5384f3e2"
+}

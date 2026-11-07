@@ -1,0 +1,26 @@
+{
+  "video_streams": [
+    {
+      "variant": "画面",
+      "video_stream_sha256": "SHA256=9c7436b94ee9c34f1e0928fca0ab409c41cdb2be88795497eecaec355d589da4",
+      "matches_v2": true
+    },
+    {
+      "variant": "配音字幕版",
+      "video_stream_sha256": "SHA256=33b839850e2be997e6c9145a6389b9da80bcf8c92295117e6896bc3fbe7af037",
+      "matches_v2": true
+    },
+    {
+      "variant": "无字幕配音版",
+      "video_stream_sha256": "SHA256=9c7436b94ee9c34f1e0928fca0ab409c41cdb2be88795497eecaec355d589da4",
+      "matches_v2": true
+    },
+    {
+      "variant": "纯音乐版",
+      "video_stream_sha256": "SHA256=9c7436b94ee9c34f1e0928fca0ab409c41cdb2be88795497eecaec355d589da4",
+      "matches_v2": true
+    }
+  ],
+  "voice_stem_bit_identical": true,
+  "scope": "Encoded picture unchanged for all versions. Original speech stem and timing unchanged; music and mix replaced."
+}

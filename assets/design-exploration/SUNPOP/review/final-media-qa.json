@@ -1,0 +1,103 @@
+{
+  "SUNPOP_把今天打开_无字幕配音版.mp4": {
+    "sha256": "9bb32b66d88fad63884a34b8107c40b97a948e70f125eb7cf6862a394d2882f1",
+    "duration": "24.000000",
+    "video": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "nb_read_frames": "720",
+      "pix_fmt": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709"
+    },
+    "full_decode": "pass",
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    "decoded_audio_sha256": "be27d2d1db1553908beca28b32f704eb5944c82aa0f0a361329efe8b80239272",
+    "measured_final_aac": {
+      "input_i": "-16.01",
+      "input_tp": "-2.01",
+      "input_lra": "5.00"
+    }
+  },
+  "SUNPOP_把今天打开_画面.mp4": {
+    "sha256": "5728529a8c31710c4f8e2b9300e866dd4ae9170e46b6d996e10ca5a83dac6214",
+    "duration": "24.000000",
+    "video": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "nb_read_frames": "720",
+      "pix_fmt": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709"
+    },
+    "full_decode": "pass"
+  },
+  "SUNPOP_把今天打开_纯音乐版.mp4": {
+    "sha256": "0b1ff151fdaf1d9cfa8660b5214e78b3acd5dfd0e189be5f192a71d527e351c0",
+    "duration": "24.000000",
+    "video": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "nb_read_frames": "720",
+      "pix_fmt": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709"
+    },
+    "full_decode": "pass",
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    "decoded_audio_sha256": "942d2bbeda6a11f68443c9bd1d0088167f4dbb4eeb8b350ae07be363e7b0ed5e",
+    "measured_final_aac": {
+      "input_i": "-16.21",
+      "input_tp": "-2.19",
+      "input_lra": "7.00"
+    }
+  },
+  "SUNPOP_把今天打开_配音字幕版.mp4": {
+    "sha256": "deaa5c8032267dabeea24f030ed23c1d27b9b08989e3c1600236a2b74c39f74d",
+    "duration": "24.000000",
+    "video": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "nb_read_frames": "720",
+      "pix_fmt": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709"
+    },
+    "full_decode": "pass",
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    "decoded_audio_sha256": "be27d2d1db1553908beca28b32f704eb5944c82aa0f0a361329efe8b80239272",
+    "measured_final_aac": {
+      "input_i": "-16.01",
+      "input_tp": "-2.01",
+      "input_lra": "5.00"
+    }
+  }
+}

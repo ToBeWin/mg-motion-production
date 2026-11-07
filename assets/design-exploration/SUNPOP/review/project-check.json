@@ -1,0 +1,14 @@
+{
+  "comps": [
+    "SUNPOP / Picture",
+    "SUNPOP / Voice",
+    "SUNPOP / 中文字幕",
+    "SUNPOP / Music"
+  ],
+  "layer_count": 146,
+  "bit_depth": "Bpc16",
+  "footage_count": 6,
+  "missing_media": [],
+  "all_media_relative": true,
+  "native_picture_layers": 137
+}

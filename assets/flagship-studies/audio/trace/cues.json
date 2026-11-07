@@ -1,0 +1,98 @@
+{
+  "kind": "trace",
+  "duration": 28,
+  "sample_rate": 48000,
+  "events": [
+    {
+      "seconds": 5.5,
+      "frame": 165,
+      "event": "send question",
+      "sound": "tick",
+      "gain": 1.2,
+      "duration": 0.12,
+      "pan": 0
+    },
+    {
+      "seconds": 2.63,
+      "frame": 79,
+      "event": "workspace travel",
+      "sound": "paper",
+      "gain": 0.65,
+      "duration": 0.42,
+      "pan": 0
+    },
+    {
+      "seconds": 5.63,
+      "frame": 169,
+      "event": "workspace travel",
+      "sound": "paper",
+      "gain": 0.65,
+      "duration": 0.42,
+      "pan": 0
+    },
+    {
+      "seconds": 10.23,
+      "frame": 307,
+      "event": "workspace travel",
+      "sound": "paper",
+      "gain": 0.65,
+      "duration": 0.42,
+      "pan": 0
+    },
+    {
+      "seconds": 20.229999999999997,
+      "frame": 607,
+      "event": "workspace travel",
+      "sound": "paper",
+      "gain": 0.65,
+      "duration": 0.42,
+      "pan": 0
+    },
+    {
+      "seconds": 23.529999999999998,
+      "frame": 706,
+      "event": "workspace travel",
+      "sound": "paper",
+      "gain": 0.65,
+      "duration": 0.42,
+      "pan": 0
+    },
+    {
+      "seconds": 7.15,
+      "frame": 214,
+      "event": "exact source revealed",
+      "sound": "tick",
+      "gain": 0.75,
+      "duration": 0.12,
+      "pan": -0.4
+    },
+    {
+      "seconds": 8.45,
+      "frame": 253,
+      "event": "exact source revealed",
+      "sound": "tick",
+      "gain": 0.75,
+      "duration": 0.12,
+      "pan": 0.4
+    },
+    {
+      "seconds": 19.8,
+      "frame": 594,
+      "event": "open citation two",
+      "sound": "tick",
+      "gain": 1.4,
+      "duration": 0.12,
+      "pan": 0.35
+    },
+    {
+      "seconds": 25,
+      "frame": 750,
+      "event": "identity resolves",
+      "sound": "tick",
+      "gain": 0.65,
+      "duration": 0.12,
+      "pan": 0
+    }
+  ],
+  "scope": "Original event sounds only; MiniMax supplies final music."
+}

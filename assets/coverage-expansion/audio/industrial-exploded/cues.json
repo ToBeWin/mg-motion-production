@@ -1,0 +1,29 @@
+{
+  "cues": [
+    {
+      "time": 1.8,
+      "type": "sweep",
+      "duration": 0.52
+    },
+    {
+      "time": 3.6,
+      "type": "tick"
+    },
+    {
+      "time": 5.3,
+      "type": "confirm"
+    },
+    {
+      "time": 9.2,
+      "type": "sweep",
+      "duration": 0.52
+    },
+    {
+      "time": 12.6,
+      "type": "confirm"
+    }
+  ],
+  "bpm": 108,
+  "target_lufs": -18,
+  "scope": "Original authored notes and synthesized event sounds. System sound bank not redistributed. Subjective listening is a separate check."
+}

@@ -1,0 +1,20 @@
+{
+  "method": "Rebuilt in independent directory; native renderer frames compared",
+  "comparisons": [
+    {
+      "seconds": 1.5,
+      "pixels_identical": true,
+      "max_channel_difference": 0
+    },
+    {
+      "seconds": 6.7,
+      "pixels_identical": true,
+      "max_channel_difference": 0
+    },
+    {
+      "seconds": 15.2,
+      "pixels_identical": true,
+      "max_channel_difference": 0
+    }
+  ]
+}

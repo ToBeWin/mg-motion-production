@@ -1,0 +1,47 @@
+{
+  "version": "v3.30.1-public",
+  "assets": [
+    {
+      "file": "assets-form.zip",
+      "bytes": 438541387,
+      "sha256": "6f0e06464d383ed2f06f690a346feebaccc7455c1318daa63f22c1de7c59061e",
+      "files": 116
+    },
+    {
+      "file": "assets-fold.zip",
+      "bytes": 312315905,
+      "sha256": "b0639c3ed935b35812f6df6901ce57c206cbe8c20a7b28944b1cecdd23e3f74a",
+      "files": 229
+    },
+    {
+      "file": "assets-sunpop.zip",
+      "bytes": 779305063,
+      "sha256": "de4e93b9e780473e25e97d6e440336ac3ebee963c5e2d1b226676d0641e403f4",
+      "files": 150
+    },
+    {
+      "file": "assets-aurel.zip",
+      "bytes": 990418436,
+      "sha256": "e4587d0442c93ad455cf4596d7289c5ddcbbace87a766a799a309918604dd9ec",
+      "files": 179
+    },
+    {
+      "file": "assets-flagship.zip",
+      "bytes": 1015923771,
+      "sha256": "e3437aae130539e2fb7687b55c8acc56bf71677cf94f67db6977f0b742b58184",
+      "files": 696
+    },
+    {
+      "file": "assets-multistyle.zip",
+      "bytes": 627510071,
+      "sha256": "7f5dae091e038e2e0a90c60618ef22057415b24a911d7974d5ef0a62e8578ed0",
+      "files": 406
+    },
+    {
+      "file": "assets-other.zip",
+      "bytes": 354384136,
+      "sha256": "60e642b2f6991952232e37d8b38105d5d07465a04c564dc768ce9797676d15d4",
+      "files": 540
+    }
+  ]
+}

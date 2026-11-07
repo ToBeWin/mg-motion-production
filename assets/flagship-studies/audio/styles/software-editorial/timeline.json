@@ -1,0 +1,83 @@
+{
+  "duration": 8,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "voice_case": "trace",
+  "music_case": "trace-v8",
+  "captions": [
+    {
+      "id": "03",
+      "start": 0.3333333333333333,
+      "end": 2.1733333333333333,
+      "text": "从资料里，找到依据。"
+    },
+    {
+      "id": "04",
+      "start": 4.166666666666667,
+      "end": 5.996666666666666,
+      "text": "把原文，带进答案。"
+    }
+  ],
+  "takes": [
+    {
+      "id": "03",
+      "raw_duration": 2.1710657596371883,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.18108333333333335,
+      "gain_db": 10.022665791872745,
+      "start": 0.3333333333333333,
+      "end": 2.0733333333333333
+    },
+    {
+      "id": "04",
+      "raw_duration": 2.0549659863945577,
+      "trim_leading": 0.25,
+      "trim_trailing": 0.07497916666666667,
+      "gain_db": 8.141392142590567,
+      "start": 4.166666666666667,
+      "end": 5.8966666666666665
+    }
+  ],
+  "music_edits": [
+    {
+      "source_in": 0.0,
+      "source_out": 6.559645833333334,
+      "pre_tempo_timeline_in": 0.0,
+      "crossfade_seconds": 0
+    },
+    {
+      "tempo_factor_pitch_preserved": 1,
+      "effective_music_end": 6.559645833333334,
+      "padded_seconds": 1.4403541666666664,
+      "selection_reason": "Short clean piano cue with natural decay and a quiet final hold"
+    }
+  ],
+  "mix_settings": {
+    "music_case": "trace-v8",
+    "segments": [
+      [
+        0,
+        null
+      ]
+    ],
+    "fade_in": 0.12,
+    "fade_out": 0.7,
+    "reason": "Short clean piano cue with natural decay and a quiet final hold"
+  },
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-17.63:measured_TP=-1.57:measured_LRA=7.40:measured_thresh=-28.60:offset=-0.40:linear=true,atrim=duration=8",
+  "master_verification": [
+    {
+      "input_i": "-16.17",
+      "input_tp": "-2.20",
+      "input_lra": "7.20",
+      "input_thresh": "-27.14",
+      "output_i": "-15.91",
+      "output_tp": "-2.46",
+      "output_lra": "3.60",
+      "output_thresh": "-26.46",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.09"
+    }
+  ],
+  "raw_music_seconds": 6.559645833333334
+}

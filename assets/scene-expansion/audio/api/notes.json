@@ -1,0 +1,583 @@
+[
+  {
+    "time": 0.0,
+    "duration": 1.5,
+    "note": 50,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 0.008,
+    "duration": 1.5,
+    "note": 57,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 0.016,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 0.024,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 0.0,
+    "duration": 0.776786,
+    "note": 38,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 0.267857,
+    "duration": 0.6,
+    "note": 77,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 1.339286,
+    "duration": 0.6,
+    "note": 74,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 2.142857,
+    "duration": 1.5,
+    "note": 46,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 2.150857,
+    "duration": 1.5,
+    "note": 53,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 2.158857,
+    "duration": 1.5,
+    "note": 58,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 2.166857,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 2.142857,
+    "duration": 0.776786,
+    "note": 34,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 3.482143,
+    "duration": 0.48,
+    "note": 34,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 2.410714,
+    "duration": 0.6,
+    "note": 69,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 3.482143,
+    "duration": 0.6,
+    "note": 72,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 4.285714,
+    "duration": 1.5,
+    "note": 48,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 4.293714,
+    "duration": 1.5,
+    "note": 55,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 4.301714,
+    "duration": 1.5,
+    "note": 60,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 4.309714,
+    "duration": 1.5,
+    "note": 64,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 4.285714,
+    "duration": 0.776786,
+    "note": 36,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 5.625,
+    "duration": 0.48,
+    "note": 36,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 4.553571,
+    "duration": 0.6,
+    "note": 74,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 5.625,
+    "duration": 0.6,
+    "note": 77,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 6.428571,
+    "duration": 1.5,
+    "note": 43,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 6.436571,
+    "duration": 1.5,
+    "note": 50,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 6.444571,
+    "duration": 1.5,
+    "note": 57,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 6.452571,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 6.428571,
+    "duration": 0.776786,
+    "note": 31,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 7.767857,
+    "duration": 0.48,
+    "note": 31,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 6.696429,
+    "duration": 0.6,
+    "note": 81,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 7.767857,
+    "duration": 0.6,
+    "note": 76,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 8.571429,
+    "duration": 1.5,
+    "note": 50,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 8.579429,
+    "duration": 1.5,
+    "note": 57,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 8.587429,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 8.595429,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 8.571429,
+    "duration": 0.776786,
+    "note": 38,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 9.910714,
+    "duration": 0.48,
+    "note": 38,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 8.839286,
+    "duration": 0.6,
+    "note": 77,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 9.910714,
+    "duration": 0.6,
+    "note": 74,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 10.714286,
+    "duration": 1.5,
+    "note": 46,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 10.722286,
+    "duration": 1.5,
+    "note": 53,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 10.730286,
+    "duration": 1.5,
+    "note": 58,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 10.738286,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 10.714286,
+    "duration": 0.776786,
+    "note": 34,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 12.053571,
+    "duration": 0.48,
+    "note": 34,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 10.982143,
+    "duration": 0.6,
+    "note": 69,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 12.053571,
+    "duration": 0.6,
+    "note": 72,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 12.857143,
+    "duration": 1.5,
+    "note": 48,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 12.865143,
+    "duration": 1.5,
+    "note": 55,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 12.873143,
+    "duration": 1.5,
+    "note": 60,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 12.881143,
+    "duration": 1.5,
+    "note": 64,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 12.857143,
+    "duration": 0.776786,
+    "note": 36,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 14.196429,
+    "duration": 0.48,
+    "note": 36,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 13.125,
+    "duration": 0.6,
+    "note": 74,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 14.196429,
+    "duration": 0.6,
+    "note": 77,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 15.0,
+    "duration": 1.5,
+    "note": 43,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 15.008,
+    "duration": 1.5,
+    "note": 50,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 15.016,
+    "duration": 1.5,
+    "note": 57,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 15.024,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 15.0,
+    "duration": 0.776786,
+    "note": 31,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 16.339286,
+    "duration": 0.48,
+    "note": 31,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 15.267857,
+    "duration": 0.6,
+    "note": 81,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 16.339286,
+    "duration": 0.6,
+    "note": 76,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 17.142857,
+    "duration": 1.5,
+    "note": 50,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 17.150857,
+    "duration": 1.5,
+    "note": 57,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 17.158857,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 17.166857,
+    "duration": 1.5,
+    "note": 65,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 17.142857,
+    "duration": 0.776786,
+    "note": 38,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 18.482143,
+    "duration": 0.48,
+    "note": 38,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 17.410714,
+    "duration": 0.6,
+    "note": 77,
+    "velocity": 42,
+    "instrument": "lead"
+  },
+  {
+    "time": 18.482143,
+    "duration": 0.6,
+    "note": 74,
+    "velocity": 46,
+    "instrument": "lead"
+  },
+  {
+    "time": 19.285714,
+    "duration": 1.5,
+    "note": 46,
+    "velocity": 38,
+    "instrument": "bed"
+  },
+  {
+    "time": 19.293714,
+    "duration": 1.5,
+    "note": 53,
+    "velocity": 40,
+    "instrument": "bed"
+  },
+  {
+    "time": 19.301714,
+    "duration": 1.5,
+    "note": 58,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 19.309714,
+    "duration": 1.5,
+    "note": 62,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 19.285714,
+    "duration": 0.776786,
+    "note": 34,
+    "velocity": 48,
+    "instrument": "bass"
+  },
+  {
+    "time": 20.625,
+    "duration": 0.48,
+    "note": 34,
+    "velocity": 34,
+    "instrument": "bass"
+  },
+  {
+    "time": 20.5,
+    "duration": 2.7,
+    "note": 50,
+    "velocity": 42,
+    "instrument": "bed"
+  },
+  {
+    "time": 20.525,
+    "duration": 2.7,
+    "note": 57,
+    "velocity": 44,
+    "instrument": "bed"
+  },
+  {
+    "time": 20.55,
+    "duration": 2.7,
+    "note": 62,
+    "velocity": 46,
+    "instrument": "bed"
+  },
+  {
+    "time": 20.575,
+    "duration": 2.7,
+    "note": 65,
+    "velocity": 48,
+    "instrument": "bed"
+  },
+  {
+    "time": 20.5,
+    "duration": 0.8,
+    "note": 77,
+    "velocity": 37,
+    "instrument": "lead"
+  },
+  {
+    "time": 20.82,
+    "duration": 0.8,
+    "note": 74,
+    "velocity": 37,
+    "instrument": "lead"
+  }
+]

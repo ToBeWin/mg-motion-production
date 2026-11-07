@@ -1,0 +1,6 @@
+{
+  "prompt": "Instrumental advertising music for a playful premium citrus soda brand. Bold sunshine electro funk, 128 BPM, tight live drums, punchy warm syncopated electric bass, crisp handclaps, bright staccato brass and quirky plucked synths. Cheerful confident summer energy, stylish rather than childish. Tiny opening pickup, immediate strong hook, rhythmic stop and go, build into a bigger second half, decisive final chord and short clean tail. No singing, no spoken words, no vocals, no ambient intro, no cinematic orchestral swell.",
+  "duration_limit": 32,
+  "steps": 30,
+  "engine": "MiniMax Music3 local MLX q6"
+}

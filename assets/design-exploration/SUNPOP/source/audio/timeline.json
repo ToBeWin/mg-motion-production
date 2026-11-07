@@ -1,0 +1,159 @@
+{
+  "duration": 24,
+  "captions": [
+    {
+      "id": "01",
+      "text": "把今天，打开。",
+      "start": 2.51,
+      "end": 4.133666666666667,
+      "source": "take-01.wav",
+      "source_in": 0.26660416666666664,
+      "source_out": 1.8902708333333333,
+      "file": "voice-01.wav",
+      "gain_db": 10.31607583154113
+    },
+    {
+      "id": "02",
+      "text": "热烈一点，再热烈一点。",
+      "start": 11.65,
+      "end": 13.637770833333335,
+      "source": "take-02.wav",
+      "source_in": 0.27308333333333334,
+      "source_out": 2.260854166666667,
+      "file": "voice-02.wav",
+      "gain_db": 7.874119233060237
+    },
+    {
+      "id": "03",
+      "text": "放晴，快乐冒个泡。",
+      "start": 20.04,
+      "end": 22.023770833333334,
+      "source": "take-03.wav",
+      "source_in": 0.26395833333333335,
+      "source_out": 2.247729166666667,
+      "file": "voice-03.wav",
+      "gain_db": 10.086748036912208
+    }
+  ],
+  "voice_engine": "IndexTTS2 / three individual short slogans",
+  "music_engine": "MiniMax Music3 local MLX q6 / 30 steps",
+  "music_source": "minimax-sunpop-v2.wav",
+  "music_source_duration": 26.017979166666667,
+  "music_edits": [
+    {
+      "source_in": 0.025,
+      "source_out": 24.025,
+      "atempo": 1,
+      "ending": "Continuous original-tempo groove; cosine fade from 21.0 to 23.6 s and 0.4 s silent tail; final voice duck held through ending"
+    }
+  ],
+  "normalization": {
+    "master-voice.wav": {
+      "input_i": "-18.01",
+      "input_tp": "-2.04",
+      "input_lra": "4.90",
+      "input_thresh": "-28.67",
+      "output_i": "-15.34",
+      "output_tp": "-2.00",
+      "output_lra": "3.60",
+      "output_thresh": "-25.80",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.66"
+    },
+    "master-music.wav": {
+      "input_i": "-19.00",
+      "input_tp": "-4.39",
+      "input_lra": "7.10",
+      "input_thresh": "-29.54",
+      "output_i": "-15.23",
+      "output_tp": "-2.00",
+      "output_lra": "6.10",
+      "output_thresh": "-25.70",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.77"
+    }
+  },
+  "sfx_events": [
+    [
+      0.62,
+      "can-open",
+      0.15
+    ],
+    [
+      0.68,
+      "fizz",
+      0.13
+    ],
+    [
+      1.93,
+      "aperture",
+      0.1
+    ],
+    [
+      2.92,
+      "type-impact",
+      0.09
+    ],
+    [
+      3.1,
+      "type-impact",
+      0.07
+    ],
+    [
+      5.08,
+      "sweep",
+      0.1
+    ],
+    [
+      8.9,
+      "type-impact",
+      0.065
+    ],
+    [
+      11.15,
+      "sweep",
+      0.13
+    ],
+    [
+      11.68,
+      "type-impact",
+      0.08
+    ],
+    [
+      12.85,
+      "pop",
+      0.075
+    ],
+    [
+      14.48,
+      "sweep",
+      0.12
+    ],
+    [
+      16.42,
+      "pop",
+      0.09
+    ],
+    [
+      17.97,
+      "sweep",
+      0.12
+    ],
+    [
+      18.83,
+      "type-impact",
+      0.07
+    ],
+    [
+      22.87,
+      "pop",
+      0.09
+    ]
+  ],
+  "source_hashes": {
+    "minimax-sunpop-v2.wav": "c03ddaaa8e379fd3a02149bc5c29ccc95eebef0c8396b84968c9bd5516ae0b0b",
+    "take-01.wav": "0033877fe00cb2b4749d92cdf4117a5ca4dadecc6265aae8093ff9e907ca938a",
+    "take-02.wav": "3fb1943a0b5a276afdaab6b3619b4ff1be054b02e22ca5b1fbc04a56e7abc124",
+    "take-03.wav": "a931d51b9a17763eaa021624257739f06d263d53342609a16fd27e6bd171c6b0"
+  }
+}

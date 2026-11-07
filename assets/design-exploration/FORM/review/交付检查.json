@@ -1,0 +1,60 @@
+{
+  "title": "FORM / 形的发生",
+  "deliveries": [
+    {
+      "version": "配音字幕版",
+      "file": "FORM_形的发生_配音字幕版.mp4",
+      "sha256": "5f8ca39d05556ee0d3f006d6f24b07b626220c0ee45f2926ea5026a9d735d9b8",
+      "duration": 18.0,
+      "frames": 540,
+      "decode_ok": true,
+      "audio": {
+        "integrated_lufs": -16.02,
+        "true_peak_dbtp": -1.01,
+        "loudness_range_lu": 1.8,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "review_frames": 22
+    },
+    {
+      "version": "无字幕配音版",
+      "file": "FORM_形的发生_无字幕配音版.mp4",
+      "sha256": "8dacdcf7a4a27d0f0f58cd345fa6517288a2bca75735c13a9095fd1f185b2e3c",
+      "duration": 18.0,
+      "frames": 540,
+      "decode_ok": true,
+      "audio": {
+        "integrated_lufs": -16.02,
+        "true_peak_dbtp": -1.01,
+        "loudness_range_lu": 1.8,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "review_frames": 4
+    },
+    {
+      "version": "纯音乐版",
+      "file": "FORM_形的发生_纯音乐版.mp4",
+      "sha256": "9e3b9a795418b619b59ea3fb8bac6668c661b9561b2dd79017388eaeb187d294",
+      "duration": 18.0,
+      "frames": 540,
+      "decode_ok": true,
+      "audio": {
+        "integrated_lufs": -16.31,
+        "true_peak_dbtp": -1.16,
+        "loudness_range_lu": 3.3,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "review_frames": 6
+    }
+  ],
+  "full_av_review": {
+    "method": "Model-assisted full-length video/audio review",
+    "status": "completed",
+    "final_media_sha256": "5f8ca39d05556ee0d3f006d6f24b07b626220c0ee45f2926ea5026a9d735d9b8",
+    "transcript": "从一条线开始。让光，拥有形状。让想象，成为可能。",
+    "response": "full-av-final/response.txt"
+  },
+  "native_rebuild": "portable-project-check.json",
+  "human_listening": false,
+  "user_acceptance": "Not yet received"
+}

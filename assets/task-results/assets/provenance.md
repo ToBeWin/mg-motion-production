@@ -1,0 +1,7 @@
+# 原创影像
+
+`roam-coast.png`：2026-10-26 使用内置 image_gen 生成的虚构山海旅行影像。原图保存于 `~/.codex/generated_images/01a16b65-0dfe-7930-aae9-7ffd99c7caf3/exec-b45ab825-8d9c-4fd5-87cd-6775aaaf1b12.png`，项目副本位于本目录。没有把参考片镜头、品牌标志或音乐用作制作素材。
+
+最终提示词：
+
+Use case: photorealistic-natural. Asset type: hero photograph for an original travel inspiration website called ROAM, used inside a software launch motion graphics film. Generate one premium cinematic landscape photograph in a wide 3:2 composition. A dramatic emerald coastal mountain ridge at first light, a pale narrow walking path winds from the bottom right along a grassy crest toward a distant rocky summit, calm deep blue sea far below to the left, successive misty mountain silhouettes on the horizon. Restrained warm morning sunlight touches the grass, cool deep green shadows, fine realistic geological and grass textures, subtle atmospheric perspective, authentic sophisticated outdoor editorial photography rather than oversaturated travel stock. Foreground crisp, distant air softly hazy. Upper left quarter dark calm mountain/sea space for later white typography; strongest sunlit terrain on the right. A believable fictional location, no recognizable landmark, no people, buildings, road signs, typography, brand marks, UI, framing or watermark. No fantasy floating islands, no neon, no artificial bloom. Rich yet restrained color, natural dynamic range, medium format photographic detail.

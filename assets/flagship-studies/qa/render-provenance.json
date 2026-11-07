@@ -1,0 +1,112 @@
+[
+  {
+    "id": "trace-clean",
+    "file": "TRACE_v2_每一步有据_1080p30.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/TRACE_v2_每一步有据_1080p30.mp4",
+    "aac_payload_sha256": "SHA256=d362cd0d8618be30e63024aa4fc8441b4bfd05c0e72a75eff1fb1e96b2e084df",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "c77e380143bc832bd140afb4f80b5a41af3d4260c70ed7feef8382506fd347e1"
+  },
+  {
+    "id": "trace-captions",
+    "file": "TRACE_v2_每一步有据_1080p30_中文字幕.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/TRACE_v2_每一步有据_1080p30_中文字幕.mp4",
+    "aac_payload_sha256": "SHA256=cbb26542f4dc0503ffc77692856262486b9998e9be351182ce1702c2f25b9f3d",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "94a1b51ffd38507da438fd4766ed385952d0c6201632e8efedf4a6cd26bfcb1f"
+  },
+  {
+    "id": "orbit-clean",
+    "file": "ORBIT_v4_光与精密_1080p30.mp4",
+    "source_video": "v8 unchanged",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/ORBIT_v4_光与精密_1080p30.mp4",
+    "aac_payload_sha256": "SHA256=10fa91ce7bf876d22a7d4e0f1370f5bc4524c9eb4e7a710a763bdd624cd714af",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "dae4c9c07053ba2e2d99bb1bef90696d34f1c88546653acc9467bd8354e84828"
+  },
+  {
+    "id": "orbit-captions",
+    "file": "ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+    "aac_payload_sha256": "SHA256=10fa91ce7bf876d22a7d4e0f1370f5bc4524c9eb4e7a710a763bdd624cd714af",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "ca12b73547ee2d7b89fe293aea55e7f6732358647336033775c9bbdc80d099b2"
+  },
+  {
+    "id": "shift-clean",
+    "file": "SHIFT_v2_让下一步发生_1080p30.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/SHIFT_v2_让下一步发生_1080p30.mp4",
+    "aac_payload_sha256": "SHA256=9d9a347172a551a60bc251caf25e66868fb3e2e6c3dee32a48882b54d5c37ed8",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "a0dca967f99f2c9fa97f7ab2890984b8aae61a8b3b90f78873c6d83a37dd4a38",
+    "additional_change": "Removed three redundant subtitle-like picture lines; narration captions remain."
+  },
+  {
+    "id": "shift-captions",
+    "file": "SHIFT_v2_让下一步发生_1080p30_中文字幕.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/SHIFT_v2_让下一步发生_1080p30_中文字幕.mp4",
+    "aac_payload_sha256": "SHA256=9d9a347172a551a60bc251caf25e66868fb3e2e6c3dee32a48882b54d5c37ed8",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "7699808b5802714089215e097edc039a6cc4d7a33c5f3467101e961f1382e3c6",
+    "additional_change": "Removed three redundant subtitle-like picture lines; narration captions remain."
+  },
+  {
+    "id": "software-editorial",
+    "file": "style-films/software-editorial_编辑式信息设计.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/style-films/software-editorial_编辑式信息设计.mp4",
+    "aac_payload_sha256": "SHA256=3a59bf259f94af37c44e7b8a2ac3337085e0c97499b602528d8041aae9a8474d",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "b176b4a292fca0da5c1bcdc9397f30f2799ad948340f8b00175b9c79491714d1"
+  },
+  {
+    "id": "software-spatial",
+    "file": "style-films/software-spatial_空间工作台.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/style-films/software-spatial_空间工作台.mp4",
+    "aac_payload_sha256": "SHA256=4523216f494d62159b071d7f38fde73d250aae735991d57308a3a45b4c5cd391",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "a20a6273263cd89268f389e49f29bda82a022c622de4e608a7af168b849b757a"
+  },
+  {
+    "id": "brand-editorial",
+    "file": "style-films/brand-editorial_克制的品牌叙事.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/style-films/brand-editorial_克制的品牌叙事.mp4",
+    "aac_payload_sha256": "SHA256=a58bfc97b6c1da8d6bd99d52a99e3e47f57fdd2888c39d55f3a1dfcf3e855ef7",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "004e3d998d07c7f9ca120f21c86f40d06022ea0f74ad7127b2e449e94aa95870"
+  },
+  {
+    "id": "brand-fluid",
+    "file": "style-films/brand-fluid_流动抽象视觉.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/style-films/brand-fluid_流动抽象视觉.mp4",
+    "aac_payload_sha256": "SHA256=9e1b0e57ade8a97bca2d8ed12612bb87d79196cda623a719515e7abb6ae9a61c",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "f5318e85df8f66d4edafdd4904a4b8cc1a50b7d93636fa151a178143203158af"
+  },
+  {
+    "id": "hardware-optical",
+    "file": "style-films/hardware-optical_柔和光学材质.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/style-films/hardware-optical_柔和光学材质.mp4",
+    "aac_payload_sha256": "SHA256=0e86886b4c9d57401ce14f92c917c8255892af2f3d1c981224f1d1ec41caad5f",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "d35137527f5931483105634dc7fa93731ca9750b81cd58abb4f2e1bb7c1f8fd9"
+  },
+  {
+    "id": "hardware-engineering",
+    "file": "style-films/hardware-engineering_结构与工程展示.mp4",
+    "source_video": "native EffectCraft v9 render",
+    "previous_file": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/flagship-v8/style-films/hardware-engineering_结构与工程展示.mp4",
+    "aac_payload_sha256": "SHA256=1047793581e3e3479987940aa4090d6a081881036ea8f4cf49d5f7e401e2ab3b",
+    "audio_payload_identical_to_v8": true,
+    "sha256": "ed760c0497382cfd9da97b7738180773459e824140191493ea99482824d53c0c"
+  }
+]

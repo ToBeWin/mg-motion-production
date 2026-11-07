@@ -1,0 +1,118 @@
+{
+  "duration": 18,
+  "fps": 30,
+  "cues": [
+    {
+      "id": "prompt_touch",
+      "anchor": "prompt",
+      "type": "tap",
+      "duration": 0.12,
+      "gain": 0.035,
+      "pan": 0,
+      "time": 0.8,
+      "frame": 24
+    },
+    {
+      "id": "paper_alignment",
+      "anchor": "organize",
+      "offset": 0.15,
+      "type": "air",
+      "duration": 1.4,
+      "gain": 0.016,
+      "pan": -0.3,
+      "time": 2.85,
+      "frame": 86
+    },
+    {
+      "id": "answer_arrival",
+      "anchor": "answer",
+      "offset": 0.8,
+      "type": "air",
+      "duration": 1.1,
+      "gain": 0.018,
+      "pan": 0.25,
+      "time": 4.8,
+      "frame": 144
+    },
+    {
+      "id": "link_1",
+      "anchor": "link",
+      "offset": 0.4,
+      "type": "link",
+      "duration": 0.65,
+      "gain": 0.02,
+      "pan": -0.25,
+      "note": 76,
+      "time": 6.1,
+      "frame": 183
+    },
+    {
+      "id": "link_2",
+      "anchor": "link",
+      "offset": 0.83,
+      "type": "link",
+      "duration": 0.65,
+      "gain": 0.018,
+      "pan": 0,
+      "note": 79,
+      "time": 6.53,
+      "frame": 196
+    },
+    {
+      "id": "link_3",
+      "anchor": "link",
+      "offset": 1.26,
+      "type": "link",
+      "duration": 0.65,
+      "gain": 0.016,
+      "pan": 0.25,
+      "note": 83,
+      "time": 6.96,
+      "frame": 209
+    },
+    {
+      "id": "citation_click",
+      "anchor": "click",
+      "type": "tap",
+      "duration": 0.1,
+      "gain": 0.045,
+      "pan": 0.4,
+      "time": 9.85,
+      "frame": 296
+    },
+    {
+      "id": "citation_open",
+      "anchor": "citation",
+      "type": "link",
+      "duration": 0.8,
+      "gain": 0.015,
+      "pan": 0.4,
+      "note": 88,
+      "time": 10.05,
+      "frame": 302
+    },
+    {
+      "id": "brand_breath",
+      "anchor": "brand",
+      "offset": -0.15,
+      "type": "air",
+      "duration": 1.4,
+      "gain": 0.012,
+      "pan": 0,
+      "time": 13.05,
+      "frame": 391
+    },
+    {
+      "id": "brand_resolve",
+      "anchor": "brand",
+      "offset": 0.6,
+      "type": "link",
+      "duration": 1.8,
+      "gain": 0.018,
+      "pan": 0,
+      "note": 76,
+      "time": 13.8,
+      "frame": 414
+    }
+  ]
+}

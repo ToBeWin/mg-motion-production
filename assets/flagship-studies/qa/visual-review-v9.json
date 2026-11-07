@@ -1,0 +1,249 @@
+{
+  "version": "v9",
+  "date": "2026-10-28",
+  "reviewer": "Codex model visual inspection of actual tool-returned images",
+  "scope": "9 final MP4 contact sheets plus all 29 actual MP4 caption midpoint crops; selected full-resolution native frames and iterative before/after previews",
+  "films": [
+    {
+      "id": "trace",
+      "file": "TRACE_v2_每一步有据_1080p30_中文字幕.mp4",
+      "sha256": "94a1b51ffd38507da438fd4766ed385952d0c6201632e8efedf4a6cd26bfcb1f",
+      "contact_sheet": "qa/final-trace/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        1.2,
+        2.75,
+        2.95,
+        3.1,
+        4,
+        5.5,
+        5.85,
+        6.05,
+        6.55,
+        7.15,
+        8.9,
+        9.95,
+        10.1,
+        10.5,
+        11.4,
+        16,
+        19.75,
+        20.1,
+        20.5,
+        21.5,
+        23.75,
+        24.1,
+        24.3,
+        24.7,
+        26,
+        27.95
+      ],
+      "observation": "Porcelain staging keeps the UI distinct; iris captions separate from UI body text. No new clipping seen at reviewed entry, reading, reference and end frames."
+    },
+    {
+      "id": "orbit",
+      "file": "ORBIT_v4_光与精密_1080p30_中文字幕.mp4",
+      "sha256": "ca12b73547ee2d7b89fe293aea55e7f6732358647336033775c9bbdc80d099b2",
+      "contact_sheet": "qa/final-orbit/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        1.7,
+        3.95,
+        4.05,
+        4.8,
+        6,
+        7.95,
+        8.05,
+        9,
+        10.5,
+        11.95,
+        12.05,
+        13.4,
+        15.95,
+        16.05,
+        16.8,
+        18,
+        19.95
+      ],
+      "observation": "Metal macro retained; white captions with restrained cool edge reviewed at texture crossings. Steel-blue captions used on wider bright scenes."
+    },
+    {
+      "id": "shift",
+      "file": "SHIFT_v2_让下一步发生_1080p30_中文字幕.mp4",
+      "sha256": "7699808b5802714089215e097edc039a6cc4d7a33c5f3467101e961f1382e3c6",
+      "contact_sheet": "qa/final-shift/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        0.8,
+        1.5,
+        2.4,
+        2.65,
+        2.95,
+        3.6,
+        5.4,
+        5.7,
+        6.1,
+        6.6,
+        7.9,
+        8.3,
+        8.45,
+        8.55,
+        9.6,
+        10.95,
+        11.15,
+        12.5,
+        14.2,
+        14.5,
+        14.7,
+        15.1,
+        15.5,
+        16.4,
+        17.6,
+        19.95
+      ],
+      "observation": "Cobalt, warm white, pale green and mist blue retained as distinct fields. Three redundant auxiliary lines removed. Reviewed after final re-export; title and caption hierarchy improved."
+    },
+    {
+      "id": "software-editorial",
+      "file": "style-films/software-editorial_编辑式信息设计.mp4",
+      "sha256": "b176b4a292fca0da5c1bcdc9397f30f2799ad948340f8b00175b9c79491714d1",
+      "contact_sheet": "qa/software-editorial/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        0.6,
+        1.4,
+        2.8,
+        4,
+        5.4,
+        6.8,
+        7.5,
+        7.95
+      ],
+      "observation": "Warm paper, gray-blue text and lavender evidence blocks consistent; two caption phrases fit lower safe space."
+    },
+    {
+      "id": "software-spatial",
+      "file": "style-films/software-spatial_空间工作台.mp4",
+      "sha256": "a20a6273263cd89268f389e49f29bda82a022c622de4e608a7af168b849b757a",
+      "contact_sheet": "qa/software-spatial/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        0.6,
+        1.4,
+        2.8,
+        4,
+        5.4,
+        6.8,
+        7.5,
+        7.95
+      ],
+      "observation": "Both source documents and main app remain visible. Final camera keeps right edge in frame; reading state is not obscured by overlapping document headings."
+    },
+    {
+      "id": "brand-editorial",
+      "file": "style-films/brand-editorial_克制的品牌叙事.mp4",
+      "sha256": "004e3d998d07c7f9ca120f21c86f40d06022ea0f74ad7127b2e449e94aa95870",
+      "contact_sheet": "qa/brand-editorial/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        0.6,
+        1.4,
+        2.8,
+        4,
+        5.4,
+        6.8,
+        7.5,
+        7.95
+      ],
+      "observation": "Warm paper, gray-green serif and terracotta dot/captions share a restrained editorial palette."
+    },
+    {
+      "id": "brand-fluid",
+      "file": "style-films/brand-fluid_流动抽象视觉.mp4",
+      "sha256": "f5318e85df8f66d4edafdd4904a4b8cc1a50b7d93636fa151a178143203158af",
+      "contact_sheet": "qa/brand-fluid/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        0.6,
+        1.4,
+        2.8,
+        4,
+        5.4,
+        6.8,
+        7.5,
+        7.95
+      ],
+      "observation": "Two related blue curves frame the wordmark, leaving its center clear. Final curves span full width after supersampling coordinate fix."
+    },
+    {
+      "id": "hardware-optical",
+      "file": "style-films/hardware-optical_柔和光学材质.mp4",
+      "sha256": "d35137527f5931483105634dc7fa93731ca9750b81cd58abb4f2e1bb7c1f8fd9",
+      "contact_sheet": "qa/hardware-optical/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        0.6,
+        1.4,
+        2.8,
+        4,
+        5.4,
+        6.8,
+        7.5,
+        7.95
+      ],
+      "observation": "Glass and light environment retained; optical blue captions match the accent family."
+    },
+    {
+      "id": "hardware-engineering",
+      "file": "style-films/hardware-engineering_结构与工程展示.mp4",
+      "sha256": "ed760c0497382cfd9da97b7738180773459e824140191493ea99482824d53c0c",
+      "contact_sheet": "qa/hardware-engineering/contact-sheet.jpg",
+      "sample_times_seconds": [
+        0.03,
+        0.6,
+        1.4,
+        2.8,
+        4,
+        5.4,
+        6.8,
+        7.5,
+        7.95
+      ],
+      "observation": "Neutral silver and ceramic relit with contact shadow. Ivory native environment, steel-blue labels and captions align. Bright washed-out trial discarded."
+    }
+  ],
+  "caption_midpoint_sheets": [
+    "qa/caption-color-sheet-1.jpg",
+    "qa/caption-color-sheet-2.jpg"
+  ],
+  "caption_midpoints_visually_reviewed": 29,
+  "sampled_picture_points_visually_reviewed": 126,
+  "selected_native_full_resolution": [
+    "qa/caption-design/orbit-01.png",
+    "qa/caption-design/orbit-02.png",
+    "qa/caption-design/trace-03.png"
+  ],
+  "changes_after_initial_review": [
+    "Removed three redundant auxiliary SHIFT lines and re-exported both variants.",
+    "Rechecked final SHIFT contact sheet and refreshed final decode, subtitle boundaries and theme-property checks."
+  ],
+  "audio": "AAC packet payloads preserved from v8; no new full-length listening review in v9. Prior model-assisted listening evidence remains in qa/previous-v8.",
+  "limitations": {
+    "full_frame_by_frame_subjective_playback": false,
+    "human_listening": false,
+    "browser_interaction_tested": false,
+    "customer_acceptance": false,
+    "flagship_quality_certified": false
+  },
+  "judgment": "Color and staging are more coherent at the reviewed samples; these concept studies still differ in scope and maturity. No blanket premium-quality or all-frame aesthetic guarantee.",
+  "final_comparison_board": {
+    "path": "预览图/重点三条前后对照.jpg",
+    "actual_mp4_same_time_pairs": 3,
+    "visually_reviewed": true,
+    "cases": [
+      "software-spatial",
+      "brand-fluid",
+      "hardware-engineering"
+    ]
+  }
+}

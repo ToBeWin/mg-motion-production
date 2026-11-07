@@ -1,0 +1,420 @@
+{
+  "native_caption_events": 29,
+  "profiles": 9,
+  "status": "passed",
+  "frames_rendered": true,
+  "aesthetic_acceptance": false,
+  "films": [
+    {
+      "id": "trace",
+      "role": "muted iris on porcelain",
+      "captions": [
+        {
+          "id": "01",
+          "text": "答案，从哪里来？",
+          "fill": "6266A2",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 0.3,
+          "out": 2.1333333333333333,
+          "sample_time": 1.2049999999999998,
+          "frame": "trace-01.png"
+        },
+        {
+          "id": "02",
+          "text": "提出问题。",
+          "fill": "6266A2",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 3.5,
+          "out": 4.666666666666667,
+          "sample_time": 4.074999999999999,
+          "frame": "trace-02.png"
+        },
+        {
+          "id": "03",
+          "text": "从资料里，找到依据。",
+          "fill": "6266A2",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 6.4,
+          "out": 8.266666666666667,
+          "sample_time": 7.32,
+          "frame": "trace-03.png"
+        },
+        {
+          "id": "04",
+          "text": "把原文，带进答案。",
+          "fill": "6266A2",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 10.9,
+          "out": 12.733333333333333,
+          "sample_time": 11.815000000000001,
+          "frame": "trace-04.png"
+        },
+        {
+          "id": "08",
+          "text": "支持哪些文件，怎样更新，都能找到依据。",
+          "fill": "6266A2",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 14.5,
+          "out": 18.066666666666666,
+          "sample_time": 16.275,
+          "frame": "trace-08.png"
+        },
+        {
+          "id": "06",
+          "text": "点一下，回到原文。",
+          "fill": "6266A2",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 20.5,
+          "out": 22.3,
+          "sample_time": 21.385,
+          "frame": "trace-06.png"
+        },
+        {
+          "id": "07",
+          "text": "看见答案，也看见依据。",
+          "fill": "6266A2",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 24.7,
+          "out": 26.766666666666666,
+          "sample_time": 25.72,
+          "frame": "trace-07.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "orbit",
+      "role": "steel blue on the bright product stage",
+      "captions": [
+        {
+          "id": "01",
+          "text": "细节，自有分寸。",
+          "fill": "F5F8FC",
+          "font": "HiraginoSansGB-W6",
+          "size": 36.0,
+          "stroke_width": 0.65,
+          "in": 1.2,
+          "out": 3.1333333333333333,
+          "sample_time": 2.16,
+          "frame": "orbit-01.png"
+        },
+        {
+          "id": "02",
+          "text": "在光里，看见精密。",
+          "fill": "F5F8FC",
+          "font": "HiraginoSansGB-W6",
+          "size": 36.0,
+          "stroke_width": 0.65,
+          "in": 4.4,
+          "out": 6.233333333333333,
+          "sample_time": 5.305,
+          "frame": "orbit-02.png"
+        },
+        {
+          "id": "03",
+          "text": "在转动中，感受秩序。",
+          "fill": "F5F8FC",
+          "font": "HiraginoSansGB-W6",
+          "size": 36.0,
+          "stroke_width": 0.65,
+          "in": 8.166666666666666,
+          "out": 10.2,
+          "sample_time": 9.195,
+          "frame": "orbit-03.png"
+        },
+        {
+          "id": "04",
+          "text": "每次转动，都恰到好处。",
+          "fill": "526E80",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 12.3,
+          "out": 14.566666666666666,
+          "sample_time": 13.425,
+          "frame": "orbit-04.png"
+        },
+        {
+          "id": "05",
+          "text": "把精密，握在手中。",
+          "fill": "526E80",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 16.3,
+          "out": 18.233333333333334,
+          "sample_time": 17.265,
+          "frame": "orbit-05.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "shift",
+      "role": "brand blue on ivory or pale fields",
+      "captions": [
+        {
+          "id": "01",
+          "text": "让想法，向前一步。",
+          "fill": "4560B6",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 0.1,
+          "out": 1.9333333333333333,
+          "sample_time": 1.01,
+          "frame": "shift-01.png"
+        },
+        {
+          "id": "02",
+          "text": "让下一步，真实发生。",
+          "fill": "F5F1E8",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 3.2,
+          "out": 5.366666666666666,
+          "sample_time": 4.27,
+          "frame": "shift-02.png"
+        },
+        {
+          "id": "03",
+          "text": "打开新的空间。",
+          "fill": "4560B6",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 6.2,
+          "out": 7.9,
+          "sample_time": 7.050000000000001,
+          "frame": "shift-03.png"
+        },
+        {
+          "id": "04",
+          "text": "把可能，变成作品。",
+          "fill": "4560B6",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 9.0,
+          "out": 11.1,
+          "sample_time": 10.04,
+          "frame": "shift-04.png"
+        },
+        {
+          "id": "05",
+          "text": "现在，开始创造。",
+          "fill": "4560B6",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 12.0,
+          "out": 14.1,
+          "sample_time": 13.04,
+          "frame": "shift-05.png"
+        },
+        {
+          "id": "06",
+          "text": "让下一步发生。",
+          "fill": "F5F1E8",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 16.3,
+          "out": 17.933333333333334,
+          "sample_time": 17.1,
+          "frame": "shift-06.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "software-editorial",
+      "role": "iris ink on warm paper",
+      "captions": [
+        {
+          "id": "03",
+          "text": "从资料里，找到依据。",
+          "fill": "68639B",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 0.3333333333333333,
+          "out": 2.2,
+          "sample_time": 1.2533333333333334,
+          "frame": "software-editorial-03.png"
+        },
+        {
+          "id": "04",
+          "text": "把原文，带进答案。",
+          "fill": "68639B",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 4.166666666666667,
+          "out": 6.0,
+          "sample_time": 5.081666666666667,
+          "frame": "software-editorial-04.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "software-spatial",
+      "role": "slate blue on a neutral work surface",
+      "captions": [
+        {
+          "id": "08",
+          "text": "支持哪些文件，怎样更新，都能找到依据。",
+          "fill": "596F91",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 1.3333333333333333,
+          "out": 4.9,
+          "sample_time": 3.108333333333333,
+          "frame": "software-spatial-08.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "brand-editorial",
+      "role": "terracotta paired with the punctuation accent",
+      "captions": [
+        {
+          "id": "01",
+          "text": "让想法，向前一步。",
+          "fill": "98604D",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 0.3333333333333333,
+          "out": 2.1666666666666665,
+          "sample_time": 1.2433333333333334,
+          "frame": "brand-editorial-01.png"
+        },
+        {
+          "id": "06",
+          "text": "让下一步发生。",
+          "fill": "98604D",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 4.7,
+          "out": 6.3,
+          "sample_time": 5.5,
+          "frame": "brand-editorial-06.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "brand-fluid",
+      "role": "muted ribbon blue on pearl",
+      "captions": [
+        {
+          "id": "03",
+          "text": "打开新的空间。",
+          "fill": "586DA8",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 0.6666666666666666,
+          "out": 2.3666666666666667,
+          "sample_time": 1.5166666666666666,
+          "frame": "brand-fluid-03.png"
+        },
+        {
+          "id": "05",
+          "text": "现在，开始创造。",
+          "fill": "586DA8",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 4.533333333333333,
+          "out": 6.633333333333334,
+          "sample_time": 5.573333333333333,
+          "frame": "brand-fluid-05.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "hardware-optical",
+      "role": "optical blue on warm white",
+      "captions": [
+        {
+          "id": "02",
+          "text": "在光里，看见精密。",
+          "fill": "5B6D9B",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 0.26666666666666666,
+          "out": 2.1,
+          "sample_time": 1.1716666666666666,
+          "frame": "hardware-optical-02.png"
+        },
+        {
+          "id": "05",
+          "text": "把精密，握在手中。",
+          "fill": "5B6D9B",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 4.533333333333333,
+          "out": 6.466666666666667,
+          "sample_time": 5.498333333333333,
+          "frame": "hardware-optical-05.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    },
+    {
+      "id": "hardware-engineering",
+      "role": "steel blue on the neutral studio floor",
+      "captions": [
+        {
+          "id": "01",
+          "text": "从旋盖，到核心。",
+          "fill": "536E86",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 0.3,
+          "out": 2.3,
+          "sample_time": 1.285,
+          "frame": "hardware-engineering-01.png"
+        },
+        {
+          "id": "02",
+          "text": "每一层，都有作用。",
+          "fill": "536E86",
+          "font": "HiraginoSansGB-W3",
+          "size": 36.0,
+          "stroke_width": 0.0,
+          "in": 4.3,
+          "out": 6.266666666666667,
+          "sample_time": 5.279999999999999,
+          "frame": "hardware-engineering-02.png"
+        }
+      ],
+      "no_caption_backdrop": true
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "version": "3.4.0",
+  "fps": 30,
+  "cases": {
+    "api": {
+      "title": "PULSE API · 一句话成为下一步",
+      "composition": "PULSE / Developer launch",
+      "size": [
+        1920,
+        1080
+      ],
+      "duration": 24,
+      "scenario": "developer-api",
+      "filename": "PULSE_API发布_1080p30.mp4",
+      "bpm": 112,
+      "close": 20.5,
+      "cues": [
+        {
+          "time": 0.3,
+          "type": "arrival"
+        },
+        {
+          "time": 3.2,
+          "type": "sweep",
+          "duration": 0.75
+        },
+        {
+          "time": 4.6,
+          "type": "tick"
+        },
+        {
+          "time": 5.0,
+          "type": "tick"
+        },
+        {
+          "time": 5.4,
+          "type": "tick"
+        },
+        {
+          "time": 8,
+          "type": "sweep",
+          "duration": 0.9
+        },
+        {
+          "time": 9.35,
+          "type": "confirm"
+        },
+        {
+          "time": 13.8,
+          "type": "sweep",
+          "duration": 1
+        },
+        {
+          "time": 15.5,
+          "type": "confirm"
+        },
+        {
+          "time": 19.3,
+          "type": "sweep",
+          "duration": 0.8
+        },
+        {
+          "time": 20.5,
+          "type": "arrival"
+        }
+      ],
+      "focus": [
+        [
+          9.3,
+          13.3,
+          0.62
+        ],
+        [
+          15.3,
+          18.8,
+          0.72
+        ]
+      ]
+    },
+    "brand": {
+      "title": "SHIFT · 让想法向前一步",
+      "composition": "SHIFT / Brand manifesto",
+      "size": [
+        1920,
+        1080
+      ],
+      "duration": 18,
+      "scenario": "brand-manifesto",
+      "filename": "SHIFT_品牌宣言_1080p30.mp4",
+      "bpm": 124,
+      "close": 14.0,
+      "cues": [
+        {
+          "time": 0.18,
+          "type": "impact"
+        },
+        {
+          "time": 2.4,
+          "type": "sweep",
+          "duration": 0.55
+        },
+        {
+          "time": 3.05,
+          "type": "impact"
+        },
+        {
+          "time": 6.05,
+          "type": "sweep",
+          "duration": 0.65
+        },
+        {
+          "time": 6.7,
+          "type": "impact"
+        },
+        {
+          "time": 9.45,
+          "type": "sweep",
+          "duration": 0.5
+        },
+        {
+          "time": 9.65,
+          "type": "impact"
+        },
+        {
+          "time": 12.2,
+          "type": "sweep",
+          "duration": 0.65
+        },
+        {
+          "time": 13.2,
+          "type": "impact"
+        },
+        {
+          "time": 14.0,
+          "type": "confirm"
+        }
+      ],
+      "focus": [
+        [
+          14.8,
+          18,
+          0.68
+        ]
+      ]
+    },
+    "service": {
+      "title": "LOOP · 服务有回音",
+      "composition": "LOOP / Service journey",
+      "size": [
+        1080,
+        1920
+      ],
+      "duration": 26,
+      "scenario": "business-process",
+      "filename": "LOOP_服务旅程_1080x1920_30fps.mp4",
+      "bpm": 96,
+      "close": 22,
+      "cues": [
+        {
+          "time": 0.3,
+          "type": "paper",
+          "duration": 0.7
+        },
+        {
+          "time": 3.2,
+          "type": "paper",
+          "duration": 0.75
+        },
+        {
+          "time": 5.5,
+          "type": "tick"
+        },
+        {
+          "time": 6.8,
+          "type": "soft"
+        },
+        {
+          "time": 8.1,
+          "type": "paper",
+          "duration": 0.4
+        },
+        {
+          "time": 9.8,
+          "type": "paper",
+          "duration": 0.55
+        },
+        {
+          "time": 10.6,
+          "type": "confirm"
+        },
+        {
+          "time": 12.0,
+          "type": "paper",
+          "duration": 0.65
+        },
+        {
+          "time": 14.8,
+          "type": "tick"
+        },
+        {
+          "time": 16.7,
+          "type": "paper",
+          "duration": 0.55
+        },
+        {
+          "time": 18.2,
+          "type": "confirm"
+        },
+        {
+          "time": 19.5,
+          "type": "paper",
+          "duration": 0.8
+        },
+        {
+          "time": 22,
+          "type": "arrival"
+        }
+      ],
+      "focus": [
+        [
+          6.7,
+          10.5,
+          0.65
+        ],
+        [
+          20.5,
+          25,
+          0.76
+        ]
+      ]
+    }
+  },
+  "art_direction": {
+    "constraint": "本批不使用黑色或近黑色背景；深色仅用于文字、线条或小面积标识。",
+    "api": "冷白环境、纯白面板、深蓝字与绿蓝赭字段",
+    "brand": "奶油白、浅长春花蓝与钴蓝色场",
+    "service": "暖纸色、白色申请单与森林绿字"
+  }
+}

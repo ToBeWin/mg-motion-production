@@ -1,0 +1,169 @@
+{
+  "duration": 16,
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3",
+  "captions": [
+    {
+      "id": "01",
+      "text": "提出问题。",
+      "start": 0.5,
+      "end": 1.6500000000000001
+    },
+    {
+      "id": "02",
+      "text": "从资料里，找到依据。",
+      "start": 3.05,
+      "end": 4.89
+    },
+    {
+      "id": "03",
+      "text": "把原文，带进答案。",
+      "start": 5.55,
+      "end": 7.379999999999999
+    },
+    {
+      "id": "04",
+      "text": "点一下，回到原文。",
+      "start": 9.25,
+      "end": 11.02
+    },
+    {
+      "id": "05",
+      "text": "看见答案，也看见依据。",
+      "start": 13.45,
+      "end": 15.489999999999998
+    }
+  ],
+  "takes": [
+    {
+      "id": "01",
+      "file": "voice-01.wav",
+      "text": "提出问题。",
+      "start": 0.5,
+      "end": 1.55,
+      "source_v8_take": "02",
+      "source_start": 3.5,
+      "source_end": 4.55,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "02",
+      "file": "voice-02.wav",
+      "text": "从资料里，找到依据。",
+      "start": 3.05,
+      "end": 4.79,
+      "source_v8_take": "03",
+      "source_start": 6.4,
+      "source_end": 8.14,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "03",
+      "file": "voice-03.wav",
+      "text": "把原文，带进答案。",
+      "start": 5.55,
+      "end": 7.279999999999999,
+      "source_v8_take": "04",
+      "source_start": 10.9,
+      "source_end": 12.63,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "04",
+      "file": "voice-04.wav",
+      "text": "点一下，回到原文。",
+      "start": 9.25,
+      "end": 10.92,
+      "source_v8_take": "06",
+      "source_start": 20.5,
+      "source_end": 22.17,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    },
+    {
+      "id": "05",
+      "file": "voice-05.wav",
+      "text": "看见答案，也看见依据。",
+      "start": 13.45,
+      "end": 15.389999999999999,
+      "source_v8_take": "07",
+      "source_start": 24.7,
+      "source_end": 26.64,
+      "source_sha256": "5c10d485957000464750cf818dfd29c31f24e193cd47a0cc9db3e405967781cc"
+    }
+  ],
+  "music_edits": [
+    {
+      "in": 0,
+      "out": 14.15,
+      "timeline_in": 0
+    },
+    {
+      "in": 29.450666666666667,
+      "out": 31.950666666666667,
+      "timeline_in": 13.5
+    }
+  ],
+  "sfx": [
+    {
+      "time": 1.52,
+      "file": "tick.wav",
+      "gain": 0.9
+    },
+    {
+      "time": 1.7,
+      "file": "paper.wav",
+      "gain": 0.65
+    },
+    {
+      "time": 3.38,
+      "file": "tick.wav",
+      "gain": 0.6
+    },
+    {
+      "time": 3.8,
+      "file": "tick.wav",
+      "gain": 0.6
+    },
+    {
+      "time": 4.88,
+      "file": "paper.wav",
+      "gain": 0.8
+    },
+    {
+      "time": 9.15,
+      "file": "tick.wav",
+      "gain": 1
+    },
+    {
+      "time": 9.35,
+      "file": "paper.wav",
+      "gain": 0.6
+    },
+    {
+      "time": 12.4,
+      "file": "paper.wav",
+      "gain": 0.75
+    },
+    {
+      "time": 13.05,
+      "file": "tick.wav",
+      "gain": 0.65
+    }
+  ],
+  "master_chain": "loudnorm=I=-16:TP=-2.2:LRA=8:measured_I=-18.16:measured_TP=-1.93:measured_LRA=5.10:measured_thresh=-29.22:offset=-0.74:linear=true,atrim=duration=16",
+  "post_gain_db": 0.050000000000000266,
+  "final_wav_measurement": {
+    "input_i": "-16.25",
+    "input_tp": "-2.20",
+    "input_lra": "3.50",
+    "input_thresh": "-27.27",
+    "output_i": "-16.10",
+    "output_tp": "-2.20",
+    "output_lra": "4.90",
+    "output_thresh": "-27.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "newly_generated_audio": false,
+  "note": "Selected existing takes and music, newly edited and mixed for this visual timeline. Naturalness and music fit need actual listening review."
+}

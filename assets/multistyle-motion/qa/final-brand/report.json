@@ -1,0 +1,213 @@
+{
+  "file": "work/mg-multistyle-v11/SHIFT_v11_让下一步发生_中文字幕.mp4",
+  "sha256": "54e88a1054ebdd61a2c47263e2fc1f68c0a2ea9e9e5e98b2fd4a790ef54d09d6",
+  "duration": 18.005,
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "width": 1920,
+      "height": 1080,
+      "coded_width": 1920,
+      "coded_height": 1080,
+      "has_b_frames": 1,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 41,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 1,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/30",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 540,
+      "duration": "18.000000",
+      "bit_rate": "9907843",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "540",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 864240,
+      "duration": "18.005000",
+      "bit_rate": "319925",
+      "nb_frames": "845",
+      "extradata_size": 2,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler",
+        "vendor_id": "[0][0][0][0]"
+      }
+    }
+  ],
+  "decode_ok": true,
+  "decode_messages": "",
+  "decoded_frames": 540,
+  "review_scope": "Full decode and signal measurements; extracted frames require visual inspection. No listening or customer acceptance is inferred.",
+  "audio_measurement": {
+    "integrated_lufs": -16.05,
+    "true_peak_dbtp": -2.12,
+    "loudness_range_lu": 2.6,
+    "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+  },
+  "extracted_frames": [
+    {
+      "time": 0.6,
+      "file": "frame-000-0.6000.png"
+    },
+    {
+      "time": 1.8,
+      "file": "frame-001-1.8000.png"
+    },
+    {
+      "time": 2.6,
+      "file": "frame-002-2.6000.png"
+    },
+    {
+      "time": 3.2,
+      "file": "frame-003-3.2000.png"
+    },
+    {
+      "time": 4.5,
+      "file": "frame-004-4.5000.png"
+    },
+    {
+      "time": 5.8,
+      "file": "frame-005-5.8000.png"
+    },
+    {
+      "time": 6.3,
+      "file": "frame-006-6.3000.png"
+    },
+    {
+      "time": 6.9,
+      "file": "frame-007-6.9000.png"
+    },
+    {
+      "time": 7.3,
+      "file": "frame-008-7.3000.png"
+    },
+    {
+      "time": 7.7,
+      "file": "frame-009-7.7000.png"
+    },
+    {
+      "time": 8.9,
+      "file": "frame-010-8.9000.png"
+    },
+    {
+      "time": 9.8,
+      "file": "frame-011-9.8000.png"
+    },
+    {
+      "time": 10.7,
+      "file": "frame-012-10.7000.png"
+    },
+    {
+      "time": 11.7,
+      "file": "frame-013-11.7000.png"
+    },
+    {
+      "time": 12.7,
+      "file": "frame-014-12.7000.png"
+    },
+    {
+      "time": 13.6,
+      "file": "frame-015-13.6000.png"
+    },
+    {
+      "time": 14.3,
+      "file": "frame-016-14.3000.png"
+    },
+    {
+      "time": 15.7,
+      "file": "frame-017-15.7000.png"
+    },
+    {
+      "time": 17.3,
+      "file": "frame-018-17.3000.png"
+    }
+  ],
+  "contact_sheet": "contact-sheet.jpg"
+}

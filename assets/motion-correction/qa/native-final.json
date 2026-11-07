@@ -1,0 +1,108 @@
+{
+  "project": "TRACE-MOTION.ecproj",
+  "sha256": "70bee9e163e7861a633457a2aa8f3a556ebb2f3e4d50441adc1d586d06fbd7c8",
+  "bit_depth": "Bpc16",
+  "duration": 16,
+  "fps": 30,
+  "picture_layers": 35,
+  "picture_keyframes": 12623,
+  "media": [
+    {
+      "path": "audio/master.wav",
+      "relative": true,
+      "exists": true
+    },
+    {
+      "path": "audio/master.wav",
+      "relative": true,
+      "exists": true
+    }
+  ],
+  "captions": [
+    {
+      "id": "01",
+      "text": "提出问题。",
+      "start": 0.5,
+      "end": 1.6666666666666667,
+      "fill_hex": "#6266A2",
+      "stroke": false,
+      "text_matches": true,
+      "rounded_to_frame": true
+    },
+    {
+      "id": "02",
+      "text": "从资料里，找到依据。",
+      "start": 3.033333333333333,
+      "end": 4.9,
+      "fill_hex": "#6266A2",
+      "stroke": false,
+      "text_matches": true,
+      "rounded_to_frame": true
+    },
+    {
+      "id": "03",
+      "text": "把原文，带进答案。",
+      "start": 5.533333333333333,
+      "end": 7.4,
+      "fill_hex": "#6266A2",
+      "stroke": false,
+      "text_matches": true,
+      "rounded_to_frame": true
+    },
+    {
+      "id": "04",
+      "text": "点一下，回到原文。",
+      "start": 9.233333333333333,
+      "end": 11.033333333333333,
+      "fill_hex": "#6266A2",
+      "stroke": false,
+      "text_matches": true,
+      "rounded_to_frame": true
+    },
+    {
+      "id": "05",
+      "text": "看见答案，也看见依据。",
+      "start": 13.433333333333334,
+      "end": 15.5,
+      "fill_hex": "#6266A2",
+      "stroke": false,
+      "text_matches": true,
+      "rounded_to_frame": true
+    }
+  ],
+  "caption_comp_layers": [
+    "Caption 05",
+    "Caption 04",
+    "Caption 03",
+    "Caption 02",
+    "Caption 01",
+    "IndexTTS2 voice + MiniMax Music + event sound",
+    "Editable picture"
+  ],
+  "carry_excerpts": {
+    "range_seconds": [
+      4.82,
+      6.25
+    ],
+    "collision_frames": [],
+    "method": "Native axis-aligned precomp bounds, 30 fps, visible opacity >2; does not check every pair of layers."
+  },
+  "original_and_copy": {
+    "range_seconds": [
+      9.1,
+      10.3
+    ],
+    "collision_frames": [],
+    "method": "Native axis-aligned precomp bounds, 30 fps, visible opacity >2; does not check every pair of layers."
+  },
+  "continuous_objects": [
+    "Persistent question surface",
+    "Evidence 1 / same object",
+    "Evidence 2 / same object",
+    "Persistent focus bracket 0",
+    "Persistent focus bracket 1",
+    "Citation 2 / identity"
+  ],
+  "scope": "Selected native motion relationships and reference portability only; final picture and normal-speed review remain necessary.",
+  "checks_pass": true
+}

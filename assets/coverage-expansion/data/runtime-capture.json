@@ -1,0 +1,177 @@
+{
+  "csv": "name,value\n探索,12\n构建,8\n分享,5",
+  "rows": [
+    {
+      "name": "探索",
+      "value": 12
+    },
+    {
+      "name": "构建",
+      "value": 8
+    },
+    {
+      "name": "分享",
+      "value": 5
+    }
+  ],
+  "workspace": {
+    "name": "First workspace",
+    "scope": "private",
+    "rows": [
+      {
+        "name": "探索",
+        "value": 12
+      },
+      {
+        "name": "构建",
+        "value": 8
+      },
+      {
+        "name": "分享",
+        "value": 5
+      }
+    ]
+  },
+  "onboardingEvents": [
+    {
+      "time": 0,
+      "state": {
+        "step": "choose",
+        "rows": [],
+        "scope": "private",
+        "error": null
+      }
+    },
+    {
+      "time": 2.3,
+      "event": {
+        "type": "IMPORT",
+        "csv": "name,value\n探索,12\n构建,8\n分享,5"
+      },
+      "state": {
+        "step": "review",
+        "rows": [
+          {
+            "name": "探索",
+            "value": 12
+          },
+          {
+            "name": "构建",
+            "value": 8
+          },
+          {
+            "name": "分享",
+            "value": 5
+          }
+        ],
+        "scope": "private",
+        "error": null
+      }
+    },
+    {
+      "time": 6.6,
+      "event": {
+        "type": "CONNECT"
+      },
+      "state": {
+        "step": "scope",
+        "rows": [
+          {
+            "name": "探索",
+            "value": 12
+          },
+          {
+            "name": "构建",
+            "value": 8
+          },
+          {
+            "name": "分享",
+            "value": 5
+          }
+        ],
+        "scope": "private",
+        "error": null
+      }
+    },
+    {
+      "time": 13.8,
+      "event": {
+        "type": "CREATE"
+      },
+      "state": {
+        "step": "done",
+        "rows": [
+          {
+            "name": "探索",
+            "value": 12
+          },
+          {
+            "name": "构建",
+            "value": 8
+          },
+          {
+            "name": "分享",
+            "value": 5
+          }
+        ],
+        "scope": "private",
+        "error": null,
+        "workspace": {
+          "name": "First workspace",
+          "scope": "private",
+          "rows": [
+            {
+              "name": "探索",
+              "value": 12
+            },
+            {
+              "name": "构建",
+              "value": 8
+            },
+            {
+              "name": "分享",
+              "value": 5
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "feedbackEvents": [
+    {
+      "time": 0.5,
+      "state": {
+        "status": "idle",
+        "request": 0
+      }
+    },
+    {
+      "time": 2,
+      "state": {
+        "status": "loading",
+        "request": 1
+      }
+    },
+    {
+      "time": 4.1,
+      "state": {
+        "status": "error",
+        "request": 1
+      }
+    },
+    {
+      "time": 5.5,
+      "state": {
+        "status": "loading",
+        "request": 2
+      }
+    },
+    {
+      "time": 7.2,
+      "state": {
+        "status": "success",
+        "request": 2
+      }
+    }
+  ]
+}

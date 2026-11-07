@@ -1,0 +1,93 @@
+{
+  "version": "3.1.0",
+  "date": "2026-10-26",
+  "films": [
+    {
+      "version": "landscape",
+      "duration": 24.0,
+      "decoded_frames": 720,
+      "decode_ok": true,
+      "sha256": "d050324d8f3478f807e31078b41fabd57cab7235d711a73a939593f17e5d9e0a",
+      "audio_measurement": {
+        "integrated_lufs": -18.13,
+        "true_peak_dbtp": -3.04,
+        "loudness_range_lu": 4.1,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "sample_times": [
+        0.5,
+        2.7,
+        3.2,
+        3.8,
+        5.25,
+        6.3,
+        6.6,
+        6.83,
+        7.1,
+        8.6,
+        9.3,
+        10.8,
+        11.3,
+        12.4,
+        14.3,
+        14.65,
+        15.4,
+        17.1,
+        17.7,
+        18.5,
+        20.0,
+        20.5,
+        21.3,
+        23.8
+      ]
+    },
+    {
+      "version": "vertical",
+      "duration": 18.005,
+      "decoded_frames": 540,
+      "decode_ok": true,
+      "sha256": "4e1e04323bc66cf2f1116852066af9131356c521980a8617d2c3f164f5f75f2d",
+      "audio_measurement": {
+        "integrated_lufs": -18.41,
+        "true_peak_dbtp": -4.07,
+        "loudness_range_lu": 8.2,
+        "method": "ffmpeg loudnorm input measurements; this script does not normalize the media"
+      },
+      "sample_times": [
+        1.2,
+        2.8,
+        3.7,
+        4.8,
+        6.3,
+        6.6,
+        6.83,
+        7.1,
+        8.8,
+        9.5,
+        11.9,
+        12.8,
+        14.1,
+        14.8,
+        16.0,
+        17.8
+      ]
+    }
+  ],
+  "native_shared_control": {
+    "times": [
+      6.5,
+      7.1
+    ],
+    "website_poster_mobile_equal_control": true,
+    "colors": [
+      "#BE6048",
+      "#315FF1"
+    ]
+  },
+  "rebuilt_in_fresh_directory": true,
+  "relative_footage_paths_reopened": true,
+  "refuses_nonempty_output": true,
+  "visual_review": "40 sampled frames plus intermediate transition repair and reinspection; not continuous real-time playback",
+  "listening_review": "Not performed; signal measurements and authored timing only",
+  "user_acceptance": "Not yet received"
+}

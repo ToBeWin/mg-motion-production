@@ -1,0 +1,17 @@
+{
+  "request_id": "req_024",
+  "request": {
+    "text": "周五前，林岚完成首页草稿。",
+    "schema": {
+      "due_text": "string",
+      "owner": "string",
+      "task": "string"
+    }
+  },
+  "response": {
+    "due_text": "周五前",
+    "owner": "林岚",
+    "task": "首页草稿"
+  },
+  "scope": "Fictional API contract and deterministic fixture; no online AI service or date resolution."
+}

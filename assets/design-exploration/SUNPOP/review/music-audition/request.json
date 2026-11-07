@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG品牌探索_放晴SUNPOP_v1/source/audio/minimax-sunpop.wav",
+  "sha256": "2a61c0acc2d0da5704b127bcb8d5ea029b0da88d2056a065d0e4af09d04c2919",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听这段音乐，描述实际风格、主要乐器、节奏是否有冲劲、是否出现人声或杂音，以及结尾是否自然。判断是否适合明亮、热烈、有设计感的气泡饮料品牌广告。若要剪成约24秒，是否有明显需要避开的结构问题？只根据音频，不编造精确拍点。",
+  "status": "completed",
+  "started_at": 1793204152.608446,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "0796d1f3f60903dc15d9d6be823e7a69c3094e84496f06771511da4b752be8a7",
+  "event_id": "8f0767bb7ed543eda344ac8fd0c99e01",
+  "finished_at": 1793204170.132093,
+  "response_sha256": "bf95be11cf42df1defd1ee3f89ee04f19e79ebdecfce19e71af097c120c599d6"
+}

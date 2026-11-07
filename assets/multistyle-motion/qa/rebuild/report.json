@@ -1,0 +1,48 @@
+{
+  "rebuilt_source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/work/mg-multistyle-v11/rebuild-final/source",
+  "comparisons": [
+    {
+      "case": "brand",
+      "time": 8.9,
+      "same_pixels": true,
+      "reference": "brand-8.9-original.png",
+      "rebuilt": "brand-8.9-rebuilt.png"
+    },
+    {
+      "case": "brand",
+      "time": 15.7,
+      "same_pixels": true,
+      "reference": "brand-15.7-original.png",
+      "rebuilt": "brand-15.7-rebuilt.png"
+    },
+    {
+      "case": "hardware",
+      "time": 7.4,
+      "same_pixels": true,
+      "reference": "hardware-7.4-original.png",
+      "rebuilt": "hardware-7.4-rebuilt.png"
+    },
+    {
+      "case": "hardware",
+      "time": 12.5,
+      "same_pixels": true,
+      "reference": "hardware-12.5-original.png",
+      "rebuilt": "hardware-12.5-rebuilt.png"
+    },
+    {
+      "case": "agent",
+      "time": 8.0,
+      "same_pixels": true,
+      "reference": "agent-8.0-original.png",
+      "rebuilt": "agent-8.0-rebuilt.png"
+    },
+    {
+      "case": "agent",
+      "time": 15.8,
+      "same_pixels": true,
+      "reference": "agent-15.8-original.png",
+      "rebuilt": "agent-15.8-rebuilt.png"
+    }
+  ],
+  "scope": "Six selected full-resolution frames from native projects rebuilt in a new directory. Not a second full video render or a second Cycles render."
+}

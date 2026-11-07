@@ -1,0 +1,55 @@
+[
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  [
+    {
+      "role": "user",
+      "metadata": null,
+      "content": {
+        "file": {
+          "path": "/tmp/gradio/095af93509c3f8ff72a917a505655e6a8bf7a428ed1e0bb79c5a16b028030c5c/sample.wav",
+          "url": "https://qwen-qwen3-5-omni-offline-demo.hf.space/gradio_api/file=/tmp/gradio/095af93509c3f8ff72a917a505655e6a8bf7a428ed1e0bb79c5a16b028030c5c/sample.wav",
+          "size": null,
+          "orig_name": null,
+          "mime_type": "audio/wav",
+          "is_stream": false,
+          "meta": {
+            "_type": "gradio.FileData"
+          }
+        },
+        "alt_text": null
+      },
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": "只根据这段短音乐的实际声音，说明音量和尾音如何变化。末尾更像突然切断、逐渐减弱、自然余响，还是无法确定？不要猜整条影片的场景，也不要编造精确时间。",
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": "音量在结尾处没有逐渐减弱，而是突然中断。尾音的处理方式更像被突然切断，没有自然的余响或衰减过程。",
+      "options": null
+    }
+  ],
+  {
+    "visible": true,
+    "__type__": "update"
+  },
+  {
+    "visible": false,
+    "__type__": "update"
+  }
+]

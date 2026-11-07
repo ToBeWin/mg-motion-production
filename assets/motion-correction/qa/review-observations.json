@@ -1,0 +1,50 @@
+{
+  "media": "TRACE_v10_从问题到依据_中文字幕.mp4",
+  "sha256": "3ca007edcfc020525464b9f27b987650838da93f28f9c20e4db555cc29f7e1e4",
+  "visual_scope": {
+    "whole_film_contact_sheet": 28,
+    "dense_transition_samples": 64,
+    "clean_version_samples": 4,
+    "full_resolution_reading_frame_seconds": 6.8,
+    "human_playback": false
+  },
+  "audio_scope": {
+    "full_length_model_assisted_review": true,
+    "review_directory": "model-review-release",
+    "human_headphone_or_speaker_monitoring": false,
+    "phrase_check": [
+      {
+        "text": "提出问题。",
+        "present_in_audio_review": true
+      },
+      {
+        "text": "从资料里，找到依据。",
+        "present_in_audio_review": true
+      },
+      {
+        "text": "把原文，带进答案。",
+        "present_in_audio_review": true
+      },
+      {
+        "text": "点一下，回到原文。",
+        "present_in_audio_review": true
+      },
+      {
+        "text": "看见答案，也看见依据。",
+        "present_in_audio_review": true
+      }
+    ]
+  },
+  "observed_fixes": [
+    "Excerpt paths separate vertically",
+    "Retained quotation appears after original has moved away",
+    "Document and reference titles stay above their surfaces",
+    "Focus brackets retract to the top before travelling to source panel"
+  ],
+  "remaining_limits": [
+    "UI/card-led composition remains prominent",
+    "Final auxiliary model described the visual as fixed layout plus drift with information transitions",
+    "Continuous native objects and correct exports do not establish flagship MG quality or customer acceptance"
+  ],
+  "customer_accepted": false
+}

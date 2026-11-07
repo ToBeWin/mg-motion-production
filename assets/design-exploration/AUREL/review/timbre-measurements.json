@@ -1,0 +1,19 @@
+{
+  "scope": "Spectral measurements supplement listening; they do not determine subjective quality.",
+  "raw_candidates": {
+    "minimax-aurel-v2-r2.wav": {
+      "seconds": 20.01560090702948,
+      "peak": 1.0,
+      "mean_spectral_centroid_hz": 433.725058564188,
+      "energy_above_4khz_fraction": 0.0054278413591583256,
+      "energy_above_8khz_fraction": 0.0018946489210675261
+    },
+    "minimax-aurel-v21-organic.wav": {
+      "seconds": 20.01560090702948,
+      "peak": 1.0,
+      "mean_spectral_centroid_hz": 953.7841767313766,
+      "energy_above_4khz_fraction": 0.00888853719559346,
+      "energy_above_8khz_fraction": 0.007402556535346085
+    }
+  }
+}

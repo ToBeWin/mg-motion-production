@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="700" viewBox="0 0 1000 700">
+  <title>FORM-figma.svg</title>
+  <g id="FORM___master_contours" data-name="FORM / master contours">
+    <path id="form-main" d="M800 350 C800 198 666 88 500 88 C334 88 200 198 200 350 C200 502 334 612 500 612 C666 612 800 502 800 350 Z" fill="none" stroke="#247a73" stroke-width="28"/>
+    <path id="form-inner" d="M716 350 C716 244 620 168 500 168 C380 168 284 244 284 350 C284 456 380 532 500 532 C620 532 716 456 716 350 Z" fill="none" stroke="#dfaf85" stroke-width="18"/>
+    <path id="form-optical" d="M866 350 C866 162 702 28 500 28 C298 28 134 162 134 350 C134 538 298 672 500 672 C702 672 866 538 866 350 Z" fill="none" stroke="#afd7c6" stroke-width="8"/>
+    <path id="Optical_glint___native_Bezier" data-name="Optical glint / native Bezier" d="M720 132 C754 156 781 187 798 223" fill="none" stroke="#fffdf5" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10"/>
+  </g>
+</svg>

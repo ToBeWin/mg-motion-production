@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG品牌探索_放晴SUNPOP_v1/source/audio/master-music.wav",
+  "sha256": "f6efbef54aeb49a3a07750efe25b014502b2262a9da757365fc4a7caa765edff",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听这段纯音乐广告成品，不提供脚本。描述音乐风格、是否出现人声、是否有刺耳音效、声音是否顺畅，末尾是否正常衰减和结束。只按实际声音判断；若音乐是淡出而不是终止式和弦，可以直接说明。",
+  "status": "completed",
+  "started_at": 1793205446.08262,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "5f7abe758d90e84d5fbf28b2def034b23666789e805e0e98eab55dcd0d67bda4",
+  "event_id": "0fcca14be1a64ec9a7354fc7ce89a82e",
+  "finished_at": 1793205455.2998679,
+  "response_sha256": "d863540e7925cb807ea214e5d3c703c4321da2c9b731d4ad9c65ff62f5055694"
+}

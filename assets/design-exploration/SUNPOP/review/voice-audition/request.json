@@ -1,0 +1,15 @@
+{
+  "source": "~/Documents/Codex/2026-10-24/gpt-6-astra-mg-mg-mg/outputs/MG品牌探索_放晴SUNPOP_v1/source/audio/voice-audition.wav",
+  "sha256": "4ebfb570bfd7bcedbdb731a7fe7ff0b18053e1269f16b2384c09d12161c5ef3b",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-offline-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整听这三段品牌短口号。先逐字转写你实际听到的全部中文，再检查是否漏字、多字、重音不自然、音色发闷、突兀停顿、尾字截断。判断声音是否明亮、有笑意、适合热烈的气泡饮料品牌广告。不要猜台词，不要给虚构的分数。",
+  "status": "completed",
+  "started_at": 1793204067.156689,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "9b9399098b8077108f79d33f48997695895fe59d796f9da1af7149342db15546",
+  "event_id": "c8e90b26d4214f36ae45774c3d4cc464",
+  "finished_at": 1793204077.621674,
+  "response_sha256": "316c3df6d6f104f0a62b294328910167c64eee7acdc52e81d8edf2ef78e8d2d2"
+}

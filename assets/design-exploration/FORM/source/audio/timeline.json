@@ -1,0 +1,93 @@
+{
+  "duration": 18,
+  "captions": [
+    {
+      "id": "01",
+      "text": "从一条线开始。",
+      "in": 0.18,
+      "out": 1.51,
+      "start": 0.72,
+      "end": 2.05,
+      "gain_db": 12.686528869790518,
+      "file": "voice-01.wav"
+    },
+    {
+      "id": "02",
+      "text": "让光，拥有形状。",
+      "in": 1.6,
+      "out": 3.17,
+      "start": 6.15,
+      "end": 7.720000000000001,
+      "gain_db": 11.109190412893955,
+      "file": "voice-02.wav"
+    },
+    {
+      "id": "03",
+      "text": "让想象，成为可能。",
+      "in": 3.21,
+      "out": 4.864583333333333,
+      "start": 14.5,
+      "end": 16.154583333333335,
+      "gain_db": 14.483131108492683,
+      "file": "voice-03.wav"
+    }
+  ],
+  "voice_engine": "IndexTTS2",
+  "music_engine": "MiniMax Music 3 / local / 30 steps",
+  "source_hashes": {
+    "voice-raw.wav": "12f8eea347a7660a112384d042e91d207a1da271bbc9482898a94ce3ccdfca0e",
+    "minimax-form.wav": "8f3c33c3fe2c6a8c7a0e1a0c350dca5d860cd182420a90101f9eb201c7e81b10"
+  },
+  "normalization": {
+    "master-voice.wav": {
+      "input_i": "-19.46",
+      "input_tp": "-4.31",
+      "input_lra": "2.00",
+      "input_thresh": "-30.02",
+      "output_i": "-16.16",
+      "output_tp": "-1.50",
+      "output_lra": "1.80",
+      "output_thresh": "-26.51",
+      "normalization_type": "dynamic",
+      "target_offset": "0.16"
+    },
+    "master-music.wav": {
+      "input_i": "-20.70",
+      "input_tp": "-4.74",
+      "input_lra": "2.80",
+      "input_thresh": "-31.20",
+      "output_i": "-16.52",
+      "output_tp": "-1.50",
+      "output_lra": "2.70",
+      "output_thresh": "-26.81",
+      "normalization_type": "dynamic",
+      "target_offset": "0.52"
+    }
+  },
+  "sfx_events": [
+    [
+      0.3,
+      0.3
+    ],
+    [
+      1.8,
+      0.23
+    ],
+    [
+      5.1,
+      0.6
+    ],
+    [
+      10.76,
+      0.45
+    ],
+    [
+      12.2,
+      0.3
+    ],
+    [
+      14.0,
+      0.26
+    ]
+  ]
+}

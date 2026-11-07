@@ -1,0 +1,55 @@
+[
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  {
+    "__type__": "update"
+  },
+  [
+    {
+      "role": "user",
+      "metadata": null,
+      "content": {
+        "file": {
+          "path": "/tmp/gradio/0aa71053c35417a020d9fd48d29cc255c3927c518d055224a41fb2a81a209dd1/sample.wav",
+          "url": "https://qwen-qwen3-5-omni-offline-demo.hf.space/gradio_api/file=/tmp/gradio/0aa71053c35417a020d9fd48d29cc255c3927c518d055224a41fb2a81a209dd1/sample.wav",
+          "size": null,
+          "orig_name": null,
+          "mime_type": "audio/wav",
+          "is_stream": false,
+          "meta": {
+            "_type": "gradio.FileData"
+          }
+        },
+        "alt_text": null
+      },
+      "options": null
+    },
+    {
+      "role": "user",
+      "metadata": null,
+      "content": "请完整听这段中文配音。不提供预期文字，请先忠实转写听见的全部内容，再按时间顺序估计每个短语开始和结束的秒数。检查读音、吞字、机械感、奇怪重音、静音长度。若没有能力确定某项，明确说明。不要根据创作意图补全漏字。这是原始配音，较长句间空白后续会剪辑。",
+      "options": null
+    },
+    {
+      "role": "assistant",
+      "metadata": null,
+      "content": "每个作品都从一个想法开始。00:00.046 – 00:02.136  \n把灵感变成看得见的设计。00:05.866 – 00:08.796  \n每一种色彩都可以随心而变。00:11.236 – 00:14.376  \n一个画面自由展开。00:16.146 – 00:18.526  \n让好设计走进每一种尺寸。00:20.916 – 00:24.086  \n让灵感展开。00:28.986 – 00:30.936  \n\n读音：整体清晰，普通话标准，未见明显吞字或错读。  \n机械感：语句间停顿较长且均匀，节奏略显刻意，带轻微合成/配音腔调，但无明显机械失真。  \n重音：关键词如“想法”“灵感”“设计”“色彩”“自由”“尺寸”有自然强调，无奇怪重音。  \n静音长度：句间空白约2–4秒不等，符合“较长句间空白后续会剪辑”的描述。",
+      "options": null
+    }
+  ],
+  {
+    "visible": true,
+    "__type__": "update"
+  },
+  {
+    "visible": false,
+    "__type__": "update"
+  }
+]

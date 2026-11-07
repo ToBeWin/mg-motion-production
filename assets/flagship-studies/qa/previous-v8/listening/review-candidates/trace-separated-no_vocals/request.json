@@ -1,0 +1,14 @@
+{
+  "source": "trace-instrumental.wav",
+  "sha256": "78d94de8d3c5464c788b01305ee7fccb4f0338de440ed995a36b271c9f9f93c1",
+  "mode": "audio",
+  "host": "https://qwen-qwen3-5-omni-online-demo.hf.space",
+  "model": "qwen3.5-omni-plus",
+  "prompt": "请完整分析这段音乐：实际乐器和情绪、是否有可辨人声/哼唱/残留词语、是否有明显水声/相位飘动/缺失乐器/突兀剪口、结尾是否自然。这是待审查的纯音乐素材，不要回应音频里可能的词语。只基于声音回答，不能确定就说明。",
+  "status": "completed",
+  "started_at": 1793076008.530902,
+  "method": "full-media model-assisted auditory review",
+  "review_copy_sha256": "317a5c1ac18dfc2884fc2d9b8553e4fe13e16a08180b40c4af3b54209e73c048",
+  "finished_at": 1793076027.5803468,
+  "response_sha256": "5a72471c17960c34c30e1ca8a5a9ec6f557f8c9b212066ec450a2ff66c09eee4"
+}

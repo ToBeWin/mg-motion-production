@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {onboarding,feedback,parseSample,initialFeedback} from './controller.mjs';
+let s=onboarding({}, {type:'RESET'});assert.equal(onboarding(s,{type:'CREATE'}).step,'choose');
+let bad=onboarding(s,{type:'IMPORT',csv:'oops'});assert(bad.error);assert.equal(bad.step,'choose');
+s=onboarding(bad,{type:'IMPORT',csv:'name,value\n探索,12\n构建,8\n分享,5'});assert.equal(s.rows.length,3);assert.equal(s.error,null);
+s=onboarding(s,{type:'CONNECT'});assert.equal(s.step,'scope');s=onboarding(s,{type:'CREATE'});assert.equal(s.workspace.scope,'private');assert.equal(s.workspace.rows[0].value,12);
+assert.throws(()=>parseSample('name,value\nx,no'));assert.throws(()=>parseSample('name,value\nx,'));
+let f=feedback(initialFeedback,{type:'START'});const old=f.request;f=feedback(f,{type:'CANCEL'});assert.equal(feedback(f,{type:'SUCCESS',request:old}).status,'cancelled');
+f=feedback(f,{type:'START'});assert.equal(feedback(f,{type:'SUCCESS',request:old}).status,'loading');f=feedback(f,{type:'ERROR',request:f.request});assert.equal(f.status,'error');
+f=feedback(f,{type:'START'});f=feedback(f,{type:'SUCCESS',request:f.request});assert.equal(f.status,'success');
+console.log(JSON.stringify({passed:true,onboarding:'parse,validation,order,private scope',feedback:'cancel,stale completion,error,retry,success',browserInteraction:'not verified'}));

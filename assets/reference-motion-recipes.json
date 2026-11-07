@@ -1,0 +1,522 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "purpose": "Reusable motion methods; these are not source media or finished templates.",
+  "observation_scope": "Portable design and motion guidance.",
+  "groups": {
+    "luminous-workspace": [
+      {
+        "id": "LW01",
+        "name": "工作台到操作特写",
+        "design_assets": "完整界面、目标控件、输入前后态",
+        "motion_sequence": "建立全景 → 靠近目标 → 读/操作 → 返回结果",
+        "space_and_continuity": "同一工作台父级坐标",
+        "review_focus": "目标控件不能在镜头接近时换位置",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW02",
+        "name": "持续任务与多格式成果",
+        "design_assets": "持久输入/任务名、真实多格式成果",
+        "motion_sequence": "任务保持 → 处理反馈 → 成果更替 → 下一步",
+        "space_and_continuity": "稳定任务对象与可换内容槽",
+        "review_focus": "结果必须有不同且完整的设计内容",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW03",
+        "name": "利益点与成果并置",
+        "design_assets": "短利益点、可读成果主窗口",
+        "motion_sequence": "建立标题 → 成果进入 → 内部展示 → 标题收束",
+        "space_and_continuity": "不对称主次构图",
+        "review_focus": "辅助文字不能重复抢走所有阅读注意力",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW04",
+        "name": "纵向成果舞台交替",
+        "design_assets": "相邻成果、内容遮罩、持久外框",
+        "motion_sequence": "旧内容向上退出 → 新内容从下承接 → 停稳",
+        "space_and_continuity": "共享方向和窗口尺度",
+        "review_focus": "正文重叠时不可读，检查交接中间态",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW05",
+        "name": "来源与结果协同窗口",
+        "design_assets": "职责不同的来源/对话与成果窗口",
+        "motion_sequence": "主窗口建立 → 让位 → 第二窗口出现 → 关系可读",
+        "space_and_continuity": "横向协同与共享任务身份",
+        "review_focus": "两张同样的卡片并排不能解释关系",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW06",
+        "name": "选区驱动局部编辑",
+        "design_assets": "修改前、选区、工具条、指令、修改后",
+        "motion_sequence": "定位 → 框选 → 指令 → 提交 → 局部改变 → 比较",
+        "space_and_continuity": "选区与内容共享局部坐标",
+        "review_focus": "保留未要求修改的数值、名称和来源",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW07",
+        "name": "同一编辑语法跨产物",
+        "design_assets": "不同类型的真实页面及编辑状态",
+        "motion_sequence": "同一交互规则 → 换内容结构 → 展示新结果",
+        "space_and_continuity": "一致规则、不同布局",
+        "review_focus": "不要把同一动画只换标题重复三次",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW08",
+        "name": "外部应用任务执行",
+        "design_assets": "真实软件状态、操作位置、完成证据",
+        "motion_sequence": "进入外部应用 → 执行 → 可核对变化",
+        "space_and_continuity": "产品界面与真实应用各自有边界",
+        "review_focus": "动画示意不证明真实软件执行成功",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW09",
+        "name": "多能力概览",
+        "design_assets": "不同大小和内容的模块、主张",
+        "motion_sequence": "主张建立 → 模块按层级出现 → 稳定概览",
+        "space_and_continuity": "版式层级先于运动",
+        "review_focus": "每格需承担不同信息功能",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "LW10",
+        "name": "倾斜界面与品牌收束",
+        "design_assets": "完整产品界面、字标、结尾短句",
+        "motion_sequence": "界面斜向经过 → 提炼主张 → 品牌停稳",
+        "space_and_continuity": "界面退为上下文，品牌成为焦点",
+        "review_focus": "关键操作不放在最大倾斜的瞬间",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      }
+    ],
+    "graphic-product-pop": [
+      {
+        "id": "GP01",
+        "name": "中心对象接替",
+        "design_assets": "轮廓不同但视觉重量相近的对象",
+        "motion_sequence": "单一对象 → 形态/匹配切换 → 品牌几何",
+        "space_and_continuity": "共同中心锚点",
+        "review_focus": "不必把无法连续变形的轮廓强行插值",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP02",
+        "name": "道具群与品牌角色",
+        "design_assets": "前景品牌块、中景工具、中心自有角色",
+        "motion_sequence": "品牌块扩张 → 道具展开 → 角色接近 → 回到稀疏",
+        "space_and_continuity": "前中后三层与尺度反差",
+        "review_focus": "对象有语义和统一造型，不是随机粒子",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP03",
+        "name": "能力词沿轴轮换",
+        "design_assets": "共享文字、并列能力词、对应图标",
+        "motion_sequence": "第一词稳定 → 沿弧线退出 → 下一词进入阅读槽",
+        "space_and_continuity": "稳定轴心和共同阅读基线",
+        "review_focus": "快切后仍能读清每个能力",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP04",
+        "name": "关键词成为控件",
+        "design_assets": "句中关键词、箭头、菜单、选中态",
+        "motion_sequence": "短句成立 → 关键词可操作 → 菜单展开 → 选择反馈",
+        "space_and_continuity": "文字身份延续到 UI 控件",
+        "review_focus": "只弹菜单但不改变状态不构成操作",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP05",
+        "name": "动态字排尺度冲击",
+        "design_assets": "短语、手写强调词、放射线",
+        "motion_sequence": "小尺度短停 → 关键字放大 → 一次强调 → 收束",
+        "space_and_continuity": "尺度与密度反差",
+        "review_focus": "不是每句都大幅回弹或爆炸",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP06",
+        "name": "权限列表纵深运行",
+        "design_assets": "独立行平面、勾选状态、父级空间",
+        "motion_sequence": "面板展开 → 列表进入纵深 → 状态逐项传播",
+        "space_and_continuity": "行平面沿深度排布，焦点可读",
+        "review_focus": "虚化和透视不能让整列都不可读",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP07",
+        "name": "镜头跟随输入句",
+        "design_assets": "完整输入句、强调词、输入框与提交按钮",
+        "motion_sequence": "框转正 → 贴近文字 → 沿读序移动 → 回整句 → 提交",
+        "space_and_continuity": "内容读序驱动镜头",
+        "review_focus": "不把长提示词当模糊纹理",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP08",
+        "name": "文件链接到页面纵深",
+        "design_assets": "生成状态、文件链接、多页结果",
+        "motion_sequence": "生成 → 链接 → 点击打开 → 正视阅读 → 多页展开",
+        "space_and_continuity": "同一结果的从入口到内容深度",
+        "review_focus": "后页必须有不同的真实设计内容",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP09",
+        "name": "结果收成可复用方法",
+        "design_assets": "任务成果、方法标签、成员身份",
+        "motion_sequence": "产物收拢 → 保存方法 → 成员进入 → 复用价值",
+        "space_and_continuity": "对象身份与主张连续",
+        "review_focus": "头像出现不等于发生协作",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "GP10",
+        "name": "协作范围与品牌收束",
+        "design_assets": "消息、文件、地理/平台符号、自有品牌",
+        "motion_sequence": "协作内容接续 → 范围扩展 → 主张与品牌停稳",
+        "space_and_continuity": "章节尺度与媒介变化",
+        "review_focus": "地球/平台/光束要服务已证实的能力或品牌目的",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      }
+    ],
+    "companion-ui-explainer": [
+      {
+        "id": "CU01",
+        "name": "遮挡后探出与招手",
+        "component_ids": [
+          "UI02",
+          "UI03",
+          "UI13"
+        ],
+        "design_assets": "参见组件蓝图 UI02,UI03,UI13",
+        "motion_sequence": "输入框前景遮住下缘 → 主体出现 → 小手招呼 → 停稳",
+        "space_and_continuity": "前景遮挡与身体局部坐标",
+        "review_focus": "先出现再表演，不靠整体淡入替代遮挡",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU02",
+        "name": "眼神与手势引导注意力",
+        "component_ids": [
+          "UI02",
+          "UI03",
+          "UI05"
+        ],
+        "design_assets": "参见组件蓝图 UI02,UI03,UI05",
+        "motion_sequence": "角色看向目标 → 目标出现或变化 → 角色反应 → 视线回收",
+        "space_and_continuity": "面部/身体/目标三个可独立控制的坐标层",
+        "review_focus": "角色不与目标同时做大幅动作，眨眼避开信息首现",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU03",
+        "name": "对象错峰弹出并稳定",
+        "component_ids": [
+          "UI05",
+          "UI06",
+          "UI09"
+        ],
+        "design_assets": "参见组件蓝图 UI05,UI06,UI09",
+        "motion_sequence": "预留空位 → 单个对象入场 → 小幅过冲收束 → 下一对象",
+        "space_and_continuity": "共同基线与组内节奏",
+        "review_focus": "完成后稳定，不能持续震荡；关注体积与节奏差异",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU04",
+        "name": "连接、调用与状态传播",
+        "component_ids": [
+          "UI05",
+          "UI10",
+          "UI11"
+        ],
+        "design_assets": "参见组件蓝图 UI05,UI10,UI11",
+        "motion_sequence": "对象先建立 → 连线或信号出现 → 目标激活 → 共用状态",
+        "space_and_continuity": "起终点附着对象，不让连线漂移",
+        "review_focus": "有语义的起点和终点；描线并非证明实际执行",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU05",
+        "name": "角色留场、讲解对象换位",
+        "component_ids": [
+          "UI01",
+          "UI02",
+          "UI05",
+          "UI11"
+        ],
+        "design_assets": "参见组件蓝图 UI01,UI02,UI05,UI11",
+        "motion_sequence": "旧对象退场 → 角色与界面留场 → 新对象接入 → 注意力转向",
+        "space_and_continuity": "固定世界空间，交接位置有连续性",
+        "review_focus": "不需要每次闪白或铺满圆；不要留下无意空拍",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU06",
+        "name": "群组收缩并保留角落上下文",
+        "component_ids": [
+          "UI04",
+          "UI05",
+          "UI11"
+        ],
+        "design_assets": "参见组件蓝图 UI04,UI05,UI11",
+        "motion_sequence": "群组成立 → 非重点淡出 → 主设备缩到角落 → 新任务进入",
+        "space_and_continuity": "保留主设备身份和已建立方向",
+        "review_focus": "缩小后只作定位，不把不可读文字当信息",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU07",
+        "name": "焦点退场与背景工作台保留",
+        "component_ids": [
+          "UI01",
+          "UI02",
+          "UI06",
+          "UI08"
+        ],
+        "design_assets": "参见组件蓝图 UI01,UI02,UI06,UI08",
+        "motion_sequence": "界面细节减弱 → 主角色/标签清晰 → 概念成立 → 返回操作",
+        "space_and_continuity": "背景仍是同一工作台，前景字幕不随镜头",
+        "review_focus": "降低对比与适量虚化不同；不要把所有层一起模糊",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU08",
+        "name": "全貌到操作特写再返回",
+        "component_ids": [
+          "UI01",
+          "UI15",
+          "UI18",
+          "UI21"
+        ],
+        "design_assets": "参见组件蓝图 UI01,UI15,UI18,UI21",
+        "motion_sequence": "全貌定位 → 缩放靠近目标 → 停稳 → 操作 → 返回全貌",
+        "space_and_continuity": "缩放中心围绕目标，保留至少一个定位锚点",
+        "review_focus": "移动过程文字可暂略，停稳后的关键操作必须清楚",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU09",
+        "name": "点击反馈与控件状态联动",
+        "component_ids": [
+          "UI15",
+          "UI16",
+          "UI18"
+        ],
+        "design_assets": "参见组件蓝图 UI15,UI16,UI18",
+        "motion_sequence": "指针靠近 → 短停 → 点击环/轻音 → 控件改变 → 反馈",
+        "space_and_continuity": "指针尖端命中实际控件",
+        "review_focus": "控件先后态真实对应；不能只有点击特效",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU10",
+        "name": "逐位输入保持固定版式",
+        "component_ids": [
+          "UI13",
+          "UI17"
+        ],
+        "design_assets": "参见组件蓝图 UI13,UI17",
+        "motion_sequence": "获得内容 → 对应输入区 → 逐位出现 → 完成确认",
+        "space_and_continuity": "固定字格与基线，内容增长不造成整行抖动",
+        "review_focus": "代码完整可读，演示不泄露真实账户资料",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU11",
+        "name": "左右方案建立并比较",
+        "component_ids": [
+          "UI08",
+          "UI11",
+          "UI12",
+          "UI06"
+        ],
+        "design_assets": "参见组件蓝图 UI08,UI11,UI12,UI06",
+        "motion_sequence": "同时建立两个选项 → 同维度说明 → 局部强调 → 选择理由",
+        "space_and_continuity": "左右身份固定，冷暖辅助区分",
+        "review_focus": "不把未选项完全抹掉，以便比较；选择后再收束",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU12",
+        "name": "请求到工具再到可见产物",
+        "component_ids": [
+          "UI13",
+          "UI21",
+          "UI22"
+        ],
+        "design_assets": "参见组件蓝图 UI13,UI21,UI22",
+        "motion_sequence": "请求内容 → 执行工具/状态 → 成品出现 → 正视阅读",
+        "space_and_continuity": "同一任务、名称和内容身份",
+        "review_focus": "结果要有真实设计；黑色终端不是必需，因果才是核心",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU13",
+        "name": "局部修改与状态回证",
+        "component_ids": [
+          "UI13",
+          "UI15",
+          "UI18",
+          "UI22"
+        ],
+        "design_assets": "参见组件蓝图 UI13,UI15,UI18,UI22",
+        "motion_sequence": "明确目标 → 用户动作 → 可见状态变化 → 成功确认",
+        "space_and_continuity": "保留未改区域，变化只在目标范围",
+        "review_focus": "原片开关/授权反馈迁移为 Demo 日程修改；不是声称原片有同样日程镜头",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU14",
+        "name": "步骤逐项出现与完成",
+        "component_ids": [
+          "UI23",
+          "UI09"
+        ],
+        "design_assets": "参见组件蓝图 UI23,UI09",
+        "motion_sequence": "第一项出现 → 完成保持 → 下一项 → 完整复盘",
+        "space_and_continuity": "稳定列表，不在每项后清空",
+        "review_focus": "步骤数由内容决定；逐项完成应在新项目中验证",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU15",
+        "name": "多伙伴分工、集合与组织关系",
+        "component_ids": [
+          "UI04",
+          "UI14",
+          "UI24"
+        ],
+        "design_assets": "参见组件蓝图 UI04,UI14,UI24",
+        "motion_sequence": "组别出现 → 成员与职责对应 → 伙伴汇合 → 团队结果",
+        "space_and_continuity": "成员身份和组别对应，共同地平线",
+        "review_focus": "集合之前必须表达各自负责什么",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "CU16",
+        "name": "回到主向导与品牌收束",
+        "component_ids": [
+          "UI01",
+          "UI02",
+          "UI06",
+          "UI07"
+        ],
+        "design_assets": "参见组件蓝图 UI01,UI02,UI06,UI07",
+        "motion_sequence": "群体/任务退后 → 主向导回中心 → 简短主张 → 品牌保持",
+        "space_and_continuity": "回收开头的向导与界面，结尾留呼吸",
+        "review_focus": "品牌不抢末句，音乐尾部完整；不强行沿用关注话术",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      }
+    ],
+    "evidence-led-showcase": [
+      {
+        "id": "problem-stagger",
+        "name": "问题递进",
+        "motion_sequence": "问题列表 → 逐项显露 → 品牌承接",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "title-reveal",
+        "name": "标题显露",
+        "motion_sequence": "空舞台 → 从局部到完整 → 明确问题",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "intent-typing",
+        "name": "意图输入",
+        "motion_sequence": "输入框 → 文本增长 → 完整任务意图",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "composer-to-workspace",
+        "name": "输入到工作台",
+        "motion_sequence": "独立输入框 → 重叠接替且标题让位 → 工作台主体",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "workspace-to-artifact",
+        "name": "工作台到结果",
+        "motion_sequence": "回复页面 → 保持任务标题并替换结果 → 真实看板",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "inner-scroll",
+        "name": "内动外稳",
+        "motion_sequence": "成果窗口 → 窗口内浏览 → 关键内容留读",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "proof-accumulation",
+        "name": "摘要累计",
+        "motion_sequence": "少量结论 → 随证据增加 → 价值摘要",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "timing-after-result",
+        "name": "后置用时牌",
+        "motion_sequence": "结果已展示 → 出现用时与任务范围 → 案例总结",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "chapter-reset",
+        "name": "章节复位",
+        "motion_sequence": "旧成果与摘要 → 淡出并回到大问题 → 下一任务输入",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "capability-tour",
+        "name": "能力巡览",
+        "motion_sequence": "定位导航 → 标签、标题、成果同步变化 → 广度被看见",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "artifact-matrix",
+        "name": "成果成组",
+        "motion_sequence": "单份结果 → 最后成果保持身份，缩小并移入矩阵右下格，其他成果错时建立 → 两行成果集合",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      },
+      {
+        "id": "value-to-brand",
+        "name": "主张到品牌",
+        "motion_sequence": "成果集合 → 短主张后品牌显露 → 标识保持",
+        "source_blueprint": "assets/reference-studies/evidence-led-showcase.json",
+        "production_guide": "references/evidence-led-showcase-production.md",
+        "implementation_evidence": "Generic method; build and review for the current project."
+      }
+    ]
+  },
+  "companion_ui_revision": 2,
+  "evidence_led_revision": "3.27.0"
+}

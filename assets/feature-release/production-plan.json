@@ -1,0 +1,25 @@
+{
+  "title": "一念 STUDIO / 品牌色同步 v3",
+  "product_status": "fictional concept demonstration",
+  "primary_claim": "一个品牌颜色变量驱动网站、海报、移动端的指定视觉样式，同时保留各自版式",
+  "fps": 30,
+  "versions": [
+    {"name":"landscape","duration":24,"size":[1920,1080],"frames":720,"composition":"CLUE — Brand Color / 24s"},
+    {"name":"vertical","duration":18,"size":[1080,1920],"frames":540,"composition":"CLUE — Brand Color / Vertical 18s"}
+  ],
+  "state_change": {"time":6.6,"frame":198,"settled":7.04,"from":"#BE6048","to":"#315FF1","source":"Brand controls / Accent"},
+  "landscape_shots": [
+    {"start":0,"end":2.4,"purpose":"建立同一品牌与作品的关系","subject":"CLUE 海报近景"},
+    {"start":2.4,"end":4.8,"purpose":"展示三种真实排版的触点","subject":"网站 / 海报 / 移动端"},
+    {"start":4.8,"end":8.1,"purpose":"看清操作与即时反馈","subject":"品牌色面板和手机预览"},
+    {"start":8.1,"end":10.8,"purpose":"证明多个触点同步","subject":"同三份设计的改色后全景"},
+    {"start":10.8,"end":13.8,"purpose":"观察网站结果","subject":"大幅网站版面"},
+    {"start":13.8,"end":16.6,"purpose":"观察海报保留版式","subject":"海报近景"},
+    {"start":16.6,"end":19.4,"purpose":"观察移动端结果","subject":"移动端近景"},
+    {"start":19.4,"end":24,"purpose":"收束到一处修改的价值","subject":"同三份作品聚合"}
+  ],
+  "movement": {"native_travel_influence_in":76,"native_travel_influence_out":32,"poster_lag_seconds":0.055,"mobile_lag_seconds":0.11,"note":"Specific to this example. These are not universal motion-design settings."},
+  "assets": {"image":"assets/courtyard.png","provenance":"assets/provenance.md","editable_artwork":["Artwork / Website","Artwork / Poster","Artwork / Mobile","UI / Brand inspector"],"internal_density":2},
+  "audio": {"bpm":100,"landscape":"audio/master.wav","vertical":"audio/vertical/master.wav","notes":"audio/notes.json","cues":"audio/cues.json","native_bank":"Host macOS DLS; not redistributed"},
+  "validation_scope": "Actual exports, decode, signal measurements and sampled visual review are recorded separately; not a working product or user acceptance."
+}
