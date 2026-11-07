@@ -26,3 +26,11 @@ __pycache__/
 *.scraft
 *.figcraft
 *.vectorcraft
+
+# Optional release media and native projects are distributed separately.
+*.ttf
+*.otf
+*.blend
+*.zip
+*.log
+*.fcproj
