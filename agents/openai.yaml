@@ -1,0 +1,4 @@
+interface:
+  display_name: "MG 动效制作与精修"
+  short_description: "软件发布优先，软件、品牌和硬件多风格 MG；含配音、配乐、字幕与原生工程"
+  default_prompt: "使用 $mg-motion-production，制作一支有连续图形叙事的科技产品 MG 发布片，先完成关键动态段，再精修声音、字幕与画面，并交付可编辑工程。"

@@ -1,0 +1,171 @@
+{
+  "software": [
+    {
+      "id": "software-ui",
+      "name": "界面操作发布",
+      "purpose": "标准 SaaS、AI 助手与功能发布；建立界面位置，再演示动作和结果。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "software-editorial",
+      "name": "编辑式信息设计",
+      "purpose": "知识、研究、数据与复杂规则；依靠字阶、原文、比较和留白。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "software-spatial",
+      "name": "空间工作台",
+      "purpose": "多窗口、多文档与跨工具协作；用镜头深度组织对象，阅读时回到正面。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "kinetic-process",
+      "name": "目标成行 / 动态字排与进程叙事",
+      "scene_style": "kinetic-process",
+      "purpose": "把目标或任务解释为结构、阶段、责任与真实产物；适合软件、Agent 和业务方案，数量、品牌与时长按本次内容决定。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "fold-design",
+      "name": "FOLD / 设计展开",
+      "scene_style": "fold-design",
+      "purpose": "让原创作品随组件操作连续改变主题、版式和输出；适合创作软件、创意 AI、内容平台与多尺寸品牌视觉。配色、母形和时长按项目设计。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "editorial-product",
+      "name": "编辑式产品叙事 / Folio",
+      "scene_style": "editorial-product",
+      "purpose": "用大字排与界面特写组织同一内容从输入、结果到修改和交付；适合软件与AI工作空间、知识内容工具，可按真实对象迁移到研发与协作产品。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "luminous-workspace",
+      "name": "柔光工作台与成果叙事",
+      "scene_style": "luminous-workspace",
+      "purpose": "用完整工作台、操作特写和持久任务对象连接多格式成果；适合 AI 办公、Agent、SaaS 与可展示输入和输出的工作流。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md",
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "luminous-workspace",
+        "guide": "references/interactions-and-motion.md"
+      }
+    },
+    {
+      "id": "kinetic-product-pop",
+      "name": "高能混合媒介产品发布",
+      "scene_style": "kinetic-product-pop",
+      "purpose": "以动态大字、独立设计组件、操作特写及可复核成果组织活泼而清楚的软件发布片。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "graphic-product-pop",
+      "name": "图形组件产品发布",
+      "scene_style": "graphic-product-pop",
+      "purpose": "以独立设计的图形组件、动态字排和轻空间，连接产品操作、真实成果与有留白的明快配乐。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md",
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "graphic-product-pop",
+        "guide": "references/interactions-and-motion.md"
+      }
+    },
+    {
+      "id": "companion-ui-explainer",
+      "name": "角色导览 / Companion UI Explainer",
+      "scene_style": "companion-ui-explainer",
+      "purpose": "以持续向导与工作台组织理解过程，把操作、方案比较和可见结果讲清楚。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md",
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "companion-ui-explainer",
+        "guide": "references/interactions-and-motion.md"
+      }
+    },
+    {
+      "id": "evidence-led-showcase",
+      "name": "实证式产品发布 / Evidence-led Showcase",
+      "scene_style": "evidence-led-showcase",
+      "purpose": "少量真实任务说明价值，再以成果巡览与连续集合展示可交接的工作。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md",
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "evidence-led-showcase",
+        "guide": "references/interactions-and-motion.md"
+      }
+    }
+  ],
+  "brand": [
+    {
+      "id": "brand-kinetic",
+      "name": "强节奏动态字体",
+      "purpose": "品牌宣言、发布会、社交广告；用动作体现动词，用母形推动转场。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "brand-editorial",
+      "name": "克制的品牌叙事",
+      "purpose": "设计、专业服务与高端软件品牌；少量字形、细线、留白和较长停顿。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "brand-fluid",
+      "name": "流动抽象视觉",
+      "purpose": "创意科技、平台能力与品牌主视觉；用连续形变建立可识别的品牌母形。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "bold-brand-pop",
+      "name": "热烈品牌 / Bold Brand Pop",
+      "scene_style": "bold-brand-pop",
+      "purpose": "用原创包装/主体、巨幅字体、强色场和连续母形塑造热烈品牌性格；适合消费品牌广告、品牌宣言与开场，按行业重设资产、物性、配色和声音。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "sculptural-type",
+      "name": "字形雕塑＋动态排版",
+      "scene_style": "sculptural-type",
+      "purpose": "品牌发布与焕新、创意工具、科技硬件和文化展陈；同一字形连接实体、文字载体与负空间，按本次品牌重做资产、运动与配乐。软件功能段仍需输入、操作与结果。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    }
+  ],
+  "hardware": [
+    {
+      "id": "hardware-studio",
+      "name": "明亮金属微距",
+      "purpose": "精密硬件与工业设计；以切边、加工结构、反射和整机关系证明质感。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "hardware-optical",
+      "name": "柔和光学材质",
+      "purpose": "透明材料、交互控件与设计语言；折射随功能动作变化，保留柔和明亮空间。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    },
+    {
+      "id": "hardware-engineering",
+      "name": "结构与工程展示",
+      "purpose": "部件、装配与功能原理；用准确分件和引线说明结构，避免伪造工程精度。",
+      "level": "design-and-production-route",
+      "guide": "references/styles.md"
+    }
+  ]
+}

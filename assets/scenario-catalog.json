@@ -1,0 +1,1924 @@
+{
+  "version": "1.0.0",
+  "styles": {
+    "editorial-type": {
+      "name": "极简编辑 / 动态字体",
+      "assets": "字体、短文案、基线与字号层级",
+      "motion": "按词义揭示，保留完整阅读；不默认逐字弹跳",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "precise-ui": {
+      "name": "精确产品 UI",
+      "assets": "真实状态、组件与操作反馈",
+      "motion": "焦点、选区、光标、成功 / 失败状态保持因果",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "spatial-ui": {
+      "name": "2.5D / 空间界面",
+      "assets": "完整界面、层级、可读正视面",
+      "motion": "透视与相机只用于揭示关系，阅读时回到稳定构图",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "optical": {
+      "name": "玻璃 / 金属 / 光学材质",
+      "assets": "实体厚度、可信法线、反射环境",
+      "motion": "微距、连续灯光和有观察目标的相机",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "matte-3d": {
+      "name": "哑光 / 黏土 / 柔性三维",
+      "assets": "有设计的轮廓、尺度、粗糙度与接触阴影",
+      "motion": "重量、挤压和碰撞服从材质；避免默认玩具质感",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "flat-illustration": {
+      "name": "二维扁平 / 图标插画",
+      "assets": "统一线宽、造型比例与有限色板",
+      "motion": "语义形变、轮廓接力、错峰动作",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "character": {
+      "name": "角色表演 / 叙事插画",
+      "assets": "角色设定、分层或绑定、关键姿态",
+      "motion": "明确意图、预备与反应；滑动贴图不等于角色表演",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "paper-collage": {
+      "name": "纸感 / 手作 / 编辑拼贴",
+      "assets": "图片、纸张边缘、纹理与版式",
+      "motion": "有限帧率性格、遮挡接力、稳定纹理",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "technical": {
+      "name": "结构技术 / 线框 / 克制 HUD",
+      "assets": "有含义的结构、编号、路径与标尺",
+      "motion": "明亮中性底上的描线、流向、组装与结构揭示；颜色承载字段或状态，不默认黑底或发光",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "data-map": {
+      "name": "数据 / 地图 / 信息图",
+      "assets": "可复算数据、编码、底图与图例",
+      "motion": "保持尺度和投影，让数据对象持续存在",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "bold-type": {
+      "name": "高对比 / 大字 / 节奏几何",
+      "assets": "大字号、强色块、母形与节拍",
+      "motion": "主次节拍、尺度跳变、构图匹配切，留出关键停顿",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "footage-hybrid": {
+      "name": "实拍 / 三维 / 图形混合",
+      "assets": "影像、跟踪、遮挡和统一色彩",
+      "motion": "图形与真实世界同一运动和光照逻辑",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "kinetic-process": {
+      "name": "目标成行 / 动态字排与进程叙事",
+      "assets": "本次品牌、带单位与来源的主对象、可拆解的结构/阶段、真实界面与产物；数量和时长按内容确定",
+      "motion": "同一数字或关键词持续转化为结构与阶段；遮罩展开、路径接力、时间轴推进，完整停稳后回到真实结果",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "fold-design": {
+      "name": "设计展开",
+      "assets": "本次品牌的原创作品、几何母形、字体与色彩角色、组件前后状态，以及分别设计的必要输出版式；保留可编辑路径和文字",
+      "motion": "让组件操作改变同一件作品，以对象身份和边界连接主题、版式与输出；完整界面建立位置、特写展示变化、结果停稳，主体再接品牌收尾",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "editorial-product": {
+      "name": "编辑式产品叙事",
+      "assets": "本次产品的完整结果资产、精确字排与色彩角色、来源与输入、选区与修改、分享或交付的组件状态；保留可编辑文字与矢量",
+      "motion": "稀疏大字与密集产品证据交替，完整界面与操作特写切换尺度；让同一内容经历输入、结果、修改与交付，用局部滚动、线条与对象接替保持连续",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "bold-brand-pop": {
+      "name": "热烈品牌 / Bold Brand Pop",
+      "assets": "本次品牌的原创字标、图形母形、包装/实体产品或插画、有限强色场与字幕色彩角色；先完成能独立成立的设计资产，三维按需要使用",
+      "motion": "在产品特写、巨幅字体、图案展开与清楚落版之间改变密度；让同一母形接替包装、标点和转场，刚性产品与弹性图形分开设计，快段后留可读停顿",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "sculptural-type": {
+      "name": "字形雕塑＋动态排版",
+      "assets": "本次品牌的原创字形/母形、命名矢量路径与对应实体构件、文字版式、明亮环境与前侧面材质、字幕色彩；Figma/PhotoCraft 按资产需要使用",
+      "motion": "同一轮廓在三维实体、平面文字载体与负空间之间连续改变角色；以真实可见轮廓连接三维与二维，尺度与密度变化之后留出可读停顿",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "luminous-workspace": {
+      "name": "柔光工作台与成果叙事",
+      "assets": "本次软件工作台、关键输入与来源、共享任务对象、实际报告/演示/网页等结果、明确文件名；统一字体与色彩角色，保留矢量与可编辑文字；独立职责的资料/结论窗口、同一组件修改前后的设计状态",
+      "motion": "全景定位 → 资料与结论双窗口 → 操作靠近 → 选区和具体指令 → 同一对象重排 → 停稳阅读 → 成果交付；持久任务、来源与关键内容贯穿，镜头和内容变化错开",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": [],
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "luminous-workspace",
+        "guide": "references/interactions-and-motion.md"
+      }
+    },
+    "kinetic-product-pop": {
+      "name": "高能混合媒介产品发布",
+      "assets": "本次品牌字标与配色、独立设计的文件/图标/票签与状态控件、可读结果页；按真实镜头需要选择立体资产，保留设计源和动画分层",
+      "motion": "大字、分层组件、描线与操作特写交替；开合、浅透视及阴影服务信息层级，来源身份进入输入与结果；按需求使用真实三维，阅读时停稳",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": []
+    },
+    "graphic-product-pop": {
+      "name": "图形组件产品发布",
+      "assets": "本次品牌字形、有限色彩角色、独立设计的文件/票签/任务/结果组件与前后状态；按动作拆层，保留 FigCraft / VectorCraft 源与真实交接素材",
+      "motion": "动态字排与设计组件错峰展开；纸张开合、路径描线、轻透视与浅阴影建立层级；同一输入进入操作和可读成果，对象或色彩接替转场，快段后停稳",
+      "engine": "FigCraft / VectorCraft 设计 → EffectCraft 原生合成 → IndexTTS2 / MiniMax Music / SoundCraft 声音；按实际镜头需要选用其他工具",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": [],
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "graphic-product-pop",
+        "guide": "references/interactions-and-motion.md"
+      }
+    },
+    "companion-ui-explainer": {
+      "name": "角色导览 / Companion UI Explainer",
+      "assets": "本次产品的持续工作台、原创向导分层 rig、语义组件、真实控件状态与独立设计结果；按组件蓝图制作，不复制参考片品牌角色",
+      "motion": "视线与手势引导、对象错峰出现、界面退焦和局部操作、连接/状态传播、左右比较、任务到结果与复盘；由讲解语义组织停顿",
+      "engine": "FigCraft / VectorCraft 设计 → EffectCraft 原生动画 → IndexTTS2 / MiniMax Music / SoundCraft 声音",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": [],
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "companion-ui-explainer",
+        "guide": "references/interactions-and-motion.md"
+      }
+    },
+    "evidence-led-showcase": {
+      "name": "实证式产品发布 / Evidence-led Showcase",
+      "assets": "本次品牌、原始请求、真实产品页面、实际成果、来源和范围说明；同产品已授权参考业务可沿用，其他项目重新核实，不挪用客户数据",
+      "motion": "问题逐字显露与停靠、输入前景交给工作台、成果与摘要、由慢到快的巡览、最后结果连续进入自适应矩阵。",
+      "engine": "FigCraft 设计 → EffectCraft 原生合成 → 本地 IndexTTS2 / MiniMax Music / SoundCraft",
+      "guide": "references/styles.md",
+      "evidence": [],
+      "checks": [],
+      "interaction_motion_profile": {
+        "path": "assets/native-interaction/style-profiles.json",
+        "style": "evidence-led-showcase",
+        "guide": "references/interactions-and-motion.md"
+      }
+    }
+  },
+  "evidence": {},
+  "scenarios": [
+    {
+      "id": "software-launch",
+      "family": "软件与 AI",
+      "title": "软件 / AI 能力发布",
+      "default_duration": 30,
+      "styles": [
+        "precise-ui",
+        "spatial-ui",
+        "editorial-type",
+        "kinetic-process",
+        "fold-design",
+        "editorial-product",
+        "sculptural-type",
+        "luminous-workspace",
+        "kinetic-product-pop",
+        "graphic-product-pop",
+        "companion-ui-explainer",
+        "evidence-led-showcase"
+      ],
+      "inputs": [
+        "产品名称与已实现能力",
+        "一条可复现的输入—结果链",
+        "真实界面或明确标注的概念界面",
+        "品牌与目标入口"
+      ],
+      "beats": [
+        {
+          "id": "need",
+          "purpose": "建立具体任务",
+          "visual": "以一项待完成工作开场，出现输入资料",
+          "continuity": "同一任务名和资料贯穿全片",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "reveal",
+          "purpose": "揭示新能力",
+          "visual": "资料进入产品；抽象母形收束为真实工作区",
+          "continuity": "抽象元素必须在界面中有对应身份",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "proof",
+          "purpose": "证明主要价值",
+          "visual": "完成关键动作，保留反馈与可读结果",
+          "continuity": "操作先于反馈，结果保留输入痕迹",
+          "weight": 2,
+          "reading_seconds": 4,
+          "sound": "tap"
+        },
+        {
+          "id": "value",
+          "purpose": "让观众判断价值",
+          "visual": "把结果放回原任务，展示可用产物",
+          "continuity": "不凭空插入没有演示过的第二个卖点",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "close",
+          "purpose": "识别产品与入口",
+          "visual": "品牌和明确入口落在稳定构图",
+          "continuity": "继承结果的一种颜色或形态",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "删掉口号后是否仍能看懂能力",
+        "结果是否与输入一致",
+        "品牌与入口可读"
+      ],
+      "avoid": "只有品牌词和漂亮粒子，没有产品证据",
+      "components": [
+        "focus-highlight",
+        "workflow-handoff"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "feature-demo",
+      "family": "软件与 AI",
+      "title": "单功能更新 / 操作演示",
+      "default_duration": 18,
+      "styles": [
+        "precise-ui",
+        "editorial-type",
+        "kinetic-process",
+        "fold-design",
+        "editorial-product",
+        "luminous-workspace",
+        "kinetic-product-pop",
+        "graphic-product-pop",
+        "companion-ui-explainer"
+      ],
+      "inputs": [
+        "操作前与操作后的真实状态",
+        "触发控件和成功反馈",
+        "需要保留的等待 / 异常说明"
+      ],
+      "beats": [
+        {
+          "id": "before",
+          "purpose": "建立操作前状态",
+          "visual": "放大一个具体问题区域",
+          "continuity": "保持界面位置与对象数量",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "action",
+          "purpose": "展示一次关键操作",
+          "visual": "光标、选区与点击共同指向同一控件",
+          "continuity": "焦点从问题区域交给控件",
+          "weight": 1,
+          "reading_seconds": 1.5,
+          "sound": "tap"
+        },
+        {
+          "id": "response",
+          "purpose": "看到状态传播",
+          "visual": "同步变化通过实际目标逐个反馈",
+          "continuity": "同一状态变量驱动所有结果",
+          "weight": 1.5,
+          "reading_seconds": 2,
+          "sound": "link"
+        },
+        {
+          "id": "after",
+          "purpose": "阅读结果与价值",
+          "visual": "回到稳定全貌，点明这次改变",
+          "continuity": "用原区域对照而非另换一张界面",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "按钮、选区和焦点没有错位",
+        "结果早于操作的帧不存在",
+        "变化前后可比"
+      ],
+      "avoid": "缩短等待到使因果关系消失",
+      "components": [
+        "focus-highlight"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "agent-workflow",
+      "family": "软件与 AI",
+      "title": "Agent / 多步骤智能任务",
+      "default_duration": 30,
+      "styles": [
+        "spatial-ui",
+        "technical",
+        "precise-ui",
+        "kinetic-process",
+        "editorial-product",
+        "luminous-workspace",
+        "kinetic-product-pop",
+        "graphic-product-pop",
+        "companion-ui-explainer",
+        "evidence-led-showcase"
+      ],
+      "inputs": [
+        "任务、角色与工具边界",
+        "每一步的输入输出",
+        "检查和人工介入点",
+        "可实际浏览或下载的交付物及检查记录"
+      ],
+      "beats": [
+        {
+          "id": "task",
+          "purpose": "建立工作目标",
+          "visual": "任务卡包含具体交付物",
+          "continuity": "任务编号贯穿",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "split",
+          "purpose": "解释依赖关系",
+          "visual": "拆出有职责的角色与工具",
+          "continuity": "连线表示依赖或交接，不表示装饰",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "work",
+          "purpose": "看到中间产物",
+          "visual": "研究产生来源、设计产生画面、检查产生修改",
+          "continuity": "产物跟随真实责任节点",
+          "weight": 2,
+          "reading_seconds": 3,
+          "sound": "link"
+        },
+        {
+          "id": "review",
+          "purpose": "呈现质量判断",
+          "visual": "检查通过或返回修订的状态可见",
+          "continuity": "反馈回到同一产物",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "tap"
+        },
+        {
+          "id": "deliver",
+          "purpose": "交付可用结果",
+          "visual": "中间产物汇成文件、页面或报告",
+          "continuity": "展示可用产物而非抽象发光球",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "每条边有定义",
+        "每个角色有产物",
+        "没有伪装成真实已运行任务",
+        "交付物可实际打开且与片中内容相符",
+        "关键交付检查有对应记录",
+        "状态变化与点击 cue 使用共同时间"
+      ],
+      "avoid": "所有节点同时闪烁，无法判断顺序",
+      "components": [
+        "workflow-handoff"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "developer-api",
+      "family": "软件与 AI",
+      "title": "API / SDK / 模型开发者发布",
+      "default_duration": 25,
+      "styles": [
+        "technical",
+        "precise-ui",
+        "editorial-type",
+        "editorial-product",
+        "luminous-workspace",
+        "kinetic-product-pop",
+        "graphic-product-pop",
+        "companion-ui-explainer"
+      ],
+      "inputs": [
+        "可运行或标为示意的请求与响应",
+        "字段对应关系",
+        "性能数字的条件与来源",
+        "文档 / SDK 入口"
+      ],
+      "beats": [
+        {
+          "id": "request",
+          "purpose": "呈现接入动作",
+          "visual": "聚焦一小段合法请求及输入参数",
+          "continuity": "参数名成为后续对应标记",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "tap"
+        },
+        {
+          "id": "boundary",
+          "purpose": "说明处理边界",
+          "visual": "请求越过 API 边界，展示必要模块",
+          "continuity": "同一个 request_id 或字段保持身份",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "link"
+        },
+        {
+          "id": "response",
+          "purpose": "看见可用返回值",
+          "visual": "响应字段进入实际结果视图",
+          "continuity": "代码字段和屏幕结果逐一对应",
+          "weight": 2,
+          "reading_seconds": 4,
+          "sound": "air"
+        },
+        {
+          "id": "developer-close",
+          "purpose": "给下一步",
+          "visual": "只保留 SDK 名、文档入口或调用方式",
+          "continuity": "收束到可读代码片段",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "代码语法和返回结构相容",
+        "性能比较具有相同条件",
+        "代码停留时间足够"
+      ],
+      "avoid": "以乱码代码墙冒充技术深度",
+      "components": [
+        "focus-highlight",
+        "workflow-handoff"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "onboarding",
+      "family": "使用与业务",
+      "title": "新手引导 / 操作教程",
+      "default_duration": 30,
+      "styles": [
+        "precise-ui",
+        "flat-illustration",
+        "editorial-product",
+        "luminous-workspace",
+        "companion-ui-explainer"
+      ],
+      "inputs": [
+        "用户的起始状态与目标",
+        "真实步骤、光标和点击位置",
+        "可恢复的错误或返回方式"
+      ],
+      "beats": [
+        {
+          "id": "goal",
+          "purpose": "确认本次任务",
+          "visual": "先展示完成后的目标和所需准备",
+          "continuity": "目标始终可识别",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "step-one",
+          "purpose": "演示第一步",
+          "visual": "用局部高亮而非整屏缩放找到入口",
+          "continuity": "步骤编号与焦点对应",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "tap"
+        },
+        {
+          "id": "step-two",
+          "purpose": "推进关键步骤",
+          "visual": "保留输入、保存与成功反馈",
+          "continuity": "不省略决定结果的操作",
+          "weight": 2,
+          "reading_seconds": 4,
+          "sound": "tap"
+        },
+        {
+          "id": "verify",
+          "purpose": "确认完成",
+          "visual": "回到完整界面展示结果和验证位置",
+          "continuity": "结果与开头目标一致",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "resolve"
+        },
+        {
+          "id": "recap",
+          "purpose": "帮助复述",
+          "visual": "压缩回顾动作而不是新增知识",
+          "continuity": "步骤编号原位复现",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "初始条件清楚",
+        "用户能按片操作成功",
+        "字幕不遮控件"
+      ],
+      "avoid": "宣传片式快切导致步骤不可执行",
+      "components": [
+        "focus-highlight"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "business-process",
+      "family": "使用与业务",
+      "title": "企业流程 / 服务旅程",
+      "default_duration": 30,
+      "styles": [
+        "flat-illustration",
+        "technical",
+        "spatial-ui",
+        "kinetic-process",
+        "luminous-workspace",
+        "graphic-product-pop",
+        "companion-ui-explainer"
+      ],
+      "inputs": [
+        "流程起终点与参与者",
+        "交接对象、状态与例外",
+        "实际系统或部门名称"
+      ],
+      "beats": [
+        {
+          "id": "trigger",
+          "purpose": "建立业务触发",
+          "visual": "一份需求进入流程泳道",
+          "continuity": "每份任务有稳定 ID",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "handoff",
+          "purpose": "展示责任转移",
+          "visual": "任务经过角色与系统边界",
+          "continuity": "原对象交接，不在下游凭空复制",
+          "weight": 2,
+          "reading_seconds": 3,
+          "sound": "link"
+        },
+        {
+          "id": "exception",
+          "purpose": "解释一个关键分支",
+          "visual": "缺资料或需审核时进入回路",
+          "continuity": "分支保持方向、状态与返回条件",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "tap"
+        },
+        {
+          "id": "outcome",
+          "purpose": "展示业务结果",
+          "visual": "任务到达交付态，显示必要留痕",
+          "continuity": "以结果和责任人收束",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "责任、数据流、时间流分清",
+        "异常回路有出口",
+        "不虚构审批或自动化能力"
+      ],
+      "avoid": "把所有流程画成没有业务含义的网络",
+      "components": [
+        "workflow-handoff",
+        "route-draw"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "customer-case",
+      "family": "使用与业务",
+      "title": "客户案例 / 商业价值说明",
+      "default_duration": 45,
+      "styles": [
+        "footage-hybrid",
+        "data-map",
+        "editorial-type",
+        "luminous-workspace"
+      ],
+      "inputs": [
+        "可使用的客户素材与事实",
+        "前后对比的基线、周期和条件",
+        "实际改进过程",
+        "可公开的评价或结果"
+      ],
+      "beats": [
+        {
+          "id": "context",
+          "purpose": "交代真实处境",
+          "visual": "人物、任务或业务现场建立尺度",
+          "continuity": "同一客户和任务贯穿",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "baseline",
+          "purpose": "理解原有问题",
+          "visual": "用事实或同尺度数据展示基线",
+          "continuity": "保留单位和比较条件",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "change",
+          "purpose": "说明发生了什么",
+          "visual": "实际操作 / 流程改变与 MG 标注结合",
+          "continuity": "标注对应镜头中的真实对象",
+          "weight": 2,
+          "reading_seconds": 4,
+          "sound": "link"
+        },
+        {
+          "id": "evidence",
+          "purpose": "阅读结果证据",
+          "visual": "同尺度前后对比与来源说明",
+          "continuity": "不改变图表比例或样本口径",
+          "weight": 1.5,
+          "reading_seconds": 4,
+          "sound": "resolve"
+        },
+        {
+          "id": "case-close",
+          "purpose": "落在可复述价值",
+          "visual": "客户评价或结果总结与品牌连接",
+          "continuity": "不加入材料无法支持的收益承诺",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "客户身份和素材使用范围明确",
+        "数值口径一致",
+        "没有把概念场景写成真实案例"
+      ],
+      "avoid": "用虚构百分比填补缺少的客户证据",
+      "components": [
+        "data-compare",
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "brand-manifesto",
+      "family": "品牌与传播",
+      "title": "品牌理念 / 动态宣言",
+      "default_duration": 30,
+      "styles": [
+        "editorial-type",
+        "paper-collage",
+        "bold-type",
+        "optical",
+        "fold-design",
+        "bold-brand-pop",
+        "sculptural-type"
+      ],
+      "inputs": [
+        "一个核心品牌主张",
+        "可用品牌标识、字体与色彩",
+        "主张的视觉隐喻或真实行为"
+      ],
+      "beats": [
+        {
+          "id": "motif",
+          "purpose": "建立母形或关键词",
+          "visual": "一个可辨识形态或句子引出主张",
+          "continuity": "母形全片保留识别特征",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "develop",
+          "purpose": "展开主张",
+          "visual": "两到三个有意义的动作改变母形",
+          "continuity": "每次变化对应主张的一层含义",
+          "weight": 2,
+          "reading_seconds": 3,
+          "sound": "link"
+        },
+        {
+          "id": "peak",
+          "purpose": "形成视觉记忆",
+          "visual": "尺度或节奏变化集中在一个主时刻",
+          "continuity": "不同时堆叠多种视觉体系",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "impact"
+        },
+        {
+          "id": "brand-lockup",
+          "purpose": "完成品牌识别",
+          "visual": "母形收束成品牌组合与一句主张",
+          "continuity": "Logo 比例和留白保持准确",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "去掉 Logo 仍有一致视觉语言",
+        "句子可完整读完",
+        "隐喻与主张有关"
+      ],
+      "avoid": "把任意酷炫形变当作品牌表达",
+      "components": [
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "identity-sting",
+      "family": "品牌与传播",
+      "title": "Logo 动画 / 品牌识别套件",
+      "default_duration": 6,
+      "styles": [
+        "editorial-type",
+        "flat-illustration",
+        "optical",
+        "bold-type",
+        "bold-brand-pop",
+        "sculptural-type"
+      ],
+      "inputs": [
+        "正式矢量标识及变体",
+        "最小尺寸、保护区与背景要求",
+        "短版 / 长版 / 透明底需求"
+      ],
+      "beats": [
+        {
+          "id": "identity-seed",
+          "purpose": "建立识别线索",
+          "visual": "从标识的笔画、负形或构件开始",
+          "continuity": "使用真实矢量轮廓",
+          "weight": 1,
+          "reading_seconds": 0.5,
+          "sound": "air"
+        },
+        {
+          "id": "assemble",
+          "purpose": "完成可识别动作",
+          "visual": "构件沿一致逻辑组合",
+          "continuity": "终态严格落到品牌标识",
+          "weight": 2,
+          "reading_seconds": 0.8,
+          "sound": "link"
+        },
+        {
+          "id": "hold",
+          "purpose": "给识别停顿",
+          "visual": "在背景与透明底均检查停留",
+          "continuity": "Logo 不再抖动或持续漂移",
+          "weight": 1.5,
+          "reading_seconds": 1.2,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "终态与品牌源文件一致",
+        "浅深背景与透明边缘正常",
+        "短版依然可识别"
+      ],
+      "avoid": "靠拉伸、过度弹跳破坏字标比例",
+      "components": [
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "performance-ad",
+      "family": "品牌与传播",
+      "title": "社媒广告 / 转化短片",
+      "default_duration": 15,
+      "styles": [
+        "bold-type",
+        "precise-ui",
+        "flat-illustration",
+        "footage-hybrid",
+        "bold-brand-pop",
+        "sculptural-type",
+        "kinetic-product-pop",
+        "graphic-product-pop"
+      ],
+      "inputs": [
+        "单一受众与卖点",
+        "一份可展示的结果证据",
+        "真实 CTA 和素材",
+        "目标渠道的当前安全区"
+      ],
+      "beats": [
+        {
+          "id": "hook",
+          "purpose": "迅速交代价值",
+          "visual": "首屏出现结果、问题或明确利益",
+          "continuity": "首帧也能独立理解",
+          "weight": 1,
+          "reading_seconds": 1.5,
+          "sound": "impact"
+        },
+        {
+          "id": "ad-proof",
+          "purpose": "用一个动作证明",
+          "visual": "产品或真实使用情景完成一次变化",
+          "continuity": "不并列展示五个竞争卖点",
+          "weight": 2,
+          "reading_seconds": 2.5,
+          "sound": "tap"
+        },
+        {
+          "id": "ad-benefit",
+          "purpose": "巩固记忆",
+          "visual": "结果与一句收益表述同屏",
+          "continuity": "表述不超出刚展示的证据",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "cta",
+          "purpose": "给出行动",
+          "visual": "可读入口与品牌在稳定区域停留",
+          "continuity": "竖屏重排，按钮不落入平台遮挡区",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "静音可懂",
+        "首屏不是无关品牌空镜",
+        "CTA真实且可读"
+      ],
+      "avoid": "直接裁切横版导致主体和行动入口丢失",
+      "components": [
+        "focus-highlight",
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "product-material",
+      "family": "实体与工业产品",
+      "title": "材质 / 工艺 / 微距产品片",
+      "default_duration": 12,
+      "styles": [
+        "optical",
+        "matte-3d",
+        "footage-hybrid",
+        "bold-brand-pop",
+        "sculptural-type"
+      ],
+      "inputs": [
+        "产品尺寸、形态与材质依据",
+        "模型 / 实拍或明确的设计概念",
+        "要观察的材质细节"
+      ],
+      "beats": [
+        {
+          "id": "macro",
+          "purpose": "让细节成为证据",
+          "visual": "从倒角、玻璃厚度、纹理或加工结构切入",
+          "continuity": "镜头保持可跟踪表面",
+          "weight": 1.4,
+          "reading_seconds": 1.3,
+          "sound": "air"
+        },
+        {
+          "id": "reveal-product",
+          "purpose": "识别完整对象",
+          "visual": "连续拉远或匹配切回到产品",
+          "continuity": "材质特写中的部位在全景可定位",
+          "weight": 1.7,
+          "reading_seconds": 1.5,
+          "sound": "air"
+        },
+        {
+          "id": "material-action",
+          "purpose": "让材质响应可见",
+          "visual": "滑动、转动或光源移动展示反射 / 折射",
+          "continuity": "变化有对应对象，不任意换材质",
+          "weight": 1.4,
+          "reading_seconds": 1.5,
+          "sound": "tap"
+        },
+        {
+          "id": "material-close",
+          "purpose": "形成落版",
+          "visual": "稳定产品角度与品牌 / 型号",
+          "continuity": "保留主光方向与尺度",
+          "weight": 1,
+          "reading_seconds": 1.5,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "微距、中景、全景均设计成立",
+        "法线与接触阴影可靠",
+        "运动中没有材质闪烁"
+      ],
+      "avoid": "用发光球和默认圆环替代产品设计",
+      "components": [],
+      "engine": "Blender Cycles + EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "product-function",
+      "family": "实体与工业产品",
+      "title": "硬件 / 电商功能卖点",
+      "default_duration": 25,
+      "styles": [
+        "footage-hybrid",
+        "matte-3d",
+        "optical",
+        "flat-illustration"
+      ],
+      "inputs": [
+        "真实型号与功能条件",
+        "使用动作与结果资产",
+        "尺寸、参数和适用范围"
+      ],
+      "beats": [
+        {
+          "id": "use-need",
+          "purpose": "建立使用需求",
+          "visual": "用真实环境或尺度参照引出任务",
+          "continuity": "人、产品和环境比例一致",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "use-action",
+          "purpose": "展示操作",
+          "visual": "一次可执行动作驱动产品变化",
+          "continuity": "手势 / 结构运动符合约束",
+          "weight": 1.5,
+          "reading_seconds": 2,
+          "sound": "tap"
+        },
+        {
+          "id": "inside",
+          "purpose": "解释必要机制",
+          "visual": "通过局部剖面或标注说明原因",
+          "continuity": "剖面位置对应完整产品",
+          "weight": 1.5,
+          "reading_seconds": 2.5,
+          "sound": "link"
+        },
+        {
+          "id": "use-result",
+          "purpose": "看到功能结果",
+          "visual": "回到使用环境，用同条件对照",
+          "continuity": "参数附条件，不凭空增加性能",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "resolve"
+        },
+        {
+          "id": "model-close",
+          "purpose": "识别型号与下一步",
+          "visual": "型号、关键配置与入口落版",
+          "continuity": "不混用不同型号的部件与规格",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "功能能按画面实现",
+        "尺寸与材质未误导",
+        "型号参数有依据"
+      ],
+      "avoid": "只有绕拍，没有使用结果",
+      "components": [
+        "focus-highlight",
+        "title-banner"
+      ],
+      "engine": "Blender / 实拍 + EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "industrial-exploded",
+      "family": "实体与工业产品",
+      "title": "工业结构 / 爆炸拆解 / 装配",
+      "default_duration": 25,
+      "styles": [
+        "technical",
+        "matte-3d",
+        "optical"
+      ],
+      "inputs": [
+        "CAD / 分件模型或可信结构资料",
+        "装配顺序与运动约束",
+        "剖面和标签定义"
+      ],
+      "beats": [
+        {
+          "id": "assembled",
+          "purpose": "建立整体",
+          "visual": "先给完整对象与朝向基准",
+          "continuity": "轴向和主件 ID 保持稳定",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "explode",
+          "purpose": "解释结构层级",
+          "visual": "按装配轴分离部件并留下定位关系",
+          "continuity": "部件不穿插，不凭空出现",
+          "weight": 2,
+          "reading_seconds": 3,
+          "sound": "link"
+        },
+        {
+          "id": "inspect",
+          "purpose": "解释关键部件",
+          "visual": "高亮一个部件及其作用，标注跟随三维投影",
+          "continuity": "标签与具体部件绑定",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "assemble-return",
+          "purpose": "还原工作状态",
+          "visual": "按合理顺序回装并演示必要运动",
+          "continuity": "最终位置与初始装配一致",
+          "weight": 1.5,
+          "reading_seconds": 2,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "部件和轴向有结构依据",
+        "装配路径无不合理穿透",
+        "标签不滑动也不遮主件"
+      ],
+      "avoid": "按视觉好看随意拆开有约束的结构",
+      "components": [],
+      "engine": "Blender + EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "data-story",
+      "family": "信息与知识",
+      "title": "数据故事 / 业绩 / 研究结果",
+      "default_duration": 30,
+      "styles": [
+        "data-map",
+        "editorial-type",
+        "technical",
+        "kinetic-process"
+      ],
+      "inputs": [
+        "可复算数据、单位与周期",
+        "比较基线和来源",
+        "结论成立的范围",
+        "结论之后的待验证行动和报告格式"
+      ],
+      "beats": [
+        {
+          "id": "question",
+          "purpose": "建立数据问题",
+          "visual": "用一句具体问题选择观察维度",
+          "continuity": "问题对应一个图表编码",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "baseline",
+          "purpose": "建立可读尺度",
+          "visual": "先给基线、单位和样本范围",
+          "continuity": "比较期间不改标尺",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "air"
+        },
+        {
+          "id": "compare",
+          "purpose": "看见差异",
+          "visual": "同组数据从表到图或从整体到分组",
+          "continuity": "数值与图形尺寸共享数据源",
+          "weight": 2,
+          "reading_seconds": 3.5,
+          "sound": "link"
+        },
+        {
+          "id": "insight",
+          "purpose": "指出重要变化",
+          "visual": "高亮贡献来源或例外项",
+          "continuity": "不让装饰动画夸大差异",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "resolve"
+        },
+        {
+          "id": "source",
+          "purpose": "保存解释边界",
+          "visual": "结论、口径和必要来源同时可读",
+          "continuity": "不将相关性改写为因果",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "air"
+        },
+        {
+          "id": "deliver",
+          "purpose": "把洞察交付为可使用的结果",
+          "visual": "分析简报保留来源、结论和待验证下一步",
+          "continuity": "高亮数据段成为行动或报告中的同一结论",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "图表数值可复算",
+        "编码和单位一致",
+        "来源与不确定性未被删掉",
+        "停留段共同基线未被空间曲线拉偏",
+        "零值不画假柱，负贡献另定编码",
+        "下一步区分已经证明与仍需验证",
+        "交付报告保留来源数据与口径"
+      ],
+      "avoid": "为戏剧性改变纵轴或隐藏基线",
+      "components": [
+        "data-compare"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "mechanism-explainer",
+      "family": "信息与知识",
+      "title": "原理科普 / 教学 / 分步解释",
+      "default_duration": 40,
+      "styles": [
+        "flat-illustration",
+        "character",
+        "technical",
+        "paper-collage",
+        "companion-ui-explainer"
+      ],
+      "inputs": [
+        "需要解释的因果链",
+        "目标观众已有知识",
+        "关键术语与事实依据",
+        "适用的示意与真实比例边界"
+      ],
+      "beats": [
+        {
+          "id": "known",
+          "purpose": "从已知开始",
+          "visual": "用熟悉对象提出一个具体问题",
+          "continuity": "保持一个主对象",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "cause",
+          "purpose": "解释原因",
+          "visual": "改变一个条件并显示作用位置",
+          "continuity": "原因先于结果，其他条件尽量不变",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "tap"
+        },
+        {
+          "id": "mechanism",
+          "purpose": "展示中间过程",
+          "visual": "把不可见环节拆成有身份的阶段",
+          "continuity": "同一对象跨阶段保持识别",
+          "weight": 2,
+          "reading_seconds": 4,
+          "sound": "link"
+        },
+        {
+          "id": "contrast",
+          "purpose": "通过对照理解",
+          "visual": "显示一个有意义的条件差异",
+          "continuity": "区分示意比例与真实数量",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "recap",
+          "purpose": "让观众能复述",
+          "visual": "用简短步骤收束因果链",
+          "continuity": "回到开头问题",
+          "weight": 1,
+          "reading_seconds": 3,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "动画顺序没有改变因果",
+        "类比的边界明确",
+        "文字负荷和解释速度匹配"
+      ],
+      "avoid": "按音乐节拍硬切掉理解所需的中间步骤",
+      "components": [
+        "workflow-handoff",
+        "focus-highlight"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "map-journey",
+      "family": "信息与知识",
+      "title": "地图 / 路线 / 区域变化",
+      "default_duration": 25,
+      "styles": [
+        "data-map",
+        "flat-illustration",
+        "technical",
+        "companion-ui-explainer"
+      ],
+      "inputs": [
+        "可使用且合适精度的底图",
+        "地名、坐标、距离和时间依据",
+        "路线 / 区域数据及投影选择"
+      ],
+      "beats": [
+        {
+          "id": "locate",
+          "purpose": "建立地理参照",
+          "visual": "先出现边界、关键地名与尺度",
+          "continuity": "镜头坐标与投影固定",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "travel",
+          "purpose": "说明路线或流向",
+          "visual": "端点先出现，再沿真实路径描出",
+          "continuity": "移动点绑定同一路径，不手写近似位置",
+          "weight": 2,
+          "reading_seconds": 2.5,
+          "sound": "link"
+        },
+        {
+          "id": "local-detail",
+          "purpose": "理解关键区域",
+          "visual": "镜头聚焦节点或局部比较",
+          "continuity": "放大后保留方向与位置线索",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "map-close",
+          "purpose": "回到空间结论",
+          "visual": "整体路线、图例与时间范围可读",
+          "continuity": "回到开头的参照系统",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "底图、坐标与边界有依据",
+        "投影变化不误导面积 / 距离",
+        "示意路线被标明为示意"
+      ],
+      "avoid": "用随机点和连线冒充地理事实",
+      "components": [
+        "route-draw"
+      ],
+      "engine": "地图 / SVG 数据 + EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "editorial-story",
+      "family": "信息与知识",
+      "title": "新闻资讯 / 年表 / 编辑叙事",
+      "default_duration": 30,
+      "styles": [
+        "paper-collage",
+        "editorial-type",
+        "data-map",
+        "footage-hybrid",
+        "kinetic-process",
+        "editorial-product"
+      ],
+      "inputs": [
+        "已核实的事实和时间线",
+        "图片、引用与来源",
+        "一条叙事问题"
+      ],
+      "beats": [
+        {
+          "id": "editorial-hook",
+          "purpose": "建立事实问题",
+          "visual": "主标题与证据图像一起出现",
+          "continuity": "标题不超出来源含义",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "timeline",
+          "purpose": "梳理关键节点",
+          "visual": "同一时间轴承载图片与事件",
+          "continuity": "时间间隔与画面表达关系明确",
+          "weight": 2,
+          "reading_seconds": 3,
+          "sound": "link"
+        },
+        {
+          "id": "context",
+          "purpose": "补足理解条件",
+          "visual": "用一张对比图或局部资料解释转折",
+          "continuity": "来源跟随被引用的事实",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "editorial-close",
+          "purpose": "给出已知与未知",
+          "visual": "总结已确认变化及必要边界",
+          "continuity": "不把预测动画成已发生事件",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "事件时间与发布日期分开",
+        "引用和图像含义未被改变",
+        "未知内容未伪装为事实"
+      ],
+      "avoid": "所有素材同速飞入，失去时间与证据层次",
+      "components": [
+        "route-draw",
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "stage-opening",
+      "family": "发布会与展陈",
+      "title": "发布会 / 演讲开场",
+      "default_duration": 25,
+      "styles": [
+        "bold-type",
+        "editorial-type",
+        "optical",
+        "technical",
+        "bold-brand-pop",
+        "sculptural-type"
+      ],
+      "inputs": [
+        "活动主张与最终接场方式",
+        "现场屏幕像素、比例和观看距离",
+        "现场音频、播放与主备方案"
+      ],
+      "beats": [
+        {
+          "id": "attention",
+          "purpose": "聚焦舞台注意力",
+          "visual": "大尺度母形或主句开启，不依赖小字",
+          "continuity": "建立贯穿舞台的视觉轴",
+          "weight": 1,
+          "reading_seconds": 1.5,
+          "sound": "impact"
+        },
+        {
+          "id": "build",
+          "purpose": "积累期待",
+          "visual": "节奏与尺度递进，信息逐层减少",
+          "continuity": "每一段都朝主时刻收束",
+          "weight": 2,
+          "reading_seconds": 2,
+          "sound": "link"
+        },
+        {
+          "id": "statement",
+          "purpose": "给出核心主张",
+          "visual": "一个可远距离阅读的主句占据舞台",
+          "continuity": "画面与音乐在同一标记落点",
+          "weight": 1,
+          "reading_seconds": 2.5,
+          "sound": "impact"
+        },
+        {
+          "id": "handover",
+          "purpose": "把注意力交给现场",
+          "visual": "结束在讲者 / 产品出场需要的状态",
+          "continuity": "最后一帧可按现场需要持续保持",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "远距离阅读成立",
+        "没有关键内容落在拼接或遮挡处",
+        "收尾能与现场控台交接"
+      ],
+      "avoid": "直接把网站动画放大到 LED 屏",
+      "components": [
+        "countdown",
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "broadcast-package",
+      "family": "发布会与展陈",
+      "title": "栏目 / 直播 / 会议包装",
+      "default_duration": 12,
+      "styles": [
+        "bold-type",
+        "editorial-type",
+        "technical"
+      ],
+      "inputs": [
+        "栏目视觉系统与真实字段",
+        "片头、姓名条、章节条、转场的使用顺序",
+        "透明底 / 实底和播控要求"
+      ],
+      "beats": [
+        {
+          "id": "package-in",
+          "purpose": "建立栏目识别",
+          "visual": "品牌笔画或母形形成片头",
+          "continuity": "构件复用于后续包装",
+          "weight": 1,
+          "reading_seconds": 1.2,
+          "sound": "impact"
+        },
+        {
+          "id": "nameplate",
+          "purpose": "呈现人物 / 主题字段",
+          "visual": "姓名、身份与主题条按层级进入",
+          "continuity": "内容更换不改变安全区与基线",
+          "weight": 1.5,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "chapter",
+          "purpose": "转入新章节",
+          "visual": "保留栏目母形完成短转场",
+          "continuity": "遮挡覆盖切点，随后恢复正文",
+          "weight": 1,
+          "reading_seconds": 1,
+          "sound": "air"
+        },
+        {
+          "id": "package-out",
+          "purpose": "干净退出",
+          "visual": "包装退回屏幕边缘或透明状态",
+          "continuity": "退出后不残留文字边角",
+          "weight": 1,
+          "reading_seconds": 1,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "长姓名和多语言字段不溢出",
+        "透明边缘没有底色污染",
+        "入场、驻留、退场可独立复用"
+      ],
+      "avoid": "只做一条片头，忽略可复用字段和透明交付",
+      "components": [
+        "title-banner",
+        "countdown"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "exhibition-loop",
+      "family": "发布会与展陈",
+      "title": "展厅 / 导览 / 公共屏幕",
+      "default_duration": 20,
+      "styles": [
+        "flat-illustration",
+        "data-map",
+        "editorial-type",
+        "matte-3d",
+        "sculptural-type"
+      ],
+      "inputs": [
+        "现场屏幕布局与观看距离",
+        "观众随机进入时需要理解的信息",
+        "真实区域、服务或展品资料"
+      ],
+      "beats": [
+        {
+          "id": "orientation",
+          "purpose": "随时知道在看什么",
+          "visual": "栏目或区域名称持续可辨",
+          "continuity": "关键位置不随章节迁移",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "unit-one",
+          "purpose": "展示一段独立信息",
+          "visual": "一个可独立理解的展品 / 流程单元",
+          "continuity": "不依赖前一轮已看过的内容",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "unit-two",
+          "purpose": "增加第二段独立信息",
+          "visual": "以同一视觉规则切换单元",
+          "continuity": "固定位置保留导览锚点",
+          "weight": 1.5,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "loop-return",
+          "purpose": "自然回到入口",
+          "visual": "回到导航或概览",
+          "continuity": "不同屏幕的周期关系显式定义",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "静音和随机入场也能理解",
+        "远距离信息量适当",
+        "多屏同步与循环时长已确认"
+      ],
+      "avoid": "把手机快节奏广告直接用于公共屏幕",
+      "components": [
+        "route-draw",
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": true
+    },
+    {
+      "id": "website-loop",
+      "family": "数字触点",
+      "title": "网页 / 着陆页环境循环",
+      "default_duration": 8,
+      "styles": [
+        "spatial-ui",
+        "optical",
+        "matte-3d",
+        "flat-illustration",
+        "sculptural-type"
+      ],
+      "inputs": [
+        "页面真实布局和文字区域",
+        "需要表达的一个概念",
+        "视频体积、播放与静态回退要求"
+      ],
+      "beats": [
+        {
+          "id": "web-start",
+          "purpose": "建立稳定状态",
+          "visual": "主对象位于页面标题之外",
+          "continuity": "固定留白和对比关系",
+          "weight": 1,
+          "reading_seconds": 1,
+          "sound": "air"
+        },
+        {
+          "id": "web-action",
+          "purpose": "解释一个微动作",
+          "visual": "一次聚合、连接、材质或空间变化",
+          "continuity": "动作不与网页正文争夺注意力",
+          "weight": 2,
+          "reading_seconds": 1.5,
+          "sound": "air"
+        },
+        {
+          "id": "web-return",
+          "purpose": "回到可重复状态",
+          "visual": "主体、光、相机与文字共同闭合",
+          "continuity": "首尾状态和速度都检查",
+          "weight": 1.5,
+          "reading_seconds": 1,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "真实页面里不遮文字",
+        "静态海报和减少动效方案可用",
+        "循环接缝、解码负载与体积实际测量"
+      ],
+      "avoid": "把有声广告静音后当作网页循环",
+      "components": [
+        "workflow-handoff"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": true
+    },
+    {
+      "id": "interface-feedback",
+      "family": "数字触点",
+      "title": "界面微反馈 / 状态动画",
+      "default_duration": 4,
+      "styles": [
+        "precise-ui",
+        "flat-illustration",
+        "matte-3d"
+      ],
+      "inputs": [
+        "idle / loading / success / error 等真实状态",
+        "进入、取消、重复触发与中断规则",
+        "目标运行时与交付格式"
+      ],
+      "beats": [
+        {
+          "id": "idle",
+          "purpose": "明确初始状态",
+          "visual": "图标、按钮或进度元素保持可读",
+          "continuity": "与产品视觉系统同源",
+          "weight": 1,
+          "reading_seconds": 0.3,
+          "sound": "air"
+        },
+        {
+          "id": "transition",
+          "purpose": "表达状态变化",
+          "visual": "一次局部动作说明正在发生什么",
+          "continuity": "重复触发或取消不能破坏状态",
+          "weight": 1.5,
+          "reading_seconds": 0.4,
+          "sound": "tap"
+        },
+        {
+          "id": "settled",
+          "purpose": "给出明确终态",
+          "visual": "成功、失败或回退有可辨识形态",
+          "continuity": "不能仅靠颜色区分状态",
+          "weight": 1,
+          "reading_seconds": 0.6,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "中断和反向播放有定义",
+        "循环加载不会伪装完成",
+        "视频预览与运行时资产分开验收"
+      ],
+      "avoid": "把固定 MP4 当作已交付交互组件",
+      "components": [
+        "focus-highlight"
+      ],
+      "engine": "EffectCraft 视频预览；运行时矢量 / Rive / Lottie 交付另行验证",
+      "evidence": [],
+      "silent": true
+    },
+    {
+      "id": "footage-callouts",
+      "family": "影像与文化",
+      "title": "实拍增强 / 跟踪标注 / 混合合成",
+      "default_duration": 25,
+      "styles": [
+        "footage-hybrid",
+        "technical",
+        "editorial-type"
+      ],
+      "inputs": [
+        "可使用的原始镜头",
+        "要跟随的真实对象与遮挡关系",
+        "镜头畸变、运动与合成要求"
+      ],
+      "beats": [
+        {
+          "id": "establish",
+          "purpose": "建立真实空间",
+          "visual": "先看清被标注对象及环境",
+          "continuity": "保留镜头的透视与运动",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "attach",
+          "purpose": "让图形附着真实对象",
+          "visual": "用跟踪数据驱动端点、平面或三维位置",
+          "continuity": "标注不靠手写近似轨迹漂浮",
+          "weight": 1.5,
+          "reading_seconds": 2,
+          "sound": "link"
+        },
+        {
+          "id": "explain-overlay",
+          "purpose": "解释一个可见事实",
+          "visual": "标签、路径或界面与实拍交互",
+          "continuity": "遮挡、景深、模糊和颗粒匹配",
+          "weight": 2,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "release",
+          "purpose": "恢复画面与收尾",
+          "visual": "图形按对象运动退出",
+          "continuity": "不遮住重要人物、产品或字幕",
+          "weight": 1,
+          "reading_seconds": 1.5,
+          "sound": "air"
+        }
+      ],
+      "checks": [
+        "快速运动和遮挡处不滑动",
+        "合成边缘与原片一致",
+        "事实标签确实指向正确对象"
+      ],
+      "avoid": "只加漂浮 HUD 但没有真实跟踪",
+      "components": [
+        "title-banner"
+      ],
+      "engine": "按素材验证 Fusion / Blender 跟踪，再用 EffectCraft 合成",
+      "evidence": [],
+      "silent": false
+    },
+    {
+      "id": "title-sequence",
+      "family": "影像与文化",
+      "title": "片头 / 片尾 / 文化与音乐视觉",
+      "default_duration": 25,
+      "styles": [
+        "paper-collage",
+        "character",
+        "bold-type",
+        "editorial-type",
+        "footage-hybrid",
+        "bold-brand-pop",
+        "sculptural-type"
+      ],
+      "inputs": [
+        "片名、署名、文本及使用依据",
+        "音乐段落或叙事节拍",
+        "影片 / 展览 / 作品的视觉主题"
+      ],
+      "beats": [
+        {
+          "id": "title-world",
+          "purpose": "建立作品世界",
+          "visual": "母题、图像或字体进入同一氛围",
+          "continuity": "主形态与正片或作品相关",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "air"
+        },
+        {
+          "id": "credits",
+          "purpose": "组织文字层级",
+          "visual": "署名、标题或歌词按意义与乐句进入",
+          "continuity": "顺序和文本准确，可读而不抢主题",
+          "weight": 2,
+          "reading_seconds": 3,
+          "sound": "air"
+        },
+        {
+          "id": "title-peak",
+          "purpose": "形成记忆镜头",
+          "visual": "一个与音乐结构相连的主变化",
+          "continuity": "重要文字不要在峰值瞬间闪过",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "impact"
+        },
+        {
+          "id": "title-close",
+          "purpose": "交给正文或结束",
+          "visual": "回到片名、黑场或作品的第一镜",
+          "continuity": "与实际接片画面衔接",
+          "weight": 1,
+          "reading_seconds": 2,
+          "sound": "resolve"
+        }
+      ],
+      "checks": [
+        "文字与署名准确",
+        "节奏服从文本和乐句",
+        "主题能联系到作品本身"
+      ],
+      "avoid": "随音乐每拍换一种不相干的视觉语言",
+      "components": [
+        "title-banner"
+      ],
+      "engine": "EffectCraft",
+      "evidence": [],
+      "silent": false
+    }
+  ]
+}
