@@ -14,21 +14,9 @@ python3 scripts/plan_scene.py --scenario software-launch --style evidence-led-sh
 
 核心仓库包含风格指南、规划器、通用组件、文本源代码和可复用工作流。构建真实软件演示时，请自行提供有权使用的界面、数据、Logo、字体与声音；原始参考视频、对应复刻素材和客户资料不随本仓库分发。
 
-## 可选案例素材
+## 案例源码与媒体
 
-原创案例的工程文件与媒体按项目打包在 [Releases](https://github.com/ToBeWin/mg-motion-production/releases)；仅在需要相应案例时下载。下载并解压到本仓库根目录，路径会合并到 `assets/`。各包大小与 SHA-256 见 `assets-release.json`，发布页还提供 `ASSETS.sha256`。例如用 GitHub CLI 下载后校验：
-
-```bash
-mkdir -p /tmp/mg-motion-assets
-# 选择需要的包，例如 assets-form.zip；也可在发布页手动下载。
-gh release download v3.30.1-public -R ToBeWin/mg-motion-production -p 'assets-form.zip' -p 'ASSETS.sha256' -D /tmp/mg-motion-assets
-cd /tmp/mg-motion-assets
-shasum -a 256 -c --ignore-missing ASSETS.sha256
-# 在确认将合并到正确的仓库后执行：
-unzip assets-form.zip -d /absolute/path/to/mg-motion-production
-```
-
-对于不支持 `--ignore-missing` 的系统，请依据 `assets-release.json` 单独比对文件哈希。解压前请备份已有同名修改。案例中未分发的声音参考不能用于重建原音色，重新生成时请自行提供获授权的参考音频。各工程对字体、应用版本及路径的依赖不同，下载后应按对应说明重建并检查；案例素材的使用也应核实其各自的授权。
+仓库保留通用组件、可复用的案例源码与方法说明，不包含历史成片、原始参考、复刻媒体、客户素材、音乐分轨或大型原生工程。部分案例源码引用的历史媒体并未分发，因此不能直接重建原成片；使用时应提供本项目有权使用的资产并按项目调整。
 
 ## 声音和交付
 
